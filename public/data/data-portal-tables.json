@@ -1,5 +1,5 @@
 {
-  "table_count": 972,
+  "table_count": 975,
   "tables": {
     "ABI01": {
       "name": "Annual Business Inquiry: results by industry sector",
@@ -52757,9 +52757,9 @@
       "product_code": "EECGGE",
       "rows": 432
     },
-    "GHGINVENTORY": {
-      "name": "Northern Ireland greenhouse gas inventory",
-      "updated": "2026-03-02",
+    "GHGINVDA": {
+      "name": "Greenhouse gas emissions",
+      "updated": "2026-03-12",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -52769,7 +52769,106 @@
             },
             "unit": {
               "CO2E": {
-                "decimals": 3,
+                "decimals": 1,
+                "label": "Kilotonne CO2e",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["1990", "1995", "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
+            "label": {
+              "1990": "1990",
+              "1995": "1995",
+              "1998": "1998",
+              "1999": "1999",
+              "2000": "2000",
+              "2001": "2001",
+              "2002": "2002",
+              "2003": "2003",
+              "2004": "2004",
+              "2005": "2005",
+              "2006": "2006",
+              "2007": "2007",
+              "2008": "2008",
+              "2009": "2009",
+              "2010": "2010",
+              "2011": "2011",
+              "2012": "2012",
+              "2013": "2013",
+              "2014": "2014",
+              "2015": "2015",
+              "2016": "2016",
+              "2017": "2017",
+              "2018": "2018",
+              "2019": "2019",
+              "2020": "2020",
+              "2021": "2021",
+              "2022": "2022",
+              "2023": "2023"
+            }
+          },
+          "label": "Year"
+        },
+        "CTRY24CD": {
+          "category": {
+            "index": ["E92000001", "W92000004", "S92000003", "N92000002"],
+            "label": {
+              "E92000001": "England",
+              "W92000004": "Wales",
+              "S92000003": "Scotland",
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "Country"
+        },
+        "TES_SECTOR": {
+          "category": {
+            "index": ["1", "2", "3", "4", "5", "6", "7", "8", "ALL"],
+            "label": {
+              "1": "Agriculture",
+              "2": "Waste",
+              "3": "Buildings and product uses",
+              "4": "Domestic transport",
+              "5": "Electricity supply",
+              "6": "Fuel supply",
+              "7": "Industry",
+              "8": "Land use, land-use change and forestry",
+              "ALL": "All"
+            }
+          },
+          "label": "TES sector"
+        }
+      },
+      "statistics": {
+        "CO2E": "CO2 equivalent emissions"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["1990", "1995", "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
+      "theme": "Transport, environment and climate change",
+      "theme_code": 71,
+      "subject": "Energy, environment and climate change",
+      "subject_code": 155,
+      "product": "Greenhouse gas emissions",
+      "product_code": "EECGGE",
+      "rows": 1008
+    },
+    "GHGINVENTORY": {
+      "name": "Greenhouse gas emissions",
+      "updated": "2026-03-12",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "CO2E",
+            "label": {
+              "CO2E": "CO2 equivalent emissions"
+            },
+            "unit": {
+              "CO2E": {
+                "decimals": 1,
                 "label": "Kilotonne CO2e",
                 "position": "end"
               }
@@ -52843,6 +52942,240 @@
       "product": "Greenhouse gas emissions",
       "product_code": "EECGGE",
       "rows": 252
+    },
+    "GHGINVENTTESSUB": {
+      "name": "Greenhouse gas emissions",
+      "updated": "2026-03-12",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "CO2E",
+            "label": {
+              "CO2E": "CO2 equivalent emissions"
+            },
+            "unit": {
+              "CO2E": {
+                "decimals": 1,
+                "label": "Kilotonne CO2e",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["1990", "1995", "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
+            "label": {
+              "1990": "1990",
+              "1995": "1995",
+              "1998": "1998",
+              "1999": "1999",
+              "2000": "2000",
+              "2001": "2001",
+              "2002": "2002",
+              "2003": "2003",
+              "2004": "2004",
+              "2005": "2005",
+              "2006": "2006",
+              "2007": "2007",
+              "2008": "2008",
+              "2009": "2009",
+              "2010": "2010",
+              "2011": "2011",
+              "2012": "2012",
+              "2013": "2013",
+              "2014": "2014",
+              "2015": "2015",
+              "2016": "2016",
+              "2017": "2017",
+              "2018": "2018",
+              "2019": "2019",
+              "2020": "2020",
+              "2021": "2021",
+              "2022": "2022",
+              "2023": "2023"
+            }
+          },
+          "label": "Year"
+        },
+        "TES_SUBSECTOR": {
+          "category": {
+            "index": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "ALL"],
+            "label": {
+              "1": "Agricultural combustion",
+              "2": "Agricultural soils",
+              "3": "Livestock",
+              "4": "Other agriculture",
+              "5": "Agriculture total",
+              "6": "Waste total",
+              "7": "Commercial buildings",
+              "8": "Other buildings and product uses",
+              "9": "Public sector buildings",
+              "10": "Residential buildings",
+              "11": "Buildings and product uses total",
+              "12": "Civil aviation",
+              "13": "Other domestic transport",
+              "14": "Railways",
+              "15": "Road",
+              "16": "Waterborne",
+              "17": "Domestic transport total",
+              "18": "Power stations",
+              "19": "Electricity supply total",
+              "20": "Oil and gas supply",
+              "21": "Solid fuel supply",
+              "22": "Fuel supply total",
+              "23": "Industrial processes",
+              "24": "Industrial fuel combustion",
+              "25": "Other industry",
+              "26": "Industry total",
+              "27": "Bioenergy crops",
+              "28": "Cropland mineral soils change",
+              "29": "Forestry",
+              "30": "Grassland mineral soils change",
+              "31": "Other LULUCF",
+              "32": "Peatland",
+              "33": "Settlement",
+              "34": "LULUCF total",
+              "ALL": "Grand total"
+            }
+          },
+          "label": "TES subsector"
+        }
+      },
+      "statistics": {
+        "CO2E": "CO2 equivalent emissions"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["1990", "1995", "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
+      "theme": "Transport, environment and climate change",
+      "theme_code": 71,
+      "subject": "Energy, environment and climate change",
+      "subject_code": 155,
+      "product": "Greenhouse gas emissions",
+      "product_code": "EECGGE",
+      "rows": 980
+    },
+    "GHGINVGAS": {
+      "name": "Greenhouse gas emissions",
+      "updated": "2026-03-12",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "CO2E",
+            "label": {
+              "CO2E": "CO2 equivalent emissions"
+            },
+            "unit": {
+              "CO2E": {
+                "decimals": 1,
+                "label": "Kilotonne CO2e",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["1990", "1995", "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
+            "label": {
+              "1990": "1990",
+              "1995": "1995",
+              "1998": "1998",
+              "1999": "1999",
+              "2000": "2000",
+              "2001": "2001",
+              "2002": "2002",
+              "2003": "2003",
+              "2004": "2004",
+              "2005": "2005",
+              "2006": "2006",
+              "2007": "2007",
+              "2008": "2008",
+              "2009": "2009",
+              "2010": "2010",
+              "2011": "2011",
+              "2012": "2012",
+              "2013": "2013",
+              "2014": "2014",
+              "2015": "2015",
+              "2016": "2016",
+              "2017": "2017",
+              "2018": "2018",
+              "2019": "2019",
+              "2020": "2020",
+              "2021": "2021",
+              "2022": "2022",
+              "2023": "2023"
+            }
+          },
+          "label": "Year"
+        },
+        "CTRY24CD": {
+          "category": {
+            "index": ["E92000001", "W92000004", "S92000003", "N92000002"],
+            "label": {
+              "E92000001": "England",
+              "W92000004": "Wales",
+              "S92000003": "Scotland",
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "Country"
+        },
+        "TES_SECTOR": {
+          "category": {
+            "index": ["1", "2", "3", "4", "5", "6", "7", "8", "ALL"],
+            "label": {
+              "1": "Agriculture",
+              "2": "Waste",
+              "3": "Buildings and product uses",
+              "4": "Domestic transport",
+              "5": "Electricity supply",
+              "6": "Fuel supply",
+              "7": "Industry",
+              "8": "Land use, land-use change and forestry",
+              "ALL": "All"
+            }
+          },
+          "label": "TES sector"
+        },
+        "POLLUTANT": {
+          "category": {
+            "index": ["CO2", "CH4", "N2O", "HFC", "PFC", "SF6", "NF3", "NOX", "NH3", "NMVOC", "CO", "SO2", "PM10", "PM25"],
+            "label": {
+              "CO2": "CO2",
+              "CH4": "CH4",
+              "N2O": "N2O",
+              "HFC": "HFCs",
+              "PFC": "PFCs",
+              "SF6": "SF6",
+              "NF3": "NF3",
+              "NOX": "NOx",
+              "NH3": "NH3",
+              "NMVOC": "NMVOC",
+              "CO": "CO",
+              "SO2": "SO2",
+              "PM10": "PM10",
+              "PM25": "PM2.5"
+            }
+          },
+          "label": "Pollutant"
+        }
+      },
+      "statistics": {
+        "CO2E": "CO2 equivalent emissions"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["1990", "1995", "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
+      "theme": "Transport, environment and climate change",
+      "theme_code": 71,
+      "subject": "Energy, environment and climate change",
+      "subject_code": 155,
+      "product": "Greenhouse gas emissions",
+      "product_code": "EECGGE",
+      "rows": 14112
     },
     "GHWPAA": {
       "name": "Gross Hourly (excluding overtime) and Weekly Pay",
