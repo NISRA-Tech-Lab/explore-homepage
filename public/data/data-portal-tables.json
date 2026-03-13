@@ -1260,7 +1260,7 @@
     },
     "ASBAA": {
       "name": "Anti-social behaviour incidents",
-      "updated": "2026-03-12",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -1301,7 +1301,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "AA": {
           "category": {
@@ -1346,7 +1346,7 @@
     },
     "ASBDEA": {
       "name": "Anti-social behaviour incidents",
-      "updated": "2026-03-12",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -1387,7 +1387,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "DEA2014": {
           "category": {
@@ -1494,7 +1494,7 @@
     },
     "ASBHSCT": {
       "name": "Anti-social behaviour incidents",
-      "updated": "2026-03-12",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -1535,7 +1535,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "HSCT": {
           "category": {
@@ -1567,7 +1567,7 @@
     },
     "ASBLGD": {
       "name": "Anti-social behaviour incidents",
-      "updated": "2026-03-12",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -1608,7 +1608,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -1646,7 +1646,7 @@
     },
     "ASBUR": {
       "name": "Anti-social behaviour incidents",
-      "updated": "2026-03-12",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -1687,7 +1687,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "UR2015": {
           "category": {
@@ -1716,7 +1716,7 @@
     },
     "ASBWARD": {
       "name": "Anti-social behaviour incidents",
-      "updated": "2026-03-12",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -1757,7 +1757,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "Ward2014": {
           "category": {
@@ -25617,7 +25617,7 @@
     },
     "CONFCJSHSCT": {
       "name": "NISCS: Confidence in the criminal justice system",
-      "updated": "2026-03-10",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -25656,7 +25656,7 @@
               "2019/20": "2019/20"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "HSCT": {
           "category": {
@@ -25697,7 +25697,7 @@
     },
     "CONFCJSLGD": {
       "name": "NISCS: Confidence in the criminal justice system",
-      "updated": "2026-03-10",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -25733,7 +25733,7 @@
               "2019/20": "2019/20"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -25780,7 +25780,7 @@
     },
     "CONFPOHSCT": {
       "name": "NISCS: Confidence in policing",
-      "updated": "2026-03-10",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -25855,7 +25855,7 @@
               "2019/20": "2019/20"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "HSCT": {
           "category": {
@@ -25902,7 +25902,7 @@
     },
     "CONFPOLGD": {
       "name": "NISCS: Confidence in policing",
-      "updated": "2026-03-10",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -25974,7 +25974,7 @@
               "2019/20": "2019/20"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -38459,14 +38459,14 @@
       "rows": 272
     },
     "DOMAA": {
-      "name": "Domestic Abuse Crimes",
-      "updated": "2025-06-16",
+      "name": "Domestic abuse crimes",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "alldacrm",
             "label": {
-              "alldacrm": "All Domestic Abuse Crimes"
+              "alldacrm": "All domestic abuse crimes"
             },
             "unit": {
               "alldacrm": {
@@ -38504,30 +38504,30 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "AA": {
           "category": {
             "index": ["N06000001", "N06000002", "N06000003", "N06000004", "N06000005", "N06000006", "N06000007", "N06000008", "N06000009", "N06000010", "N06000011", "N06000012", "N06000013", "N06000014", "N06000015", "N06000016", "N06000017", "N06000018", "N92000002"],
             "label": {
-              "N06000001": "BELFAST EAST",
-              "N06000002": "BELFAST NORTH",
-              "N06000003": "BELFAST SOUTH",
-              "N06000004": "BELFAST WEST",
-              "N06000005": "EAST ANTRIM",
-              "N06000006": "EAST LONDONDERRY",
-              "N06000007": "FERMANAGH AND SOUTH TYRONE",
-              "N06000008": "FOYLE",
-              "N06000009": "LAGAN VALLEY",
-              "N06000010": "MID ULSTER",
-              "N06000011": "NEWRY AND ARMAGH",
-              "N06000012": "NORTH ANTRIM",
-              "N06000013": "NORTH DOWN",
-              "N06000014": "SOUTH ANTRIM",
-              "N06000015": "SOUTH DOWN",
-              "N06000016": "STRANGFORD",
-              "N06000017": "UPPER BANN",
-              "N06000018": "WEST TYRONE",
+              "N06000001": "Belfast East",
+              "N06000002": "Belfast North",
+              "N06000003": "Belfast South",
+              "N06000004": "Belfast West",
+              "N06000005": "East Antrim",
+              "N06000006": "East Londonderry",
+              "N06000007": "Fermanagh and South Tyrone",
+              "N06000008": "Foyle",
+              "N06000009": "Lagan Valley",
+              "N06000010": "Mid Ulster",
+              "N06000011": "Newry and Armagh",
+              "N06000012": "North Antrim",
+              "N06000013": "North Down",
+              "N06000014": "South Antrim",
+              "N06000015": "South Down",
+              "N06000016": "Strangford",
+              "N06000017": "Upper Bann",
+              "N06000018": "West Tyrone",
               "N92000002": "Northern Ireland"
             }
           },
@@ -38535,7 +38535,7 @@
         }
       },
       "statistics": {
-        "alldacrm": "All Domestic Abuse Crimes"
+        "alldacrm": "All domestic abuse crimes"
       },
       "time": "TLIST(A1)",
       "time_series": ["2005/06", "2006/07", "2007/08", "2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
@@ -38548,15 +38548,15 @@
       "rows": 380
     },
     "DOMDEA": {
-      "name": "Domestic Abuse Incidents and Crimes",
-      "updated": "2025-06-16",
+      "name": "Domestic abuse incidents and crimes",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["alldainc", "alldacrm"],
             "label": {
-              "alldainc": "All Domestic Abuse Incidents",
-              "alldacrm": "All Domestic Abuse Crimes"
+              "alldainc": "All domestic abuse incidents",
+              "alldacrm": "All domestic abuse crimes"
             },
             "unit": {
               "alldainc": {
@@ -38599,7 +38599,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "DEA2014": {
           "category": {
@@ -38692,8 +38692,8 @@
         }
       },
       "statistics": {
-        "alldainc": "All Domestic Abuse Incidents",
-        "alldacrm": "All Domestic Abuse Crimes"
+        "alldainc": "All domestic abuse incidents",
+        "alldacrm": "All domestic abuse crimes"
       },
       "time": "TLIST(A1)",
       "time_series": ["2005/06", "2006/07", "2007/08", "2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
@@ -38706,19 +38706,19 @@
       "rows": 3240
     },
     "DOMHSCT": {
-      "name": "Domestic Abuse  Crimes",
-      "updated": "2025-06-16",
+      "name": "Domestic abuse crimes",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "alldacrm",
             "label": {
-              "alldacrm": "All Domestic Abuse Crimes"
+              "alldacrm": "All domestic abuse crimes"
             },
             "unit": {
               "alldacrm": {
                 "decimals": 0,
-                "label": "number",
+                "label": "Number",
                 "position": "end"
               }
             }
@@ -38751,7 +38751,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "HSCT": {
           "category": {
@@ -38769,7 +38769,7 @@
         }
       },
       "statistics": {
-        "alldacrm": "All Domestic Abuse Crimes"
+        "alldacrm": "All domestic abuse crimes"
       },
       "time": "TLIST(A1)",
       "time_series": ["2005/06", "2006/07", "2007/08", "2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
@@ -38782,15 +38782,15 @@
       "rows": 120
     },
     "DOMLGD": {
-      "name": "Domestic Abuse Incidents and Crimes",
-      "updated": "2025-06-16",
+      "name": "Domestic abuse incidents and crimes",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["alldainc", "alldacrm"],
             "label": {
-              "alldainc": "All Domestic Abuse Incidents",
-              "alldacrm": "All Domestic Abuse Crimes"
+              "alldainc": "All domestic abuse incidents",
+              "alldacrm": "All domestic abuse crimes"
             },
             "unit": {
               "alldainc": {
@@ -38833,7 +38833,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -38857,8 +38857,8 @@
         }
       },
       "statistics": {
-        "alldainc": "All Domestic Abuse Incidents",
-        "alldacrm": "All Domestic Abuse Crimes"
+        "alldainc": "All domestic abuse incidents",
+        "alldacrm": "All domestic abuse crimes"
       },
       "time": "TLIST(A1)",
       "time_series": ["2005/06", "2006/07", "2007/08", "2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
@@ -38871,19 +38871,19 @@
       "rows": 480
     },
     "DOMUR": {
-      "name": "Domestic Abuse Crimes",
-      "updated": "2025-06-16",
+      "name": "Domestic abuse crimes",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "alldacrm",
             "label": {
-              "alldacrm": "All Domestic Abuse Crimes"
+              "alldacrm": "All domestic abuse crimes"
             },
             "unit": {
               "alldacrm": {
                 "decimals": 0,
-                "label": "number",
+                "label": "Number",
                 "position": "end"
               }
             }
@@ -38916,7 +38916,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "UR2015": {
           "category": {
@@ -38931,7 +38931,7 @@
         }
       },
       "statistics": {
-        "alldacrm": "All Domestic Abuse Crimes"
+        "alldacrm": "All domestic abuse crimes"
       },
       "time": "TLIST(A1)",
       "time_series": ["2005/06", "2006/07", "2007/08", "2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
@@ -38944,15 +38944,15 @@
       "rows": 60
     },
     "DOMWARD": {
-      "name": "Domestic Abuse Incidents and Crimes",
-      "updated": "2025-06-16",
+      "name": "Domestic abuse incidents and crimes",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["alldainc", "alldacrm"],
             "label": {
-              "alldainc": "All Domestic Abuse Incidents",
-              "alldacrm": "All Domestic Abuse Crimes"
+              "alldainc": "All domestic abuse incidents",
+              "alldacrm": "All domestic abuse crimes"
             },
             "unit": {
               "alldainc": {
@@ -38995,7 +38995,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "Ward2014": {
           "category": {
@@ -39470,8 +39470,8 @@
         }
       },
       "statistics": {
-        "alldainc": "All Domestic Abuse Incidents",
-        "alldacrm": "All Domestic Abuse Crimes"
+        "alldainc": "All domestic abuse incidents",
+        "alldacrm": "All domestic abuse crimes"
       },
       "time": "TLIST(A1)",
       "time_series": ["2005/06", "2006/07", "2007/08", "2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
@@ -46101,8 +46101,8 @@
       "rows": 84
     },
     "FEARCRIMEHSCT": {
-      "name": "NISCS: Fear of Crime",
-      "updated": "2025-05-08",
+      "name": "NISCS: Fear of crime",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -46147,7 +46147,7 @@
               "2019/20": "2019/20"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "HSCT": {
           "category": {
@@ -46188,8 +46188,8 @@
       "rows": 162
     },
     "FEARCRIMELGD": {
-      "name": "NISCS: Fear of Crime",
-      "updated": "2025-09-10",
+      "name": "NISCS: Fear of crime",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -46231,7 +46231,7 @@
               "2019/20": "2019/20"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -46656,14 +46656,14 @@
       "rows": 84
     },
     "FPNAGELGD": {
-      "name": "Fixed Penalties and Speed Awareness by age group",
-      "updated": "2024-07-03",
+      "name": "Fixed penalties and speed awareness",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "FPNSAC",
             "label": {
-              "FPNSAC": "Fixed Penalties or Speed Awareness"
+              "FPNSAC": "Fixed penalties or speed awareness"
             },
             "unit": {
               "FPNSAC": {
@@ -46710,7 +46710,7 @@
           },
           "label": "Local Government District"
         },
-        "AgeGroup": {
+        "Age": {
           "category": {
             "index": ["1", "2", "3", "4", "5", "6"],
             "label": {
@@ -46722,11 +46722,11 @@
               "6": "Unknown"
             }
           },
-          "label": "Age Group"
+          "label": "Age"
         }
       },
       "statistics": {
-        "FPNSAC": "Fixed Penalties or Speed Awareness"
+        "FPNSAC": "Fixed penalties or speed awareness"
       },
       "time": "TLIST(A1)",
       "time_series": ["2017", "2018", "2019", "2020", "2021", "2022", "2023"],
@@ -46739,14 +46739,14 @@
       "rows": 504
     },
     "FPNOFFENCELGD": {
-      "name": "Fixed Penalties and Speed Awareness by offence group",
-      "updated": "2024-07-03",
+      "name": "Fixed penalties and speed awareness",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "FPNSAC",
             "label": {
-              "FPNSAC": "Fixed Penalties and Speed Awareness Courses"
+              "FPNSAC": "Fixed penalties or speed awareness"
             },
             "unit": {
               "FPNSAC": {
@@ -46819,11 +46819,11 @@
               "19": "Vehicle test certificate"
             }
           },
-          "label": "Offence Group"
+          "label": "Offence group"
         }
       },
       "statistics": {
-        "FPNSAC": "Fixed Penalties and Speed Awareness Courses"
+        "FPNSAC": "Fixed penalties or speed awareness"
       },
       "time": "TLIST(A1)",
       "time_series": ["2017", "2018", "2019", "2020", "2021", "2022", "2023"],
@@ -46836,14 +46836,14 @@
       "rows": 1680
     },
     "FPNSEXLGD": {
-      "name": "Fixed Penalties and Speed Awareness Courses by sex",
-      "updated": "2024-07-03",
+      "name": "Fixed penalties and speed awareness courses",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "FPNSAC",
             "label": {
-              "FPNSAC": "Fixed Penalties or Speed Awareness Courses"
+              "FPNSAC": "Fixed penalties or speed awareness"
             },
             "unit": {
               "FPNSAC": {
@@ -46899,11 +46899,11 @@
               "3": "Unknown"
             }
           },
-          "label": "Offender Sex"
+          "label": "Offender sex"
         }
       },
       "statistics": {
-        "FPNSAC": "Fixed Penalties or Speed Awareness Courses"
+        "FPNSAC": "Fixed penalties or speed awareness"
       },
       "time": "TLIST(A1)",
       "time_series": ["2017", "2018", "2019", "2020", "2021", "2022", "2023"],
@@ -55265,16 +55265,16 @@
       "rows": 44
     },
     "HATEAA": {
-      "name": "Hate Motivated Crimes",
-      "updated": "2025-06-16",
+      "name": "Hate motivated crimes",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["allsocrm", "allraccrm", "allsectcrm"],
             "label": {
-              "allsocrm": "All Crimes with a Sexual Orientation Motivation",
-              "allraccrm": "All Crimes with a Racist Motivation",
-              "allsectcrm": "All Crimes with a Sectarian Motivation"
+              "allsocrm": "All crimes with a sexual orientation motivation",
+              "allraccrm": "All crimes with a racist motivation",
+              "allsectcrm": "All crimes with a sectarian motivation"
             },
             "unit": {
               "allsocrm": {
@@ -55323,7 +55323,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "AA": {
           "category": {
@@ -55354,9 +55354,9 @@
         }
       },
       "statistics": {
-        "allsocrm": "All Crimes with a Sexual Orientation Motivation",
-        "allraccrm": "All Crimes with a Racist Motivation",
-        "allsectcrm": "All Crimes with a Sectarian Motivation"
+        "allsocrm": "All crimes with a sexual orientation motivation",
+        "allraccrm": "All crimes with a racist motivation",
+        "allsectcrm": "All crimes with a sectarian motivation"
       },
       "time": "TLIST(A1)",
       "time_series": ["2004/05", "2005/06", "2006/07", "2007/08", "2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
@@ -55369,19 +55369,19 @@
       "rows": 1197
     },
     "HATEDEA": {
-      "name": "Hate Motivated Incidents and Crimes",
-      "updated": "2025-06-16",
+      "name": "Hate motivated incidents and crimes",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["allsoinc", "allsocrm", "allracinc", "allraccrm", "allsectinc", "allsectcrm"],
             "label": {
-              "allsoinc": "All Incidents with a Sexual Orientation Motivation",
-              "allsocrm": "All Crimes with a Sexual Orientation Motivation",
-              "allracinc": "All Incidents with a Racist Motivation",
-              "allraccrm": "All Crimes with a Racist Motivation",
-              "allsectinc": "All Incidents with a Sectarian Motivation",
-              "allsectcrm": "All Crimes with a Sectarian Motivation"
+              "allsoinc": "All incidents with a sexual orientation motivation",
+              "allsocrm": "All crimes with a sexual orientation motivation",
+              "allracinc": "All incidents with a racist motivation",
+              "allraccrm": "All crimes with a racist motivation",
+              "allsectinc": "All incidents with a sectarian motivation",
+              "allsectcrm": "All crimes with a sectarian motivation"
             },
             "unit": {
               "allsoinc": {
@@ -55445,7 +55445,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "DEA2014": {
           "category": {
@@ -55538,12 +55538,12 @@
         }
       },
       "statistics": {
-        "allsoinc": "All Incidents with a Sexual Orientation Motivation",
-        "allsocrm": "All Crimes with a Sexual Orientation Motivation",
-        "allracinc": "All Incidents with a Racist Motivation",
-        "allraccrm": "All Crimes with a Racist Motivation",
-        "allsectinc": "All Incidents with a Sectarian Motivation",
-        "allsectcrm": "All Crimes with a Sectarian Motivation"
+        "allsoinc": "All incidents with a sexual orientation motivation",
+        "allsocrm": "All crimes with a sexual orientation motivation",
+        "allracinc": "All incidents with a racist motivation",
+        "allraccrm": "All crimes with a racist motivation",
+        "allsectinc": "All incidents with a sectarian motivation",
+        "allsectcrm": "All crimes with a sectarian motivation"
       },
       "time": "TLIST(A1)",
       "time_series": ["2004/05", "2005/06", "2006/07", "2007/08", "2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
@@ -55556,16 +55556,16 @@
       "rows": 10206
     },
     "HATEHSCT": {
-      "name": "Hate Motivated Crimes",
-      "updated": "2025-06-16",
+      "name": "Hate motivated crimes",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["allsocrm", "allraccrm", "allsectcrm"],
             "label": {
-              "allsocrm": "All Crimes with a Sexual Orientation Motivation",
-              "allraccrm": "All Crimes with a Racist Motivation",
-              "allsectcrm": "All Crimes with a Sectarian Motivation"
+              "allsocrm": "All crimes with a sexual orientation motivation",
+              "allraccrm": "All crimes with a racist motivation",
+              "allsectcrm": "All crimes with a sectarian motivation"
             },
             "unit": {
               "allsocrm": {
@@ -55614,7 +55614,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "HSCT": {
           "category": {
@@ -55632,9 +55632,9 @@
         }
       },
       "statistics": {
-        "allsocrm": "All Crimes with a Sexual Orientation Motivation",
-        "allraccrm": "All Crimes with a Racist Motivation",
-        "allsectcrm": "All Crimes with a Sectarian Motivation"
+        "allsocrm": "All crimes with a sexual orientation motivation",
+        "allraccrm": "All crimes with a racist motivation",
+        "allsectcrm": "All crimes with a sectarian motivation"
       },
       "time": "TLIST(A1)",
       "time_series": ["2004/05", "2005/06", "2006/07", "2007/08", "2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
@@ -55647,19 +55647,19 @@
       "rows": 378
     },
     "HATELGD": {
-      "name": "Hate Motivated Incidents and Crimes",
-      "updated": "2025-06-16",
+      "name": "Hate motivated incidents and crimes",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["allsoinc", "allsocrm", "allracinc", "allraccrm", "allsectinc", "allsectcrm"],
             "label": {
-              "allsoinc": "All Incidents with a Sexual Orientation Motivation",
-              "allsocrm": "All Crimes with a Sexual Orientation Motivation",
-              "allracinc": "All Incidents with a Racist Motivation",
-              "allraccrm": "All Crimes with a Racist Motivation",
-              "allsectinc": "All Incidents with a Sectarian Motivation",
-              "allsectcrm": "All Crimes with a Sectarian Motivation"
+              "allsoinc": "All incidents with a sexual orientation motivation",
+              "allsocrm": "All crimes with a sexual orientation motivation",
+              "allracinc": "All incidents with a racist motivation",
+              "allraccrm": "All crimes with a racist motivation",
+              "allsectinc": "All incidents with a sectarian motivation",
+              "allsectcrm": "All crimes with a sectarian motivation"
             },
             "unit": {
               "allsoinc": {
@@ -55723,7 +55723,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -55747,12 +55747,12 @@
         }
       },
       "statistics": {
-        "allsoinc": "All Incidents with a Sexual Orientation Motivation",
-        "allsocrm": "All Crimes with a Sexual Orientation Motivation",
-        "allracinc": "All Incidents with a Racist Motivation",
-        "allraccrm": "All Crimes with a Racist Motivation",
-        "allsectinc": "All Incidents with a Sectarian Motivation",
-        "allsectcrm": "All Crimes with a Sectarian Motivation"
+        "allsoinc": "All incidents with a sexual orientation motivation",
+        "allsocrm": "All crimes with a sexual orientation motivation",
+        "allracinc": "All incidents with a racist motivation",
+        "allraccrm": "All crimes with a racist motivation",
+        "allsectinc": "All incidents with a sectarian motivation",
+        "allsectcrm": "All crimes with a sectarian motivation"
       },
       "time": "TLIST(A1)",
       "time_series": ["2004/05", "2005/06", "2006/07", "2007/08", "2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
@@ -55765,16 +55765,16 @@
       "rows": 1512
     },
     "HATEUR": {
-      "name": "Hate Motivated Crimes",
-      "updated": "2025-06-16",
+      "name": "Hate motivated crimes",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["allsocrm", "allraccrm", "allsectcrm"],
             "label": {
-              "allsocrm": "All Crimes with a Sexual Orientation Motivation",
-              "allraccrm": "All Crimes with a Racist Motivation",
-              "allsectcrm": "All Crimes with a Sectarian Motivation"
+              "allsocrm": "All crimes with a sexual orientation motivation",
+              "allraccrm": "All crimes with a racist motivation",
+              "allsectcrm": "All crimes with a sectarian motivation"
             },
             "unit": {
               "allsocrm": {
@@ -55823,7 +55823,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "UR2015": {
           "category": {
@@ -55838,9 +55838,9 @@
         }
       },
       "statistics": {
-        "allsocrm": "All Crimes with a Sexual Orientation Motivation",
-        "allraccrm": "All Crimes with a Racist Motivation",
-        "allsectcrm": "All Crimes with a Sectarian Motivation"
+        "allsocrm": "All crimes with a sexual orientation motivation",
+        "allraccrm": "All crimes with a racist motivation",
+        "allsectcrm": "All crimes with a sectarian motivation"
       },
       "time": "TLIST(A1)",
       "time_series": ["2004/05", "2005/06", "2006/07", "2007/08", "2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
@@ -55853,19 +55853,19 @@
       "rows": 189
     },
     "HATEWARD": {
-      "name": "Hate Motivated Incidents and Crimes",
-      "updated": "2025-06-16",
+      "name": "Hate motivated incidents and crimes",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["allsoinc", "allsocrm", "allracinc", "allraccrm", "allsectinc", "allsectcrm"],
             "label": {
-              "allsoinc": "All Incidents with a Sexual Orientation Motivation",
-              "allsocrm": "All Crimes with a Sexual Orientation Motivation",
-              "allracinc": "All Incidents with a Racist Motivation",
-              "allraccrm": "All Crimes with a Racist Motivation",
-              "allsectinc": "All Incidents with a Sectarian Motivation",
-              "allsectcrm": "All Crimes with a Sectarian Motivation"
+              "allsoinc": "All incidents with a sexual orientation motivation",
+              "allsocrm": "All crimes with a sexual orientation motivation",
+              "allracinc": "All incidents with a racist motivation",
+              "allraccrm": "All crimes with a racist motivation",
+              "allsectinc": "All incidents with a sectarian motivation",
+              "allsectcrm": "All crimes with a sectarian motivation"
             },
             "unit": {
               "allsoinc": {
@@ -56404,12 +56404,12 @@
         }
       },
       "statistics": {
-        "allsoinc": "All Incidents with a Sexual Orientation Motivation",
-        "allsocrm": "All Crimes with a Sexual Orientation Motivation",
-        "allracinc": "All Incidents with a Racist Motivation",
-        "allraccrm": "All Crimes with a Racist Motivation",
-        "allsectinc": "All Incidents with a Sectarian Motivation",
-        "allsectcrm": "All Crimes with a Sectarian Motivation"
+        "allsoinc": "All incidents with a sexual orientation motivation",
+        "allsocrm": "All crimes with a sexual orientation motivation",
+        "allracinc": "All incidents with a racist motivation",
+        "allraccrm": "All crimes with a racist motivation",
+        "allsectinc": "All incidents with a sectarian motivation",
+        "allsectcrm": "All crimes with a sectarian motivation"
       },
       "time": "TLIST(A1)",
       "time_series": ["2004/05", "2005/06", "2006/07", "2007/08", "2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
@@ -96485,8 +96485,8 @@
       "rows": 16020
     },
     "NISCSASBHSCT": {
-      "name": "NISCS: Perceptions of Anti-Social Behaviour",
-      "updated": "2025-05-08",
+      "name": "NISCS: Perceptions of anti-social behaviour",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -96561,7 +96561,7 @@
               "2019/20": "2019/20"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "HSCT": {
           "category": {
@@ -96607,8 +96607,8 @@
       "rows": 432
     },
     "NISCSASBLGD": {
-      "name": "NISCS: Perceptions of Anti-Social Behaviour",
-      "updated": "2025-09-10",
+      "name": "NISCS: Perceptions of anti-social behaviour",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -96680,7 +96680,7 @@
               "2019/20": "2019/20"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -96733,7 +96733,7 @@
     },
     "NISCSCRIMEHSCT": {
       "name": "NISCS: Experience of crime",
-      "updated": "2026-03-10",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -96784,7 +96784,7 @@
               "2019/20": "2019/20"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "HSCT": {
           "category": {
@@ -96827,7 +96827,7 @@
     },
     "NISCSCRIMELGD": {
       "name": "NISCS: Experience of crime",
-      "updated": "2026-03-10",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -96881,7 +96881,7 @@
               "2019/20": "2019/20"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -97413,7 +97413,7 @@
     },
     "OPONIALLEGLGD": {
       "name": "Allegations received by the Police Ombudsman's office",
-      "updated": "2026-03-10",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -97449,7 +97449,7 @@
               "2022/23": "2022/23"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -97507,7 +97507,7 @@
     },
     "OPONICOMPLGD": {
       "name": "Complaints received by the Office of the Police Ombudsman for Northern Ireland",
-      "updated": "2026-03-10",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -97543,7 +97543,7 @@
               "2022/23": "2022/23"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -103279,7 +103279,7 @@
     },
     "PRCAA": {
       "name": "Police recorded crime",
-      "updated": "2026-03-11",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -103327,7 +103327,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "AA": {
           "category": {
@@ -103401,7 +103401,7 @@
     },
     "PRCDEA": {
       "name": "Police recorded crime",
-      "updated": "2026-03-11",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -103449,7 +103449,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "DEA2014": {
           "category": {
@@ -103585,7 +103585,7 @@
     },
     "PRCHSCT": {
       "name": "Police recorded crime",
-      "updated": "2026-03-11",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -103633,7 +103633,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "HSCT": {
           "category": {
@@ -103694,7 +103694,7 @@
     },
     "PRCLGD": {
       "name": "Police recorded crime",
-      "updated": "2026-03-11",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -103742,7 +103742,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -103887,7 +103887,7 @@
     },
     "PRCUR": {
       "name": "Police recorded crime",
-      "updated": "2026-03-11",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -103935,7 +103935,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "UR2015": {
           "category": {
@@ -103993,7 +103993,7 @@
     },
     "PRCWARD": {
       "name": "Police recorded crime",
-      "updated": "2026-03-11",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -104041,7 +104041,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "Ward2014": {
           "category": {
@@ -108194,8 +108194,8 @@
       "rows": 104
     },
     "RISKVICHSCT": {
-      "name": "NISCS: Risk of Victimisation",
-      "updated": "2024-06-12",
+      "name": "NISCS: Risk of victimisation",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -108238,7 +108238,7 @@
               "2017/18": "2017/18"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "HSCT": {
           "category": {
@@ -108271,8 +108271,8 @@
       "rows": 126
     },
     "RISKVICLGD": {
-      "name": "NISCS: Risk of Victimisation",
-      "updated": "2025-09-10",
+      "name": "NISCS: Risk of victimisation",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -108312,7 +108312,7 @@
               "2017/18": "2017/18"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -108508,14 +108508,14 @@
       "rows": 47
     },
     "RSPAGELGD": {
-      "name": "Road Safety Partnership detections by age",
-      "updated": "2024-09-19",
+      "name": "Road safety partnership detections",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "RSP",
             "label": {
-              "RSP": "Road Safety Partnership detections"
+              "RSP": "Road safety partnership detections"
             },
             "unit": {
               "RSP": {
@@ -108564,7 +108564,7 @@
           },
           "label": "Local Government District"
         },
-        "AgeGroup": {
+        "Age": {
           "category": {
             "index": ["1", "2", "3", "4", "5", "6", "7"],
             "label": {
@@ -108577,11 +108577,11 @@
               "7": "Unknown"
             }
           },
-          "label": "Age Group"
+          "label": "Age"
         }
       },
       "statistics": {
-        "RSP": "Road Safety Partnership detections"
+        "RSP": "Road safety partnership detections"
       },
       "time": "TLIST(A1)",
       "time_series": ["2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
@@ -108594,14 +108594,14 @@
       "rows": 756
     },
     "RSPCAMTYPELGD": {
-      "name": "Road Safety Partnership detections by camera type",
-      "updated": "2024-09-17",
+      "name": "Road safety partnership detections",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "RSP",
             "label": {
-              "RSP": "Road Safety Partnership detections"
+              "RSP": "Road safety partnership detections"
             },
             "unit": {
               "RSP": {
@@ -108660,11 +108660,11 @@
               "4": "Red light running camera"
             }
           },
-          "label": "Camera Type"
+          "label": "Camera type"
         }
       },
       "statistics": {
-        "RSP": "Road Safety Partnership detections"
+        "RSP": "Road safety partnership detections"
       },
       "time": "TLIST(A1)",
       "time_series": ["2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
@@ -108677,14 +108677,14 @@
       "rows": 432
     },
     "RSPSEXLGD": {
-      "name": "Road Safety Partnership detections by sex",
-      "updated": "2024-09-19",
+      "name": "Road safety partnership detections",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "RSP",
             "label": {
-              "RSP": "Road Safety Partnership detections"
+              "RSP": "Road safety partnership detections"
             },
             "unit": {
               "RSP": {
@@ -108742,11 +108742,11 @@
               "3": "Unknown"
             }
           },
-          "label": "Offender Sex"
+          "label": "Offender sex"
         }
       },
       "statistics": {
-        "RSP": "Road Safety Partnership detections"
+        "RSP": "Road safety partnership detections"
       },
       "time": "TLIST(A1)",
       "time_series": ["2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
@@ -116154,7 +116154,7 @@
     },
     "SECINCLGD": {
       "name": "Security related incidents",
-      "updated": "2026-03-12",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -116260,7 +116260,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -118285,8 +118285,8 @@
       "rows": 1296
     },
     "SSGENAGENI": {
-      "name": "Stop and Search",
-      "updated": "2025-08-18",
+      "name": "Stop and search",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -118319,7 +118319,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "Gender": {
           "category": {
@@ -118377,8 +118377,8 @@
       "rows": 1080
     },
     "SSLEGLGD": {
-      "name": "Stop and Search",
-      "updated": "2025-08-18",
+      "name": "Stop and search",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -118411,7 +118411,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -118465,7 +118465,7 @@
     },
     "SSLGD": {
       "name": "Stop and Search",
-      "updated": "2025-08-15",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -118498,7 +118498,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -118613,7 +118613,7 @@
     },
     "TCONFCJSHSCT": {
       "name": "NISCTS: Confidence in the criminal justice system",
-      "updated": "2026-03-10",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -118647,7 +118647,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "HSCT": {
           "category": {
@@ -118688,7 +118688,7 @@
     },
     "TCONFCJSLGD": {
       "name": "NISCTS: Confidence in the criminal justice system",
-      "updated": "2026-03-10",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -118722,7 +118722,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -118769,7 +118769,7 @@
     },
     "TCONFPOHSCT": {
       "name": "NISCTS: Confidence in policing",
-      "updated": "2026-03-10",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -118839,7 +118839,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "HSCT": {
           "category": {
@@ -118886,7 +118886,7 @@
     },
     "TCONFPOLGD": {
       "name": "NISCTS: Confidence in policing",
-      "updated": "2026-03-10",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -118956,7 +118956,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -119185,7 +119185,7 @@
     },
     "TFEARCRIMEHSCT": {
       "name": "NISCTS: Fear of crime",
-      "updated": "2026-03-11",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -119225,7 +119225,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "HSCT": {
           "category": {
@@ -119267,7 +119267,7 @@
     },
     "TFEARCRIMELGD": {
       "name": "NISCTS: Fear of crime",
-      "updated": "2026-03-11",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -119307,7 +119307,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -119727,7 +119727,7 @@
     },
     "TNISCSASBHSCT": {
       "name": "NISCTS: Perceptions of anti-social behaviour",
-      "updated": "2026-03-06",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -119797,7 +119797,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "HSCT": {
           "category": {
@@ -119844,7 +119844,7 @@
     },
     "TNISCSASBLGD": {
       "name": "NISCTS: Perceptions of anti-social behaviour",
-      "updated": "2026-03-06",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -119914,7 +119914,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -119967,7 +119967,7 @@
     },
     "TNISCSCRIMEHSCT": {
       "name": "NISCTS: Experience of crime",
-      "updated": "2026-03-10",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -120017,7 +120017,7 @@
               "2021/22": "2021/22"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "HSCT": {
           "category": {
@@ -120061,7 +120061,7 @@
     },
     "TNISCSCRIMELGD": {
       "name": "NISCTS: Experience of crime",
-      "updated": "2026-03-10",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -120111,7 +120111,7 @@
               "2021/22": "2021/22"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -123426,7 +123426,7 @@
     },
     "TWORRYCRMHSCT": {
       "name": "NISCTS: Worry about crime and personal safety",
-      "updated": "2026-03-10",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -123484,7 +123484,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "HSCT": {
           "category": {
@@ -123529,7 +123529,7 @@
     },
     "TWORRYCRMLGD": {
       "name": "NISCTS: Worry about crime and personal safety",
-      "updated": "2026-03-10",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -123587,7 +123587,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -128146,14 +128146,14 @@
       "rows": 39
     },
     "WORRYCRMHSCT": {
-      "name": "NISCS: Worry about Crime and Personal Safety",
-      "updated": "2025-05-08",
+      "name": "NISCS: Worry about crime and personal safety",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["WorryC1", "WorryC2", "WorryC3", "WorryC4", "WorryC5", "WorryC6"],
             "label": {
-              "WorryC1": "High level of Worry: Car Crime",
+              "WorryC1": "High level of Worry: Car crime",
               "WorryC2": "High level of Worry: Crime overall",
               "WorryC3": "High level of Worry: Burglary",
               "WorryC4": "High level of Worry: Violent crime",
@@ -128210,7 +128210,7 @@
               "2019/20": "2019/20"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "HSCT": {
           "category": {
@@ -128236,7 +128236,7 @@
         }
       },
       "statistics": {
-        "WorryC1": "High level of Worry: Car Crime",
+        "WorryC1": "High level of Worry: Car crime",
         "WorryC2": "High level of Worry: Crime overall",
         "WorryC3": "High level of Worry: Burglary",
         "WorryC4": "High level of Worry: Violent crime",
@@ -128254,14 +128254,14 @@
       "rows": 324
     },
     "WORRYCRMLGD": {
-      "name": "NISCS: Worry about Crime and Personal Safety",
-      "updated": "2025-09-10",
+      "name": "NISCS: Worry about crime and personal safety",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["WorryC1", "WorryC2", "WorryC3", "WorryC4", "WorryC5", "WorryC6"],
             "label": {
-              "WorryC1": "High level of Worry: Car Crime",
+              "WorryC1": "High level of Worry: Car crime",
               "WorryC2": "High level of Worry: Crime overall",
               "WorryC3": "High level of Worry: Burglary",
               "WorryC4": "High level of Worry: Violent crime",
@@ -128315,7 +128315,7 @@
               "2019/20": "2019/20"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -128347,7 +128347,7 @@
         }
       },
       "statistics": {
-        "WorryC1": "High level of Worry: Car Crime",
+        "WorryC1": "High level of Worry: Car crime",
         "WorryC2": "High level of Worry: Crime overall",
         "WorryC3": "High level of Worry: Burglary",
         "WorryC4": "High level of Worry: Violent crime",
@@ -128366,7 +128366,7 @@
     },
     "YJAWLGD": {
       "name": "Youth justice agency workload",
-      "updated": "2026-03-10",
+      "updated": "2026-03-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -128404,7 +128404,7 @@
               "2021/22": "2021/22"
             }
           },
-          "label": "Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
