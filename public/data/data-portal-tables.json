@@ -34447,16 +34447,16 @@
       "rows": 1728
     },
     "DESCPPAA": {
-      "name": "School Census - Post Primary",
-      "updated": "2025-08-05",
+      "name": "School census - post primary",
+      "updated": "2026-03-23",
       "categories": {
         "STATISTIC": {
           "category": {
-            "index": ["Male", "Female", "FSME", "SENNonStatemented", "SENStatement", "Year8", "Year9", "Year10", "Year11", "Year12", "Year13", "Year14", "All"],
+            "index": ["1", "2", "FSME", "SENNonStatemented", "SENStatement", "Year8", "Year9", "Year10", "Year11", "Year12", "Year13", "Year14", "ALL"],
             "label": {
-              "Male": "Male",
-              "Female": "Female",
-              "FSME": "Free School Meal Entitled Pupils",
+              "1": "Female",
+              "2": "Male",
+              "FSME": "Free school meal entitled pupils",
               "SENNonStatemented": "Special Educational Needs pupils without a statement",
               "SENStatement": "Special Educational Needs pupils with a statement",
               "Year8": "Year 8 pupils",
@@ -34466,15 +34466,15 @@
               "Year12": "Year 12 pupils",
               "Year13": "Year 13 pupils",
               "Year14": "Year 14 pupils",
-              "All": "All"
+              "ALL": "All"
             },
             "unit": {
-              "Male": {
+              "1": {
                 "decimals": 0,
                 "label": "Number",
                 "position": "end"
               },
-              "Female": {
+              "2": {
                 "decimals": 0,
                 "label": "Number",
                 "position": "end"
@@ -34529,7 +34529,7 @@
                 "label": "Number",
                 "position": "end"
               },
-              "All": {
+              "ALL": {
                 "decimals": 0,
                 "label": "Number",
                 "position": "end"
@@ -34553,7 +34553,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Academic Year"
+          "label": "Academic year"
         },
         "AA": {
           "category": {
@@ -34592,9 +34592,9 @@
         }
       },
       "statistics": {
-        "Male": "Male",
-        "Female": "Female",
-        "FSME": "Free School Meal Entitled Pupils",
+        "1": "Female",
+        "2": "Male",
+        "FSME": "Free school meal entitled pupils",
         "SENNonStatemented": "Special Educational Needs pupils without a statement",
         "SENStatement": "Special Educational Needs pupils with a statement",
         "Year8": "Year 8 pupils",
@@ -34604,7 +34604,7 @@
         "Year12": "Year 12 pupils",
         "Year13": "Year 13 pupils",
         "Year14": "Year 14 pupils",
-        "All": "All"
+        "ALL": "All"
       },
       "time": "TLIST(A1)",
       "time_series": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2024/25"],
@@ -34617,16 +34617,16 @@
       "rows": 2223
     },
     "DESCPPDEA": {
-      "name": "School Census - Post Primary",
-      "updated": "2025-08-05",
+      "name": "School census - post primary",
+      "updated": "2026-03-23",
       "categories": {
         "STATISTIC": {
           "category": {
-            "index": ["Male", "Female", "FSME", "SENNonStatemented", "SENStatement", "Year8", "Year9", "Year10", "Year11", "Year12", "Year13", "Year14", "All"],
+            "index": ["1", "2", "FSME", "SENNonStatemented", "SENStatement", "Year8", "Year9", "Year10", "Year11", "Year12", "Year13", "Year14", "ALL"],
             "label": {
-              "Male": "Male",
-              "Female": "Female",
-              "FSME": "Free School Meal Entitled Pupils",
+              "1": "Female",
+              "2": "Male",
+              "FSME": "Free school meal entitled pupils",
               "SENNonStatemented": "Special Educational Needs pupils without a statement",
               "SENStatement": "Special Educational Needs pupils with a statement",
               "Year8": "Year 8 pupils",
@@ -34636,15 +34636,15 @@
               "Year12": "Year 12 pupils",
               "Year13": "Year 13 pupils",
               "Year14": "Year 14 pupils",
-              "All": "All"
+              "ALL": "All"
             },
             "unit": {
-              "Male": {
+              "1": {
                 "decimals": 0,
                 "label": "Number",
                 "position": "end"
               },
-              "Female": {
+              "2": {
                 "decimals": 0,
                 "label": "Number",
                 "position": "end"
@@ -34699,7 +34699,7 @@
                 "label": "Number",
                 "position": "end"
               },
-              "All": {
+              "ALL": {
                 "decimals": 0,
                 "label": "Number",
                 "position": "end"
@@ -34723,7 +34723,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Academic Year"
+          "label": "Academic year"
         },
         "DEA2014": {
           "category": {
@@ -34824,9 +34824,9 @@
         }
       },
       "statistics": {
-        "Male": "Male",
-        "Female": "Female",
-        "FSME": "Free School Meal Entitled Pupils",
+        "1": "Female",
+        "2": "Male",
+        "FSME": "Free school meal entitled pupils",
         "SENNonStatemented": "Special Educational Needs pupils without a statement",
         "SENStatement": "Special Educational Needs pupils with a statement",
         "Year8": "Year 8 pupils",
@@ -34836,7 +34836,7 @@
         "Year12": "Year 12 pupils",
         "Year13": "Year 13 pupils",
         "Year14": "Year 14 pupils",
-        "All": "All"
+        "ALL": "All"
       },
       "time": "TLIST(A1)",
       "time_series": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2024/25"],
@@ -34849,16 +34849,16 @@
       "rows": 9477
     },
     "DESCPPHSCT": {
-      "name": "School Census - Post Primary",
-      "updated": "2025-08-05",
+      "name": "School census - post primary",
+      "updated": "2026-03-23",
       "categories": {
         "STATISTIC": {
           "category": {
-            "index": ["Male", "Female", "FSME", "SENNonStatemented", "SENStatement", "Year8", "Year9", "Year10", "Year11", "Year12", "Year13", "Year14", "All"],
+            "index": ["1", "2", "FSME", "SENNonStatemented", "SENStatement", "Year8", "Year9", "Year10", "Year11", "Year12", "Year13", "Year14", "ALL"],
             "label": {
-              "Male": "Male",
-              "Female": "Female",
-              "FSME": "Free School Meal Entitled Pupils",
+              "1": "Female",
+              "2": "Male",
+              "FSME": "Free school meal entitled pupils",
               "SENNonStatemented": "Special Educational Needs pupils without a statement",
               "SENStatement": "Special Educational Needs pupils with a statement",
               "Year8": "Year 8 pupils",
@@ -34868,15 +34868,15 @@
               "Year12": "Year 12 pupils",
               "Year13": "Year 13 pupils",
               "Year14": "Year 14 pupils",
-              "All": "All"
+              "ALL": "All"
             },
             "unit": {
-              "Male": {
+              "1": {
                 "decimals": 0,
                 "label": "Number",
                 "position": "end"
               },
-              "Female": {
+              "2": {
                 "decimals": 0,
                 "label": "Number",
                 "position": "end"
@@ -34931,7 +34931,7 @@
                 "label": "Number",
                 "position": "end"
               },
-              "All": {
+              "ALL": {
                 "decimals": 0,
                 "label": "Number",
                 "position": "end"
@@ -34954,7 +34954,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Academic Year"
+          "label": "Academic year"
         },
         "HSCT": {
           "category": {
@@ -34980,9 +34980,9 @@
         }
       },
       "statistics": {
-        "Male": "Male",
-        "Female": "Female",
-        "FSME": "Free School Meal Entitled Pupils",
+        "1": "Female",
+        "2": "Male",
+        "FSME": "Free school meal entitled pupils",
         "SENNonStatemented": "Special Educational Needs pupils without a statement",
         "SENStatement": "Special Educational Needs pupils with a statement",
         "Year8": "Year 8 pupils",
@@ -34992,7 +34992,7 @@
         "Year12": "Year 12 pupils",
         "Year13": "Year 13 pupils",
         "Year14": "Year 14 pupils",
-        "All": "All"
+        "ALL": "All"
       },
       "time": "TLIST(A1)",
       "time_series": ["2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2024/25"],
@@ -35005,16 +35005,16 @@
       "rows": 624
     },
     "DESCPPLGD": {
-      "name": "School Census - Post Primary",
-      "updated": "2025-08-05",
+      "name": "School census - post primary",
+      "updated": "2026-03-23",
       "categories": {
         "STATISTIC": {
           "category": {
-            "index": ["Male", "Female", "FSME", "SENNonStatemented", "SENStatement", "Year8", "Year9", "Year10", "Year11", "Year12", "Year13", "Year14", "All"],
+            "index": ["1", "2", "FSME", "SENNonStatemented", "SENStatement", "Year8", "Year9", "Year10", "Year11", "Year12", "Year13", "Year14", "ALL"],
             "label": {
-              "Male": "Male",
-              "Female": "Female",
-              "FSME": "Free School Meal Entitled Pupils",
+              "1": "Female",
+              "2": "Male",
+              "FSME": "Free school meal entitled pupils",
               "SENNonStatemented": "Special Educational Needs pupils without a statement",
               "SENStatement": "Special Educational Needs pupils with a statement",
               "Year8": "Year 8 pupils",
@@ -35024,15 +35024,15 @@
               "Year12": "Year 12 pupils",
               "Year13": "Year 13 pupils",
               "Year14": "Year 14 pupils",
-              "All": "All"
+              "ALL": "All"
             },
             "unit": {
-              "Male": {
+              "1": {
                 "decimals": 0,
                 "label": "Number",
                 "position": "end"
               },
-              "Female": {
+              "2": {
                 "decimals": 0,
                 "label": "Number",
                 "position": "end"
@@ -35087,7 +35087,7 @@
                 "label": "Number",
                 "position": "end"
               },
-              "All": {
+              "ALL": {
                 "decimals": 0,
                 "label": "Number",
                 "position": "end"
@@ -35111,7 +35111,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Academic Year"
+          "label": "Academic year"
         },
         "LGD2014": {
           "category": {
@@ -35143,9 +35143,9 @@
         }
       },
       "statistics": {
-        "Male": "Male",
-        "Female": "Female",
-        "FSME": "Free School Meal Entitled Pupils",
+        "1": "Female",
+        "2": "Male",
+        "FSME": "Free school meal entitled pupils",
         "SENNonStatemented": "Special Educational Needs pupils without a statement",
         "SENStatement": "Special Educational Needs pupils with a statement",
         "Year8": "Year 8 pupils",
@@ -35155,7 +35155,7 @@
         "Year12": "Year 12 pupils",
         "Year13": "Year 13 pupils",
         "Year14": "Year 14 pupils",
-        "All": "All"
+        "ALL": "All"
       },
       "time": "TLIST(A1)",
       "time_series": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2024/25"],
