@@ -33393,8 +33393,8 @@
       "rows": 1008
     },
     "DEREGNONUKHSCT": {
-      "name": "Health Card Deregistrations to Outside the UK",
-      "updated": "2025-02-24",
+      "name": "Health Card Deregistrations To Outside the UK",
+      "updated": "2026-03-25",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -33414,7 +33414,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+            "index": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
             "label": {
               "2013": "2013",
               "2014": "2014",
@@ -33427,7 +33427,8 @@
               "2021": "2021",
               "2022": "2022",
               "2023": "2023",
-              "2024": "2024"
+              "2024": "2024",
+              "2025": "2025"
             }
           },
           "label": "Year"
@@ -33460,18 +33461,18 @@
         "DEREGNONUK": "Total Non-UK Deregistrations"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+      "time_series": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Primary care",
       "subject_code": 146,
       "product": "Medical",
       "product_code": "PCMED",
-      "rows": 84
+      "rows": 91
     },
     "DEREGNONUKLGD": {
       "name": "Health Card Deregistrations to Outside the UK",
-      "updated": "2025-02-24",
+      "updated": "2026-03-25",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -33491,7 +33492,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+            "index": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
             "label": {
               "2013": "2013",
               "2014": "2014",
@@ -33504,7 +33505,8 @@
               "2021": "2021",
               "2022": "2022",
               "2023": "2023",
-              "2024": "2024"
+              "2024": "2024",
+              "2025": "2025"
             }
           },
           "label": "Year"
@@ -33543,14 +33545,14 @@
         "DEREGNONUK": "Total Non-UK Deregistrations"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+      "time_series": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Primary care",
       "subject_code": 146,
       "product": "Medical",
       "product_code": "PCMED",
-      "rows": 156
+      "rows": 169
     },
     "DESCEQ": {
       "name": "Primary, post primary and special schools",
@@ -36169,15 +36171,15 @@
       "rows": 2484
     },
     "DESLSAAA": {
-      "name": "School Leavers Survey - Attainment",
-      "updated": "2025-07-11",
+      "name": "School Leavers Survey - attainment",
+      "updated": "2026-03-25",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["NumSL", "PercSL"],
             "label": {
-              "NumSL": "Number of School Leavers",
-              "PercSL": "Percentage of School Leavers"
+              "NumSL": "Number of school leavers",
+              "PercSL": "Percentage of school leavers"
             },
             "unit": {
               "NumSL": {
@@ -36216,7 +36218,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Academic Year"
+          "label": "Academic year"
         },
         "AA": {
           "category": {
@@ -36262,7 +36264,7 @@
               "TwoALevels": "At least 2 A-levels at grades A*-E (incl. equivalent qualifications)",
               "fivegcseatoc": "At least 5 GCSEs at grades A*-C (incl. equivalent qualifications)",
               "fivegcseatocincengmath": "At least 5 GCSEs at grades A*-C (incl. equivalent qualifications) including GCSE English and maths",
-              "SchoolLeavers": "Total Leavers"
+              "SchoolLeavers": "Total leavers"
             }
           },
           "label": "Attainment"
@@ -36271,17 +36273,17 @@
           "category": {
             "index": ["1", "2", "All"],
             "label": {
-              "1": "Free School Meal Entitled",
-              "2": "Non Free School Meal Entitled",
-              "All": "All Persons"
+              "1": "Free school meal entitled",
+              "2": "Not free school meal entitled",
+              "All": "All persons"
             }
           },
-          "label": "Free School Meal Entitlement"
+          "label": "Free school meal entitlement"
         }
       },
       "statistics": {
-        "NumSL": "Number of School Leavers",
-        "PercSL": "Percentage of School Leavers"
+        "NumSL": "Number of school leavers",
+        "PercSL": "Percentage of school leavers"
       },
       "time": "TLIST(A1)",
       "time_series": ["2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
@@ -36294,15 +36296,15 @@
       "rows": 10944
     },
     "DESLSADEA": {
-      "name": "School Leavers Survey - Attainment",
-      "updated": "2025-07-09",
+      "name": "School Leavers Survey - attainment",
+      "updated": "2026-03-25",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["NumSL", "PercSL"],
             "label": {
-              "NumSL": "Number of School Leavers",
-              "PercSL": "Percentage of School leavers"
+              "NumSL": "Number of school leavers",
+              "PercSL": "Percentage of school leavers"
             },
             "unit": {
               "NumSL": {
@@ -36337,7 +36339,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Academic Year"
+          "label": "Academic year"
         },
         "DEA2014": {
           "category": {
@@ -36430,14 +36432,14 @@
         },
         "ATTAIN": {
           "category": {
-            "index": ["SchoolLeavers", "fivegcseatoc", "fivegcseatocincengmath", "ThreealevAtoC", "ThreeALevels", "TwoALevels"],
+            "index": ["ThreealevAtoC", "ThreeALevels", "TwoALevels", "fivegcseatoc", "fivegcseatocincengmath", "SchoolLeavers"],
             "label": {
-              "SchoolLeavers": "Total Leavers",
-              "fivegcseatoc": "At least 5 GCSEs at grades A*-C (incl. equivalent qualifications)",
-              "fivegcseatocincengmath": "At least 5 GCSEs at grades A*-C (incl. equivalent qualifications) including GCSE English and maths",
               "ThreealevAtoC": "At least 3 A-levels at grades A*-C (incl. equivalent qualifications)",
               "ThreeALevels": "At least 3 A-levels at grades A*-E (incl. equivalent qualifications)",
-              "TwoALevels": "At least 2 A-levels at grades A*-E (incl. equivalent qualifications)"
+              "TwoALevels": "At least 2 A-levels at grades A*-E (incl. equivalent qualifications)",
+              "fivegcseatoc": "At least 5 GCSEs at grades A*-C (incl. equivalent qualifications)",
+              "fivegcseatocincengmath": "At least 5 GCSEs at grades A*-C (incl. equivalent qualifications) including GCSE English and maths",
+              "SchoolLeavers": "Total leavers"
             }
           },
           "label": "Attainment"
@@ -36446,17 +36448,17 @@
           "category": {
             "index": ["1", "2", "All"],
             "label": {
-              "1": "Free School Meal Entitled",
-              "2": "Not Free School Meal Entitled",
-              "All": "All Persons"
+              "1": "Free school meal entitled",
+              "2": "Not free school meal entitled",
+              "All": "All persons"
             }
           },
-          "label": "Free School Meal Entitlement"
+          "label": "Full school meal entitlement"
         }
       },
       "statistics": {
-        "NumSL": "Number of School Leavers",
-        "PercSL": "Percentage of School leavers"
+        "NumSL": "Number of school leavers",
+        "PercSL": "Percentage of school leavers"
       },
       "time": "TLIST(A1)",
       "time_series": ["2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
@@ -36469,15 +36471,15 @@
       "rows": 34992
     },
     "DESLSAHSCT": {
-      "name": "School Leavers Survey - Attainment",
-      "updated": "2025-07-09",
+      "name": "School Leavers Survey - attainment",
+      "updated": "2026-03-25",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["NumSL", "PercSL"],
             "label": {
-              "NumSL": "Number of School Leavers",
-              "PercSL": "Percentage of School Leavers"
+              "NumSL": "Number of school leavers",
+              "PercSL": "Percentage of school leavers"
             },
             "unit": {
               "NumSL": {
@@ -36516,7 +36518,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Academic Year"
+          "label": "Academic year"
         },
         "HSCT": {
           "category": {
@@ -36542,14 +36544,14 @@
         },
         "ATTAIN": {
           "category": {
-            "index": ["SchoolLeavers", "fivegcseatoc", "fivegcseatocincengmath", "ThreealevAtoC", "ThreeALevels", "TwoALevels"],
+            "index": ["ThreealevAtoC", "ThreeALevels", "TwoALevels", "fivegcseatoc", "fivegcseatocincengmath", "SchoolLeavers"],
             "label": {
-              "SchoolLeavers": "Total Leavers",
-              "fivegcseatoc": "At least 5 GCSEs at grades A*-C (incl. equivalent qualifications)",
-              "fivegcseatocincengmath": "At least 5 GCSEs at grades A*-C (incl. equivalent qualifications) including GCSE English and maths",
               "ThreealevAtoC": "At least 3 A-levels at grades A*-C (incl. equivalent qualifications)",
               "ThreeALevels": "At least 3 A-levels at grades A*-E (incl. equivalent qualifications)",
-              "TwoALevels": "At least 2 A-levels at grades A*-E (incl. equivalent qualifications)"
+              "TwoALevels": "At least 2 A-levels at grades A*-E (incl. equivalent qualifications)",
+              "fivegcseatoc": "At least 5 GCSEs at grades A*-C (incl. equivalent qualifications)",
+              "fivegcseatocincengmath": "At least 5 GCSEs at grades A*-C (incl. equivalent qualifications) including GCSE English and maths",
+              "SchoolLeavers": "Total leavers"
             }
           },
           "label": "Attainment"
@@ -36558,17 +36560,17 @@
           "category": {
             "index": ["1", "2", "All"],
             "label": {
-              "1": "Free School Meal Entitled",
-              "2": "Not Free School Meal Entitled",
-              "All": "All Persons"
+              "1": "Free school meal entitled",
+              "2": "Not free school meal entitled",
+              "All": "All persons"
             }
           },
-          "label": "Free School Meal Entitlement"
+          "label": "Free school meal entitlement"
         }
       },
       "statistics": {
-        "NumSL": "Number of School Leavers",
-        "PercSL": "Percentage of School Leavers"
+        "NumSL": "Number of school leavers",
+        "PercSL": "Percentage of school leavers"
       },
       "time": "TLIST(A1)",
       "time_series": ["2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
@@ -36581,15 +36583,15 @@
       "rows": 3456
     },
     "DESLSALGD": {
-      "name": "School Leavers Survey - Attainment",
-      "updated": "2025-07-09",
+      "name": "School Leavers Survey - attainment",
+      "updated": "2026-03-25",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["NumSL", "PercSL"],
             "label": {
-              "NumSL": "Number of School Leavers",
-              "PercSL": "Percentage of School Leavers"
+              "NumSL": "Number of school leavers",
+              "PercSL": "Percentage of school leavers"
             },
             "unit": {
               "NumSL": {
@@ -36624,7 +36626,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Academic Year"
+          "label": "Academic year"
         },
         "LGD2014": {
           "category": {
@@ -36656,14 +36658,14 @@
         },
         "ATTAIN": {
           "category": {
-            "index": ["SchoolLeavers", "fivegcseatoc", "fivegcseatocincengmath", "ThreealevAtoC", "ThreeALevels", "TwoALevels"],
+            "index": ["ThreealevAtoC", "ThreeALevels", "TwoALevels", "fivegcseatoc", "fivegcseatocincengmath", "SchoolLeavers"],
             "label": {
-              "SchoolLeavers": "Total Leavers",
-              "fivegcseatoc": "At least 5 GCSEs at grades A*-C (incl. equivalent qualifications)",
-              "fivegcseatocincengmath": "At least 5 GCSEs at grades A*-C (incl. equivalent qualifications) including GCSE English and maths",
               "ThreealevAtoC": "At least 3 A-levels at grades A*-C (incl. equivalent qualifications)",
               "ThreeALevels": "At least 3 A-levels at grades A*-E (incl. equivalent qualifications)",
-              "TwoALevels": "At least 2 A-levels at grades A*-E (incl. equivalent qualifications)"
+              "TwoALevels": "At least 2 A-levels at grades A*-E (incl. equivalent qualifications)",
+              "fivegcseatoc": "At least 5 GCSEs at grades A*-C (incl. equivalent qualifications)",
+              "fivegcseatocincengmath": "At least 5 GCSEs at grades A*-C (incl. equivalent qualifications) including GCSE English and maths",
+              "SchoolLeavers": "Total leavers"
             }
           },
           "label": "Attainment"
@@ -36672,17 +36674,17 @@
           "category": {
             "index": ["1", "2", "All"],
             "label": {
-              "1": "Free School Meal Entitled",
-              "2": "Not Free School Meal Entitled",
-              "All": "All Persons"
+              "1": "Free school meal entitled",
+              "2": "Not free school meal entitled",
+              "All": "All persons"
             }
           },
-          "label": "Free School Meal Entitlement"
+          "label": "Free school meal entitlement"
         }
       },
       "statistics": {
-        "NumSL": "Number of School Leavers",
-        "PercSL": "Percentage of School Leavers"
+        "NumSL": "Number of school leavers",
+        "PercSL": "Percentage of school leavers"
       },
       "time": "TLIST(A1)",
       "time_series": ["2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
@@ -36695,15 +36697,15 @@
       "rows": 5184
     },
     "DESLSAS": {
-      "name": "School Leavers Survey - Attainment",
-      "updated": "2025-07-09",
+      "name": "School Leavers Survey - attainment",
+      "updated": "2026-03-25",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["NumSL", "PercSL"],
             "label": {
-              "NumSL": "Number of School Leavers",
-              "PercSL": "Percentage of School Leavers"
+              "NumSL": "Number of school leavers",
+              "PercSL": "Percentage of school leavers"
             },
             "unit": {
               "NumSL": {
@@ -36738,7 +36740,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Academic Year"
+          "label": "Academic year"
         },
         "SETTLEMENT": {
           "category": {
@@ -36760,26 +36762,26 @@
               "TwoALevels": "At least 2 A-levels at grades A*-E (incl. equivalent qualifications)",
               "fivegcseatoc": "At least 5 GCSEs at grades A*-C (incl. equivalent qualifications)",
               "fivegcseatocincengmath": "At least 5 GCSEs at grades A*-C (incl. equivalent qualifications) including GCSE English and maths",
-              "SchoolLeavers": "Total Leavers"
+              "SchoolLeavers": "Total leavers"
             }
           },
           "label": "Attainment"
         },
         "FSME": {
           "category": {
-            "index": ["All", "1", "2"],
+            "index": ["1", "2", "All"],
             "label": {
-              "All": "All persons",
-              "1": "Free School Meal Entitled",
-              "2": "Non Free School Meal Entitled"
+              "1": "Free school meal entitled",
+              "2": "Not free school meal entitled",
+              "All": "All persons"
             }
           },
-          "label": "Free School Meal Entitlement"
+          "label": "Free school meal entitlement"
         }
       },
       "statistics": {
-        "NumSL": "Number of School Leavers",
-        "PercSL": "Percentage of School Leavers"
+        "NumSL": "Number of school leavers",
+        "PercSL": "Percentage of school leavers"
       },
       "time": "TLIST(A1)",
       "time_series": ["2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
@@ -36792,15 +36794,15 @@
       "rows": 1296
     },
     "DESLSDAA": {
-      "name": "School Leavers Survey - Destination",
-      "updated": "2025-07-09",
+      "name": "School Leavers Survey - destination",
+      "updated": "2026-03-25",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["NumSL", "PercSL"],
             "label": {
-              "NumSL": "Number of School Leavers",
-              "PercSL": "Percentage of School Leavers"
+              "NumSL": "Number of school leavers",
+              "PercSL": "Percentage of school leavers"
             },
             "unit": {
               "NumSL": {
@@ -36839,7 +36841,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Academic Year"
+          "label": "Academic year"
         },
         "AA": {
           "category": {
@@ -36880,12 +36882,12 @@
           "category": {
             "index": ["SchoolLeavers", "destHE", "destFE", "destEmploy", "destTrain", "destUnempUnk"],
             "label": {
-              "SchoolLeavers": "Total Leavers",
-              "destHE": "School Leavers with Destination: Higher Education",
-              "destFE": "School Leavers with Destination: Further Education",
-              "destEmploy": "School Leavers with Destination: Employment",
-              "destTrain": "School Leavers with Destination: Training",
-              "destUnempUnk": "School Leavers with Destination: Unemployed / Unknown"
+              "SchoolLeavers": "Total leavers",
+              "destHE": "School leavers with destination: higher education",
+              "destFE": "School leavers with destination: further education",
+              "destEmploy": "School leavers with destination: employment",
+              "destTrain": "School leavers with destination: training",
+              "destUnempUnk": "School leavers with destination: unemployed / unknown"
             }
           },
           "label": "Destination"
@@ -36894,17 +36896,17 @@
           "category": {
             "index": ["1", "2", "All"],
             "label": {
-              "1": "Free School Meal Entitled",
-              "2": "Not Free School Meal Entitled",
-              "All": "All Persons"
+              "1": "Free school meal entitled",
+              "2": "Not free school meal entitled",
+              "All": "All persons"
             }
           },
-          "label": "Free School Meal Entitlement"
+          "label": "Free school meal entitlement"
         }
       },
       "statistics": {
-        "NumSL": "Number of School Leavers",
-        "PercSL": "Percentage of School Leavers"
+        "NumSL": "Number of school leavers",
+        "PercSL": "Percentage of school leavers"
       },
       "time": "TLIST(A1)",
       "time_series": ["2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
@@ -36917,15 +36919,15 @@
       "rows": 10944
     },
     "DESLSDDEA": {
-      "name": "School Leavers Survey - Destination",
-      "updated": "2025-07-23",
+      "name": "School Leavers Survey - destination",
+      "updated": "2026-03-25",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["NumSL", "PercSL"],
             "label": {
-              "NumSL": "Number of School Leavers",
-              "PercSL": "Percentage of School Leavers"
+              "NumSL": "Number of school leavers",
+              "PercSL": "Percentage of school leavers"
             },
             "unit": {
               "NumSL": {
@@ -36960,7 +36962,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Academic Year"
+          "label": "Academic year"
         },
         "DEA2014": {
           "category": {
@@ -37055,20 +37057,20 @@
           "category": {
             "index": ["SchoolLeavers", "destHE", "destFE", "destEmploy", "destTrain", "destUnempUnk"],
             "label": {
-              "SchoolLeavers": "Total Leavers",
-              "destHE": "School Leavers with Destination: Higher Education",
-              "destFE": "School Leavers with Destination: Further Education",
-              "destEmploy": "School Leavers with Destination: Employment",
-              "destTrain": "School Leavers with Destination: Training",
-              "destUnempUnk": "School Leavers with Destination: Unemployed / Unknown"
+              "SchoolLeavers": "Total leavers",
+              "destHE": "School leavers with destination: higher education",
+              "destFE": "School leavers with destination: further education",
+              "destEmploy": "School leavers with destination: employment",
+              "destTrain": "School leavers with destination: training",
+              "destUnempUnk": "School leavers with destination: unemployed / unknown"
             }
           },
           "label": "Destination"
         }
       },
       "statistics": {
-        "NumSL": "Number of School Leavers",
-        "PercSL": "Percentage of School Leavers"
+        "NumSL": "Number of school leavers",
+        "PercSL": "Percentage of school leavers"
       },
       "time": "TLIST(A1)",
       "time_series": ["2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
@@ -37081,15 +37083,15 @@
       "rows": 11664
     },
     "DESLSDHSCT": {
-      "name": "School Leavers Survey - Destination",
-      "updated": "2025-07-09",
+      "name": "School Leavers Survey - destination",
+      "updated": "2026-03-25",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["NumSL", "PercSL"],
             "label": {
-              "NumSL": "Number of School Leavers",
-              "PercSL": "Percentage of School Leavers"
+              "NumSL": "Number of school leavers",
+              "PercSL": "Percentage of school leavers"
             },
             "unit": {
               "NumSL": {
@@ -37099,7 +37101,7 @@
               },
               "PercSL": {
                 "decimals": 1,
-                "label": "Percentage",
+                "label": "%",
                 "position": "end"
               }
             }
@@ -37128,7 +37130,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Academic Year"
+          "label": "Academic year"
         },
         "HSCT": {
           "category": {
@@ -37156,12 +37158,12 @@
           "category": {
             "index": ["SchoolLeavers", "destHE", "destFE", "destEmploy", "destTrain", "destUnempUnk"],
             "label": {
-              "SchoolLeavers": "Total Leavers",
-              "destHE": "School Leavers with Destination: Higher Education",
-              "destFE": "School Leavers with Destination: Further Education",
-              "destEmploy": "School Leavers with Destination: Employment",
-              "destTrain": "School Leavers with Destination: Training",
-              "destUnempUnk": "School Leavers with Destination: Unemployed / Unknown"
+              "SchoolLeavers": "Total leavers",
+              "destHE": "School leavers with destination: higher education",
+              "destFE": "School leavers with destination: further education",
+              "destEmploy": "School leavers with destination: employment",
+              "destTrain": "School leavers with destination: training",
+              "destUnempUnk": "School leavers with destination: unemployed / unknown"
             }
           },
           "label": "Destination"
@@ -37170,17 +37172,17 @@
           "category": {
             "index": ["1", "2", "All"],
             "label": {
-              "1": "Free School Meal Entitled",
-              "2": "Not Free School Meal Entitled",
-              "All": "All Persons"
+              "1": "Free school meal entitled",
+              "2": "Not free school meal entitled",
+              "All": "All persons"
             }
           },
-          "label": "Free School Meal Entitlement"
+          "label": "Free school meal entitlement"
         }
       },
       "statistics": {
-        "NumSL": "Number of School Leavers",
-        "PercSL": "Percentage of School Leavers"
+        "NumSL": "Number of school leavers",
+        "PercSL": "Percentage of school leavers"
       },
       "time": "TLIST(A1)",
       "time_series": ["2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
@@ -37193,15 +37195,15 @@
       "rows": 3456
     },
     "DESLSDLGD": {
-      "name": "School Leavers Survey - Destination",
-      "updated": "2025-07-09",
+      "name": "School Leavers Survey - destination",
+      "updated": "2026-03-25",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["NumSL", "PercSL"],
             "label": {
-              "NumSL": "Number of School Leavers",
-              "PercSL": "Percentage of School Leavers"
+              "NumSL": "Number of school leavers",
+              "PercSL": "Percentage of school leavers"
             },
             "unit": {
               "NumSL": {
@@ -37236,7 +37238,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Academic Year"
+          "label": "Academic year"
         },
         "LGD2014": {
           "category": {
@@ -37270,12 +37272,12 @@
           "category": {
             "index": ["SchoolLeavers", "destHE", "destFE", "destEmploy", "destTrain", "destUnempUnk"],
             "label": {
-              "SchoolLeavers": "Total Leavers",
-              "destHE": "School Leavers with Destination: Higher Education",
-              "destFE": "School Leavers with Destination: Further Education",
-              "destEmploy": "School Leavers with Destination: Employment",
-              "destTrain": "School Leavers with Destination: Training",
-              "destUnempUnk": "School Leavers with Destination: Unemployed / Unknown"
+              "SchoolLeavers": "Total leavers",
+              "destHE": "School leavers with destination: higher education",
+              "destFE": "School leavers with destination: further education",
+              "destEmploy": "School leavers with destination: employment",
+              "destTrain": "School leavers with destination: training",
+              "destUnempUnk": "School leavers with destination: unemployed / unknown"
             }
           },
           "label": "Destination"
@@ -37284,17 +37286,17 @@
           "category": {
             "index": ["1", "2", "All"],
             "label": {
-              "1": "Free School Meal Entitled",
-              "2": "Not Free School Meal Entitled",
-              "All": "All Persons"
+              "1": "Free school meal entitled",
+              "2": "Not free school meal entitled",
+              "All": "All persons"
             }
           },
-          "label": "Free School Meal Entitlement"
+          "label": "Free school meal entitlement"
         }
       },
       "statistics": {
-        "NumSL": "Number of School Leavers",
-        "PercSL": "Percentage of School Leavers"
+        "NumSL": "Number of school leavers",
+        "PercSL": "Percentage of school leavers"
       },
       "time": "TLIST(A1)",
       "time_series": ["2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
@@ -37307,15 +37309,15 @@
       "rows": 5184
     },
     "DESLSDS": {
-      "name": "School Leavers Survey - Destination",
-      "updated": "2025-06-12",
+      "name": "School Leavers Survey - destination",
+      "updated": "2026-03-25",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["NumSL", "PercSL"],
             "label": {
-              "NumSL": "Number of School Leavers",
-              "PercSL": "Percentage of School Leavers"
+              "NumSL": "Number of school leavers",
+              "PercSL": "Percentage of school leavers"
             },
             "unit": {
               "NumSL": {
@@ -37350,7 +37352,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Academic Year"
+          "label": "Academic year"
         },
         "SETTLEMENT": {
           "category": {
@@ -37365,33 +37367,33 @@
         },
         "DESTINATION": {
           "category": {
-            "index": ["destHE", "destFE", "destEmploy", "destTrain", "destUnempUnk", "SchoolLeavers"],
+            "index": ["SchoolLeavers", "destHE", "destFE", "destEmploy", "destTrain", "destUnempUnk"],
             "label": {
-              "destHE": "School Leavers with Destination: Higher Education",
-              "destFE": "School Leavers with Destination: Further Education",
-              "destEmploy": "School Leavers with Destination: Employment",
-              "destTrain": "School Leavers with Destination: Training",
-              "destUnempUnk": "School Leavers with Destination: Unemployed / Unknown",
-              "SchoolLeavers": "School Leavers"
+              "SchoolLeavers": "Total leavers",
+              "destHE": "School leavers with destination: higher education",
+              "destFE": "School leavers with destination: further education",
+              "destEmploy": "School leavers with destination: employment",
+              "destTrain": "School leavers with destination: training",
+              "destUnempUnk": "School leavers with destination: unemployed / unknown"
             }
           },
           "label": "Destination"
         },
         "FSME": {
           "category": {
-            "index": ["All", "1", "2"],
+            "index": ["1", "2", "All"],
             "label": {
-              "All": "All persons",
-              "1": "Free School Meal Entitled",
-              "2": "Non Free School Meal Entitled"
+              "1": "Free school meal entitled",
+              "2": "Not free school meal entitled",
+              "All": "All persons"
             }
           },
-          "label": "Free School Meal Entitlement"
+          "label": "Free school meal entitlement"
         }
       },
       "statistics": {
-        "NumSL": "Number of School Leavers",
-        "PercSL": "Percentage of School Leavers"
+        "NumSL": "Number of school leavers",
+        "PercSL": "Percentage of school leavers"
       },
       "time": "TLIST(A1)",
       "time_series": ["2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
@@ -107817,7 +107819,7 @@
     },
     "REGNONUKHSCT": {
       "name": "Health Card Registrations from Outside the UK",
-      "updated": "2025-02-24",
+      "updated": "2026-03-25",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -107837,7 +107839,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+            "index": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
             "label": {
               "2013": "2013",
               "2014": "2014",
@@ -107850,7 +107852,8 @@
               "2021": "2021",
               "2022": "2022",
               "2023": "2023",
-              "2024": "2024"
+              "2024": "2024",
+              "2025": "2025"
             }
           },
           "label": "Year"
@@ -107883,24 +107886,24 @@
         "REGNONUK": "Total Non-UK Registrations"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+      "time_series": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Primary care",
       "subject_code": 146,
       "product": "Medical",
       "product_code": "PCMED",
-      "rows": 84
+      "rows": 91
     },
     "REGNONUKLGD": {
       "name": "Health Card Registrations from Outside the UK",
-      "updated": "2025-02-24",
+      "updated": "2026-03-25",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "REGNONUK",
             "label": {
-              "REGNONUK": "Total Registrations"
+              "REGNONUK": "Total Non-UK Registrations"
             },
             "unit": {
               "REGNONUK": {
@@ -107914,7 +107917,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+            "index": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
             "label": {
               "2013": "2013",
               "2014": "2014",
@@ -107927,7 +107930,8 @@
               "2021": "2021",
               "2022": "2022",
               "2023": "2023",
-              "2024": "2024"
+              "2024": "2024",
+              "2025": "2025"
             }
           },
           "label": "Year"
@@ -107978,17 +107982,17 @@
         }
       },
       "statistics": {
-        "REGNONUK": "Total Registrations"
+        "REGNONUK": "Total Non-UK Registrations"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+      "time_series": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Primary care",
       "subject_code": 146,
       "product": "Medical",
       "product_code": "PCMED",
-      "rows": 1092
+      "rows": 1183
     },
     "RESACCHSCT": {
       "name": "Residential Accommodation",
