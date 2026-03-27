@@ -25521,7 +25521,7 @@
     },
     "COMRELEQ": {
       "name": "Community relations",
-      "updated": "2026-02-18",
+      "updated": "2026-03-27",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -25553,7 +25553,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+            "index": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
             "label": {
               "2013": "2013",
               "2014": "2014",
@@ -25564,7 +25564,9 @@
               "2019": "2019",
               "2020": "2020",
               "2021": "2021",
-              "2022": "2022"
+              "2022": "2022",
+              "2023": "2023",
+              "2024": "2024"
             }
           },
           "label": "Year"
@@ -25609,14 +25611,14 @@
         "UCI": "95% confidence interval - upper"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+      "time_series": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
       "theme": "People and communities",
       "theme_code": 70,
       "subject": "Community",
       "subject_code": 149,
       "product": "Community relations",
       "product_code": "CCR",
-      "rows": 750
+      "rows": 900
     },
     "CONFCJSHSCT": {
       "name": "NISCS: Confidence in the criminal justice system",
@@ -31382,7 +31384,7 @@
     },
     "CULTIDEQ": {
       "name": "Respected cultural identity",
-      "updated": "2026-02-18",
+      "updated": "2026-03-27",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -31414,7 +31416,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+            "index": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
             "label": {
               "2014": "2014",
               "2015": "2015",
@@ -31424,7 +31426,9 @@
               "2019": "2019",
               "2020": "2020",
               "2021": "2021",
-              "2022": "2022"
+              "2022": "2022",
+              "2023": "2023",
+              "2024": "2024"
             }
           },
           "label": "Year"
@@ -31469,14 +31473,14 @@
         "UCI": "95% confidence interval - upper"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+      "time_series": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
       "theme": "People and communities",
       "theme_code": 70,
       "subject": "Community",
       "subject_code": 149,
       "product": "Community relations",
       "product_code": "CCR",
-      "rows": 675
+      "rows": 825
     },
     "CWT31HSCT": {
       "name": "Cancer Waiting Times: Patients Starting Treatment Following a Decision to Treat (31 Day Target)",
@@ -111390,7 +111394,7 @@
     },
     "SAFETOWNEQ": {
       "name": "Safe towns and city centres",
-      "updated": "2026-02-18",
+      "updated": "2026-03-27",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -111422,7 +111426,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+            "index": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
             "label": {
               "2014": "2014",
               "2015": "2015",
@@ -111432,7 +111436,9 @@
               "2019": "2019",
               "2020": "2020",
               "2021": "2021",
-              "2022": "2022"
+              "2022": "2022",
+              "2023": "2023",
+              "2024": "2024"
             }
           },
           "label": "Year"
@@ -111477,14 +111483,14 @@
         "UCI": "95% confidence interval - upper"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+      "time_series": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
       "theme": "People and communities",
       "theme_code": 70,
       "subject": "Community",
       "subject_code": 149,
       "product": "Safe towns and city centres",
       "product_code": "CSTCC",
-      "rows": 675
+      "rows": 825
     },
     "SAHLAFEEQ": {
       "name": "Higher Level Apprenticeships in further education",
@@ -116945,7 +116951,7 @@
     },
     "SHARCOMEQ": {
       "name": "Shared community",
-      "updated": "2026-02-18",
+      "updated": "2026-03-27",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -116977,7 +116983,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+            "index": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
             "label": {
               "2013": "2013",
               "2014": "2014",
@@ -116988,7 +116994,9 @@
               "2019": "2019",
               "2020": "2020",
               "2021": "2021",
-              "2022": "2022"
+              "2022": "2022",
+              "2023": "2023",
+              "2024": "2024"
             }
           },
           "label": "Year"
@@ -117033,14 +117041,14 @@
         "UCI": "95% confidence interval - upper"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+      "time_series": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
       "theme": "People and communities",
       "theme_code": 70,
       "subject": "Community",
       "subject_code": 149,
       "product": "Community relations",
       "product_code": "CCR",
-      "rows": 750
+      "rows": 900
     },
     "SKILLSEQ": {
       "name": "Level 2 qualifications",
