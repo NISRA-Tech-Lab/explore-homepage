@@ -20885,7 +20885,7 @@
     },
     "C21509EQ": {
       "name": "Long-term health problem or disability",
-      "updated": "2026-03-09",
+      "updated": "2026-03-30",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -52536,7 +52536,7 @@
     },
     "GHGEMSSNS": {
       "name": "Greenhouse gas emissions",
-      "updated": "2026-03-24",
+      "updated": "2026-03-30",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -52645,9 +52645,9 @@
           },
           "label": "TES subsector"
         },
-        "POLLUTANT": {
+        "POLLUTANTS": {
           "category": {
-            "index": ["CO2", "CH4", "N2O", "HFC", "PFC", "SF6", "NF3", "NOX", "NH3", "NMVOC", "CO", "SO2", "PM10", "PM25", "ALL"],
+            "index": ["CO2", "CH4", "N2O", "HFC", "PFC", "SF6", "NF3", "ALL"],
             "label": {
               "CO2": "CO2",
               "CH4": "CH4",
@@ -52656,17 +52656,10 @@
               "PFC": "PFCs",
               "SF6": "SF6",
               "NF3": "NF3",
-              "NOX": "NOx",
-              "NH3": "NH3",
-              "NMVOC": "NMVOC",
-              "CO": "CO",
-              "SO2": "SO2",
-              "PM10": "PM10",
-              "PM25": "PM2.5",
               "ALL": "All pollutants"
             }
           },
-          "label": "Pollutant"
+          "label": "Pollutants"
         }
       },
       "statistics": {
@@ -52680,7 +52673,7 @@
       "subject_code": 155,
       "product": "Greenhouse gas emissions",
       "product_code": "EECGGE",
-      "rows": 58800
+      "rows": 31360
     },
     "GHGINSCOPE": {
       "name": "Greenhouse gas emissions - subset dataset",
@@ -53717,7 +53710,7 @@
     },
     "GOODJOBSEQ": {
       "name": "Good jobs",
-      "updated": "2026-03-24",
+      "updated": "2026-03-30",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -111494,7 +111487,7 @@
     },
     "SAHLAFEEQ": {
       "name": "Higher Level Apprenticeships in further education",
-      "updated": "2026-02-18",
+      "updated": "2026-03-30",
       "categories": {
         "STATISTIC": {
           "category": {
