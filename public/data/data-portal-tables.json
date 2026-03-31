@@ -796,14 +796,14 @@
     },
     "ALLAPPLGD": {
       "name": "ApprenticeshipsNI and Higher Level Apprenticeships by LGD",
-      "updated": "2025-07-18",
+      "updated": "2026-03-31",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["START", "ALL"],
             "label": {
-              "START": "Starts (First year only)",
-              "ALL": "Occupancy/Participation (All years)"
+              "START": "Starts (first year only)",
+              "ALL": "Occupancy/Participation (all years)"
             },
             "unit": {
               "START": {
@@ -833,7 +833,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Academic Year"
+          "label": "Academic year"
         },
         "LGD": {
           "category": {
@@ -869,17 +869,17 @@
             "index": ["APPSNI", "HLAFE", "HLAHEI", "ALLAPP"],
             "label": {
               "APPSNI": "ApprenticeshipsNI",
-              "HLAFE": "Higher Level Apprenticeships in Further Education",
-              "HLAHEI": "Higher Level Apprenticeships in Higher Education Institutions",
-              "ALLAPP": "All Apprenticeships (AppsNI, HLA in FE, HLA in HE)"
+              "HLAFE": "Higher Level Apprenticeships in further education",
+              "HLAHEI": "Higher Level Apprenticeships in higher education institutions",
+              "ALLAPP": "All apprenticeships (AppsNI, HLA in FE, HLA in HE)"
             }
           },
-          "label": "Type of Apprenticeship"
+          "label": "Type of apprenticeship"
         }
       },
       "statistics": {
-        "START": "Starts (First year only)",
-        "ALL": "Occupancy/Participation (All years)"
+        "START": "Starts (first year only)",
+        "ALL": "Occupancy/Participation (all years)"
       },
       "time": "TLIST(A1)",
       "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
@@ -892,18 +892,18 @@
       "rows": 728
     },
     "ALLAPPSTEM": {
-      "name": "ApprenticeshipsNI and Higher Level Apprenticeships by Narrow STEM",
-      "updated": "2025-07-11",
+      "name": "ApprenticeshipsNI and Higher Level Apprenticeships by narrow STEM",
+      "updated": "2026-03-31",
       "categories": {
         "STATISTIC": {
           "category": {
-            "index": ["STARTS", "ALL"],
+            "index": ["START", "ALL"],
             "label": {
-              "STARTS": "Starts (First year only)",
-              "ALL": "Occupancy/Participation (All years)"
+              "START": "Starts (first year only)",
+              "ALL": "Occupancy/Participation (all years)"
             },
             "unit": {
-              "STARTS": {
+              "START": {
                 "decimals": 0,
                 "label": "Number",
                 "position": "end"
@@ -930,34 +930,34 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Academic Year"
+          "label": "Academic year"
         },
         "APPTYPE": {
           "category": {
             "index": ["APPSNI", "HLAFE", "HLAHEI"],
             "label": {
               "APPSNI": "ApprenticeshipsNI",
-              "HLAFE": "Higher Level Apprenticeships in Further Education",
-              "HLAHEI": "Higher Level Apprenticeships in Higher Education Institutions"
+              "HLAFE": "Higher level apprenticeships in further education",
+              "HLAHEI": "Higher level apprenticeships in higher education institutions"
             }
           },
-          "label": "Type of Apprenticeship"
+          "label": "Type of apprenticeship"
         },
         "SEX": {
           "category": {
             "index": ["1", "2", "ALL"],
             "label": {
-              "1": "Female",
-              "2": "Male",
-              "ALL": "All Persons"
+              "1": "Females",
+              "2": "Males",
+              "ALL": "All persons"
             }
           },
           "label": "Sex"
         }
       },
       "statistics": {
-        "STARTS": "Starts (First year only)",
-        "ALL": "Occupancy/Participation (All years)"
+        "START": "Starts (first year only)",
+        "ALL": "Occupancy/Participation (all years)"
       },
       "time": "TLIST(A1)",
       "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
@@ -971,13 +971,13 @@
     },
     "APPSNIAA": {
       "name": "ApprenticeshipsNI",
-      "updated": "2025-07-11",
+      "updated": "2026-03-31",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "APPSNI",
             "label": {
-              "APPSNI": "ApprenticeshipsNI Occupancy"
+              "APPSNI": "ApprenticeshipsNI occupancy"
             },
             "unit": {
               "APPSNI": {
@@ -1046,7 +1046,7 @@
               "Level2": "Level 2",
               "Level2-3": "Level 2/3",
               "Level3": "Level 3",
-              "LevelNA": "Level Not Assigned",
+              "LevelNA": "Level not assigned",
               "All": "All"
             }
           },
@@ -1054,7 +1054,7 @@
         }
       },
       "statistics": {
-        "APPSNI": "ApprenticeshipsNI Occupancy"
+        "APPSNI": "ApprenticeshipsNI occupancy"
       },
       "time": "TLIST(A1)",
       "time_series": ["2019", "2020", "2021", "2022", "2023", "2024"],
@@ -1068,13 +1068,13 @@
     },
     "APPSNILGD": {
       "name": "ApprenticeshipsNI",
-      "updated": "2025-07-11",
+      "updated": "2026-03-31",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "APPSNI",
             "label": {
-              "APPSNI": "ApprenticeshipsNI Occupancy"
+              "APPSNI": "ApprenticeshipsNI occupancy"
             },
             "unit": {
               "APPSNI": {
@@ -1136,7 +1136,7 @@
               "Level2": "Level 2",
               "Level2-3": "Level 2/3",
               "Level3": "Level 3",
-              "LevelNA": "Level Not Assigned",
+              "LevelNA": "Level not assigned",
               "All": "All"
             }
           },
@@ -1144,7 +1144,7 @@
         }
       },
       "statistics": {
-        "APPSNI": "ApprenticeshipsNI Occupancy"
+        "APPSNI": "ApprenticeshipsNI occupancy"
       },
       "time": "TLIST(A1)",
       "time_series": ["2019", "2020", "2021", "2022", "2023", "2024"],
@@ -24014,7 +24014,7 @@
     },
     "CHILDBMIHSCT": {
       "name": "Childhood BMI",
-      "updated": "2025-10-15",
+      "updated": "2026-03-31",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -24070,7 +24070,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Academic Year"
+          "label": "Academic year"
         },
         "HSCT": {
           "category": {
@@ -24124,7 +24124,7 @@
     },
     "CHILDBMILGD": {
       "name": "Childhood BMI",
-      "updated": "2025-10-15",
+      "updated": "2026-03-31",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -24180,7 +24180,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Academic Year"
+          "label": "Academic year"
         },
         "LGD2014": {
           "category": {
@@ -57508,15 +57508,15 @@
       "rows": 336
     },
     "HLALEVEL": {
-      "name": "Higher Level Apprenticeships by Level",
-      "updated": "2025-07-11",
+      "name": "Higher Level Apprenticeships by level",
+      "updated": "2026-03-31",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["STARTS", "ALL"],
             "label": {
-              "STARTS": "Starts (First year only)",
-              "ALL": "Participation (All years)"
+              "STARTS": "Starts (first year only)",
+              "ALL": "Participation (all years)"
             },
             "unit": {
               "STARTS": {
@@ -57546,7 +57546,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Academic Year"
+          "label": "Academic year"
         },
         "LVL": {
           "category": {
@@ -57556,7 +57556,7 @@
               "5": "Level 5",
               "6": "Level 6",
               "7": "Level 7",
-              "ALL": "All Levels"
+              "ALL": "All levels"
             }
           },
           "label": "Level"
@@ -57565,17 +57565,17 @@
           "category": {
             "index": ["FE", "HE", "ALL"],
             "label": {
-              "FE": "Further Education",
-              "HE": "Higher Education",
-              "ALL": "Sum of Further and Higher Education"
+              "FE": "Further education",
+              "HE": "Higher education",
+              "ALL": "Sum of further and higher education"
             }
           },
-          "label": "Further Education / Higher Education"
+          "label": "Further education / Higher education"
         }
       },
       "statistics": {
-        "STARTS": "Starts (First year only)",
-        "ALL": "Participation (All years)"
+        "STARTS": "Starts (first year only)",
+        "ALL": "Participation (all years)"
       },
       "time": "TLIST(A1)",
       "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
@@ -57588,15 +57588,15 @@
       "rows": 210
     },
     "HLASEX": {
-      "name": "Higher Level Apprenticeships by Sex",
-      "updated": "2025-07-10",
+      "name": "Higher Level Apprenticeships by sex",
+      "updated": "2026-03-31",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["START", "ALL"],
             "label": {
-              "START": "Starts (First year only)",
-              "ALL": "Participation (All years)"
+              "START": "Starts (first year only)",
+              "ALL": "Participation (all years)"
             },
             "unit": {
               "START": {
@@ -57626,15 +57626,15 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Academic Year"
+          "label": "Academic year"
         },
-        "Sex": {
+        "SEX": {
           "category": {
             "index": ["1", "2", "ALL"],
             "label": {
-              "1": "Female",
-              "2": "Male",
-              "ALL": "All Persons"
+              "1": "Females",
+              "2": "Males",
+              "ALL": "All persons"
             }
           },
           "label": "Sex"
@@ -57643,17 +57643,17 @@
           "category": {
             "index": ["FE", "HE", "ALL"],
             "label": {
-              "FE": "Further Education",
-              "HE": "Higher Education",
-              "ALL": "Sum of Further and Higher Education"
+              "FE": "Further education",
+              "HE": "Higher education",
+              "ALL": "Sum of further and higher education"
             }
           },
-          "label": "Further Education / Higher Education"
+          "label": "Further education / Higher education"
         }
       },
       "statistics": {
-        "START": "Starts (First year only)",
-        "ALL": "Participation (All years)"
+        "START": "Starts (first year only)",
+        "ALL": "Participation (all years)"
       },
       "time": "TLIST(A1)",
       "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
@@ -63430,21 +63430,21 @@
       "rows": 864
     },
     "MHIAHSCT": {
-      "name": "Mental Health Inpatient Activity",
-      "updated": "2025-05-05",
+      "name": "Mental health inpatient activity",
+      "updated": "2026-03-31",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["1", "2", "3", "4", "5", "6", "7", "8"],
             "label": {
-              "1": "Inpatient: Average Available Beds",
-              "2": "Inpatient: Average Occupied beds",
+              "1": "Inpatient: Average available beds",
+              "2": "Inpatient: Average occupied beds",
               "3": "Inpatients",
-              "4": "Inpatient: Day Cases",
+              "4": "Inpatient: Day cases",
               "5": "Inpatient: Occupancy",
               "6": "Inpatient: Throughput",
-              "7": "Inpatient: Average Length of Stay",
-              "8": "Inpatient: Turnover Interval"
+              "7": "Inpatient: Average length of stay",
+              "8": "Inpatient: Turnover interval"
             },
             "unit": {
               "1": {
@@ -63511,7 +63511,7 @@
               "2022/23": "2022/23"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "HSCT": {
           "category": {
@@ -63537,14 +63537,14 @@
         }
       },
       "statistics": {
-        "1": "Inpatient: Average Available Beds",
-        "2": "Inpatient: Average Occupied beds",
+        "1": "Inpatient: Average available beds",
+        "2": "Inpatient: Average occupied beds",
         "3": "Inpatients",
-        "4": "Inpatient: Day Cases",
+        "4": "Inpatient: Day cases",
         "5": "Inpatient: Occupancy",
         "6": "Inpatient: Throughput",
-        "7": "Inpatient: Average Length of Stay",
-        "8": "Inpatient: Turnover Interval"
+        "7": "Inpatient: Average length of stay",
+        "8": "Inpatient: Turnover interval"
       },
       "time": "TLIST(A1)",
       "time_series": ["2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23"],
@@ -111058,15 +111058,15 @@
       "rows": 22224
     },
     "S2SAA": {
-      "name": "Steps 2 Success",
-      "updated": "2023-12-11",
+      "name": "Steps 2 success",
+      "updated": "2026-03-31",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["S2SReferrals", "S2SStarts"],
             "label": {
-              "S2SReferrals": "S2S Referrals",
-              "S2SStarts": "S2S Starts"
+              "S2SReferrals": "S2S referrals",
+              "S2SStarts": "S2S starts"
             },
             "unit": {
               "S2SReferrals": {
@@ -111135,8 +111135,8 @@
         }
       },
       "statistics": {
-        "S2SReferrals": "S2S Referrals",
-        "S2SStarts": "S2S Starts"
+        "S2SReferrals": "S2S referrals",
+        "S2SStarts": "S2S starts"
       },
       "time": "TLIST(A1)",
       "time_series": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
@@ -111149,15 +111149,15 @@
       "rows": 266
     },
     "S2SDEA": {
-      "name": "Steps 2 Success",
-      "updated": "2025-05-05",
+      "name": "Steps 2 success",
+      "updated": "2026-03-31",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["S2SReferrals", "S2SStarts"],
             "label": {
-              "S2SReferrals": "S2S Referrals",
-              "S2SStarts": "S2S Starts"
+              "S2SReferrals": "S2S referrals",
+              "S2SStarts": "S2S starts"
             },
             "unit": {
               "S2SReferrals": {
@@ -111288,8 +111288,8 @@
         }
       },
       "statistics": {
-        "S2SReferrals": "S2S Referrals",
-        "S2SStarts": "S2S Starts"
+        "S2SReferrals": "S2S referrals",
+        "S2SStarts": "S2S starts"
       },
       "time": "TLIST(A1)",
       "time_series": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
@@ -111302,15 +111302,15 @@
       "rows": 1134
     },
     "S2SLGD": {
-      "name": "Steps 2 Success",
-      "updated": "2025-05-05",
+      "name": "Steps 2 success",
+      "updated": "2026-03-31",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["S2SReferrals", "S2SStarts"],
             "label": {
-              "S2SReferrals": "S2S Referrals",
-              "S2SStarts": "S2S Starts"
+              "S2SReferrals": "S2S referrals",
+              "S2SStarts": "S2S starts"
             },
             "unit": {
               "S2SReferrals": {
@@ -111372,8 +111372,8 @@
         }
       },
       "statistics": {
-        "S2SReferrals": "S2S Referrals",
-        "S2SStarts": "S2S Starts"
+        "S2SReferrals": "S2S referrals",
+        "S2SStarts": "S2S starts"
       },
       "time": "TLIST(A1)",
       "time_series": ["2014", "2015", "2016", "2017", "2018", "2019", "2020"],
@@ -115446,8 +115446,8 @@
       "rows": 1080
     },
     "SDRSMOKEAA": {
-      "name": "Standardised Death Rate - Smoking Attributable Causes",
-      "updated": "2025-09-22",
+      "name": "Standardised death rate - Smoking attributable causes",
+      "updated": "2026-03-31",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -115482,7 +115482,7 @@
               "2019-23": "2019-23"
             }
           },
-          "label": "Grouped Year"
+          "label": "Grouped year"
         },
         "AA": {
           "category": {
@@ -115545,8 +115545,8 @@
       "rows": 627
     },
     "SDRSMOKEDEA": {
-      "name": "Standardised Death Rate - Smoking Attributable Causes",
-      "updated": "2025-09-22",
+      "name": "Standardised death rate - Smoking attributable causes",
+      "updated": "2026-03-31",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -115581,7 +115581,7 @@
               "2019-23": "2019-23"
             }
           },
-          "label": "Grouped Year"
+          "label": "Grouped year"
         },
         "DEA2014": {
           "category": {
@@ -115706,8 +115706,8 @@
       "rows": 2673
     },
     "SDRSMOKEHSCT": {
-      "name": "Standardised Death Rate - Smoking Attributable Causes",
-      "updated": "2025-09-22",
+      "name": "Standardised death rate - Smoking attributable causes",
+      "updated": "2026-03-31",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -115742,7 +115742,7 @@
               "2019-23": "2019-23"
             }
           },
-          "label": "Grouped Year"
+          "label": "Grouped year"
         },
         "HSCT": {
           "category": {
@@ -115792,8 +115792,8 @@
       "rows": 198
     },
     "SDRSMOKELGD": {
-      "name": "Standardised Death Rate - Smoking Attributable Causes",
-      "updated": "2025-09-22",
+      "name": "Standardised death rate - Smoking attributable causes",
+      "updated": "2026-03-31",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -115828,7 +115828,7 @@
               "2019-23": "2019-23"
             }
           },
-          "label": "Grouped Year"
+          "label": "Grouped year"
         },
         "LGD2014": {
           "category": {
@@ -117213,14 +117213,14 @@
       "rows": 720
     },
     "SLWAA": {
-      "name": "Skills for Life and Work",
-      "updated": "2025-07-11",
+      "name": "Skills for life and work",
+      "updated": "2026-03-31",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "SLW",
             "label": {
-              "SLW": "Skills for Life and Work Occupancy"
+              "SLW": "Skills for life and work occupancy"
             },
             "unit": {
               "SLW": {
@@ -117282,7 +117282,7 @@
         }
       },
       "statistics": {
-        "SLW": "Skills for Life and Work Occupancy"
+        "SLW": "Skills for life and work occupancy"
       },
       "time": "TLIST(A1)",
       "time_series": ["2021", "2022", "2023", "2024"],
@@ -117295,14 +117295,14 @@
       "rows": 80
     },
     "SLWLGD": {
-      "name": "Skills for Life and Work",
-      "updated": "2025-07-21",
+      "name": "Skills for life and work",
+      "updated": "2026-03-31",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "SLW",
             "label": {
-              "SLW": "Skills for Life and Work Occupancy"
+              "SLW": "Skills for life and work occupancy"
             },
             "unit": {
               "SLW": {
@@ -117357,7 +117357,7 @@
         }
       },
       "statistics": {
-        "SLW": "Skills for Life and Work Occupancy"
+        "SLW": "Skills for life and work occupancy"
       },
       "time": "TLIST(A1)",
       "time_series": ["2021", "2022", "2023", "2024"],
@@ -117854,8 +117854,8 @@
       "rows": 819
     },
     "SPRTYPEAA": {
-      "name": "Standardised Prescription Rate, by type",
-      "updated": "2025-09-24",
+      "name": "Standardised prescription rate, by type",
+      "updated": "2026-03-31",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -117968,8 +117968,8 @@
       "rows": 2052
     },
     "SPRTYPEDEA": {
-      "name": "Standardised Prescription Rate, by type",
-      "updated": "2025-09-24",
+      "name": "Standardised prescription rate, by type",
+      "updated": "2026-03-31",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -118144,8 +118144,8 @@
       "rows": 8748
     },
     "SPRTYPEHSCT": {
-      "name": "Standardised Prescription Rate, by type",
-      "updated": "2025-09-24",
+      "name": "Standardised prescription rate, by type",
+      "updated": "2026-03-31",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -118245,8 +118245,8 @@
       "rows": 648
     },
     "SPRTYPELGD": {
-      "name": "Standardised Prescription Rate, by type",
-      "updated": "2025-09-24",
+      "name": "Standardised prescription rate, by type",
+      "updated": "2026-03-31",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -119515,14 +119515,14 @@
       "rows": 43
     },
     "TFSAA": {
-      "name": "Training for Success",
-      "updated": "2023-06-14",
+      "name": "Training for success",
+      "updated": "2026-03-31",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "TfS",
             "label": {
-              "TfS": "Training for Success Occupancy"
+              "TfS": "Training for success occupancy"
             },
             "unit": {
               "TfS": {
@@ -119585,10 +119585,10 @@
           "category": {
             "index": ["SfL", "SfWL1", "SfWL2", "SfWL3", "ONA", "All"],
             "label": {
-              "SfL": "Skills for Your Life",
-              "SfWL1": "Skills for Work Level 1",
-              "SfWL2": "Skills for Work Level 2",
-              "SfWL3": "Skills for Work Level 3",
+              "SfL": "Skills for your life",
+              "SfWL1": "Skills for work Level 1",
+              "SfWL2": "Skills for work Level 2",
+              "SfWL3": "Skills for work Level 3",
               "ONA": "Option not assigned",
               "All": "All"
             }
@@ -119597,7 +119597,7 @@
         }
       },
       "statistics": {
-        "TfS": "Training for Success Occupancy"
+        "TfS": "Training for success occupancy"
       },
       "time": "TLIST(A1)",
       "time_series": ["2019", "2020", "2021"],
@@ -119610,14 +119610,14 @@
       "rows": 360
     },
     "TFSLGD": {
-      "name": "Training for Success",
-      "updated": "2023-06-14",
+      "name": "Training for success",
+      "updated": "2026-03-31",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "TfS",
             "label": {
-              "TfS": "Training for Success Occupancy"
+              "TfS": "Training for success occupancy"
             },
             "unit": {
               "TfS": {
@@ -119673,10 +119673,10 @@
           "category": {
             "index": ["SfL", "SfWL1", "SfWL2", "SfWL3", "ONA", "All"],
             "label": {
-              "SfL": "Skills for Your Life",
-              "SfWL1": "Skills for Work Level 1",
-              "SfWL2": "Skills for Work Level 2",
-              "SfWL3": "Skills for Work Level 3",
+              "SfL": "Skills for your life",
+              "SfWL1": "Skills for work Level 1",
+              "SfWL2": "Skills for work Level 2",
+              "SfWL3": "Skills for work Level 3",
               "ONA": "Option not assigned",
               "All": "All"
             }
@@ -119685,7 +119685,7 @@
         }
       },
       "statistics": {
-        "TfS": "Training for Success Occupancy"
+        "TfS": "Training for success occupancy"
       },
       "time": "TLIST(A1)",
       "time_series": ["2019", "2020", "2021"],
