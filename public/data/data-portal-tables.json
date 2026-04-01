@@ -4289,7 +4289,7 @@
     },
     "BRTHSACADLGD": {
       "name": "Births Registered",
-      "updated": "2025-04-29",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -4326,7 +4326,7 @@
               "2022/23": "2022/23"
             }
           },
-          "label": "Academic Year"
+          "label": "Academic year"
         },
         "LGD2014": {
           "category": {
@@ -4372,7 +4372,7 @@
     },
     "BRTHSACADWARD": {
       "name": "Births Registered",
-      "updated": "2025-04-29",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -4408,7 +4408,7 @@
               "2022/23": "2022/23"
             }
           },
-          "label": "Academic Year"
+          "label": "Academic year"
         },
         "Ward2014": {
           "category": {
@@ -37723,8 +37723,8 @@
       "rows": 672
     },
     "DFLEDEPQUIN": {
-      "name": "Disability Free Life Expectancy at Birth",
-      "updated": "2025-10-03",
+      "name": "Disability free life expectancy at birth",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -37801,8 +37801,8 @@
       "rows": 144
     },
     "DFLEURBRUR": {
-      "name": "Disability Free Life Expectancy at Birth",
-      "updated": "2026-03-12",
+      "name": "Disability free life expectancy at birth",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -37838,7 +37838,7 @@
               "2022-24": "2022-24"
             }
           },
-          "label": "Grouped Year"
+          "label": "Grouped year"
         },
         "SEX": {
           "category": {
@@ -42333,8 +42333,8 @@
       "rows": 1197
     },
     "EDATTENDAA": {
-      "name": "Standardised Attendance Rate - Emergency Attendances",
-      "updated": "2025-09-23",
+      "name": "Standardised attendance rate - Emergency attendances",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -42368,7 +42368,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "AA": {
           "category": {
@@ -42431,8 +42431,8 @@
       "rows": 570
     },
     "EDATTENDDEA": {
-      "name": "Standardised Attendance Rate - Emergency Attendances",
-      "updated": "2025-09-22",
+      "name": "Standardised attendance rate - Emergency attendances",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -42466,7 +42466,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "DEA2014": {
           "category": {
@@ -42591,8 +42591,8 @@
       "rows": 2430
     },
     "EDATTENDHSCT": {
-      "name": "Standardised Attendance Rate - Emergency Attendances",
-      "updated": "2025-09-23",
+      "name": "Standardised attendance rate - Emergency attendances",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -42626,7 +42626,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "HSCT": {
           "category": {
@@ -42676,8 +42676,8 @@
       "rows": 180
     },
     "EDATTENDLGD": {
-      "name": "Standardised Attendance Rate - Emergency Attendances",
-      "updated": "2025-09-23",
+      "name": "Standardised attendance rate - Emergency attendances",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -42711,7 +42711,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -43353,7 +43353,7 @@
     },
     "ENGAGECAHSLGD": {
       "name": "Engagement in culture, arts, heritage and sport",
-      "updated": "2023-12-15",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -43444,7 +43444,7 @@
               "2021/22": "2021/22"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -54740,17 +54740,17 @@
       "rows": 13920
     },
     "GREVRES": {
-      "name": "Good Relations Event Responses",
-      "updated": "2026-01-23",
+      "name": "Good relations event responses",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["GREV12OO", "GREV12BA", "GREV13OO", "GREV13BA"],
             "label": {
-              "GREV12OO": "Responses to 12 and under One-Off Questionnaire",
-              "GREV12BA": "Responses to 12 and under Pre/Post Questionnaire",
-              "GREV13OO": "Responses to 13 and over One-Off Questionnaire",
-              "GREV13BA": "Responses to 13 and over Pre/Post Questionnaire"
+              "GREV12OO": "Responses to 12 and under one-off questionnaire",
+              "GREV12BA": "Responses to 12 and under pre/post questionnaire",
+              "GREV13OO": "Responses to 13 and over one-off questionnaire",
+              "GREV13BA": "Responses to 13 and over pre/post questionnaire"
             },
             "unit": {
               "GREV12OO": {
@@ -54784,7 +54784,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Report Year"
+          "label": "Year"
         },
         "GENDER": {
           "category": {
@@ -54800,23 +54800,23 @@
           "category": {
             "index": ["GRAGE1", "GRAGE2", "GRAGE3", "GRAGE4", "GRAGE5", "GRAGE6", "GRAGE7"],
             "label": {
-              "GRAGE1": "1-5",
-              "GRAGE2": "6-9",
-              "GRAGE3": "10-12",
-              "GRAGE4": "13-18",
-              "GRAGE5": "19-35",
-              "GRAGE6": "36-64",
-              "GRAGE7": "65+"
+              "GRAGE1": "Age 1-5",
+              "GRAGE2": "Age 6-9",
+              "GRAGE3": "Age 10-12",
+              "GRAGE4": "Age 13-18",
+              "GRAGE5": "Age 19-35",
+              "GRAGE6": "Age 36-64",
+              "GRAGE7": "Age 65+"
             }
           },
-          "label": "Age Ranges for Good Relations Projects"
+          "label": "Age ranges for good relations projects"
         }
       },
       "statistics": {
-        "GREV12OO": "Responses to 12 and under One-Off Questionnaire",
-        "GREV12BA": "Responses to 12 and under Pre/Post Questionnaire",
-        "GREV13OO": "Responses to 13 and over One-Off Questionnaire",
-        "GREV13BA": "Responses to 13 and over Pre/Post Questionnaire"
+        "GREV12OO": "Responses to 12 and under one-off questionnaire",
+        "GREV12BA": "Responses to 12 and under pre/post questionnaire",
+        "GREV13OO": "Responses to 13 and over one-off questionnaire",
+        "GREV13BA": "Responses to 13 and over pre/post questionnaire"
       },
       "time": "TLIST(A1)",
       "time_series": "2024/25",
@@ -54829,14 +54829,14 @@
       "rows": 56
     },
     "GRRYR": {
-      "name": "Gender Recognition Registrations",
-      "updated": "2026-02-04",
+      "name": "Gender recognition registrations",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "GRRCOUNT",
             "label": {
-              "GRRCOUNT": "Gender Recognition Registrations"
+              "GRRCOUNT": "Gender recognition registrations"
             },
             "unit": {
               "GRRCOUNT": {
@@ -54887,7 +54887,7 @@
         }
       },
       "statistics": {
-        "GRRCOUNT": "Gender Recognition Registrations"
+        "GRRCOUNT": "Gender recognition registrations"
       },
       "time": "TLIST(A1)",
       "time_series": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
@@ -56892,17 +56892,17 @@
       "rows": 60
     },
     "HHIBALGD": {
-      "name": "Continuous Household Survey: Home Internet and Broadband Access",
-      "updated": "2024-06-07",
+      "name": "Home internet and broadband access",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["HHIAY", "HHIAN", "HHBAY", "HHBAN"],
             "label": {
-              "HHIAY": "Households with Home Internet Access: Yes",
-              "HHIAN": "Households with Home Internet Access: No",
-              "HHBAY": "Households with Home Broadband Access: Yes",
-              "HHBAN": "Households with Home Broadband Access: No"
+              "HHIAY": "Households with home internet access: Yes",
+              "HHIAN": "Households with home internet access: No",
+              "HHBAY": "Households with home broadband access: Yes",
+              "HHBAN": "Households with home broadband access: No"
             },
             "unit": {
               "HHIAY": {
@@ -56942,7 +56942,7 @@
               "2021/22": "2021/22"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -56974,10 +56974,10 @@
         }
       },
       "statistics": {
-        "HHIAY": "Households with Home Internet Access: Yes",
-        "HHIAN": "Households with Home Internet Access: No",
-        "HHBAY": "Households with Home Broadband Access: Yes",
-        "HHBAN": "Households with Home Broadband Access: No"
+        "HHIAY": "Households with home internet access: Yes",
+        "HHIAN": "Households with home internet access: No",
+        "HHBAY": "Households with home broadband access: Yes",
+        "HHBAN": "Households with home broadband access: No"
       },
       "time": "TLIST(A1)",
       "time_series": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22"],
@@ -58170,7 +58170,7 @@
     },
     "INFANTMRHSCT": {
       "name": "Infant mortality rate",
-      "updated": "2025-09-19",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -58208,7 +58208,7 @@
               "2019-23": "2019-23"
             }
           },
-          "label": "Grouped Year"
+          "label": "Grouped year"
         },
         "HSCT": {
           "category": {
@@ -58694,17 +58694,17 @@
       "rows": 3969
     },
     "INTACCHSCT": {
-      "name": "Continuous Household Survey: Internet Access and Home Internet Access",
-      "updated": "2023-07-07",
+      "name": "Internet access and home internet access",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["INTACCY", "INTACCN", "HINTACCY", "HINTACCN"],
             "label": {
-              "INTACCY": "Internet Access: Yes",
-              "INTACCN": "Internet Access: No",
-              "HINTACCY": "Home Internet Access: Yes",
-              "HINTACCN": "Home Internet Access: No"
+              "INTACCY": "Internet access: Yes",
+              "INTACCN": "Internet access: No",
+              "HINTACCY": "Home internet access: Yes",
+              "HINTACCN": "Home internet access: No"
             },
             "unit": {
               "INTACCY": {
@@ -58746,7 +58746,7 @@
               "2021/22": "2021/22"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "HSCT": {
           "category": {
@@ -58772,10 +58772,10 @@
         }
       },
       "statistics": {
-        "INTACCY": "Internet Access: Yes",
-        "INTACCN": "Internet Access: No",
-        "HINTACCY": "Home Internet Access: Yes",
-        "HINTACCN": "Home Internet Access: No"
+        "INTACCY": "Internet access: Yes",
+        "INTACCN": "Internet access: No",
+        "HINTACCY": "Home internet access: Yes",
+        "HINTACCN": "Home internet access: No"
       },
       "time": "TLIST(A1)",
       "time_series": ["2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22"],
@@ -61154,8 +61154,8 @@
       "rows": 108
     },
     "LE65AA": {
-      "name": "Life Expectancy at Age 65",
-      "updated": "2025-03-21",
+      "name": "Life expectancy at age 65",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -61192,7 +61192,7 @@
               "2020-22": "2020-22"
             }
           },
-          "label": "Grouped Calendar Year"
+          "label": "Grouped calendar year"
         },
         "AA": {
           "category": {
@@ -61254,14 +61254,14 @@
       "rows": 494
     },
     "LE65DEA": {
-      "name": "Life Expectancy at Age 65",
-      "updated": "2025-09-19",
+      "name": "Life expectancy at age 65",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "LE65",
             "label": {
-              "LE65": "Life Expectancy at age 65 (years)"
+              "LE65": "Life expectancy at age 65 (years)"
             },
             "unit": {
               "LE65": {
@@ -61293,7 +61293,7 @@
               "2021-23": "2021-23"
             }
           },
-          "label": "Grouped Calendar Year"
+          "label": "Grouped calendar year"
         },
         "DEA": {
           "category": {
@@ -61396,7 +61396,7 @@
         }
       },
       "statistics": {
-        "LE65": "Life Expectancy at age 65 (years)"
+        "LE65": "Life expectancy at age 65 (years)"
       },
       "time": "TLIST(A1)",
       "time_series": ["2008-10", "2009-11", "2010-12", "2011-13", "2012-14", "2013-15", "2014-16", "2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23"],
@@ -61409,8 +61409,8 @@
       "rows": 2268
     },
     "LE65HSCT": {
-      "name": "Life Expectancy at Age 65",
-      "updated": "2025-03-21",
+      "name": "Life expectancy at age 65",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -61447,7 +61447,7 @@
               "2020-22": "2020-22"
             }
           },
-          "label": "Grouped Calendar Year"
+          "label": "Grouped calendar year"
         },
         "HSCT": {
           "category": {
@@ -61496,8 +61496,8 @@
       "rows": 156
     },
     "LE65LGD": {
-      "name": "Life Expectancy at Age 65",
-      "updated": "2025-03-21",
+      "name": "Life expectancy at age 65",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -61534,7 +61534,7 @@
               "2020-22": "2020-22"
             }
           },
-          "label": "Grouped Calendar Year"
+          "label": "Grouped calendar year"
         },
         "LGD2014": {
           "category": {
@@ -61590,7 +61590,7 @@
     },
     "LEAA": {
       "name": "Life expectancy at birth",
-      "updated": "2025-09-19",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -61628,7 +61628,7 @@
               "2021-23": "2021-23"
             }
           },
-          "label": "Grouped Year"
+          "label": "Grouped year"
         },
         "AA": {
           "category": {
@@ -61691,7 +61691,7 @@
     },
     "LEDEA": {
       "name": "Life expectancy at birth",
-      "updated": "2025-09-19",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -61729,7 +61729,7 @@
               "2021-23": "2021-23"
             }
           },
-          "label": "Grouped Year"
+          "label": "Grouped year"
         },
         "DEA2014": {
           "category": {
@@ -61942,7 +61942,7 @@
     },
     "LELGD": {
       "name": "Life expectancy at birth",
-      "updated": "2025-09-19",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -61980,7 +61980,7 @@
               "2021-23": "2021-23"
             }
           },
-          "label": "Grouped Year"
+          "label": "Grouped year"
         },
         "LGD2014": {
           "category": {
@@ -64069,15 +64069,15 @@
       "rows": 624
     },
     "MPHOWNHSCT": {
-      "name": "Continuous Household Survey: Mobile phone ownership",
-      "updated": "2023-07-07",
+      "name": "Mobile phone ownership",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["OMBPHY", "OMBPHN"],
             "label": {
-              "OMBPHY": "Owns a Mobile Phone: Yes",
-              "OMBPHN": "Owns a Mobile Phone: No"
+              "OMBPHY": "Owns a mobile phone: Yes",
+              "OMBPHN": "Owns a mobile phone: No"
             },
             "unit": {
               "OMBPHY": {
@@ -64112,7 +64112,7 @@
               "2021/22": "2021/22"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "HSCT": {
           "category": {
@@ -64138,8 +64138,8 @@
         }
       },
       "statistics": {
-        "OMBPHY": "Owns a Mobile Phone: Yes",
-        "OMBPHN": "Owns a Mobile Phone: No"
+        "OMBPHY": "Owns a mobile phone: Yes",
+        "OMBPHN": "Owns a mobile phone: No"
       },
       "time": "TLIST(A1)",
       "time_series": ["2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2021/22"],
@@ -76820,7 +76820,7 @@
     },
     "NIHPIVS": {
       "name": "Verified residential property sales",
-      "updated": "2026-02-19",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -111163,8 +111163,8 @@
       "rows": 486
     },
     "SARCAUSEAA": {
-      "name": "Standardised Admission Rate Under 75s, by Cause",
-      "updated": "2025-10-03",
+      "name": "Standardised admission rate under 75s, by cause",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -111208,7 +111208,7 @@
               "2021/22-2023/24": "2021/22-2023/24"
             }
           },
-          "label": "Grouped Financial Year"
+          "label": "Grouped financial year"
         },
         "AA": {
           "category": {
@@ -111264,8 +111264,8 @@
       "rows": 1596
     },
     "SARCAUSEDEA": {
-      "name": "Standardised Admission Rate, by Cause",
-      "updated": "2025-09-23",
+      "name": "Standardised admission rate, by cause",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -111315,7 +111315,7 @@
               "2021/22-2023/24": "2021/22-2023/24"
             }
           },
-          "label": "Grouped Financial Year"
+          "label": "Grouped financial year"
         },
         "DEA2014": {
           "category": {
@@ -111442,8 +111442,8 @@
       "rows": 10206
     },
     "SARCAUSEHSCT": {
-      "name": "Standardised Admission Rate, by Cause",
-      "updated": "2025-10-03",
+      "name": "Standardised admission rate, by cause",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -111493,7 +111493,7 @@
               "2021/22-2023/24": "2021/22-2023/24"
             }
           },
-          "label": "Grouped Financial Year"
+          "label": "Grouped financial year"
         },
         "HSCT": {
           "category": {
@@ -111545,8 +111545,8 @@
       "rows": 756
     },
     "SARCAUSELGD": {
-      "name": "Standardised Admission Rate, by Cause",
-      "updated": "2025-09-23",
+      "name": "Standardised admission rate, by cause",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -111596,7 +111596,7 @@
               "2021/22-2023/24": "2021/22-2023/24"
             }
           },
-          "label": "Grouped Financial Year"
+          "label": "Grouped financial year"
         },
         "LGD2014": {
           "category": {
@@ -111654,8 +111654,8 @@
       "rows": 1512
     },
     "SARCAUSEU75DEA": {
-      "name": "Standardised Admission Rate Under 75s, by Cause",
-      "updated": "2025-03-21",
+      "name": "Standardised admission rate under 75s, by cause",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -111698,7 +111698,7 @@
               "2020/21-2022/23": "2020/21-2022/23"
             }
           },
-          "label": "Grouped Financial Year"
+          "label": "Grouped financial year"
         },
         "DEA2014": {
           "category": {
@@ -111824,8 +111824,8 @@
       "rows": 6318
     },
     "SARCAUSEU75HSCT": {
-      "name": "Standardised Admission Rate Under 75s, by Cause",
-      "updated": "2025-03-21",
+      "name": "Standardised admission rate under 75s, by cause",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -111868,7 +111868,7 @@
               "2020/21-2022/23": "2020/21-2022/23"
             }
           },
-          "label": "Grouped Financial Year"
+          "label": "Grouped financial year"
         },
         "HSCT": {
           "category": {
@@ -111919,8 +111919,8 @@
       "rows": 468
     },
     "SARCAUSEU75LGD": {
-      "name": "Standardised Admission Rate Under 75s, by Cause",
-      "updated": "2025-03-21",
+      "name": "Standardised admission rate under 75s, by cause",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -111963,7 +111963,7 @@
               "2020/21-2022/23": "2020/21-2022/23"
             }
           },
-          "label": "Grouped Financial Year"
+          "label": "Grouped financial year"
         },
         "LGD2014": {
           "category": {
@@ -112020,8 +112020,8 @@
       "rows": 936
     },
     "SARDRUGAA": {
-      "name": "Standardised Admission Rate - Drug Related Causes",
-      "updated": "2025-03-24",
+      "name": "Standardised admission rate - Drug related causes",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -112058,7 +112058,7 @@
               "2020/21-2022/23": "2020/21-2022/23"
             }
           },
-          "label": "Grouped Financial Year"
+          "label": "Grouped financial year"
         },
         "AA": {
           "category": {
@@ -112121,8 +112121,8 @@
       "rows": 741
     },
     "SARDRUGDEA": {
-      "name": "Standardised Admission Rate - Drug Related Causes",
-      "updated": "2025-03-21",
+      "name": "Standardised admission rate - Drug related causes",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -112159,7 +112159,7 @@
               "2020/21-2022/23": "2020/21-2022/23"
             }
           },
-          "label": "Grouped Financial Year"
+          "label": "Grouped financial year"
         },
         "DEA2014": {
           "category": {
@@ -112284,8 +112284,8 @@
       "rows": 3159
     },
     "SARDRUGHSCT": {
-      "name": "Standardised Admission Rate - Drug Related Causes",
-      "updated": "2025-03-24",
+      "name": "Standardised admission rate - Drug related causes",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -112322,7 +112322,7 @@
               "2020/21-2022/23": "2020/21-2022/23"
             }
           },
-          "label": "Grouped Financial Year"
+          "label": "Grouped financial year"
         },
         "HSCT": {
           "category": {
@@ -112372,8 +112372,8 @@
       "rows": 234
     },
     "SARDRUGLGD": {
-      "name": "Standardised Admission Rate - Drug Related Causes",
-      "updated": "2025-03-24",
+      "name": "Standardised admission rate - Drug related causes",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -112410,7 +112410,7 @@
               "2020/21-2022/23": "2020/21-2022/23"
             }
           },
-          "label": "Grouped Financial Year"
+          "label": "Grouped financial year"
         },
         "LGD2014": {
           "category": {
@@ -112654,8 +112654,8 @@
       "rows": 312
     },
     "SARSELFHARMAA": {
-      "name": "Standardised Admission Rate - Self-Harm Admissions",
-      "updated": "2025-09-22",
+      "name": "Standardised admission rate - Self-harm admissions",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -112693,7 +112693,7 @@
               "2019/20-2023/24": "2019/20-2023/24"
             }
           },
-          "label": "Grouped Financial Year"
+          "label": "Grouped financial year"
         },
         "AA": {
           "category": {
@@ -112756,8 +112756,8 @@
       "rows": 798
     },
     "SARSELFHARMDEA": {
-      "name": "Standardised Admission Rate - Self-Harm Admissions",
-      "updated": "2025-09-22",
+      "name": "Standardised admission rate - Self-harm admissions",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -112795,7 +112795,7 @@
               "2019/20-2023/24": "2019/20-2023/24"
             }
           },
-          "label": "Grouped Financial Year"
+          "label": "Grouped financial year"
         },
         "DEA2014": {
           "category": {
@@ -112920,8 +112920,8 @@
       "rows": 3402
     },
     "SARSELFHARMHSCT": {
-      "name": "Standardised Admission Rate - Self-Harm Admissions",
-      "updated": "2025-09-22",
+      "name": "Standardised admission rate - Self-harm admissions",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -112959,7 +112959,7 @@
               "2019/20-2023/24": "2019/20-2023/24"
             }
           },
-          "label": "Grouped Financial Year"
+          "label": "Grouped financial year"
         },
         "HSCT": {
           "category": {
@@ -113009,8 +113009,8 @@
       "rows": 252
     },
     "SARSELFHARMLGD": {
-      "name": "Standardised Admission Rate - Self-Harm Admissions",
-      "updated": "2025-09-22",
+      "name": "Standardised admission rate - Self-harm admissions",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -113048,7 +113048,7 @@
               "2019/20-2023/24": "2019/20-2023/24"
             }
           },
-          "label": "Grouped Financial Year"
+          "label": "Grouped financial year"
         },
         "LGD2014": {
           "category": {
@@ -113104,8 +113104,8 @@
       "rows": 504
     },
     "SARTYPEAA": {
-      "name": "Standardised Admission Rate, by type",
-      "updated": "2025-09-24",
+      "name": "Standardised admission rate, by type",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -113163,7 +113163,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "AA": {
           "category": {
@@ -113229,8 +113229,8 @@
       "rows": 3648
     },
     "SARTYPEDEA": {
-      "name": "Standardised Admission Rate, by type",
-      "updated": "2025-09-24",
+      "name": "Standardised admission rate, by type",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -113288,7 +113288,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "DEA2014": {
           "category": {
@@ -113416,8 +113416,8 @@
       "rows": 15552
     },
     "SARTYPEHSCT": {
-      "name": "Standardised Admission Rate, by type",
-      "updated": "2024-10-22",
+      "name": "Standardised admission rate, by type",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -113474,7 +113474,7 @@
               "2022/23": "2022/23"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "HSCT": {
           "category": {
@@ -113527,8 +113527,8 @@
       "rows": 1080
     },
     "SARTYPELGD": {
-      "name": "Standardised Admission Rate, by type",
-      "updated": "2025-09-24",
+      "name": "Standardised admission rate, by type",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -113586,7 +113586,7 @@
               "2023/24": "2023/24"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -114038,8 +114038,8 @@
       "rows": 72
     },
     "SDRAAACMAA": {
-      "name": "Standardised Death Rate - All Cause",
-      "updated": "2025-09-22",
+      "name": "Standardised death rate - All cause",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -114070,7 +114070,7 @@
               "2021-23": "2021-23"
             }
           },
-          "label": "Grouped Year"
+          "label": "Grouped year"
         },
         "AA": {
           "category": {
@@ -114133,8 +114133,8 @@
       "rows": 399
     },
     "SDRAAACMDEA": {
-      "name": "Standardised Death Rate - All Cause",
-      "updated": "2025-09-22",
+      "name": "Standardised death rate - All cause",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -114165,7 +114165,7 @@
               "2021-23": "2021-23"
             }
           },
-          "label": "Grouped Year"
+          "label": "Grouped year"
         },
         "DEA2014": {
           "category": {
@@ -114290,8 +114290,8 @@
       "rows": 1701
     },
     "SDRAAACMHSCT": {
-      "name": "Standardised Death Rate - All Cause",
-      "updated": "2025-09-22",
+      "name": "Standardised death rate - All cause",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -114322,7 +114322,7 @@
               "2021-23": "2021-23"
             }
           },
-          "label": "Grouped Year"
+          "label": "Grouped year"
         },
         "HSCT": {
           "category": {
@@ -114372,8 +114372,8 @@
       "rows": 126
     },
     "SDRAAACMLGD": {
-      "name": "Standardised Death Rate - All Cause",
-      "updated": "2025-09-22",
+      "name": "Standardised death rate - All cause",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -114404,7 +114404,7 @@
               "2021-23": "2021-23"
             }
           },
-          "label": "Grouped Year"
+          "label": "Grouped year"
         },
         "LGD2014": {
           "category": {
@@ -116054,8 +116054,8 @@
       "rows": 825
     },
     "SGAAA": {
-      "name": "Small for Gestational Age",
-      "updated": "2024-04-10",
+      "name": "Small for gestational age",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -116135,8 +116135,8 @@
       "rows": 76
     },
     "SGADEA": {
-      "name": "Small for Gestational Age",
-      "updated": "2024-04-10",
+      "name": "Small for gestational age",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -116278,8 +116278,8 @@
       "rows": 324
     },
     "SGAHSCT": {
-      "name": "Small for Gestational Age",
-      "updated": "2024-04-10",
+      "name": "Small for gestational age",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -116346,8 +116346,8 @@
       "rows": 24
     },
     "SGALGD": {
-      "name": "Small for Gestational Age",
-      "updated": "2024-04-10",
+      "name": "Small for gestational age",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -116950,8 +116950,8 @@
       "rows": 52
     },
     "SMOKEPREGAA": {
-      "name": "Smoking During Pregnancy",
-      "updated": "2024-04-16",
+      "name": "Smoking during pregnancy",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -117036,8 +117036,8 @@
       "rows": 171
     },
     "SMOKEPREGDEA": {
-      "name": "Smoking During Pregnancy",
-      "updated": "2024-04-16",
+      "name": "Smoking during pregnancy",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -117184,8 +117184,8 @@
       "rows": 729
     },
     "SMOKEPREGHSCT": {
-      "name": "Smoking During Pregnancy",
-      "updated": "2024-04-16",
+      "name": "Smoking during pregnancy",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -117257,8 +117257,8 @@
       "rows": 54
     },
     "SMOKEPREGLGD": {
-      "name": "Smoking During Pregnancy",
-      "updated": "2024-04-16",
+      "name": "Smoking during pregnancy",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -118655,8 +118655,8 @@
       "rows": 384
     },
     "TEENBRHSCT": {
-      "name": "Teenage Birth Rates",
-      "updated": "2025-10-02",
+      "name": "Teenage birth rates",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -118700,7 +118700,7 @@
               "2021-23": "2021-23"
             }
           },
-          "label": "Grouped Year"
+          "label": "Grouped year"
         },
         "HSCT": {
           "category": {
@@ -118740,8 +118740,8 @@
       "rows": 168
     },
     "TEENBRLGD": {
-      "name": "Teenage Birth Rates",
-      "updated": "2025-10-02",
+      "name": "Teenage birth rates",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -118785,7 +118785,7 @@
               "2021-23": "2021-23"
             }
           },
-          "label": "Grouped Year"
+          "label": "Grouped year"
         },
         "LGD2014": {
           "category": {
@@ -120012,14 +120012,14 @@
       "rows": 432
     },
     "TPFRYR": {
-      "name": "Total Period Fertility Rate",
-      "updated": "2025-07-21",
+      "name": "Total period fertility rate",
+      "updated": "2026-04-01",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "TPFR",
             "label": {
-              "TPFR": "Total Period Fertility Rate"
+              "TPFR": "Total period fertility rate"
             },
             "unit": {
               "TPFR": {
@@ -120089,7 +120089,7 @@
         }
       },
       "statistics": {
-        "TPFR": "Total Period Fertility Rate"
+        "TPFR": "Total period fertility rate"
       },
       "time": "TLIST(A1)",
       "time_series": ["1985", "1986", "1987", "1988", "1989", "1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
