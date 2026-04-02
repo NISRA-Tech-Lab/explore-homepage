@@ -1,5 +1,5 @@
 {
-  "table_count": 971,
+  "table_count": 975,
   "tables": {
     "ABI01": {
       "name": "Annual Business Inquiry: results by industry sector",
@@ -3127,6 +3127,188 @@
       "product": "Hospital waiting times",
       "product_code": "HAWLHWT",
       "rows": 1674
+    },
+    "BDSIFEQ": {
+      "name": "Basic digital skills - internet functions",
+      "updated": "2026-04-02",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["PER_PPL_16+", "LCI", "UCI"],
+            "label": {
+              "PER_PPL_16+": "Percentage of people aged 16 and over",
+              "LCI": "95% confidence interval - lower",
+              "UCI": "95% confidence interval - upper"
+            },
+            "unit": {
+              "PER_PPL_16+": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              },
+              "LCI": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              },
+              "UCI": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": "2024/25",
+            "label": {
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "EQGRP": {
+          "category": {
+            "index": ["EQ102", "EQ111", "EQ108", "EQ109", "EQ110", "EQ201", "EQ202", "EQ401", "EQ402", "N92000002"],
+            "label": {
+              "EQ102": "Age -16-24",
+              "EQ111": "Age -  25-34",
+              "EQ108": "Age  - 35-49",
+              "EQ109": "Age - 50-64",
+              "EQ110": "Age - 65+",
+              "EQ201": "Sex - Female",
+              "EQ202": "Sex - Male",
+              "EQ401": "Disability - Disabled",
+              "EQ402": "Disability - Not disabled",
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "Equality group"
+        },
+        "INTFUN": {
+          "category": {
+            "index": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13"],
+            "label": {
+              "1": "Online purchases",
+              "2": "Selling online",
+              "3": "Internet banking",
+              "4": "Used online learning resources",
+              "5": "Finding info on non-public goods/services",
+              "6": "Seeking health-related info",
+              "7": "Sending/receiving emails",
+              "8": "Telephoning/video calls",
+              "9": "Participating in social networks",
+              "10": "Reading newspapers or news websites online",
+              "11": "Setting privacy settings",
+              "12": "Identifying secure websites",
+              "13": "Recognising suspicious links"
+            }
+          },
+          "label": "Internet function"
+        }
+      },
+      "statistics": {
+        "PER_PPL_16+": "Percentage of people aged 16 and over",
+        "LCI": "95% confidence interval - lower",
+        "UCI": "95% confidence interval - upper"
+      },
+      "time": "TLIST(A1)",
+      "time_series": "2024/25",
+      "theme": "Education and skills",
+      "theme_code": 69,
+      "subject": "Skills",
+      "subject_code": 169,
+      "product": "Digital skills",
+      "product_code": "SDS",
+      "rows": 390
+    },
+    "BDSLVLEQ": {
+      "name": "Basic digital skills",
+      "updated": "2026-04-02",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["PER_PPL_16+", "LCI", "UCI"],
+            "label": {
+              "PER_PPL_16+": "Percentage of people aged 16 and over",
+              "LCI": "95% confidence interval - lower",
+              "UCI": "95% confidence interval - upper"
+            },
+            "unit": {
+              "PER_PPL_16+": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              },
+              "LCI": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              },
+              "UCI": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": "2024/25",
+            "label": {
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "EQGRP": {
+          "category": {
+            "index": ["EQ102", "EQ111", "EQ108", "EQ109", "EQ110", "EQ201", "EQ202", "EQ401", "EQ402", "N92000002"],
+            "label": {
+              "EQ102": "Age -16-24",
+              "EQ111": "Age -  25-34",
+              "EQ108": "Age  - 35-49",
+              "EQ109": "Age - 50-64",
+              "EQ110": "Age - 65+",
+              "EQ201": "Sex - Female",
+              "EQ202": "Sex - Male",
+              "EQ401": "Disability - Disabled",
+              "EQ402": "Disability - Not disabled",
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "Equality group"
+        },
+        "DSL": {
+          "category": {
+            "index": ["1", "2", "3"],
+            "label": {
+              "1": "No skills",
+              "2": "Basic skills",
+              "3": "Above basic skills"
+            }
+          },
+          "label": "Digital skill level"
+        }
+      },
+      "statistics": {
+        "PER_PPL_16+": "Percentage of people aged 16 and over",
+        "LCI": "95% confidence interval - lower",
+        "UCI": "95% confidence interval - upper"
+      },
+      "time": "TLIST(A1)",
+      "time_series": "2024/25",
+      "theme": "Education and skills",
+      "theme_code": 69,
+      "subject": "Skills",
+      "subject_code": 169,
+      "product": "Digital skills",
+      "product_code": "SDS",
+      "rows": 90
     },
     "BELONGNB": {
       "name": "Sense of belonging to neighbourhood",
@@ -20556,7 +20738,7 @@
     },
     "C21506EQ": {
       "name": "Knowledge of Ulster Scots",
-      "updated": "2026-03-06",
+      "updated": "2026-04-02",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -39790,6 +39972,187 @@
       "product": "Hospital waiting times",
       "product_code": "HAWLHWT",
       "rows": 829440
+    },
+    "DSIFEQ": {
+      "name": "Advanced digital skills - internet functions",
+      "updated": "2026-04-02",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["PER_PPL_16+", "LCI", "UCI"],
+            "label": {
+              "PER_PPL_16+": "Percentage of people aged 16 and over",
+              "LCI": "95% confidence interval - lower",
+              "UCI": "95% confidence interval - upper"
+            },
+            "unit": {
+              "PER_PPL_16+": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              },
+              "LCI": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              },
+              "UCI": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": "2023/24",
+            "label": {
+              "2023/24": "2023/24"
+            }
+          },
+          "label": "Financial year"
+        },
+        "EQGRP": {
+          "category": {
+            "index": ["EQ102", "EQ111", "EQ108", "EQ109", "EQ110", "EQ201", "EQ202", "N92000002"],
+            "label": {
+              "EQ102": "Age - 16-24",
+              "EQ111": "Age -  25-34",
+              "EQ108": "Age  - 35-49",
+              "EQ109": "Age - 50-64",
+              "EQ110": "Age - 65+",
+              "EQ201": "Sex - Female",
+              "EQ202": "Sex - Male",
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "Equality group"
+        },
+        "INTFUN": {
+          "category": {
+            "index": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15"],
+            "label": {
+              "1": "Used advanced features of a search engine",
+              "2": "Verified information or content found on the internet",
+              "3": "When I face a technical problem, I am able to find solutions on the internet",
+              "4": "Used advanced video conferencing features",
+              "5": "Created a digital profile for personal or professional purposes",
+              "6": "Filled out an online form",
+              "7": "Downloading or installing software or apps",
+              "8": "Transferred files between folders, devices, or on the cloud",
+              "9": "Accessed or downloaded media online",
+              "10": "Written code in a programming language",
+              "11": "Created or made changes to files integrating text, pictures, tables or charts",
+              "12": "Managed or analysed data using spreadsheet software",
+              "13": "Installed and/or configured protection software and services",
+              "14": "Identified a suspicious or malicious email",
+              "15": "Restricted or refused access to personal information"
+            }
+          },
+          "label": "Internet function"
+        }
+      },
+      "statistics": {
+        "PER_PPL_16+": "Percentage of people aged 16 and over",
+        "LCI": "95% confidence interval - lower",
+        "UCI": "95% confidence interval - upper"
+      },
+      "time": "TLIST(A1)",
+      "time_series": "2023/24",
+      "theme": "Education and skills",
+      "theme_code": 69,
+      "subject": "Skills",
+      "subject_code": 169,
+      "product": "Digital skills",
+      "product_code": "SDS",
+      "rows": 360
+    },
+    "DSLVLEQ": {
+      "name": "Advanced digital skills",
+      "updated": "2026-04-02",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["PER_PPL_16+", "LCI", "UCI"],
+            "label": {
+              "PER_PPL_16+": "Percentage of people aged 16 and over",
+              "LCI": "95% confidence interval - lower",
+              "UCI": "95% confidence interval - upper"
+            },
+            "unit": {
+              "PER_PPL_16+": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              },
+              "LCI": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              },
+              "UCI": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": "2023/24",
+            "label": {
+              "2023/24": "2023/24"
+            }
+          },
+          "label": "Financial year"
+        },
+        "EQGRP": {
+          "category": {
+            "index": ["EQ102", "EQ111", "EQ108", "EQ109", "EQ110", "EQ201", "EQ202", "N92000002"],
+            "label": {
+              "EQ102": "Age - 16-24",
+              "EQ111": "Age -  25-34",
+              "EQ108": "Age  - 35-49",
+              "EQ109": "Age - 50-64",
+              "EQ110": "Age - 65+",
+              "EQ201": "Sex - Female",
+              "EQ202": "Sex - Male",
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "Equality group"
+        },
+        "DSL": {
+          "category": {
+            "index": ["1", "2", "3", "4"],
+            "label": {
+              "1": "No skills",
+              "2": "Novice skills",
+              "3": "Intermediate skills",
+              "4": "Advanced skills"
+            }
+          },
+          "label": "Digital skill level"
+        }
+      },
+      "statistics": {
+        "PER_PPL_16+": "Percentage of people aged 16 and over",
+        "LCI": "95% confidence interval - lower",
+        "UCI": "95% confidence interval - upper"
+      },
+      "time": "TLIST(A1)",
+      "time_series": "2023/24",
+      "theme": "Education and skills",
+      "theme_code": 69,
+      "subject": "Skills",
+      "subject_code": 169,
+      "product": "Digital skills",
+      "product_code": "SDS",
+      "rows": 96
     },
     "DTHCAUSE": {
       "name": "Deaths",
