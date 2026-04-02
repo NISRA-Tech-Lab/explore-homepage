@@ -1,7 +1,7 @@
 export function initCookieConsent(options = {}) {
   const {
     bannerId = 'cookie-banner',
-    gtmId = 'GTM-KF6WGSG',
+    gtmId = 'GTM WKK8ZWP',
     cookieDomain = '.nisra.gov.uk',
     cookieDays = 365
   } = options;

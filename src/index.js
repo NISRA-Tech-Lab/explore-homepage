@@ -26,7 +26,7 @@ window.addEventListener("DOMContentLoaded", async () => {
 
       initCookieConsent({
         bannerId: 'cookie-banner',
-        gtmId: 'GTM-KF6WGSG'
+        gtmId: 'GTM WKK8ZWP'
       });
 
   } catch (e) {
