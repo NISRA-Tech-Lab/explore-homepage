@@ -1,5 +1,5 @@
 {
-  "table_count": 975,
+  "table_count": 977,
   "tables": {
     "ABI01": {
       "name": "Annual Business Inquiry: results by industry sector",
@@ -3382,6 +3382,135 @@
       "product": "Community relations",
       "product_code": "CCR",
       "rows": 120
+    },
+    "BERDEMPLOYMENTFTE": {
+      "name": "BERD Full-Time Equivalent (FTE) employment",
+      "updated": "2026-04-03",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["RESEARCHERS", "TECHNICIANS", "OTHER", "ALL"],
+            "label": {
+              "RESEARCHERS": "Researchers (FTE)",
+              "TECHNICIANS": "Technicians (FTE)",
+              "OTHER": "Other (FTE)",
+              "ALL": "All (FTE)"
+            },
+            "unit": {
+              "RESEARCHERS": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "TECHNICIANS": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "OTHER": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "ALL": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2022", "2023", "2024"],
+            "label": {
+              "2022": "2022",
+              "2023": "2023",
+              "2024": "2024"
+            }
+          },
+          "label": "Financial year"
+        },
+        "NI": {
+          "category": {
+            "index": "N92000002",
+            "label": {
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "Northern Ireland"
+        }
+      },
+      "statistics": {
+        "RESEARCHERS": "Researchers (FTE)",
+        "TECHNICIANS": "Technicians (FTE)",
+        "OTHER": "Other (FTE)",
+        "ALL": "All (FTE)"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2022", "2023", "2024"],
+      "theme": "Business, economy and trade",
+      "theme_code": 68,
+      "subject": "Business",
+      "subject_code": 124,
+      "product": "Research & development",
+      "product_code": "RD",
+      "rows": 12
+    },
+    "BERDEMPLOYMENTHC": {
+      "name": "BERD Employee Headcount",
+      "updated": "2026-04-03",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "TOTALHEADCOUNT",
+            "label": {
+              "TOTALHEADCOUNT": "Total Headcount"
+            },
+            "unit": {
+              "TOTALHEADCOUNT": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2022", "2023", "2024"],
+            "label": {
+              "2022": "2022",
+              "2023": "2023",
+              "2024": "2024"
+            }
+          },
+          "label": "Financial year"
+        },
+        "NI": {
+          "category": {
+            "index": "N92000002",
+            "label": {
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "Northern Ireland"
+        }
+      },
+      "statistics": {
+        "TOTALHEADCOUNT": "Total Headcount"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2022", "2023", "2024"],
+      "theme": "Business, economy and trade",
+      "theme_code": 68,
+      "subject": "Business",
+      "subject_code": 124,
+      "product": "Research & development",
+      "product_code": "RD",
+      "rows": 3
     },
     "BERDLGD": {
       "name": "In-house Business Expenditure on Research & Development by NI Local Government Districts",
