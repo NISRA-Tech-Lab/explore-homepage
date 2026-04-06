@@ -894,7 +894,7 @@
     },
     "ALLAPPSTEM": {
       "name": "ApprenticeshipsNI and Higher Level Apprenticeships by narrow STEM",
-      "updated": "2026-03-31",
+      "updated": "2026-04-06",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -920,7 +920,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+            "index": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
             "label": {
               "2017/18": "2017/18",
               "2018/19": "2018/19",
@@ -928,7 +928,8 @@
               "2020/21": "2020/21",
               "2021/22": "2021/22",
               "2022/23": "2022/23",
-              "2023/24": "2023/24"
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
             }
           },
           "label": "Academic year"
@@ -961,14 +962,14 @@
         "ALL": "Occupancy/Participation (all years)"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+      "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
       "theme": "Education and skills",
       "theme_code": 69,
       "subject": "Training and apprenticeships",
       "subject_code": 140,
       "product": "Apprenticeships",
       "product_code": "TAAPP",
-      "rows": 126
+      "rows": 144
     },
     "APPSNIAA": {
       "name": "ApprenticeshipsNI",
@@ -57582,7 +57583,7 @@
     },
     "HLALEVEL": {
       "name": "Higher Level Apprenticeships by level",
-      "updated": "2026-03-31",
+      "updated": "2026-04-06",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -57608,7 +57609,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+            "index": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
             "label": {
               "2017/18": "2017/18",
               "2018/19": "2018/19",
@@ -57616,7 +57617,8 @@
               "2020/21": "2020/21",
               "2021/22": "2021/22",
               "2022/23": "2022/23",
-              "2023/24": "2023/24"
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
             }
           },
           "label": "Academic year"
@@ -57651,18 +57653,18 @@
         "ALL": "Participation (all years)"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+      "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
       "theme": "Education and skills",
       "theme_code": 69,
       "subject": "Training and apprenticeships",
       "subject_code": 140,
       "product": "Apprenticeships",
       "product_code": "TAAPP",
-      "rows": 210
+      "rows": 240
     },
     "HLASEX": {
       "name": "Higher Level Apprenticeships by sex",
-      "updated": "2026-03-31",
+      "updated": "2026-04-06",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -57688,7 +57690,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+            "index": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
             "label": {
               "2017/18": "2017/18",
               "2018/19": "2018/19",
@@ -57696,7 +57698,8 @@
               "2020/21": "2020/21",
               "2021/22": "2021/22",
               "2022/23": "2022/23",
-              "2023/24": "2023/24"
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
             }
           },
           "label": "Academic year"
@@ -57729,14 +57732,14 @@
         "ALL": "Participation (all years)"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+      "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
       "theme": "Education and skills",
       "theme_code": 69,
       "subject": "Training and apprenticeships",
       "subject_code": 140,
       "product": "Apprenticeships",
       "product_code": "TAAPP",
-      "rows": 126
+      "rows": 144
     },
     "HSECIGEQ": {
       "name": "Use of e-cigarettes",
