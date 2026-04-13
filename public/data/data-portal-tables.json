@@ -1160,7 +1160,7 @@
     },
     "ARTCULEQ": {
       "name": "Arts and cultural activities participation",
-      "updated": "2026-02-18",
+      "updated": "2026-04-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -1172,7 +1172,7 @@
             },
             "unit": {
               "INDARTCULEQ": {
-                "decimals": 1,
+                "decimals": 0,
                 "label": "%",
                 "position": "end"
               },
@@ -1192,7 +1192,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2007/08", "2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+            "index": ["2007/08", "2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
             "label": {
               "2007/08": "2007/08",
               "2008/09": "2008/09",
@@ -1210,7 +1210,8 @@
               "2020/21": "2020/21",
               "2021/22": "2021/22",
               "2022/23": "2022/23",
-              "2023/24": "2023/24"
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
             }
           },
           "label": "Financial year"
@@ -1251,14 +1252,14 @@
         "UCI": "95% confidence interval - upper"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2007/08", "2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+      "time_series": ["2007/08", "2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
       "theme": "People and communities",
       "theme_code": 70,
       "subject": "Community",
       "subject_code": 149,
       "product": "Culture, arts, heritage and sport",
       "product_code": "CCAHS",
-      "rows": 1071
+      "rows": 1134
     },
     "ASBAA": {
       "name": "Anti-social behaviour incidents",
@@ -115034,7 +115035,7 @@
     },
     "SDROECDAA": {
       "name": "Standardised Death rate for Avoidable, Treatable and Preventable Causes",
-      "updated": "2025-11-21",
+      "updated": "2026-04-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -115066,7 +115067,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23"],
+            "index": ["2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23", "2020-24"],
             "label": {
               "2010-14": "2010-14",
               "2011-15": "2011-15",
@@ -115077,7 +115078,8 @@
               "2016-20": "2016-20",
               "2017-21": "2017-21",
               "2018-22": "2018-22",
-              "2019-23": "2019-23"
+              "2019-23": "2019-23",
+              "2020-24": "2020-24"
             }
           },
           "label": "Grouped Year"
@@ -115135,18 +115137,18 @@
         "SDRTreat": "Treatable deaths per 100,000 population"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23"],
+      "time_series": ["2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23", "2020-24"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Premature mortality",
       "product_code": "HIPM",
-      "rows": 1710
+      "rows": 1881
     },
     "SDROECDDEA": {
       "name": "Standardised Death rate for Avoidable, Treatable and Preventable Causes",
-      "updated": "2025-11-21",
+      "updated": "2026-04-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -115178,7 +115180,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23"],
+            "index": ["2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23", "2020-24"],
             "label": {
               "2010-14": "2010-14",
               "2011-15": "2011-15",
@@ -115189,7 +115191,8 @@
               "2016-20": "2016-20",
               "2017-21": "2017-21",
               "2018-22": "2018-22",
-              "2019-23": "2019-23"
+              "2019-23": "2019-23",
+              "2020-24": "2020-24"
             }
           },
           "label": "Grouped Year"
@@ -115309,18 +115312,18 @@
         "SDRTreat": "Treatable deaths per 100,000 population"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23"],
+      "time_series": ["2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23", "2020-24"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Premature mortality",
       "product_code": "HIPM",
-      "rows": 7290
+      "rows": 8019
     },
     "SDROECDHSCT": {
       "name": "Standardised Death rate for Avoidable, Treatable and Preventable Causes",
-      "updated": "2025-11-21",
+      "updated": "2026-04-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -115352,7 +115355,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23"],
+            "index": ["2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23", "2020-24"],
             "label": {
               "2010-14": "2010-14",
               "2011-15": "2011-15",
@@ -115363,7 +115366,8 @@
               "2016-20": "2016-20",
               "2017-21": "2017-21",
               "2018-22": "2018-22",
-              "2019-23": "2019-23"
+              "2019-23": "2019-23",
+              "2020-24": "2020-24"
             }
           },
           "label": "Grouped Year"
@@ -115408,18 +115412,18 @@
         "SDRTreat": "Treatable deaths per 100,000 population"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23"],
+      "time_series": ["2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23", "2020-24"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Premature mortality",
       "product_code": "HIPM",
-      "rows": 540
+      "rows": 594
     },
     "SDROECDLGD": {
       "name": "Standardised Death rate for Avoidable, Treatable and Preventable Causes",
-      "updated": "2025-11-21",
+      "updated": "2026-04-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -115451,7 +115455,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23"],
+            "index": ["2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23", "2020-24"],
             "label": {
               "2010-14": "2010-14",
               "2011-15": "2011-15",
@@ -115462,7 +115466,8 @@
               "2016-20": "2016-20",
               "2017-21": "2017-21",
               "2018-22": "2018-22",
-              "2019-23": "2019-23"
+              "2019-23": "2019-23",
+              "2020-24": "2020-24"
             }
           },
           "label": "Grouped Year"
@@ -115513,14 +115518,14 @@
         "SDRTreat": "Treatable deaths per 100,000 population"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23"],
+      "time_series": ["2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23", "2020-24"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Premature mortality",
       "product_code": "HIPM",
-      "rows": 1080
+      "rows": 1188
     },
     "SDRSMOKEAA": {
       "name": "Standardised death rate - Smoking attributable causes",
@@ -116552,7 +116557,7 @@
     },
     "SGAAA": {
       "name": "Small for gestational age",
-      "updated": "2026-04-01",
+      "updated": "2026-04-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -116572,12 +116577,13 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2019", "2020", "2021", "2022"],
+            "index": ["2019", "2020", "2021", "2022", "2023"],
             "label": {
               "2019": "2019",
               "2020": "2020",
               "2021": "2021",
-              "2022": "2022"
+              "2022": "2022",
+              "2023": "2023"
             }
           },
           "label": "Year"
@@ -116622,18 +116628,18 @@
         "SGA": "Small for Gestational Age"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2019", "2020", "2021", "2022"],
+      "time_series": ["2019", "2020", "2021", "2022", "2023"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Pregnancy and early years",
       "product_code": "HIPEY",
-      "rows": 76
+      "rows": 95
     },
     "SGADEA": {
       "name": "Small for gestational age",
-      "updated": "2026-04-01",
+      "updated": "2026-04-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -116653,12 +116659,13 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2019", "2020", "2021", "2022"],
+            "index": ["2019", "2020", "2021", "2022", "2023"],
             "label": {
               "2019": "2019",
               "2020": "2020",
               "2021": "2021",
-              "2022": "2022"
+              "2022": "2022",
+              "2023": "2023"
             }
           },
           "label": "Year"
@@ -116765,18 +116772,18 @@
         "SGA": "Small for Gestational Age"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2019", "2020", "2021", "2022"],
+      "time_series": ["2019", "2020", "2021", "2022", "2023"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Pregnancy and early years",
       "product_code": "HIPEY",
-      "rows": 324
+      "rows": 405
     },
     "SGAHSCT": {
       "name": "Small for gestational age",
-      "updated": "2026-04-01",
+      "updated": "2026-04-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -116796,12 +116803,13 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2019", "2020", "2021", "2022"],
+            "index": ["2019", "2020", "2021", "2022", "2023"],
             "label": {
               "2019": "2019",
               "2020": "2020",
               "2021": "2021",
-              "2022": "2022"
+              "2022": "2022",
+              "2023": "2023"
             }
           },
           "label": "Year"
@@ -116833,18 +116841,18 @@
         "SGA": "Small for Gestational Age"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2019", "2020", "2021", "2022"],
+      "time_series": ["2019", "2020", "2021", "2022", "2023"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Pregnancy and early years",
       "product_code": "HIPEY",
-      "rows": 24
+      "rows": 30
     },
     "SGALGD": {
       "name": "Small for gestational age",
-      "updated": "2026-04-01",
+      "updated": "2026-04-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -116864,12 +116872,13 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2019", "2020", "2021", "2022"],
+            "index": ["2019", "2020", "2021", "2022", "2023"],
             "label": {
               "2019": "2019",
               "2020": "2020",
               "2021": "2021",
-              "2022": "2022"
+              "2022": "2022",
+              "2023": "2023"
             }
           },
           "label": "Year"
@@ -116907,14 +116916,14 @@
         "SGA": "Small for Gestational Age"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2019", "2020", "2021", "2022"],
+      "time_series": ["2019", "2020", "2021", "2022", "2023"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Pregnancy and early years",
       "product_code": "HIPEY",
-      "rows": 48
+      "rows": 60
     },
     "SHALGD": {
       "name": "Social Housing Allocations",
@@ -117834,7 +117843,7 @@
     },
     "SPORTSEQ": {
       "name": "Sports and physical activity",
-      "updated": "2026-02-18",
+      "updated": "2026-04-13",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -117846,7 +117855,7 @@
             },
             "unit": {
               "SPORTSEQ": {
-                "decimals": 1,
+                "decimals": 0,
                 "label": "%",
                 "position": "end"
               },
@@ -117866,7 +117875,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+            "index": ["2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
             "label": {
               "2011/12": "2011/12",
               "2012/13": "2012/13",
@@ -117880,7 +117889,8 @@
               "2020/21": "2020/21",
               "2021/22": "2021/22",
               "2022/23": "2022/23",
-              "2023/24": "2023/24"
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
             }
           },
           "label": "Financial year"
@@ -117921,14 +117931,14 @@
         "UCI": "95% confidence interval - upper"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+      "time_series": ["2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
       "theme": "People and communities",
       "theme_code": 70,
       "subject": "Community",
       "subject_code": 149,
       "product": "Culture, arts, heritage and sport",
       "product_code": "CCAHS",
-      "rows": 819
+      "rows": 882
     },
     "SPRTYPEAA": {
       "name": "Standardised prescription rate, by type",
