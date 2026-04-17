@@ -10775,6 +10775,161 @@
       "product_code": "DWRBB",
       "rows": 1170
     },
+    "BSLGDUR": {
+      "name": "Benefit Statistics",
+      "updated": "2026-04-17",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["IS", "JSA", "RP", "PC", "AA", "CA", "DLA", "ESA", "UC", "PIP"],
+            "label": {
+              "IS": "Income Support",
+              "JSA": "Jobseekers Allowance",
+              "RP": "Retirement Pension",
+              "PC": "Pension Credit",
+              "AA": "Attendance Allowance",
+              "CA": "Carer's Allowance",
+              "DLA": "Disability Living Allowance",
+              "ESA": "Employment & Support Allowance",
+              "UC": "Universal Credit",
+              "PIP": "Personal Independence Payment"
+            },
+            "unit": {
+              "IS": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "JSA": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "RP": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "PC": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "AA": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "CA": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "DLA": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "ESA": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "UC": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "PIP": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
+            "label": {
+              "2017": "2017",
+              "2018": "2018",
+              "2019": "2019",
+              "2020": "2020",
+              "2021": "2021",
+              "2022": "2022",
+              "2023": "2023",
+              "2024": "2024",
+              "2025": "2025"
+            }
+          },
+          "label": "Year"
+        },
+        "LGD2014": {
+          "category": {
+            "index": ["N09000001", "N09000002", "N09000003", "N09000004", "N09000005", "N09000006", "N09000007", "N09000008", "N09000009", "N09000010", "N09000011", "N92000002", "Unknown"],
+            "label": {
+              "N09000001": "Antrim and Newtownabbey",
+              "N09000002": "Armagh City Banbridge and Craigavon",
+              "N09000003": "Belfast",
+              "N09000004": "Causeway Coast and Glens",
+              "N09000005": "Derry City and Strabane",
+              "N09000006": "Fermanagh and Omagh",
+              "N09000007": "Lisburn and Castlereagh",
+              "N09000008": "Mid and East Antrim",
+              "N09000009": "Mid Ulster",
+              "N09000010": "Newry Mourne and Down",
+              "N09000011": "Ards and North Down",
+              "N92000002": "Northern Ireland",
+              "Unknown": "Unknown"
+            }
+          },
+          "label": "Local Government District",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/450c0bbfce9cc5595a6142e35c589ba5"
+              }
+            ]
+          }
+        },
+        "UR2015": {
+          "category": {
+            "index": ["URBAN", "RURAL", "00000", "Total"],
+            "label": {
+              "URBAN": "URBAN",
+              "RURAL": "RURAL",
+              "00000": "UNKNOWN",
+              "Total": "TOTAL"
+            }
+          },
+          "label": "Urban Rural"
+        }
+      },
+      "statistics": {
+        "IS": "Income Support",
+        "JSA": "Jobseekers Allowance",
+        "RP": "Retirement Pension",
+        "PC": "Pension Credit",
+        "AA": "Attendance Allowance",
+        "CA": "Carer's Allowance",
+        "DLA": "Disability Living Allowance",
+        "ESA": "Employment & Support Allowance",
+        "UC": "Universal Credit",
+        "PIP": "Personal Independence Payment"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
+      "theme": "Work, pay and benefits",
+      "theme_code": 72,
+      "subject": "Disability and work-related benefits",
+      "subject_code": 159,
+      "product": "Benefits",
+      "product_code": "DWRBB",
+      "rows": 4680
+    },
     "BSSDZ": {
       "name": "Benefit Statistics",
       "updated": "2026-04-15",
