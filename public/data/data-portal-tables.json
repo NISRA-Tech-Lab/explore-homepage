@@ -1,5 +1,5 @@
 {
-  "table_count": 1013,
+  "table_count": 1032,
   "tables": {
     "ABI01": {
       "name": "Annual Business Inquiry: results by industry sector",
@@ -10776,8 +10776,8 @@
       "rows": 1170
     },
     "BSLGDUR": {
-      "name": "Benefit Statistics",
-      "updated": "2026-04-17",
+      "name": "Benefit statistics",
+      "updated": "2026-04-20",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -10897,12 +10897,12 @@
         },
         "UR2015": {
           "category": {
-            "index": ["URBAN", "RURAL", "00000", "Total"],
+            "index": ["URBAN", "RURAL", "UNKNOWN", "TOTAL"],
             "label": {
-              "URBAN": "URBAN",
-              "RURAL": "RURAL",
-              "00000": "UNKNOWN",
-              "Total": "TOTAL"
+              "URBAN": "Urban",
+              "RURAL": "Rural",
+              "UNKNOWN": "Unknown",
+              "TOTAL": "Total"
             }
           },
           "label": "Urban Rural"
@@ -12985,6 +12985,1386 @@
       "product": "Number of businesses",
       "product_code": "BNB",
       "rows": 2376
+    },
+    "C1926T1": {
+      "name": "Single year of age and sex",
+      "updated": "2026-04-20",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "POP_CENSUS",
+            "label": {
+              "POP_CENSUS": "Population (as defined in each census year)"
+            },
+            "unit": {
+              "POP_CENSUS": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["1926", "2021"],
+            "label": {
+              "1926": "1926",
+              "2021": "2021"
+            }
+          },
+          "label": "Census year"
+        },
+        "AGE_SYOA": {
+          "category": {
+            "index": ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65", "66", "67", "68", "69", "70", "71", "72", "73", "74", "75", "76", "77", "78", "79", "80", "81", "82", "83", "84", "85", "86", "87", "88", "89", "90", "91", "92", "93", "94", "95", "96", "97", "98", "99", "100+", "ALL"],
+            "label": {
+              "0": "0",
+              "1": "1",
+              "2": "2",
+              "3": "3",
+              "4": "4",
+              "5": "5",
+              "6": "6",
+              "7": "7",
+              "8": "8",
+              "9": "9",
+              "10": "10",
+              "11": "11",
+              "12": "12",
+              "13": "13",
+              "14": "14",
+              "15": "15",
+              "16": "16",
+              "17": "17",
+              "18": "18",
+              "19": "19",
+              "20": "20",
+              "21": "21",
+              "22": "22",
+              "23": "23",
+              "24": "24",
+              "25": "25",
+              "26": "26",
+              "27": "27",
+              "28": "28",
+              "29": "29",
+              "30": "30",
+              "31": "31",
+              "32": "32",
+              "33": "33",
+              "34": "34",
+              "35": "35",
+              "36": "36",
+              "37": "37",
+              "38": "38",
+              "39": "39",
+              "40": "40",
+              "41": "41",
+              "42": "42",
+              "43": "43",
+              "44": "44",
+              "45": "45",
+              "46": "46",
+              "47": "47",
+              "48": "48",
+              "49": "49",
+              "50": "50",
+              "51": "51",
+              "52": "52",
+              "53": "53",
+              "54": "54",
+              "55": "55",
+              "56": "56",
+              "57": "57",
+              "58": "58",
+              "59": "59",
+              "60": "60",
+              "61": "61",
+              "62": "62",
+              "63": "63",
+              "64": "64",
+              "65": "65",
+              "66": "66",
+              "67": "67",
+              "68": "68",
+              "69": "69",
+              "70": "70",
+              "71": "71",
+              "72": "72",
+              "73": "73",
+              "74": "74",
+              "75": "75",
+              "76": "76",
+              "77": "77",
+              "78": "78",
+              "79": "79",
+              "80": "80",
+              "81": "81",
+              "82": "82",
+              "83": "83",
+              "84": "84",
+              "85": "85",
+              "86": "86",
+              "87": "87",
+              "88": "88",
+              "89": "89",
+              "90": "90",
+              "91": "91",
+              "92": "92",
+              "93": "93",
+              "94": "94",
+              "95": "95",
+              "96": "96",
+              "97": "97",
+              "98": "98",
+              "99": "99",
+              "100+": "100+",
+              "ALL": "All ages"
+            }
+          },
+          "label": "Age"
+        },
+        "UR_SEX": {
+          "category": {
+            "index": ["1", "2", "ALL"],
+            "label": {
+              "1": "Females",
+              "2": "Males",
+              "ALL": "All persons"
+            }
+          },
+          "label": "Sex"
+        }
+      },
+      "statistics": {
+        "POP_CENSUS": "Population (as defined in each census year)"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["1926", "2021"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Census",
+      "subject_code": 148,
+      "product": "Census 1926",
+      "product_code": "C1926",
+      "rows": 612
+    },
+    "C1926T10": {
+      "name": "Number of rooms by county",
+      "updated": "2026-04-20",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "IPHH_COUNT",
+            "label": {
+              "IPHH_COUNT": "Inhabited private houses/households"
+            },
+            "unit": {
+              "IPHH_COUNT": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["1926", "2021"],
+            "label": {
+              "1926": "1926",
+              "2021": "2021"
+            }
+          },
+          "label": "Census year"
+        },
+        "COUNTY": {
+          "category": {
+            "index": ["ANTRM", "ARMGH", "DRRY", "DWN", "FRMNGH", "TYRN", "N92000002"],
+            "label": {
+              "ANTRM": "Antrim",
+              "ARMGH": "Armagh",
+              "DRRY": "Derry/Londonderry",
+              "DWN": "Down",
+              "FRMNGH": "Fermanagh",
+              "TYRN": "Tyrone",
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "County"
+        },
+        "ROOMS": {
+          "category": {
+            "index": ["1", "2", "3", "4", "ALL"],
+            "label": {
+              "1": "1-3 rooms",
+              "2": "4-5 rooms",
+              "3": "6-8 rooms",
+              "4": "9+ rooms",
+              "ALL": "All"
+            }
+          },
+          "label": "Number of rooms"
+        }
+      },
+      "statistics": {
+        "IPHH_COUNT": "Inhabited private houses/households"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["1926", "2021"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Census",
+      "subject_code": 148,
+      "product": "Census 1926",
+      "product_code": "C1926",
+      "rows": 70
+    },
+    "C1926T11": {
+      "name": "Marital status",
+      "updated": "2026-04-20",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "POP_CENSUS",
+            "label": {
+              "POP_CENSUS": "Population (as defined in each census year)"
+            },
+            "unit": {
+              "POP_CENSUS": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["1926", "1937", "1951", "1961", "1966", "1971", "1981", "1991", "2001", "2011", "2021"],
+            "label": {
+              "1926": "1926",
+              "1937": "1937",
+              "1951": "1951",
+              "1961": "1961",
+              "1966": "1966",
+              "1971": "1971",
+              "1981": "1981",
+              "1991": "1991",
+              "2001": "2001",
+              "2011": "2011",
+              "2021": "2021"
+            }
+          },
+          "label": "Census year"
+        },
+        "Maritalstatus": {
+          "category": {
+            "index": ["1", "2", "3", "ALL"],
+            "label": {
+              "1": "Single",
+              "2": "Married",
+              "3": "Widowed and divorced",
+              "ALL": "All persons"
+            }
+          },
+          "label": "Marital status"
+        }
+      },
+      "statistics": {
+        "POP_CENSUS": "Population (as defined in each census year)"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["1926", "1937", "1951", "1961", "1966", "1971", "1981", "1991", "2001", "2011", "2021"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Census",
+      "subject_code": 148,
+      "product": "Census 1926",
+      "product_code": "C1926",
+      "rows": 44
+    },
+    "C1926T12": {
+      "name": "Marital status by age",
+      "updated": "2026-04-20",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "POP_CENSUS",
+            "label": {
+              "POP_CENSUS": "Population (as defined in each census year)"
+            },
+            "unit": {
+              "POP_CENSUS": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["1926", "2021"],
+            "label": {
+              "1926": "1926",
+              "2021": "2021"
+            }
+          },
+          "label": "Census year"
+        },
+        "AGE": {
+          "category": {
+            "index": ["1", "2", "3"],
+            "label": {
+              "1": "Age 16-39",
+              "2": "Age 40-64",
+              "3": "Age 65+"
+            }
+          },
+          "label": "Age band"
+        },
+        "Maritalstatus": {
+          "category": {
+            "index": ["1", "2", "3", "ALL"],
+            "label": {
+              "1": "Single",
+              "2": "Married",
+              "3": "Widowed and divorced",
+              "ALL": "All persons"
+            }
+          },
+          "label": "Marital status"
+        }
+      },
+      "statistics": {
+        "POP_CENSUS": "Population (as defined in each census year)"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["1926", "2021"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Census",
+      "subject_code": 148,
+      "product": "Census 1926",
+      "product_code": "C1926",
+      "rows": 24
+    },
+    "C1926T13": {
+      "name": "Number of people in full-time education by age",
+      "updated": "2026-04-20",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["POP_CENSUS", "POP_EDCTN_CENSUS"],
+            "label": {
+              "POP_CENSUS": "Population (as defined in each census year)",
+              "POP_EDCTN_CENSUS": "Population (as defined in each census year) in education"
+            },
+            "unit": {
+              "POP_CENSUS": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "POP_EDCTN_CENSUS": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["1926", "2021"],
+            "label": {
+              "1926": "1926",
+              "2021": "2021"
+            }
+          },
+          "label": "Census year"
+        },
+        "AGE": {
+          "category": {
+            "index": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "ALL"],
+            "label": {
+              "1": "Age 0-2",
+              "2": "Age 3-4",
+              "3": "Age 5",
+              "4": "Age 6",
+              "5": "Age 7",
+              "6": "Age 8",
+              "7": "Age 9",
+              "8": "Age 10",
+              "9": "Age 11",
+              "10": "Age 12",
+              "11": "Age 13",
+              "12": "Age 14",
+              "13": "Age 15",
+              "14": "Age 16",
+              "15": "Age 17-19",
+              "16": "Age 20-24",
+              "17": "Age 25+",
+              "ALL": "All persons"
+            }
+          },
+          "label": "Age band"
+        }
+      },
+      "statistics": {
+        "POP_CENSUS": "Population (as defined in each census year)",
+        "POP_EDCTN_CENSUS": "Population (as defined in each census year) in education"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["1926", "2021"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Census",
+      "subject_code": 148,
+      "product": "Census 1926",
+      "product_code": "C1926",
+      "rows": 72
+    },
+    "C1926T14": {
+      "name": "Economic activity by sex",
+      "updated": "2026-04-20",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "POP_CENSUS",
+            "label": {
+              "POP_CENSUS": "Population (as defined in each census year)"
+            },
+            "unit": {
+              "POP_CENSUS": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["1926", "2021"],
+            "label": {
+              "1926": "1926",
+              "2021": "2021"
+            }
+          },
+          "label": "Census year"
+        },
+        "UR_SEX": {
+          "category": {
+            "index": ["1", "2", "ALL"],
+            "label": {
+              "1": "Females",
+              "2": "Males",
+              "ALL": "All persons"
+            }
+          },
+          "label": "Sex"
+        },
+        "ECON_ACTIVITY": {
+          "category": {
+            "index": ["1", "2", "3", "ALL"],
+            "label": {
+              "1": "Employed",
+              "2": "Unemployed",
+              "3": "Economically inactive",
+              "ALL": "All persons"
+            }
+          },
+          "label": "Economic activity"
+        }
+      },
+      "statistics": {
+        "POP_CENSUS": "Population (as defined in each census year)"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["1926", "2021"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Census",
+      "subject_code": 148,
+      "product": "Census 1926",
+      "product_code": "C1926",
+      "rows": 24
+    },
+    "C1926T15": {
+      "name": "Economic activity by age",
+      "updated": "2026-04-20",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "POP_CENSUS",
+            "label": {
+              "POP_CENSUS": "Population (as defined in each census year)"
+            },
+            "unit": {
+              "POP_CENSUS": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["1926", "2021"],
+            "label": {
+              "1926": "1926",
+              "2021": "2021"
+            }
+          },
+          "label": "Census year"
+        },
+        "AGE": {
+          "category": {
+            "index": ["1", "2", "3", "4", "5", "6", "7", "8", "ALL"],
+            "label": {
+              "1": "Age 12-15",
+              "2": "Age 16-19",
+              "3": "Age 20-24",
+              "4": "Age 25-54",
+              "5": "Age 55-59",
+              "6": "Age 60-64",
+              "7": "Age 65-69",
+              "8": "Age 70+",
+              "ALL": "All persons"
+            }
+          },
+          "label": "Age band"
+        },
+        "ECON_ACTIVITY": {
+          "category": {
+            "index": ["1", "2"],
+            "label": {
+              "1": "Economically active",
+              "2": "Economically inactive"
+            }
+          },
+          "label": "Economic activity"
+        }
+      },
+      "statistics": {
+        "POP_CENSUS": "Population (as defined in each census year)"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["1926", "2021"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Census",
+      "subject_code": 148,
+      "product": "Census 1926",
+      "product_code": "C1926",
+      "rows": 36
+    },
+    "C1926T16": {
+      "name": "Industry",
+      "updated": "2026-04-20",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["POP_CENSUS", "PER_POP_CENSUS"],
+            "label": {
+              "POP_CENSUS": "Population (as defined in each census year)",
+              "PER_POP_CENSUS": "Percentage of population (as defined in each census year)"
+            },
+            "unit": {
+              "POP_CENSUS": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "PER_POP_CENSUS": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["1926", "2021"],
+            "label": {
+              "1926": "1926",
+              "2021": "2021"
+            }
+          },
+          "label": "Census year"
+        },
+        "INDSTRY": {
+          "category": {
+            "index": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11"],
+            "label": {
+              "1": "Fishing and agriculture",
+              "2": "Mining and quarrying",
+              "3": "Manufacturing (including building)",
+              "4": "Gas, water, electricity",
+              "5": "Transport and communication",
+              "6": "Commerce and finance",
+              "7": "Public administration and defence",
+              "8": "Professions",
+              "9": "Personal service (including hotels and catering)",
+              "10": "Entertainments and sport",
+              "11": "Other industries or industry not stated"
+            }
+          },
+          "label": "Industry of employment"
+        }
+      },
+      "statistics": {
+        "POP_CENSUS": "Population (as defined in each census year)",
+        "PER_POP_CENSUS": "Percentage of population (as defined in each census year)"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["1926", "2021"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Census",
+      "subject_code": 148,
+      "product": "Census 1926",
+      "product_code": "C1926",
+      "rows": 44
+    },
+    "C1926T17": {
+      "name": "Country of birth (time series)",
+      "updated": "2026-04-20",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "POP_CENSUS",
+            "label": {
+              "POP_CENSUS": "Population (as defined in each census year)"
+            },
+            "unit": {
+              "POP_CENSUS": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["1926", "1937", "1951", "1961", "1971", "1981", "1991", "2001", "2011", "2021"],
+            "label": {
+              "1926": "1926",
+              "1937": "1937",
+              "1951": "1951",
+              "1961": "1961",
+              "1971": "1971",
+              "1981": "1981",
+              "1991": "1991",
+              "2001": "2001",
+              "2011": "2011",
+              "2021": "2021"
+            }
+          },
+          "label": "Census year"
+        },
+        "COB_C1926": {
+          "category": {
+            "index": ["N92000002", "IE0", "K03000001", "4", "5", "TOTAL"],
+            "label": {
+              "N92000002": "Northern Ireland",
+              "IE0": "Republic of Ireland",
+              "K03000001": "Great Britain",
+              "4": "Outside UK/Ireland",
+              "5": "Not stated/visitors",
+              "TOTAL": "Total population"
+            }
+          },
+          "label": "Country of birth"
+        }
+      },
+      "statistics": {
+        "POP_CENSUS": "Population (as defined in each census year)"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["1926", "1937", "1951", "1961", "1971", "1981", "1991", "2001", "2011", "2021"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Census",
+      "subject_code": 148,
+      "product": "Census 1926",
+      "product_code": "C1926",
+      "rows": 60
+    },
+    "C1926T18": {
+      "name": "Country of birth",
+      "updated": "2026-04-20",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "POP_CENSUS",
+            "label": {
+              "POP_CENSUS": "Population (as defined in each census year)"
+            },
+            "unit": {
+              "POP_CENSUS": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["1926", "2021"],
+            "label": {
+              "1926": "1926",
+              "2021": "2021"
+            }
+          },
+          "label": "Census year"
+        },
+        "COB2_C1926": {
+          "category": {
+            "index": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "ALL"],
+            "label": {
+              "1": "Europe: Northern Ireland",
+              "2": "Europe: Republic of Ireland",
+              "3": "Europe: England",
+              "4": "Europe: Wales",
+              "5": "Europe: Scotland",
+              "6": "Europe: Other",
+              "7": "Middle East and Asia",
+              "8": "Africa",
+              "9": "North America, Central America, South America and the Caribbean",
+              "10": "Antarctica, Oceania and Other",
+              "11": "Not stated",
+              "ALL": "All persons"
+            }
+          },
+          "label": "Country of birth"
+        }
+      },
+      "statistics": {
+        "POP_CENSUS": "Population (as defined in each census year)"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["1926", "2021"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Census",
+      "subject_code": 148,
+      "product": "Census 1926",
+      "product_code": "C1926",
+      "rows": 24
+    },
+    "C1926T19": {
+      "name": "Religion",
+      "updated": "2026-04-20",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "POP_CENSUS",
+            "label": {
+              "POP_CENSUS": "Population (as defined in each census year)"
+            },
+            "unit": {
+              "POP_CENSUS": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["1926", "2021"],
+            "label": {
+              "1926": "1926",
+              "2021": "2021"
+            }
+          },
+          "label": "Census year"
+        },
+        "RLGN_C1926": {
+          "category": {
+            "index": ["1", "2", "3", "4", "5", "ALL"],
+            "label": {
+              "1": "Catholic",
+              "2": "Protestant and other Christian",
+              "3": "Other religions",
+              "4": "No religion",
+              "5": "Not stated",
+              "ALL": "All persons"
+            }
+          },
+          "label": "Religion"
+        }
+      },
+      "statistics": {
+        "POP_CENSUS": "Population (as defined in each census year)"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["1926", "2021"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Census",
+      "subject_code": 148,
+      "product": "Census 1926",
+      "product_code": "C1926",
+      "rows": 12
+    },
+    "C1926T2": {
+      "name": "Population by sex and county",
+      "updated": "2026-04-20",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "POP_CENSUS",
+            "label": {
+              "POP_CENSUS": "Population (as defined in each census year)"
+            },
+            "unit": {
+              "POP_CENSUS": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["1926", "2021"],
+            "label": {
+              "1926": "1926",
+              "2021": "2021"
+            }
+          },
+          "label": "Census year"
+        },
+        "COUNTY": {
+          "category": {
+            "index": ["ANTRM", "ARMGH", "DRRY", "DWN", "FRMNGH", "TYRN", "N92000002"],
+            "label": {
+              "ANTRM": "Antrim",
+              "ARMGH": "Armagh",
+              "DRRY": "Derry/Londonderry",
+              "DWN": "Down",
+              "FRMNGH": "Fermanagh",
+              "TYRN": "Tyrone",
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "County"
+        },
+        "UR_SEX": {
+          "category": {
+            "index": ["1", "2", "ALL"],
+            "label": {
+              "1": "Females",
+              "2": "Males",
+              "ALL": "All persons"
+            }
+          },
+          "label": "Sex"
+        }
+      },
+      "statistics": {
+        "POP_CENSUS": "Population (as defined in each census year)"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["1926", "2021"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Census",
+      "subject_code": 148,
+      "product": "Census 1926",
+      "product_code": "C1926",
+      "rows": 42
+    },
+    "C1926T3": {
+      "name": "Sex ratio by age",
+      "updated": "2026-04-20",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "SEX_RATIO",
+            "label": {
+              "SEX_RATIO": "Females per 1,000 males"
+            },
+            "unit": {
+              "SEX_RATIO": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["1926", "2021"],
+            "label": {
+              "1926": "1926",
+              "2021": "2021"
+            }
+          },
+          "label": "Census year"
+        },
+        "AGE": {
+          "category": {
+            "index": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "ALL"],
+            "label": {
+              "1": "Age 0-4",
+              "2": "Age 5-9",
+              "3": "Age 10-14",
+              "4": "Age 15-19",
+              "5": "Age 20-24",
+              "6": "Age 25-29",
+              "7": "Age 30-34",
+              "8": "Age 35-39",
+              "9": "Age 40-44",
+              "10": "Age 45-49",
+              "11": "Age 50-54",
+              "12": "Age 55-59",
+              "13": "Age 60-64",
+              "14": "Age 65-69",
+              "15": "Age 70-74",
+              "16": "Age 75-79",
+              "17": "Age 80-84",
+              "18": "Age 85-89",
+              "19": "Age 90-94",
+              "20": "Age 95+",
+              "ALL": "All ages"
+            }
+          },
+          "label": "Age band"
+        }
+      },
+      "statistics": {
+        "SEX_RATIO": "Females per 1,000 males"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["1926", "2021"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Census",
+      "subject_code": 148,
+      "product": "Census 1926",
+      "product_code": "C1926",
+      "rows": 42
+    },
+    "C1926T4": {
+      "name": "Number of households and people in households by urban status",
+      "updated": "2026-04-20",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["IPHH_COUNT", "PPHH_COUNT", "HH_SIZE_AVG"],
+            "label": {
+              "IPHH_COUNT": "Inhabited private houses/households",
+              "PPHH_COUNT": "Persons in private houses/households",
+              "HH_SIZE_AVG": "Average household size"
+            },
+            "unit": {
+              "IPHH_COUNT": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "PPHH_COUNT": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "HH_SIZE_AVG": {
+                "decimals": 1,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["1926", "2021"],
+            "label": {
+              "1926": "1926",
+              "2021": "2021"
+            }
+          },
+          "label": "Census year"
+        },
+        "URBAN_STATUS": {
+          "category": {
+            "index": ["URBAN", "NURBAN", "N92000002"],
+            "label": {
+              "URBAN": "Urban",
+              "NURBAN": "Non-urban",
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "Urban status"
+        }
+      },
+      "statistics": {
+        "IPHH_COUNT": "Inhabited private houses/households",
+        "PPHH_COUNT": "Persons in private houses/households",
+        "HH_SIZE_AVG": "Average household size"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["1926", "2021"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Census",
+      "subject_code": 148,
+      "product": "Census 1926",
+      "product_code": "C1926",
+      "rows": 18
+    },
+    "C1926T5": {
+      "name": "Number of households and people in households by county",
+      "updated": "2026-04-20",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["IPHH_COUNT", "PPHH_COUNT", "HH_SIZE_AVG"],
+            "label": {
+              "IPHH_COUNT": "Inhabited private houses/households",
+              "PPHH_COUNT": "Persons in private houses/households",
+              "HH_SIZE_AVG": "Average household size"
+            },
+            "unit": {
+              "IPHH_COUNT": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "PPHH_COUNT": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "HH_SIZE_AVG": {
+                "decimals": 1,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["1926", "2021"],
+            "label": {
+              "1926": "1926",
+              "2021": "2021"
+            }
+          },
+          "label": "Census year"
+        },
+        "COUNTY": {
+          "category": {
+            "index": ["ANTRM", "ARMGH", "DRRY", "DWN", "FRMNGH", "TYRN", "N92000002"],
+            "label": {
+              "ANTRM": "Antrim",
+              "ARMGH": "Armagh",
+              "DRRY": "Derry/Londonderry",
+              "DWN": "Down",
+              "FRMNGH": "Fermanagh",
+              "TYRN": "Tyrone",
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "County"
+        }
+      },
+      "statistics": {
+        "IPHH_COUNT": "Inhabited private houses/households",
+        "PPHH_COUNT": "Persons in private houses/households",
+        "HH_SIZE_AVG": "Average household size"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["1926", "2021"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Census",
+      "subject_code": 148,
+      "product": "Census 1926",
+      "product_code": "C1926",
+      "rows": 42
+    },
+    "C1926T6": {
+      "name": "Persons per room",
+      "updated": "2026-04-20",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "PPHH_COUNT",
+            "label": {
+              "PPHH_COUNT": "Persons in private houses/households"
+            },
+            "unit": {
+              "PPHH_COUNT": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["1926", "2021"],
+            "label": {
+              "1926": "1926",
+              "2021": "2021"
+            }
+          },
+          "label": "Census year"
+        },
+        "PPR": {
+          "category": {
+            "index": ["1", "2", "3", "4", "ALL"],
+            "label": {
+              "1": "0-2 persons",
+              "2": ">2-3 persons",
+              "3": ">3-4 persons",
+              "4": ">4 persons",
+              "ALL": "All"
+            }
+          },
+          "label": "Persons per room"
+        }
+      },
+      "statistics": {
+        "PPHH_COUNT": "Persons in private houses/households"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["1926", "2021"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Census",
+      "subject_code": 148,
+      "product": "Census 1926",
+      "product_code": "C1926",
+      "rows": 10
+    },
+    "C1926T7": {
+      "name": "Persons per room by county",
+      "updated": "2026-04-20",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "PPHH_COUNT",
+            "label": {
+              "PPHH_COUNT": "Persons in private houses/households"
+            },
+            "unit": {
+              "PPHH_COUNT": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["1926", "2021"],
+            "label": {
+              "1926": "1926",
+              "2021": "2021"
+            }
+          },
+          "label": "Census year"
+        },
+        "COUNTY": {
+          "category": {
+            "index": ["ANTRM", "ARMGH", "DRRY", "DWN", "FRMNGH", "TYRN", "N92000002"],
+            "label": {
+              "ANTRM": "Antrim",
+              "ARMGH": "Armagh",
+              "DRRY": "Derry/Londonderry",
+              "DWN": "Down",
+              "FRMNGH": "Fermanagh",
+              "TYRN": "Tyrone",
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "County"
+        },
+        "PPR": {
+          "category": {
+            "index": ["1", "2", "3", "4", "ALL"],
+            "label": {
+              "1": "0-2 persons",
+              "2": ">2-3 persons",
+              "3": ">3-4 persons",
+              "4": ">4 persons",
+              "ALL": "All"
+            }
+          },
+          "label": "Persons per room"
+        }
+      },
+      "statistics": {
+        "PPHH_COUNT": "Persons in private houses/households"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["1926", "2021"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Census",
+      "subject_code": 148,
+      "product": "Census 1926",
+      "product_code": "C1926",
+      "rows": 70
+    },
+    "C1926T8": {
+      "name": "Number of rooms",
+      "updated": "2026-04-20",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "IPHH_COUNT",
+            "label": {
+              "IPHH_COUNT": "Inhabited private houses/households"
+            },
+            "unit": {
+              "IPHH_COUNT": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["1926", "2021"],
+            "label": {
+              "1926": "1926",
+              "2021": "2021"
+            }
+          },
+          "label": "Census year"
+        },
+        "ROOMS": {
+          "category": {
+            "index": ["1", "2", "3", "4", "ALL"],
+            "label": {
+              "1": "1-3 rooms",
+              "2": "4-5 rooms",
+              "3": "6-8 rooms",
+              "4": "9+ rooms",
+              "ALL": "All"
+            }
+          },
+          "label": "Number of rooms"
+        }
+      },
+      "statistics": {
+        "IPHH_COUNT": "Inhabited private houses/households"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["1926", "2021"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Census",
+      "subject_code": 148,
+      "product": "Census 1926",
+      "product_code": "C1926",
+      "rows": 10
+    },
+    "C1926T9": {
+      "name": "Number of rooms by urban status",
+      "updated": "2026-04-20",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "IPHH_COUNT",
+            "label": {
+              "IPHH_COUNT": "Inhabited private houses/households"
+            },
+            "unit": {
+              "IPHH_COUNT": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["1926", "2021"],
+            "label": {
+              "1926": "1926",
+              "2021": "2021"
+            }
+          },
+          "label": "Census year"
+        },
+        "URBAN_STATUS": {
+          "category": {
+            "index": ["URBAN", "NURBAN"],
+            "label": {
+              "URBAN": "Urban",
+              "NURBAN": "Non-urban"
+            }
+          },
+          "label": "Urban status"
+        },
+        "ROOMS": {
+          "category": {
+            "index": ["1", "2", "3", "4", "ALL"],
+            "label": {
+              "1": "1-3 rooms",
+              "2": "4-5 rooms",
+              "3": "6-8 rooms",
+              "4": "9+ rooms",
+              "ALL": "All"
+            }
+          },
+          "label": "Number of rooms"
+        }
+      },
+      "statistics": {
+        "IPHH_COUNT": "Inhabited private houses/households"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["1926", "2021"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Census",
+      "subject_code": 148,
+      "product": "Census 1926",
+      "product_code": "C1926",
+      "rows": 20
     },
     "C21001DEA": {
       "name": "Usual resident population",
@@ -47323,7 +48703,7 @@
     },
     "FEACHMAA": {
       "name": "Achievements in further education colleges",
-      "updated": "2026-03-05",
+      "updated": "2026-04-20",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -47343,7 +48723,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+            "index": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
             "label": {
               "2017/18": "2017/18",
               "2018/19": "2018/19",
@@ -47351,7 +48731,8 @@
               "2020/21": "2020/21",
               "2021/22": "2021/22",
               "2022/23": "2022/23",
-              "2023/24": "2023/24"
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
             }
           },
           "label": "Academic year"
@@ -47396,18 +48777,18 @@
         "FEACHMn": "Number of achievements"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+      "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
       "theme": "Education and skills",
       "theme_code": 69,
       "subject": "Further education",
       "subject_code": 133,
       "product": "Achievements",
       "product_code": "FEACH",
-      "rows": 133
+      "rows": 152
     },
     "FEACHMDEA": {
       "name": "Achievements in further education colleges",
-      "updated": "2026-03-05",
+      "updated": "2026-04-20",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -47427,7 +48808,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+            "index": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
             "label": {
               "2017/18": "2017/18",
               "2018/19": "2018/19",
@@ -47435,7 +48816,8 @@
               "2020/21": "2020/21",
               "2021/22": "2021/22",
               "2022/23": "2022/23",
-              "2023/24": "2023/24"
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
             }
           },
           "label": "Academic year"
@@ -47542,18 +48924,18 @@
         "FEACHMn": "Number of achievements"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+      "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
       "theme": "Education and skills",
       "theme_code": 69,
       "subject": "Further education",
       "subject_code": 133,
       "product": "Achievements",
       "product_code": "FEACH",
-      "rows": 567
+      "rows": 648
     },
     "FEACHMHSCT": {
       "name": "Achievements in further education colleges",
-      "updated": "2026-03-05",
+      "updated": "2026-04-20",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -47573,7 +48955,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+            "index": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
             "label": {
               "2017/18": "2017/18",
               "2018/19": "2018/19",
@@ -47581,7 +48963,8 @@
               "2020/21": "2020/21",
               "2021/22": "2021/22",
               "2022/23": "2022/23",
-              "2023/24": "2023/24"
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
             }
           },
           "label": "Academic Year"
@@ -47613,18 +48996,18 @@
         "FEACHMn": "Number of achievements"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+      "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
       "theme": "Education and skills",
       "theme_code": 69,
       "subject": "Further education",
       "subject_code": 133,
       "product": "Achievements",
       "product_code": "FEACH",
-      "rows": 42
+      "rows": 48
     },
     "FEACHMLGD": {
       "name": "Achievements in further education colleges",
-      "updated": "2026-03-05",
+      "updated": "2026-04-20",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -47644,7 +49027,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+            "index": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
             "label": {
               "2017/18": "2017/18",
               "2018/19": "2018/19",
@@ -47652,7 +49035,8 @@
               "2020/21": "2020/21",
               "2021/22": "2021/22",
               "2022/23": "2022/23",
-              "2023/24": "2023/24"
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
             }
           },
           "label": "Academic year"
@@ -47690,14 +49074,14 @@
         "FEACHMn": "Number of achievements"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+      "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
       "theme": "Education and skills",
       "theme_code": 69,
       "subject": "Further education",
       "subject_code": 133,
       "product": "Achievements",
       "product_code": "FEACH",
-      "rows": 84
+      "rows": 96
     },
     "FEARCRIMEHSCT": {
       "name": "NISCS: Fear of crime",
@@ -47878,7 +49262,7 @@
     },
     "FEENROLAA": {
       "name": "Regulated enrolments at further education colleges",
-      "updated": "2026-03-05",
+      "updated": "2026-04-20",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -47898,7 +49282,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+            "index": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
             "label": {
               "2017/18": "2017/18",
               "2018/19": "2018/19",
@@ -47906,7 +49290,8 @@
               "2020/21": "2020/21",
               "2021/22": "2021/22",
               "2022/23": "2022/23",
-              "2023/24": "2023/24"
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
             }
           },
           "label": "Academic year"
@@ -47951,18 +49336,18 @@
         "FEENROLn": "Number of enrolments"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+      "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
       "theme": "Education and skills",
       "theme_code": 69,
       "subject": "Further education",
       "subject_code": 133,
       "product": "Enrolments",
       "product_code": "FEENROL",
-      "rows": 133
+      "rows": 152
     },
     "FEENROLDEA": {
       "name": "Regulated enrolments at further education colleges",
-      "updated": "2026-03-05",
+      "updated": "2026-04-20",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -47982,7 +49367,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+            "index": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
             "label": {
               "2017/18": "2017/18",
               "2018/19": "2018/19",
@@ -47990,7 +49375,8 @@
               "2020/21": "2020/21",
               "2021/22": "2021/22",
               "2022/23": "2022/23",
-              "2023/24": "2023/24"
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
             }
           },
           "label": "Academic year"
@@ -48097,18 +49483,18 @@
         "FEENROLn": "Number of enrolments"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+      "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
       "theme": "Education and skills",
       "theme_code": 69,
       "subject": "Further education",
       "subject_code": 133,
       "product": "Enrolments",
       "product_code": "FEENROL",
-      "rows": 567
+      "rows": 648
     },
     "FEENROLHSCT": {
       "name": "Regulated enrolments at further education colleges",
-      "updated": "2026-03-05",
+      "updated": "2026-04-20",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -48128,7 +49514,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+            "index": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
             "label": {
               "2017/18": "2017/18",
               "2018/19": "2018/19",
@@ -48136,7 +49522,8 @@
               "2020/21": "2020/21",
               "2021/22": "2021/22",
               "2022/23": "2022/23",
-              "2023/24": "2023/24"
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
             }
           },
           "label": "Academic year"
@@ -48168,18 +49555,18 @@
         "FEENROLn": "Number of enrolments"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+      "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
       "theme": "Education and skills",
       "theme_code": 69,
       "subject": "Further education",
       "subject_code": 133,
       "product": "Enrolments",
       "product_code": "FEENROL",
-      "rows": 42
+      "rows": 48
     },
     "FEENROLLGD": {
       "name": "Regulated enrolments at further education colleges",
-      "updated": "2026-03-05",
+      "updated": "2026-04-20",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -48199,7 +49586,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+            "index": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
             "label": {
               "2017/18": "2017/18",
               "2018/19": "2018/19",
@@ -48207,7 +49594,8 @@
               "2020/21": "2020/21",
               "2021/22": "2021/22",
               "2022/23": "2022/23",
-              "2023/24": "2023/24"
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
             }
           },
           "label": "Academic year"
@@ -48245,14 +49633,14 @@
         "FEENROLn": "Number of enrolments"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+      "time_series": ["2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
       "theme": "Education and skills",
       "theme_code": 69,
       "subject": "Further education",
       "subject_code": 133,
       "product": "Enrolments",
       "product_code": "FEENROL",
-      "rows": 84
+      "rows": 96
     },
     "FPNAGELGD": {
       "name": "Fixed penalties and speed awareness",
@@ -165901,8 +167289,8 @@
       "rows": 432
     },
     "YJAWLGD": {
-      "name": "Youth justice agency workload",
-      "updated": "2026-03-13",
+      "name": "Youth Justice Agency workload",
+      "updated": "2026-04-20",
       "categories": {
         "STATISTIC": {
           "category": {
