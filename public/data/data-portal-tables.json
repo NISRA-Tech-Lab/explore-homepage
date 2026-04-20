@@ -1,5 +1,5 @@
 {
-  "table_count": 1032,
+  "table_count": 1034,
   "tables": {
     "ABI01": {
       "name": "Annual Business Inquiry: results by industry sector",
@@ -54521,6 +54521,184 @@
       "product": "Ophthalmic",
       "product_code": "PCOPH",
       "rows": 384
+    },
+    "FTEFOC": {
+      "name": "First Time Entrants: First Offences and Convictions",
+      "updated": "2026-04-20",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["Focd1", "Focd2", "Focd3", "Focd4"],
+            "label": {
+              "Focd1": "First offences as percentage of all convictions and diversions",
+              "Focd2": "First convictions as percentage of all convictions",
+              "Focd3": "First offences as percentage of all convictions",
+              "Focd4": "First offences as percentage of all diversions"
+            },
+            "unit": {
+              "Focd1": {
+                "decimals": 2,
+                "label": "%",
+                "position": "end"
+              },
+              "Focd2": {
+                "decimals": 2,
+                "label": "%",
+                "position": "end"
+              },
+              "Focd3": {
+                "decimals": 2,
+                "label": "%",
+                "position": "end"
+              },
+              "Focd4": {
+                "decimals": 2,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+            "label": {
+              "2011/12": "2011/12",
+              "2012/13": "2012/13",
+              "2013/14": "2013/14",
+              "2014/15": "2014/15",
+              "2015/16": "2015/16",
+              "2016/17": "2016/17",
+              "2017/18": "2017/18",
+              "2018/19": "2018/19",
+              "2019/20": "2019/20",
+              "2020/21": "2020/21",
+              "2021/22": "2021/22",
+              "2022/23": "2022/23",
+              "2023/24": "2023/24"
+            }
+          },
+          "label": "Financial Year"
+        },
+        "FTEAGEGRP": {
+          "category": {
+            "index": ["1", "2", "3", "4", "5", "6", "7", "Other/unknown"],
+            "label": {
+              "1": "10 to 17",
+              "2": "18 to 24",
+              "3": "25 to 29",
+              "4": "30 to 39",
+              "5": "40 to 49",
+              "6": "50 to 59",
+              "7": "60+",
+              "Other/unknown": "Other/unknown"
+            }
+          },
+          "label": "Age group"
+        }
+      },
+      "statistics": {
+        "Focd1": "First offences as percentage of all convictions and diversions",
+        "Focd2": "First convictions as percentage of all convictions",
+        "Focd3": "First offences as percentage of all convictions",
+        "Focd4": "First offences as percentage of all diversions"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+      "theme": "Crime and justice",
+      "theme_code": 58,
+      "subject": "Courts, prison and probation",
+      "subject_code": 129,
+      "product": "First time entrants",
+      "product_code": "FTE",
+      "rows": 416
+    },
+    "FTEFOCG": {
+      "name": "First Time Entrants: First Offences and Convictions",
+      "updated": "2026-04-20",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["FocdG1", "FocdG2", "FocdG3", "FocdG4"],
+            "label": {
+              "FocdG1": "First offences as percentage of all convictions and diversions",
+              "FocdG2": "First convictions as percentage of all convictions",
+              "FocdG3": "First offences as percentage of all convictions",
+              "FocdG4": "First offences as percentage of all diversions"
+            },
+            "unit": {
+              "FocdG1": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              },
+              "FocdG2": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              },
+              "FocdG3": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              },
+              "FocdG4": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+            "label": {
+              "2011/12": "2011/12",
+              "2012/13": "2012/13",
+              "2013/14": "2013/14",
+              "2014/15": "2014/15",
+              "2015/16": "2015/16",
+              "2016/17": "2016/17",
+              "2017/18": "2017/18",
+              "2018/19": "2018/19",
+              "2019/20": "2019/20",
+              "2020/21": "2020/21",
+              "2021/22": "2021/22",
+              "2022/23": "2022/23",
+              "2023/24": "2023/24"
+            }
+          },
+          "label": "Financial year"
+        },
+        "FTEGender": {
+          "category": {
+            "index": ["1", "2"],
+            "label": {
+              "1": "Male",
+              "2": "Female"
+            }
+          },
+          "label": "Gender"
+        }
+      },
+      "statistics": {
+        "FocdG1": "First offences as percentage of all convictions and diversions",
+        "FocdG2": "First convictions as percentage of all convictions",
+        "FocdG3": "First offences as percentage of all convictions",
+        "FocdG4": "First offences as percentage of all diversions"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+      "theme": "Crime and justice",
+      "theme_code": 58,
+      "subject": "Courts, prison and probation",
+      "subject_code": 129,
+      "product": "First time entrants",
+      "product_code": "FTE",
+      "rows": 104
     },
     "FUELMILE": {
       "name": "Mileage by Fuel Type",
