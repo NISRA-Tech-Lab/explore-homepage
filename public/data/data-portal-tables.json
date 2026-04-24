@@ -1,5 +1,5 @@
 {
-  "table_count": 1039,
+  "table_count": 1045,
   "tables": {
     "ABI01": {
       "name": "Annual Business Inquiry: results by industry sector",
@@ -33514,6 +33514,105 @@
       "product": "Census UK and Ireland",
       "product_code": "CUKI",
       "rows": 84
+    },
+    "CRIMEEQ": {
+      "name": "Prevalence of crime",
+      "updated": "2026-04-24",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["INDCRIMEEQ", "LCI", "UCI"],
+            "label": {
+              "INDCRIMEEQ": "Crime prevalence rate",
+              "LCI": "95% confidence interval - lower",
+              "UCI": "95% confidence interval - upper"
+            },
+            "unit": {
+              "INDCRIMEEQ": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              },
+              "LCI": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              },
+              "UCI": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2006/07", "2007/08", "2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20"],
+            "label": {
+              "2006/07": "2006/07",
+              "2007/08": "2007/08",
+              "2008/09": "2008/09",
+              "2009/10": "2009/10",
+              "2010/11": "2010/11",
+              "2011/12": "2011/12",
+              "2012/13": "2012/13",
+              "2013/14": "2013/14",
+              "2014/15": "2014/15",
+              "2015/16": "2015/16",
+              "2016/17": "2016/17",
+              "2017/18": "2017/18",
+              "2018/19": "2018/19",
+              "2019/20": "2019/20"
+            }
+          },
+          "label": "Year"
+        },
+        "EQGRP": {
+          "category": {
+            "index": ["N92000002", "EQ202", "EQ201", "EQ102", "EQ103", "EQ108", "EQ109", "EQ110", "EQ301", "EQ302", "EQ303", "EQ304", "EQ305", "EQ308", "EQ501", "EQ502", "EQ505", "EQ701", "EQ702", "EQ401", "EQ402"],
+            "label": {
+              "N92000002": "Northern Ireland",
+              "EQ202": "Sex - Female",
+              "EQ201": "Sex - Male",
+              "EQ102": "Age - 16-24",
+              "EQ103": "Age - 25-34",
+              "EQ108": "Age  - 35-49",
+              "EQ109": "Age - 50-64",
+              "EQ110": "Age - 65+",
+              "EQ301": "Marital Status - Single",
+              "EQ302": "Marital Status - Married/Civil partnership",
+              "EQ303": "Marital Status - Separated",
+              "EQ304": "Marital Status - Divorced",
+              "EQ305": "Marital Status - Widowed",
+              "EQ308": "Marital Status - Cohabiting",
+              "EQ501": "Religion - Catholic",
+              "EQ502": "Religion - Protestant",
+              "EQ505": "Religion - Other/No religion",
+              "EQ701": "Dependants - With dependants",
+              "EQ702": "Dependants - Without dependants",
+              "EQ401": "Disability - Disabled",
+              "EQ402": "Disability - Not disabled"
+            }
+          },
+          "label": "Equality group"
+        }
+      },
+      "statistics": {
+        "INDCRIMEEQ": "Crime prevalence rate",
+        "LCI": "95% confidence interval - lower",
+        "UCI": "95% confidence interval - upper"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2006/07", "2007/08", "2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20"],
+      "theme": "Crime and justice",
+      "theme_code": 58,
+      "subject": "Experiences and attitudes",
+      "subject_code": 131,
+      "product": "Experience of crime",
+      "product_code": "EAEC",
+      "rows": 882
     },
     "CSBHWL": {
       "name": "Civil Servants by Home and Work Location",
@@ -137999,6 +138098,105 @@
       "product_code": "CNAH",
       "rows": 66
     },
+    "PERSAFETYEQ": {
+      "name": "Personal safety",
+      "updated": "2026-04-24",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["INDPERSSAFE", "LCI", "UCI"],
+            "label": {
+              "INDPERSSAFE": "Personal safety",
+              "LCI": "95% confidence interval - lower",
+              "UCI": "95% confidence interval - upper"
+            },
+            "unit": {
+              "INDPERSSAFE": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              },
+              "LCI": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              },
+              "UCI": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2006/07", "2007/08", "2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20"],
+            "label": {
+              "2006/07": "2006/07",
+              "2007/08": "2007/08",
+              "2008/09": "2008/09",
+              "2009/10": "2009/10",
+              "2010/11": "2010/11",
+              "2011/12": "2011/12",
+              "2012/13": "2012/13",
+              "2013/14": "2013/14",
+              "2014/15": "2014/15",
+              "2015/16": "2015/16",
+              "2016/17": "2016/17",
+              "2017/18": "2017/18",
+              "2018/19": "2018/19",
+              "2019/20": "2019/20"
+            }
+          },
+          "label": "Year"
+        },
+        "EQGRP": {
+          "category": {
+            "index": ["N92000002", "EQ202", "EQ201", "EQ102", "EQ103", "EQ108", "EQ109", "EQ110", "EQ301", "EQ302", "EQ303", "EQ304", "EQ305", "EQ308", "EQ501", "EQ502", "EQ505", "EQ701", "EQ702", "EQ401", "EQ402"],
+            "label": {
+              "N92000002": "Northern Ireland",
+              "EQ202": "Sex - Female",
+              "EQ201": "Sex - Male",
+              "EQ102": "Age - 16-24",
+              "EQ103": "Age - 25-34",
+              "EQ108": "Age  - 35-49",
+              "EQ109": "Age - 50-64",
+              "EQ110": "Age - 65+",
+              "EQ301": "Marital Status - Single",
+              "EQ302": "Marital Status - Married/Civil partnership",
+              "EQ303": "Marital Status - Separated",
+              "EQ304": "Marital Status - Divorced",
+              "EQ305": "Marital Status - Widowed",
+              "EQ308": "Marital Status - Cohabiting",
+              "EQ501": "Religion - Catholic",
+              "EQ502": "Religion - Protestant",
+              "EQ505": "Religion - Other/No religion",
+              "EQ701": "Dependants - With dependants",
+              "EQ702": "Dependants - Without dependants",
+              "EQ401": "Disability - Disabled",
+              "EQ402": "Disability - Not disabled"
+            }
+          },
+          "label": "Equality group"
+        }
+      },
+      "statistics": {
+        "INDPERSSAFE": "Personal safety",
+        "LCI": "95% confidence interval - lower",
+        "UCI": "95% confidence interval - upper"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2006/07", "2007/08", "2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20"],
+      "theme": "Crime and justice",
+      "theme_code": 58,
+      "subject": "Experiences and attitudes",
+      "subject_code": 131,
+      "product": "Attitudes to crime",
+      "product_code": "EAAC",
+      "rows": 882
+    },
     "PNPIDTHRT": {
       "name": "Perinatal, neonatal, postneonatal and infant death rates",
       "updated": "2026-03-03",
@@ -158112,6 +158310,95 @@
       "product_code": "EACS",
       "rows": 384
     },
+    "TCRIMEEQ": {
+      "name": "Prevalence of crime",
+      "updated": "2026-04-24",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["INDCRIMEEQ", "LCI", "UCI"],
+            "label": {
+              "INDCRIMEEQ": "Crime prevalence rate",
+              "LCI": "95% confidence interval - lower",
+              "UCI": "95% confidence interval - upper"
+            },
+            "unit": {
+              "INDCRIMEEQ": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              },
+              "LCI": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              },
+              "UCI": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2020/21", "2021/22", "2022/23", "2023/24"],
+            "label": {
+              "2020/21": "2020/21",
+              "2021/22": "2021/22",
+              "2022/23": "2022/23",
+              "2023/24": "2023/24"
+            }
+          },
+          "label": "Year"
+        },
+        "EQGRP": {
+          "category": {
+            "index": ["N92000002", "EQ202", "EQ201", "EQ102", "EQ103", "EQ108", "EQ109", "EQ110", "EQ301", "EQ302", "EQ303", "EQ304", "EQ305", "EQ308", "EQ501", "EQ502", "EQ505", "EQ701", "EQ702", "EQ401", "EQ402"],
+            "label": {
+              "N92000002": "Northern Ireland",
+              "EQ202": "Sex - Female",
+              "EQ201": "Sex - Male",
+              "EQ102": "Age - 16-24",
+              "EQ103": "Age - 25-34",
+              "EQ108": "Age  - 35-49",
+              "EQ109": "Age - 50-64",
+              "EQ110": "Age - 65+",
+              "EQ301": "Marital Status - Single",
+              "EQ302": "Marital Status - Married/Civil partnership",
+              "EQ303": "Marital Status - Separated",
+              "EQ304": "Marital Status - Divorced",
+              "EQ305": "Marital Status - Widowed",
+              "EQ308": "Marital Status - Cohabiting",
+              "EQ501": "Religion - Catholic",
+              "EQ502": "Religion - Protestant",
+              "EQ505": "Religion - Other/No religion",
+              "EQ701": "Dependants - With dependants",
+              "EQ702": "Dependants - Without dependants",
+              "EQ401": "Disability - Disabled",
+              "EQ402": "Disability - Not disabled"
+            }
+          },
+          "label": "Equality group"
+        }
+      },
+      "statistics": {
+        "INDCRIMEEQ": "Crime prevalence rate",
+        "LCI": "95% confidence interval - lower",
+        "UCI": "95% confidence interval - upper"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2020/21", "2021/22", "2022/23", "2023/24"],
+      "theme": "Crime and justice",
+      "theme_code": 58,
+      "subject": "Experiences and attitudes",
+      "subject_code": 131,
+      "product": "Experience of crime",
+      "product_code": "EAEC",
+      "rows": 252
+    },
     "TEENBRHSCT": {
       "name": "Teenage birth rates",
       "updated": "2026-04-01",
@@ -159468,6 +159755,95 @@
       "product": "Trips",
       "product_code": "TTRIP",
       "rows": 432
+    },
+    "TPERSAFETYEQ": {
+      "name": "Personal safety",
+      "updated": "2026-04-24",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["INDPERSSAFE", "LCI", "UCI"],
+            "label": {
+              "INDPERSSAFE": "Personal safety",
+              "LCI": "95% confidence interval - lower",
+              "UCI": "95% confidence interval - upper"
+            },
+            "unit": {
+              "INDPERSSAFE": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              },
+              "LCI": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              },
+              "UCI": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2020/21", "2021/22", "2022/23", "2023/24"],
+            "label": {
+              "2020/21": "2020/21",
+              "2021/22": "2021/22",
+              "2022/23": "2022/23",
+              "2023/24": "2023/24"
+            }
+          },
+          "label": "Year"
+        },
+        "EQGRP": {
+          "category": {
+            "index": ["N92000002", "EQ202", "EQ201", "EQ102", "EQ103", "EQ108", "EQ109", "EQ110", "EQ301", "EQ302", "EQ303", "EQ304", "EQ305", "EQ308", "EQ501", "EQ502", "EQ505", "EQ701", "EQ702", "EQ401", "EQ402"],
+            "label": {
+              "N92000002": "Northern Ireland",
+              "EQ202": "Sex - Female",
+              "EQ201": "Sex - Male",
+              "EQ102": "Age - 16-24",
+              "EQ103": "Age - 25-34",
+              "EQ108": "Age  - 35-49",
+              "EQ109": "Age - 50-64",
+              "EQ110": "Age - 65+",
+              "EQ301": "Marital Status - Single",
+              "EQ302": "Marital Status - Married/Civil partnership",
+              "EQ303": "Marital Status - Separated",
+              "EQ304": "Marital Status - Divorced",
+              "EQ305": "Marital Status - Widowed",
+              "EQ308": "Marital Status - Cohabiting",
+              "EQ501": "Religion - Catholic",
+              "EQ502": "Religion - Protestant",
+              "EQ505": "Religion - Other/No religion",
+              "EQ701": "Dependants - With dependants",
+              "EQ702": "Dependants - Without dependants",
+              "EQ401": "Disability - Disabled",
+              "EQ402": "Disability - Not disabled"
+            }
+          },
+          "label": "Equality group"
+        }
+      },
+      "statistics": {
+        "INDPERSSAFE": "Personal safety",
+        "LCI": "95% confidence interval - lower",
+        "UCI": "95% confidence interval - upper"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2020/21", "2021/22", "2022/23", "2023/24"],
+      "theme": "Crime and justice",
+      "theme_code": 58,
+      "subject": "Experiences and attitudes",
+      "subject_code": 131,
+      "product": "Attitudes to crime",
+      "product_code": "EAAC",
+      "rows": 252
     },
     "TPFRYR": {
       "name": "Total period fertility rate",
@@ -162528,6 +162904,95 @@
       "product": "Census over time",
       "product_code": "CCOT",
       "rows": 132
+    },
+    "TWORRYCRIMEEQ": {
+      "name": "Worry about crime",
+      "updated": "2026-04-24",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["INDWORRYAC", "LCI", "UCI"],
+            "label": {
+              "INDWORRYAC": "Worry about crime",
+              "LCI": "95% confidence interval - lower",
+              "UCI": "95% confidence interval - upper"
+            },
+            "unit": {
+              "INDWORRYAC": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              },
+              "LCI": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              },
+              "UCI": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2020/21", "2021/22", "2022/23", "2023/24"],
+            "label": {
+              "2020/21": "2020/21",
+              "2021/22": "2021/22",
+              "2022/23": "2022/23",
+              "2023/24": "2023/24"
+            }
+          },
+          "label": "Year"
+        },
+        "EQGRP": {
+          "category": {
+            "index": ["N92000002", "EQ202", "EQ201", "EQ102", "EQ103", "EQ108", "EQ109", "EQ110", "EQ301", "EQ302", "EQ303", "EQ304", "EQ305", "EQ308", "EQ501", "EQ502", "EQ505", "EQ701", "EQ702", "EQ401", "EQ402"],
+            "label": {
+              "N92000002": "Northern Ireland",
+              "EQ202": "Sex - Female",
+              "EQ201": "Sex - Male",
+              "EQ102": "Age - 16-24",
+              "EQ103": "Age - 25-34",
+              "EQ108": "Age  - 35-49",
+              "EQ109": "Age - 50-64",
+              "EQ110": "Age - 65+",
+              "EQ301": "Marital Status - Single",
+              "EQ302": "Marital Status - Married/Civil partnership",
+              "EQ303": "Marital Status - Separated",
+              "EQ304": "Marital Status - Divorced",
+              "EQ305": "Marital Status - Widowed",
+              "EQ308": "Marital Status - Cohabiting",
+              "EQ501": "Religion - Catholic",
+              "EQ502": "Religion - Protestant",
+              "EQ505": "Religion - Other/No religion",
+              "EQ701": "Dependants - With dependants",
+              "EQ702": "Dependants - Without dependants",
+              "EQ401": "Disability - Disabled",
+              "EQ402": "Disability - Not disabled"
+            }
+          },
+          "label": "Equality group"
+        }
+      },
+      "statistics": {
+        "INDWORRYAC": "Worry about crime",
+        "LCI": "95% confidence interval - lower",
+        "UCI": "95% confidence interval - upper"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2020/21", "2021/22", "2022/23", "2023/24"],
+      "theme": "Crime and justice",
+      "theme_code": 58,
+      "subject": "Experiences and attitudes",
+      "subject_code": 131,
+      "product": "Attitudes to crime",
+      "product_code": "EAAC",
+      "rows": 252
     },
     "TWORRYCRMHSCT": {
       "name": "NISCTS: Worry about crime and personal safety",
@@ -167249,6 +167714,104 @@
       "product": "Personal wellbeing",
       "product_code": "IWPW",
       "rows": 39
+    },
+    "WORRYCRIMEEQ": {
+      "name": "Worry about crime",
+      "updated": "2026-04-24",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["INDWORRYAC", "LCI", "UCI"],
+            "label": {
+              "INDWORRYAC": "Worry about crime",
+              "LCI": "95% confidence interval - lower",
+              "UCI": "95% confidence interval - upper"
+            },
+            "unit": {
+              "INDWORRYAC": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              },
+              "LCI": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              },
+              "UCI": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2007/08", "2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20"],
+            "label": {
+              "2007/08": "2007/08",
+              "2008/09": "2008/09",
+              "2009/10": "2009/10",
+              "2010/11": "2010/11",
+              "2011/12": "2011/12",
+              "2012/13": "2012/13",
+              "2013/14": "2013/14",
+              "2014/15": "2014/15",
+              "2015/16": "2015/16",
+              "2016/17": "2016/17",
+              "2017/18": "2017/18",
+              "2018/19": "2018/19",
+              "2019/20": "2019/20"
+            }
+          },
+          "label": "Year"
+        },
+        "EQGRP": {
+          "category": {
+            "index": ["N92000002", "EQ202", "EQ201", "EQ102", "EQ103", "EQ108", "EQ109", "EQ110", "EQ301", "EQ302", "EQ303", "EQ304", "EQ305", "EQ308", "EQ501", "EQ502", "EQ505", "EQ701", "EQ702", "EQ401", "EQ402"],
+            "label": {
+              "N92000002": "Northern Ireland",
+              "EQ202": "Sex - Female",
+              "EQ201": "Sex - Male",
+              "EQ102": "Age - 16-24",
+              "EQ103": "Age - 25-34",
+              "EQ108": "Age  - 35-49",
+              "EQ109": "Age - 50-64",
+              "EQ110": "Age - 65+",
+              "EQ301": "Marital Status - Single",
+              "EQ302": "Marital Status - Married/Civil partnership",
+              "EQ303": "Marital Status - Separated",
+              "EQ304": "Marital Status - Divorced",
+              "EQ305": "Marital Status - Widowed",
+              "EQ308": "Marital Status - Cohabiting",
+              "EQ501": "Religion - Catholic",
+              "EQ502": "Religion - Protestant",
+              "EQ505": "Religion - Other/No religion",
+              "EQ701": "Dependants - With dependants",
+              "EQ702": "Dependants - Without dependants",
+              "EQ401": "Disability - Disabled",
+              "EQ402": "Disability - Not disabled"
+            }
+          },
+          "label": "Equality group"
+        }
+      },
+      "statistics": {
+        "INDWORRYAC": "Worry about crime",
+        "LCI": "95% confidence interval - lower",
+        "UCI": "95% confidence interval - upper"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2007/08", "2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20"],
+      "theme": "Crime and justice",
+      "theme_code": 58,
+      "subject": "Experiences and attitudes",
+      "subject_code": 131,
+      "product": "Attitudes to crime",
+      "product_code": "EAAC",
+      "rows": 819
     },
     "WORRYCRMHSCT": {
       "name": "NISCS: Worry about crime and personal safety",
