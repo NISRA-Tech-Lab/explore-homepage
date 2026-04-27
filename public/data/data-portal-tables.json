@@ -33517,7 +33517,7 @@
     },
     "CRIMEEQ": {
       "name": "Prevalence of crime",
-      "updated": "2026-04-24",
+      "updated": "2026-04-27",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -55657,7 +55657,7 @@
     },
     "GHGALLRATES": {
       "name": "Greenhouse gas emissions (rates) - full dataset",
-      "updated": "2026-03-06",
+      "updated": "2026-04-27",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -55719,7 +55719,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+            "index": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
             "label": {
               "2005": "2005",
               "2006": "2006",
@@ -55738,7 +55738,8 @@
               "2019": "2019",
               "2020": "2020",
               "2021": "2021",
-              "2022": "2022"
+              "2022": "2022",
+              "2023": "2023"
             }
           },
           "label": "Year"
@@ -55783,14 +55784,14 @@
         "GHGALLCAPITA": "Total GHG per capita emissions"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+      "time_series": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
       "theme": "Transport, environment and climate change",
       "theme_code": 71,
       "subject": "Energy, environment and climate change",
       "subject_code": 155,
       "product": "Greenhouse gas emissions",
       "product_code": "EECGGE",
-      "rows": 1728
+      "rows": 1824
     },
     "GHGEMSSNS": {
       "name": "Greenhouse gas emissions",
@@ -56072,7 +56073,7 @@
     },
     "GHGINSCOPERATES": {
       "name": "Greenhouse gas emissions (rates) - subset dataset",
-      "updated": "2026-03-06",
+      "updated": "2026-04-27",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -56098,7 +56099,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+            "index": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
             "label": {
               "2005": "2005",
               "2006": "2006",
@@ -56117,7 +56118,8 @@
               "2019": "2019",
               "2020": "2020",
               "2021": "2021",
-              "2022": "2022"
+              "2022": "2022",
+              "2023": "2023"
             }
           },
           "label": "Year"
@@ -56156,14 +56158,14 @@
         "CO2CAPITA": "Carbon dioxide per capita emissions"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+      "time_series": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
       "theme": "Transport, environment and climate change",
       "theme_code": 71,
       "subject": "Energy, environment and climate change",
       "subject_code": 155,
       "product": "Greenhouse gas emissions",
       "product_code": "EECGGE",
-      "rows": 432
+      "rows": 456
     },
     "GHWPAA": {
       "name": "Gross Hourly (excluding overtime) and Weekly Pay",
@@ -138100,7 +138102,7 @@
     },
     "PERSAFETYEQ": {
       "name": "Personal safety",
-      "updated": "2026-04-24",
+      "updated": "2026-04-27",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -158312,7 +158314,7 @@
     },
     "TCRIMEEQ": {
       "name": "Prevalence of crime",
-      "updated": "2026-04-24",
+      "updated": "2026-04-27",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -159758,7 +159760,7 @@
     },
     "TPERSAFETYEQ": {
       "name": "Personal safety",
-      "updated": "2026-04-24",
+      "updated": "2026-04-27",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -162907,7 +162909,7 @@
     },
     "TWORRYCRIMEEQ": {
       "name": "Worry about crime",
-      "updated": "2026-04-24",
+      "updated": "2026-04-27",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -167717,7 +167719,7 @@
     },
     "WORRYCRIMEEQ": {
       "name": "Worry about crime",
-      "updated": "2026-04-24",
+      "updated": "2026-04-27",
       "categories": {
         "STATISTIC": {
           "category": {
