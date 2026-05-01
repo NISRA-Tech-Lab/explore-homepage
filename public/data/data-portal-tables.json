@@ -1,5 +1,5 @@
 {
-  "table_count": 1049,
+  "table_count": 1058,
   "tables": {
     "ABI01": {
       "name": "Annual Business Inquiry: results by industry sector",
@@ -4510,6 +4510,151 @@
       "product": "Pregnancy and early years",
       "product_code": "HIPEY",
       "rows": 108
+    },
+    "BIBSS": {
+      "name": "Back in Business rate support scheme",
+      "updated": "2026-05-01",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["BUSAW", "TOTVSAW"],
+            "label": {
+              "BUSAW": "Businesses awarded",
+              "TOTVSAW": "Total value of support awarded"
+            },
+            "unit": {
+              "BUSAW": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "TOTVSAW": {
+                "decimals": 0,
+                "label": "Pound Sterling (£)",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(Q1)": {
+          "category": {
+            "index": ["2024Q2", "2024Q3", "2024Q4", "2025Q1", "2025Q2"],
+            "label": {
+              "2024Q2": "2024Q2",
+              "2024Q3": "2024Q3",
+              "2024Q4": "2024Q4",
+              "2025Q1": "2025Q1",
+              "2025Q2": "2025Q2"
+            }
+          },
+          "label": "Quarter"
+        },
+        "NI": {
+          "category": {
+            "index": "N92000002",
+            "label": {
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "Northern Ireland"
+        }
+      },
+      "statistics": {
+        "BUSAW": "Businesses awarded",
+        "TOTVSAW": "Total value of support awarded"
+      },
+      "time": "TLIST(Q1)",
+      "time_series": ["2024Q2", "2024Q3", "2024Q4", "2025Q1", "2025Q2"],
+      "theme": "Business, economy and trade",
+      "theme_code": 68,
+      "subject": "Public finances",
+      "subject_code": 126,
+      "product": "Property rates",
+      "product_code": "PFPRT",
+      "rows": 10
+    },
+    "BIBSSLGD": {
+      "name": "Back in Business rate support scheme",
+      "updated": "2026-05-01",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["APPR", "BUSAW"],
+            "label": {
+              "APPR": "Applications received",
+              "BUSAW": "Businesses awarded"
+            },
+            "unit": {
+              "APPR": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "BUSAW": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(Q1)": {
+          "category": {
+            "index": ["2024Q2", "2024Q3", "2024Q4", "2025Q1", "2025Q2"],
+            "label": {
+              "2024Q2": "2024Q2",
+              "2024Q3": "2024Q3",
+              "2024Q4": "2024Q4",
+              "2025Q1": "2025Q1",
+              "2025Q2": "2025Q2"
+            }
+          },
+          "label": "Quarter"
+        },
+        "LGD2014": {
+          "category": {
+            "index": ["N09000001", "N09000002", "N09000003", "N09000004", "N09000005", "N09000006", "N09000007", "N09000008", "N09000009", "N09000010", "N09000011", "N92000002"],
+            "label": {
+              "N09000001": "Antrim and Newtownabbey",
+              "N09000002": "Armagh City, Banbridge and Craigavon",
+              "N09000003": "Belfast",
+              "N09000004": "Causeway Coast and Glens",
+              "N09000005": "Derry City and Strabane",
+              "N09000006": "Fermanagh and Omagh",
+              "N09000007": "Lisburn and Castlereagh",
+              "N09000008": "Mid and East Antrim",
+              "N09000009": "Mid Ulster",
+              "N09000010": "Newry, Mourne and Down",
+              "N09000011": "Ards and North Down",
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "Local government district",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/450c0bbfce9cc5595a6142e35c589ba5"
+              }
+            ]
+          }
+        }
+      },
+      "statistics": {
+        "APPR": "Applications received",
+        "BUSAW": "Businesses awarded"
+      },
+      "time": "TLIST(Q1)",
+      "time_series": ["2024Q2", "2024Q3", "2024Q4", "2025Q1", "2025Q2"],
+      "theme": "Business, economy and trade",
+      "theme_code": 68,
+      "subject": "Public finances",
+      "subject_code": 126,
+      "product": "Property rates",
+      "product_code": "PFPRT",
+      "rows": 120
     },
     "BNKRDISAA": {
       "name": "Bankruptcies participants disposed",
@@ -41898,6 +42043,99 @@
       "product_code": "CDA",
       "rows": 18520
     },
+    "DPALGD": {
+      "name": "Disabled Persons Allowance",
+      "updated": "2026-05-01",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["PDPAA", "NETDPAA"],
+            "label": {
+              "PDPAA": "Properties in which DPA was awarded",
+              "NETDPAA": "Net amount of DPA awarded"
+            },
+            "unit": {
+              "PDPAA": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "NETDPAA": {
+                "decimals": 2,
+                "label": "Pounds Sterling (£)",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+            "label": {
+              "2009/10": "2009/10",
+              "2010/11": "2010/11",
+              "2011/12": "2011/12",
+              "2012/13": "2012/13",
+              "2013/14": "2013/14",
+              "2014/15": "2014/15",
+              "2015/16": "2015/16",
+              "2016/17": "2016/17",
+              "2017/18": "2017/18",
+              "2018/19": "2018/19",
+              "2019/20": "2019/20",
+              "2020/21": "2020/21",
+              "2021/22": "2021/22",
+              "2022/23": "2022/23",
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "LGD2014": {
+          "category": {
+            "index": ["N09000001", "N09000002", "N09000003", "N09000004", "N09000005", "N09000006", "N09000007", "N09000008", "N09000009", "N09000010", "N09000011", "N92000002"],
+            "label": {
+              "N09000001": "Antrim and Newtownabbey",
+              "N09000002": "Armagh City, Banbridge and Craigavon",
+              "N09000003": "Belfast",
+              "N09000004": "Causeway Coast and Glens",
+              "N09000005": "Derry City and Strabane",
+              "N09000006": "Fermanagh and Omagh",
+              "N09000007": "Lisburn and Castlereagh",
+              "N09000008": "Mid and East Antrim",
+              "N09000009": "Mid Ulster",
+              "N09000010": "Newry, Mourne and Down",
+              "N09000011": "Ards and North Down",
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "Local government district",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/450c0bbfce9cc5595a6142e35c589ba5"
+              }
+            ]
+          }
+        }
+      },
+      "statistics": {
+        "PDPAA": "Properties in which DPA was awarded",
+        "NETDPAA": "Net amount of DPA awarded"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+      "theme": "Business, economy and trade",
+      "theme_code": 68,
+      "subject": "Public finances",
+      "subject_code": 126,
+      "product": "Property rates",
+      "product_code": "PFPRT",
+      "rows": 384
+    },
     "DRTT": {
       "name": "Diagnostic Reporting Turnaround Times",
       "updated": "2025-05-05",
@@ -47693,6 +47931,118 @@
       "product": "Trips",
       "product_code": "TTRIP",
       "rows": 420
+    },
+    "EOYRTSLGD": {
+      "name": "End of year rates balances",
+      "updated": "2026-05-01",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["DRB", "DORB", "NDRB", "NDORB", "TOTRB", "TOTORB"],
+            "label": {
+              "DRB": "Domestic rates balances",
+              "DORB": "Domestic occupancies with a rates balance",
+              "NDRB": "Non-domestic rates balances",
+              "NDORB": "Non-domestic occupancies with a rates balance",
+              "TOTRB": "Total rates balances",
+              "TOTORB": "Total occupancies with a rates balance"
+            },
+            "unit": {
+              "DRB": {
+                "decimals": 2,
+                "label": "Pounds Sterling (£)",
+                "position": "end"
+              },
+              "DORB": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "NDRB": {
+                "decimals": 2,
+                "label": "Pounds Sterling (£)",
+                "position": "end"
+              },
+              "NDORB": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "TOTRB": {
+                "decimals": 2,
+                "label": "Pounds Sterling (£)",
+                "position": "end"
+              },
+              "TOTORB": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+            "label": {
+              "2018/19": "2018/19",
+              "2019/20": "2019/20",
+              "2020/21": "2020/21",
+              "2021/22": "2021/22",
+              "2022/23": "2022/23",
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "LGD2014": {
+          "category": {
+            "index": ["N09000001", "N09000002", "N09000003", "N09000004", "N09000005", "N09000006", "N09000007", "N09000008", "N09000009", "N09000010", "N09000011", "N92000002"],
+            "label": {
+              "N09000001": "Antrim and Newtownabbey",
+              "N09000002": "Armagh City, Banbridge and Craigavon",
+              "N09000003": "Belfast",
+              "N09000004": "Causeway Coast and Glens",
+              "N09000005": "Derry City and Strabane",
+              "N09000006": "Fermanagh and Omagh",
+              "N09000007": "Lisburn and Castlereagh",
+              "N09000008": "Mid and East Antrim",
+              "N09000009": "Mid Ulster",
+              "N09000010": "Newry, Mourne and Down",
+              "N09000011": "Ards and North Down",
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "Local government district",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/450c0bbfce9cc5595a6142e35c589ba5"
+              }
+            ]
+          }
+        }
+      },
+      "statistics": {
+        "DRB": "Domestic rates balances",
+        "DORB": "Domestic occupancies with a rates balance",
+        "NDRB": "Non-domestic rates balances",
+        "NDORB": "Non-domestic occupancies with a rates balance",
+        "TOTRB": "Total rates balances",
+        "TOTORB": "Total occupancies with a rates balance"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+      "theme": "Business, economy and trade",
+      "theme_code": 68,
+      "subject": "Public finances",
+      "subject_code": 126,
+      "product": "Property rates",
+      "product_code": "PFPRT",
+      "rows": 504
     },
     "EPLA": {
       "name": "External purchases of live animals to Northern Ireland by origin",
@@ -102952,6 +103302,170 @@
       "product_code": "IWL",
       "rows": 600
     },
+    "LPAHT": {
+      "name": "Lone Pensioner Allowance",
+      "updated": "2026-05-01",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "NETLPA",
+            "label": {
+              "NETLPA": "Net amount of LPA awarded"
+            },
+            "unit": {
+              "NETLPA": {
+                "decimals": 2,
+                "label": "Pound Sterling (£)",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+            "label": {
+              "2009/10": "2009/10",
+              "2010/11": "2010/11",
+              "2011/12": "2011/12",
+              "2012/13": "2012/13",
+              "2013/14": "2013/14",
+              "2014/15": "2014/15",
+              "2015/16": "2015/16",
+              "2016/17": "2016/17",
+              "2017/18": "2017/18",
+              "2018/19": "2018/19",
+              "2019/20": "2019/20",
+              "2020/21": "2020/21",
+              "2021/22": "2021/22",
+              "2022/23": "2022/23",
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "HSNGTNR": {
+          "category": {
+            "index": ["1", "2", "3", "4", "TOTAL"],
+            "label": {
+              "1": "Owner occupied",
+              "2": "Private rented",
+              "3": "NIHE",
+              "4": "Housing Association",
+              "TOTAL": "Total"
+            }
+          },
+          "label": "Housing tenure"
+        }
+      },
+      "statistics": {
+        "NETLPA": "Net amount of LPA awarded"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+      "theme": "Business, economy and trade",
+      "theme_code": 68,
+      "subject": "Public finances",
+      "subject_code": 126,
+      "product": "Property rates",
+      "product_code": "PFPRT",
+      "rows": 80
+    },
+    "LPALGD": {
+      "name": "Lone Pensioner Allowance",
+      "updated": "2026-05-01",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["POCLPA", "NETLPAPOC"],
+            "label": {
+              "POCLPA": "People (owner occupied) awarded LPA",
+              "NETLPAPOC": "Net amount of LPA (owner occupied) awarded"
+            },
+            "unit": {
+              "POCLPA": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "NETLPAPOC": {
+                "decimals": 2,
+                "label": "Pounds Sterling (£)",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+            "label": {
+              "2009/10": "2009/10",
+              "2010/11": "2010/11",
+              "2011/12": "2011/12",
+              "2012/13": "2012/13",
+              "2013/14": "2013/14",
+              "2014/15": "2014/15",
+              "2015/16": "2015/16",
+              "2016/17": "2016/17",
+              "2017/18": "2017/18",
+              "2018/19": "2018/19",
+              "2019/20": "2019/20",
+              "2020/21": "2020/21",
+              "2021/22": "2021/22",
+              "2022/23": "2022/23",
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "LGD2014": {
+          "category": {
+            "index": ["N09000001", "N09000002", "N09000003", "N09000004", "N09000005", "N09000006", "N09000007", "N09000008", "N09000009", "N09000010", "N09000011", "N92000002"],
+            "label": {
+              "N09000001": "Antrim and Newtownabbey",
+              "N09000002": "Armagh City, Banbridge and Craigavon",
+              "N09000003": "Belfast",
+              "N09000004": "Causeway Coast and Glens",
+              "N09000005": "Derry City and Strabane",
+              "N09000006": "Fermanagh and Omagh",
+              "N09000007": "Lisburn and Castlereagh",
+              "N09000008": "Mid and East Antrim",
+              "N09000009": "Mid Ulster",
+              "N09000010": "Newry, Mourne and Down",
+              "N09000011": "Ards and North Down",
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "Local government district",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/450c0bbfce9cc5595a6142e35c589ba5"
+              }
+            ]
+          }
+        }
+      },
+      "statistics": {
+        "POCLPA": "People (owner occupied) awarded LPA",
+        "NETLPAPOC": "Net amount of LPA (owner occupied) awarded"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+      "theme": "Business, economy and trade",
+      "theme_code": 68,
+      "subject": "Public finances",
+      "subject_code": 126,
+      "product": "Property rates",
+      "product_code": "PFPRT",
+      "rows": 384
+    },
     "LPSHPI01": {
       "name": "House Price Index and Standardised Price",
       "updated": "2026-02-19",
@@ -145356,6 +145870,210 @@
       "product_code": "DPP",
       "rows": 88
     },
+    "PRPTYVRAA": {
+      "name": "Property vacancy rates",
+      "updated": "2026-05-01",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["ALLPRPTY", "VCNTPRPTY", "VCNRT"],
+            "label": {
+              "ALLPRPTY": "All properties",
+              "VCNTPRPTY": "Vacant properties",
+              "VCNRT": "Vacancy rate"
+            },
+            "unit": {
+              "ALLPRPTY": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "VCNTPRPTY": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "VCNRT": {
+                "decimals": 2,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+            "label": {
+              "2020/21": "2020/21",
+              "2021/22": "2021/22",
+              "2022/23": "2022/23",
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "AA": {
+          "category": {
+            "index": ["N06000001", "N06000002", "N06000003", "N06000004", "N06000005", "N06000006", "N06000007", "N06000008", "N06000009", "N06000010", "N06000011", "N06000012", "N06000013", "N06000014", "N06000015", "N06000016", "N06000017", "N06000018", "N92000002"],
+            "label": {
+              "N06000001": "Belfast East",
+              "N06000002": "Belfast North",
+              "N06000003": "Belfast South",
+              "N06000004": "Belfast West",
+              "N06000005": "East Antrim",
+              "N06000006": "East Londonderry",
+              "N06000007": "Fermanagh and South Tyrone",
+              "N06000008": "Foyle",
+              "N06000009": "Lagan Valley",
+              "N06000010": "Mid Ulster",
+              "N06000011": "Newry and Armagh",
+              "N06000012": "North Antrim",
+              "N06000013": "North Down",
+              "N06000014": "South Antrim",
+              "N06000015": "South Down",
+              "N06000016": "Strangford",
+              "N06000017": "Upper Bann",
+              "N06000018": "West Tyrone",
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "Assembly area",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/62725f2dd9a7acd16cc19b96f580d7b4"
+              }
+            ]
+          }
+        },
+        "SECTOR": {
+          "category": {
+            "index": ["ALL", "DMSTC", "NDMSTC"],
+            "label": {
+              "ALL": "All",
+              "DMSTC": "Domestic",
+              "NDMSTC": "Non-domestic"
+            }
+          },
+          "label": "Sector"
+        }
+      },
+      "statistics": {
+        "ALLPRPTY": "All properties",
+        "VCNTPRPTY": "Vacant properties",
+        "VCNRT": "Vacancy rate"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+      "theme": "Business, economy and trade",
+      "theme_code": 68,
+      "subject": "Public finances",
+      "subject_code": 126,
+      "product": "Property rates",
+      "product_code": "PFPRT",
+      "rows": 855
+    },
+    "PRPTYVRLGD": {
+      "name": "Property vacancy rates",
+      "updated": "2026-05-01",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["ALLPRPTY", "VCNTPRPTY", "VCNRT"],
+            "label": {
+              "ALLPRPTY": "All properties",
+              "VCNTPRPTY": "Vacant properties",
+              "VCNRT": "Vacancy rate"
+            },
+            "unit": {
+              "ALLPRPTY": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "VCNTPRPTY": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "VCNRT": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(Q1)": {
+          "category": {
+            "index": ["2023Q1", "2023Q2", "2023Q3", "2023Q4", "2024Q1", "2024Q2", "2024Q3", "2024Q4", "2025Q1", "2025Q2"],
+            "label": {
+              "2023Q1": "2023Q1",
+              "2023Q2": "2023Q2",
+              "2023Q3": "2023Q3",
+              "2023Q4": "2023Q4",
+              "2024Q1": "2024Q1",
+              "2024Q2": "2024Q2",
+              "2024Q3": "2024Q3",
+              "2024Q4": "2024Q4",
+              "2025Q1": "2025Q1",
+              "2025Q2": "2025Q2"
+            }
+          },
+          "label": "Quarter"
+        },
+        "LGD2014": {
+          "category": {
+            "index": ["N09000001", "N09000002", "N09000003", "N09000004", "N09000005", "N09000006", "N09000007", "N09000008", "N09000009", "N09000010", "N09000011", "N92000002"],
+            "label": {
+              "N09000001": "Antrim and Newtownabbey",
+              "N09000002": "Armagh City, Banbridge and Craigavon",
+              "N09000003": "Belfast",
+              "N09000004": "Causeway Coast and Glens",
+              "N09000005": "Derry City and Strabane",
+              "N09000006": "Fermanagh and Omagh",
+              "N09000007": "Lisburn and Castlereagh",
+              "N09000008": "Mid and East Antrim",
+              "N09000009": "Mid Ulster",
+              "N09000010": "Newry, Mourne and Down",
+              "N09000011": "Ards and North Down",
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "Local government district"
+        },
+        "SECTOR": {
+          "category": {
+            "index": ["DMSTC", "NDMSTC", "ALL"],
+            "label": {
+              "DMSTC": "Domestic",
+              "NDMSTC": "Non-domestic",
+              "ALL": "All"
+            }
+          },
+          "label": "Sector"
+        }
+      },
+      "statistics": {
+        "ALLPRPTY": "All properties",
+        "VCNTPRPTY": "Vacant properties",
+        "VCNRT": "Vacancy rate"
+      },
+      "time": "TLIST(Q1)",
+      "time_series": ["2023Q1", "2023Q2", "2023Q3", "2023Q4", "2024Q1", "2024Q2", "2024Q3", "2024Q4", "2025Q1", "2025Q2"],
+      "theme": "Business, economy and trade",
+      "theme_code": 68,
+      "subject": "Public finances",
+      "subject_code": 126,
+      "product": "Property rates",
+      "product_code": "PFPRT",
+      "rows": 1080
+    },
     "PUBBODEQ": {
       "name": "Public bodies take into account the needs of minority ethnic communities",
       "updated": "2026-02-18",
@@ -145723,7 +146441,7 @@
     },
     "PYLLAA": {
       "name": "Potential Years of Life Lost",
-      "updated": "2025-11-21",
+      "updated": "2026-05-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -145743,7 +146461,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2008-10", "2009-11", "2010-12", "2011-13", "2012-14", "2013-15", "2014-16", "2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23"],
+            "index": ["2008-10", "2009-11", "2010-12", "2011-13", "2012-14", "2013-15", "2014-16", "2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23", "2022-24"],
             "label": {
               "2008-10": "2008-10",
               "2009-11": "2009-11",
@@ -145758,7 +146476,8 @@
               "2018-20": "2018-20",
               "2019-21": "2019-21",
               "2020-22": "2020-22",
-              "2021-23": "2021-23"
+              "2021-23": "2021-23",
+              "2022-24": "2022-24"
             }
           },
           "label": "Grouped Year"
@@ -145798,7 +146517,7 @@
             ]
           }
         },
-        "SEX": {
+        "Sex": {
           "category": {
             "index": ["1", "2", "All"],
             "label": {
@@ -145814,14 +146533,14 @@
         "PYLL": "Potential Years of Life Lost"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2008-10", "2009-11", "2010-12", "2011-13", "2012-14", "2013-15", "2014-16", "2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23"],
+      "time_series": ["2008-10", "2009-11", "2010-12", "2011-13", "2012-14", "2013-15", "2014-16", "2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23", "2022-24"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Premature mortality",
       "product_code": "HIPM",
-      "rows": 798
+      "rows": 855
     },
     "PYLLDEA": {
       "name": "Potential Years of Life Lost",
@@ -145989,7 +146708,7 @@
     },
     "PYLLHSCT": {
       "name": "Potential Years of Life Lost",
-      "updated": "2025-11-21",
+      "updated": "2026-05-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -146009,7 +146728,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2008-10", "2009-11", "2010-12", "2011-13", "2012-14", "2013-15", "2014-16", "2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23"],
+            "index": ["2008-10", "2009-11", "2010-12", "2011-13", "2012-14", "2013-15", "2014-16", "2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23", "2022-24"],
             "label": {
               "2008-10": "2008-10",
               "2009-11": "2009-11",
@@ -146024,7 +146743,8 @@
               "2018-20": "2018-20",
               "2019-21": "2019-21",
               "2020-22": "2020-22",
-              "2021-23": "2021-23"
+              "2021-23": "2021-23",
+              "2022-24": "2022-24"
             }
           },
           "label": "Grouped Year"
@@ -146051,13 +146771,13 @@
             ]
           }
         },
-        "SEX": {
+        "Sex": {
           "category": {
             "index": ["1", "2", "All"],
             "label": {
               "1": "Females",
               "2": "Males",
-              "All": "All persons"
+              "All": "All Persons"
             }
           },
           "label": "Sex"
@@ -146067,14 +146787,14 @@
         "PYLL": "Potential Years of Life Lost"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2008-10", "2009-11", "2010-12", "2011-13", "2012-14", "2013-15", "2014-16", "2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23"],
+      "time_series": ["2008-10", "2009-11", "2010-12", "2011-13", "2012-14", "2013-15", "2014-16", "2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23", "2022-24"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Premature mortality",
       "product_code": "HIPM",
-      "rows": 252
+      "rows": 270
     },
     "PYLLLGD": {
       "name": "Potential Years of Life Lost",
@@ -151119,6 +151839,99 @@
       "product_code": "MRTC",
       "rows": 22224
     },
+    "RTSPDLGD": {
+      "name": "Raids paid",
+      "updated": "2026-05-01",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["ORPM", "RTSPD"],
+            "label": {
+              "ORPM": "Occupancies with a rates payment made",
+              "RTSPD": "Rates paid"
+            },
+            "unit": {
+              "ORPM": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "RTSPD": {
+                "decimals": 0,
+                "label": "Pounds Sterling (£)",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+            "label": {
+              "2020/21": "2020/21",
+              "2021/22": "2021/22",
+              "2022/23": "2022/23",
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "LGD2014": {
+          "category": {
+            "index": ["N09000001", "N09000002", "N09000003", "N09000004", "N09000005", "N09000006", "N09000007", "N09000008", "N09000009", "N09000010", "N09000011", "N92000002"],
+            "label": {
+              "N09000001": "Antrim and Newtownabbey",
+              "N09000002": "Armagh City, Banbridge and Craigavon",
+              "N09000003": "Belfast",
+              "N09000004": "Causeway Coast and Glens",
+              "N09000005": "Derry City and Strabane",
+              "N09000006": "Fermanagh and Omagh",
+              "N09000007": "Lisburn and Castlereagh",
+              "N09000008": "Mid and East Antrim",
+              "N09000009": "Mid Ulster",
+              "N09000010": "Newry, Mourne and Down",
+              "N09000011": "Ards and North Down",
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "Local government district",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/450c0bbfce9cc5595a6142e35c589ba5"
+              }
+            ]
+          }
+        },
+        "SECTOR": {
+          "category": {
+            "index": ["DMSTC", "NDMSTC", "ALL"],
+            "label": {
+              "DMSTC": "Domestic",
+              "NDMSTC": "Non-domestic",
+              "ALL": "All"
+            }
+          },
+          "label": "Sector"
+        }
+      },
+      "statistics": {
+        "ORPM": "Occupancies with a rates payment made",
+        "RTSPD": "Rates paid"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+      "theme": "Business, economy and trade",
+      "theme_code": 68,
+      "subject": "Public finances",
+      "subject_code": 126,
+      "product": "Property rates",
+      "product_code": "PFPRT",
+      "rows": 360
+    },
     "S2SAA": {
       "name": "Steps 2 success",
       "updated": "2026-03-31",
@@ -153157,7 +153970,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2006/07-2010/11", "2007/08-2011/12", "2008/09-2012/13", "2009/10-2013/14", "2010/11-2014/15", "2011/12-2015/16", "2012/13-2016/17", "2013/14-2017/18", "2014/15-2018/19", "2015/16-2019/20", "2016/17-2020/21", "2017/18-2021/22", "2018/19-2022/23", "2019/20-2023/24"],
+            "index": ["2006/07-2010/11", "2007/08-2011/12", "2008/09-2012/13", "2009/10-2013/14", "2010/11-2014/15", "2011/12-2015/16", "2012/13-2016/17", "2013/14-2017/18", "2014/15-2018/19", "2015/16-2019/20", "2016/17-2020/21", "2017/18-2021/22", "2018/19-2022/23", "2019/20-2023/24", "2020/21-2024/25"],
             "label": {
               "2006/07-2010/11": "2006/07-2010/11",
               "2007/08-2011/12": "2007/08-2011/12",
@@ -153172,10 +153985,11 @@
               "2016/17-2020/21": "2016/17-2020/21",
               "2017/18-2021/22": "2017/18-2021/22",
               "2018/19-2022/23": "2018/19-2022/23",
-              "2019/20-2023/24": "2019/20-2023/24"
+              "2019/20-2023/24": "2019/20-2023/24",
+              "2020/21-2024/25": "2020/21-2024/25"
             }
           },
-          "label": "Grouped financial year"
+          "label": "Grouped Financial Year"
         },
         "AA": {
           "category": {
@@ -153235,7 +154049,7 @@
       "subject_code": 8,
       "product": "Mental health",
       "product_code": "HIMH",
-      "rows": 798
+      "rows": 855
     },
     "SARSELFHARMDEA": {
       "name": "Standardised admission rate - Self-harm admissions",
@@ -153259,7 +154073,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2006/07-2010/11", "2007/08-2011/12", "2008/09-2012/13", "2009/10-2013/14", "2010/11-2014/15", "2011/12-2015/16", "2012/13-2016/17", "2013/14-2017/18", "2014/15-2018/19", "2015/16-2019/20", "2016/17-2020/21", "2017/18-2021/22", "2018/19-2022/23", "2019/20-2023/24"],
+            "index": ["2006/07-2010/11", "2007/08-2011/12", "2008/09-2012/13", "2009/10-2013/14", "2010/11-2014/15", "2011/12-2015/16", "2012/13-2016/17", "2013/14-2017/18", "2014/15-2018/19", "2015/16-2019/20", "2016/17-2020/21", "2017/18-2021/22", "2018/19-2022/23", "2019/20-2023/24", "2020/21-2024/25"],
             "label": {
               "2006/07-2010/11": "2006/07-2010/11",
               "2007/08-2011/12": "2007/08-2011/12",
@@ -153274,10 +154088,11 @@
               "2016/17-2020/21": "2016/17-2020/21",
               "2017/18-2021/22": "2017/18-2021/22",
               "2018/19-2022/23": "2018/19-2022/23",
-              "2019/20-2023/24": "2019/20-2023/24"
+              "2019/20-2023/24": "2019/20-2023/24",
+              "2020/21-2024/25": "2020/21-2024/25"
             }
           },
-          "label": "Grouped financial year"
+          "label": "Grouped Financial Year"
         },
         "DEA2014": {
           "category": {
@@ -153399,7 +154214,7 @@
       "subject_code": 8,
       "product": "Mental health",
       "product_code": "HIMH",
-      "rows": 3402
+      "rows": 3645
     },
     "SARSELFHARMHSCT": {
       "name": "Standardised admission rate - Self-harm admissions",
@@ -153423,7 +154238,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2006/07-2010/11", "2007/08-2011/12", "2008/09-2012/13", "2009/10-2013/14", "2010/11-2014/15", "2011/12-2015/16", "2012/13-2016/17", "2013/14-2017/18", "2014/15-2018/19", "2015/16-2019/20", "2016/17-2020/21", "2017/18-2021/22", "2018/19-2022/23", "2019/20-2023/24"],
+            "index": ["2006/07-2010/11", "2007/08-2011/12", "2008/09-2012/13", "2009/10-2013/14", "2010/11-2014/15", "2011/12-2015/16", "2012/13-2016/17", "2013/14-2017/18", "2014/15-2018/19", "2015/16-2019/20", "2016/17-2020/21", "2017/18-2021/22", "2018/19-2022/23", "2019/20-2023/24", "2020/21-2024/25"],
             "label": {
               "2006/07-2010/11": "2006/07-2010/11",
               "2007/08-2011/12": "2007/08-2011/12",
@@ -153438,10 +154253,11 @@
               "2016/17-2020/21": "2016/17-2020/21",
               "2017/18-2021/22": "2017/18-2021/22",
               "2018/19-2022/23": "2018/19-2022/23",
-              "2019/20-2023/24": "2019/20-2023/24"
+              "2019/20-2023/24": "2019/20-2023/24",
+              "2020/21-2024/25": "2020/21-2024/25"
             }
           },
-          "label": "Grouped financial year"
+          "label": "Grouped Financial Year"
         },
         "HSCT": {
           "category": {
@@ -153488,7 +154304,7 @@
       "subject_code": 8,
       "product": "Mental health",
       "product_code": "HIMH",
-      "rows": 252
+      "rows": 270
     },
     "SARSELFHARMLGD": {
       "name": "Standardised admission rate - Self-harm admissions",
@@ -153512,7 +154328,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2006/07-2010/11", "2007/08-2011/12", "2008/09-2012/13", "2009/10-2013/14", "2010/11-2014/15", "2011/12-2015/16", "2012/13-2016/17", "2013/14-2017/18", "2014/15-2018/19", "2015/16-2019/20", "2016/17-2020/21", "2017/18-2021/22", "2018/19-2022/23", "2019/20-2023/24"],
+            "index": ["2006/07-2010/11", "2007/08-2011/12", "2008/09-2012/13", "2009/10-2013/14", "2010/11-2014/15", "2011/12-2015/16", "2012/13-2016/17", "2013/14-2017/18", "2014/15-2018/19", "2015/16-2019/20", "2016/17-2020/21", "2017/18-2021/22", "2018/19-2022/23", "2019/20-2023/24", "2020/21-2024/25"],
             "label": {
               "2006/07-2010/11": "2006/07-2010/11",
               "2007/08-2011/12": "2007/08-2011/12",
@@ -153527,10 +154343,11 @@
               "2016/17-2020/21": "2016/17-2020/21",
               "2017/18-2021/22": "2017/18-2021/22",
               "2018/19-2022/23": "2018/19-2022/23",
-              "2019/20-2023/24": "2019/20-2023/24"
+              "2019/20-2023/24": "2019/20-2023/24",
+              "2020/21-2024/25": "2020/21-2024/25"
             }
           },
-          "label": "Grouped financial year"
+          "label": "Grouped Financial Year"
         },
         "LGD2014": {
           "category": {
@@ -153583,7 +154400,7 @@
       "subject_code": 8,
       "product": "Mental health",
       "product_code": "HIMH",
-      "rows": 504
+      "rows": 540
     },
     "SARTYPEAA": {
       "name": "Standardised admission rate, by type",
@@ -154520,8 +155337,8 @@
       "rows": 72
     },
     "SDRAAACMAA": {
-      "name": "Standardised death rate - All cause",
-      "updated": "2026-04-01",
+      "name": "Standardised Death Rate - All Cause",
+      "updated": "2026-05-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -154541,7 +155358,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23"],
+            "index": ["2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23", "2022-24"],
             "label": {
               "2015-17": "2015-17",
               "2016-18": "2016-18",
@@ -154549,10 +155366,11 @@
               "2018-20": "2018-20",
               "2019-21": "2019-21",
               "2020-22": "2020-22",
-              "2021-23": "2021-23"
+              "2021-23": "2021-23",
+              "2022-24": "2022-24"
             }
           },
-          "label": "Grouped year"
+          "label": "Grouped Year"
         },
         "AA": {
           "category": {
@@ -154605,18 +155423,18 @@
         "SDRAAACM": "Deaths from any cause per 100,000 population"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23"],
+      "time_series": ["2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23", "2022-24"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Life expectancy and general health",
       "product_code": "HILEGH",
-      "rows": 399
+      "rows": 456
     },
     "SDRAAACMDEA": {
-      "name": "Standardised death rate - All cause",
-      "updated": "2026-04-01",
+      "name": "Standardised Death Rate - All Cause",
+      "updated": "2026-05-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -154636,7 +155454,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23"],
+            "index": ["2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23", "2022-24"],
             "label": {
               "2015-17": "2015-17",
               "2016-18": "2016-18",
@@ -154644,10 +155462,11 @@
               "2018-20": "2018-20",
               "2019-21": "2019-21",
               "2020-22": "2020-22",
-              "2021-23": "2021-23"
+              "2021-23": "2021-23",
+              "2022-24": "2022-24"
             }
           },
-          "label": "Grouped year"
+          "label": "Grouped Year"
         },
         "DEA2014": {
           "category": {
@@ -154762,18 +155581,18 @@
         "SDRAAACM": "Deaths from any cause per 100,000 population"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23"],
+      "time_series": ["2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23", "2022-24"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Life expectancy and general health",
       "product_code": "HILEGH",
-      "rows": 1701
+      "rows": 1944
     },
     "SDRAAACMHSCT": {
-      "name": "Standardised death rate - All cause",
-      "updated": "2026-04-01",
+      "name": "Standardised Death Rate - All Cause",
+      "updated": "2026-05-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -154793,7 +155612,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23"],
+            "index": ["2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23", "2022-24"],
             "label": {
               "2015-17": "2015-17",
               "2016-18": "2016-18",
@@ -154801,10 +155620,11 @@
               "2018-20": "2018-20",
               "2019-21": "2019-21",
               "2020-22": "2020-22",
-              "2021-23": "2021-23"
+              "2021-23": "2021-23",
+              "2022-24": "2022-24"
             }
           },
-          "label": "Grouped year"
+          "label": "Grouped Year"
         },
         "HSCT": {
           "category": {
@@ -154844,18 +155664,18 @@
         "SDRAAACM": "Deaths from any cause per 100,000 population"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23"],
+      "time_series": ["2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23", "2022-24"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Life expectancy and general health",
       "product_code": "HILEGH",
-      "rows": 126
+      "rows": 144
     },
     "SDRAAACMLGD": {
-      "name": "Standardised death rate - All cause",
-      "updated": "2026-04-01",
+      "name": "Standardised Death Rate - All Cause",
+      "updated": "2026-05-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -154875,7 +155695,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23"],
+            "index": ["2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23", "2022-24"],
             "label": {
               "2015-17": "2015-17",
               "2016-18": "2016-18",
@@ -154883,10 +155703,11 @@
               "2018-20": "2018-20",
               "2019-21": "2019-21",
               "2020-22": "2020-22",
-              "2021-23": "2021-23"
+              "2021-23": "2021-23",
+              "2022-24": "2022-24"
             }
           },
-          "label": "Grouped year"
+          "label": "Grouped Year"
         },
         "LGD2014": {
           "category": {
@@ -154932,14 +155753,14 @@
         "SDRAAACM": "Deaths from any cause per 100,000 population"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23"],
+      "time_series": ["2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23", "2022-24"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Life expectancy and general health",
       "product_code": "HILEGH",
-      "rows": 252
+      "rows": 288
     },
     "SDRLGD": {
       "name": "Surface Defects Repaired",
@@ -155611,8 +156432,8 @@
       "rows": 627
     },
     "SDRSMOKEDEA": {
-      "name": "Standardised death rate - Smoking attributable causes",
-      "updated": "2026-03-31",
+      "name": "Standardised Death Rate - Smoking Attributable Causes",
+      "updated": "2026-05-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -155632,7 +156453,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2009-13", "2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23"],
+            "index": ["2009-13", "2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23", "2020-24"],
             "label": {
               "2009-13": "2009-13",
               "2010-14": "2010-14",
@@ -155644,10 +156465,11 @@
               "2016-20": "2016-20",
               "2017-21": "2017-21",
               "2018-22": "2018-22",
-              "2019-23": "2019-23"
+              "2019-23": "2019-23",
+              "2020-24": "2020-24"
             }
           },
-          "label": "Grouped year"
+          "label": "Grouped Year"
         },
         "DEA2014": {
           "category": {
@@ -155762,14 +156584,14 @@
         "SDRSmoke": "Deaths from smoking attributable causes per 100,000 population"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2009-13", "2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23"],
+      "time_series": ["2009-13", "2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23", "2020-24"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Alcohol, smoking and drugs",
       "product_code": "HIASD",
-      "rows": 2673
+      "rows": 2916
     },
     "SDRSMOKEHSCT": {
       "name": "Standardised death rate - Smoking attributable causes",
@@ -155858,8 +156680,8 @@
       "rows": 198
     },
     "SDRSMOKELGD": {
-      "name": "Standardised death rate - Smoking attributable causes",
-      "updated": "2026-03-31",
+      "name": "Standardised Death Rate - Smoking Attributable Causes",
+      "updated": "2026-05-01",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -155879,7 +156701,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2009-13", "2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23"],
+            "index": ["2009-13", "2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23", "2020-24"],
             "label": {
               "2009-13": "2009-13",
               "2010-14": "2010-14",
@@ -155891,10 +156713,11 @@
               "2016-20": "2016-20",
               "2017-21": "2017-21",
               "2018-22": "2018-22",
-              "2019-23": "2019-23"
+              "2019-23": "2019-23",
+              "2020-24": "2020-24"
             }
           },
-          "label": "Grouped year"
+          "label": "Grouped Year"
         },
         "LGD2014": {
           "category": {
@@ -155940,14 +156763,14 @@
         "SDRSmoke": "Deaths from smoking attributable causes per 100,000 population"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2009-13", "2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23"],
+      "time_series": ["2009-13", "2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23", "2020-24"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Alcohol, smoking and drugs",
       "product_code": "HIASD",
-      "rows": 396
+      "rows": 432
     },
     "SDRU75AA": {
       "name": "Standardised Death rate, Under 75, by cause",
