@@ -4576,7 +4576,7 @@
     },
     "BIBSSLGD": {
       "name": "Back in Business rate support scheme",
-      "updated": "2026-05-01",
+      "updated": "2026-05-04",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -4631,7 +4631,7 @@
               "N92000002": "Northern Ireland"
             }
           },
-          "label": "Local government district",
+          "label": "Local Government District",
           "link": {
             "enclosure": [
               {
@@ -42045,7 +42045,7 @@
     },
     "DPALGD": {
       "name": "Disabled Persons Allowance",
-      "updated": "2026-05-01",
+      "updated": "2026-05-04",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -42111,7 +42111,7 @@
               "N92000002": "Northern Ireland"
             }
           },
-          "label": "Local government district",
+          "label": "Local Government District",
           "link": {
             "enclosure": [
               {
@@ -47934,7 +47934,7 @@
     },
     "EOYRTSLGD": {
       "name": "End of year rates balances",
-      "updated": "2026-05-01",
+      "updated": "2026-05-04",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -48015,7 +48015,7 @@
               "N92000002": "Northern Ireland"
             }
           },
-          "label": "Local government district",
+          "label": "Local Government District",
           "link": {
             "enclosure": [
               {
@@ -57114,7 +57114,7 @@
     },
     "GHGINSCOPE": {
       "name": "Greenhouse gas emissions - subset dataset",
-      "updated": "2026-03-06",
+      "updated": "2026-05-04",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -57134,7 +57134,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+            "index": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
             "label": {
               "2005": "2005",
               "2006": "2006",
@@ -57153,7 +57153,8 @@
               "2019": "2019",
               "2020": "2020",
               "2021": "2021",
-              "2022": "2022"
+              "2022": "2022",
+              "2023": "2023"
             }
           },
           "label": "Year"
@@ -57188,7 +57189,7 @@
         },
         "GHGSECTOR": {
           "category": {
-            "index": ["I1", "I2", "I3", "I4", "IALL", "C1", "C2", "C3", "CALL", "P1", "P2", "P3", "PALL", "D1", "D2", "D3", "DALL", "T1", "T2", "T3", "T4", "T5", "TALL", "L1", "L2", "L3", "L4", "L5", "L6", "L7", "LALL", "A1", "A2", "A3", "A4", "A5", "AALL", "W1", "W2", "WALL", "GTALL"],
+            "index": ["I1", "I2", "I3", "I4", "IALL", "C1", "C2", "C3", "CALL", "P1", "P2", "P3", "PALL", "D1", "D2", "D3", "DALL", "T1", "T3", "T5", "TALL", "A1", "A2", "A3", "AALL", "W2", "WALL", "GTALL"],
             "label": {
               "I1": "Industry electricity",
               "I2": "Industry gas",
@@ -57208,26 +57209,13 @@
               "D3": "Domestic 'other'",
               "DALL": "Domestic total",
               "T1": "Road transport (A roads)",
-              "T2": "Road transport (motorways)",
               "T3": "Road transport (minor roads)",
-              "T4": "Diesel railways",
               "T5": "Transport 'other'",
               "TALL": "Transport total",
-              "L1": "Net emissions: forest land",
-              "L2": "Net emissions: cropland",
-              "L3": "Net emissions: grassland",
-              "L4": "Net emissions: wetlands",
-              "L5": "Net emissions: settlements",
-              "L6": "Net emissions: harvested wood products",
-              "L7": "Net emissions: indirect N2O",
-              "LALL": "LULUCF net emissions",
               "A1": "Agriculture electricity",
               "A2": "Agriculture gas",
               "A3": "Agriculture 'other'",
-              "A4": "Agriculture livestock",
-              "A5": "Agriculture soils",
               "AALL": "Agriculture total",
-              "W1": "Landfill",
               "W2": "Waste management 'other'",
               "WALL": "Waste management total",
               "GTALL": "Grand total"
@@ -57240,14 +57228,14 @@
         "CO2": "Carbon dioxide"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+      "time_series": ["2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
       "theme": "Transport, environment and climate change",
       "theme_code": 71,
       "subject": "Energy, environment and climate change",
       "subject_code": 155,
       "product": "Greenhouse gas emissions",
       "product_code": "EECGGE",
-      "rows": 8856
+      "rows": 6384
     },
     "GHGINSCOPERATES": {
       "name": "Greenhouse gas emissions (rates) - subset dataset",
@@ -103375,7 +103363,7 @@
     },
     "LPALGD": {
       "name": "Lone Pensioner Allowance",
-      "updated": "2026-05-01",
+      "updated": "2026-05-04",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -103441,15 +103429,7 @@
               "N92000002": "Northern Ireland"
             }
           },
-          "label": "Local government district",
-          "link": {
-            "enclosure": [
-              {
-                "type": "application/geo+json",
-                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/450c0bbfce9cc5595a6142e35c589ba5"
-              }
-            ]
-          }
+          "label": "Local Government District"
         }
       },
       "statistics": {
@@ -145872,7 +145852,7 @@
     },
     "PRPTYVRAA": {
       "name": "Property vacancy rates",
-      "updated": "2026-05-01",
+      "updated": "2026-05-04",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -145940,7 +145920,7 @@
               "N92000002": "Northern Ireland"
             }
           },
-          "label": "Assembly area",
+          "label": "Assembly Area",
           "link": {
             "enclosure": [
               {
@@ -145952,11 +145932,11 @@
         },
         "SECTOR": {
           "category": {
-            "index": ["ALL", "DMSTC", "NDMSTC"],
+            "index": ["DMSTC", "NDMSTC", "ALL"],
             "label": {
-              "ALL": "All",
               "DMSTC": "Domestic",
-              "NDMSTC": "Non-domestic"
+              "NDMSTC": "Non-domestic",
+              "ALL": "All"
             }
           },
           "label": "Sector"
@@ -145979,7 +145959,7 @@
     },
     "PRPTYVRLGD": {
       "name": "Property vacancy rates",
-      "updated": "2026-05-01",
+      "updated": "2026-05-04",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -146045,7 +146025,15 @@
               "N92000002": "Northern Ireland"
             }
           },
-          "label": "Local government district"
+          "label": "Local Government District",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/450c0bbfce9cc5595a6142e35c589ba5"
+              }
+            ]
+          }
         },
         "SECTOR": {
           "category": {
@@ -152560,7 +152548,7 @@
     },
     "SARCAUSEDEA": {
       "name": "Standardised admission rate, by cause",
-      "updated": "2026-04-01",
+      "updated": "2026-05-04",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -152592,7 +152580,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2008/09-2010/11", "2009/10-2011/12", "2010/11-2012/13", "2011/12-2013/14", "2012/13-2014/15", "2013/14-2015/16", "2014/15-2016/17", "2015/16-2017/18", "2016/17-2018/19", "2017/18-2019/20", "2018/19-2020/21", "2019/20-2021/22", "2020/21-2022/23", "2021/22-2023/24"],
+            "index": ["2008/09-2010/11", "2009/10-2011/12", "2010/11-2012/13", "2011/12-2013/14", "2012/13-2014/15", "2013/14-2015/16", "2014/15-2016/17", "2015/16-2017/18", "2016/17-2018/19", "2017/18-2019/20", "2018/19-2020/21", "2019/20-2021/22", "2020/21-2022/23", "2021/22-2023/24", "2022/23-2024/25"],
             "label": {
               "2008/09-2010/11": "2008/09-2010/11",
               "2009/10-2011/12": "2009/10-2011/12",
@@ -152607,7 +152595,8 @@
               "2018/19-2020/21": "2018/19-2020/21",
               "2019/20-2021/22": "2019/20-2021/22",
               "2020/21-2022/23": "2020/21-2022/23",
-              "2021/22-2023/24": "2021/22-2023/24"
+              "2021/22-2023/24": "2021/22-2023/24",
+              "2022/23-2024/25": "2022/23-2024/25"
             }
           },
           "label": "Grouped financial year"
@@ -152727,18 +152716,18 @@
         "SARResp": "Respiratory disease admissions per 100,000 population"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2008/09-2010/11", "2009/10-2011/12", "2010/11-2012/13", "2011/12-2013/14", "2012/13-2014/15", "2013/14-2015/16", "2014/15-2016/17", "2015/16-2017/18", "2016/17-2018/19", "2017/18-2019/20", "2018/19-2020/21", "2019/20-2021/22", "2020/21-2022/23", "2021/22-2023/24"],
+      "time_series": ["2008/09-2010/11", "2009/10-2011/12", "2010/11-2012/13", "2011/12-2013/14", "2012/13-2014/15", "2013/14-2015/16", "2014/15-2016/17", "2015/16-2017/18", "2016/17-2018/19", "2017/18-2019/20", "2018/19-2020/21", "2019/20-2021/22", "2020/21-2022/23", "2021/22-2023/24", "2022/23-2024/25"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Hospital activity",
       "product_code": "HIHA",
-      "rows": 10206
+      "rows": 10935
     },
     "SARCAUSEHSCT": {
       "name": "Standardised admission rate, by cause",
-      "updated": "2026-04-01",
+      "updated": "2026-05-04",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -152770,7 +152759,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2008/09-2010/11", "2009/10-2011/12", "2010/11-2012/13", "2011/12-2013/14", "2012/13-2014/15", "2013/14-2015/16", "2014/15-2016/17", "2015/16-2017/18", "2016/17-2018/19", "2017/18-2019/20", "2018/19-2020/21", "2019/20-2021/22", "2020/21-2022/23", "2021/22-2023/24"],
+            "index": ["2008/09-2010/11", "2009/10-2011/12", "2010/11-2012/13", "2011/12-2013/14", "2012/13-2014/15", "2013/14-2015/16", "2014/15-2016/17", "2015/16-2017/18", "2016/17-2018/19", "2017/18-2019/20", "2018/19-2020/21", "2019/20-2021/22", "2020/21-2022/23", "2021/22-2023/24", "2022/23-2024/25"],
             "label": {
               "2008/09-2010/11": "2008/09-2010/11",
               "2009/10-2011/12": "2009/10-2011/12",
@@ -152785,7 +152774,8 @@
               "2018/19-2020/21": "2018/19-2020/21",
               "2019/20-2021/22": "2019/20-2021/22",
               "2020/21-2022/23": "2020/21-2022/23",
-              "2021/22-2023/24": "2021/22-2023/24"
+              "2021/22-2023/24": "2021/22-2023/24",
+              "2022/23-2024/25": "2022/23-2024/25"
             }
           },
           "label": "Grouped financial year"
@@ -152830,18 +152820,18 @@
         "SARResp": "Respiratory disease admissions per 100,000 population"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2008/09-2010/11", "2009/10-2011/12", "2010/11-2012/13", "2011/12-2013/14", "2012/13-2014/15", "2013/14-2015/16", "2014/15-2016/17", "2015/16-2017/18", "2016/17-2018/19", "2017/18-2019/20", "2018/19-2020/21", "2019/20-2021/22", "2020/21-2022/23", "2021/22-2023/24"],
+      "time_series": ["2008/09-2010/11", "2009/10-2011/12", "2010/11-2012/13", "2011/12-2013/14", "2012/13-2014/15", "2013/14-2015/16", "2014/15-2016/17", "2015/16-2017/18", "2016/17-2018/19", "2017/18-2019/20", "2018/19-2020/21", "2019/20-2021/22", "2020/21-2022/23", "2021/22-2023/24", "2022/23-2024/25"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Hospital activity",
       "product_code": "HIHA",
-      "rows": 756
+      "rows": 810
     },
     "SARCAUSELGD": {
       "name": "Standardised admission rate, by cause",
-      "updated": "2026-04-01",
+      "updated": "2026-05-04",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -152873,7 +152863,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2008/09-2010/11", "2009/10-2011/12", "2010/11-2012/13", "2011/12-2013/14", "2012/13-2014/15", "2013/14-2015/16", "2014/15-2016/17", "2015/16-2017/18", "2016/17-2018/19", "2017/18-2019/20", "2018/19-2020/21", "2019/20-2021/22", "2020/21-2022/23", "2021/22-2023/24"],
+            "index": ["2008/09-2010/11", "2009/10-2011/12", "2010/11-2012/13", "2011/12-2013/14", "2012/13-2014/15", "2013/14-2015/16", "2014/15-2016/17", "2015/16-2017/18", "2016/17-2018/19", "2017/18-2019/20", "2018/19-2020/21", "2019/20-2021/22", "2020/21-2022/23", "2021/22-2023/24", "2022/23-2024/25"],
             "label": {
               "2008/09-2010/11": "2008/09-2010/11",
               "2009/10-2011/12": "2009/10-2011/12",
@@ -152888,7 +152878,8 @@
               "2018/19-2020/21": "2018/19-2020/21",
               "2019/20-2021/22": "2019/20-2021/22",
               "2020/21-2022/23": "2020/21-2022/23",
-              "2021/22-2023/24": "2021/22-2023/24"
+              "2021/22-2023/24": "2021/22-2023/24",
+              "2022/23-2024/25": "2022/23-2024/25"
             }
           },
           "label": "Grouped financial year"
@@ -152939,14 +152930,14 @@
         "SARResp": "Respiratory disease admissions per 100,000 population"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2008/09-2010/11", "2009/10-2011/12", "2010/11-2012/13", "2011/12-2013/14", "2012/13-2014/15", "2013/14-2015/16", "2014/15-2016/17", "2015/16-2017/18", "2016/17-2018/19", "2017/18-2019/20", "2018/19-2020/21", "2019/20-2021/22", "2020/21-2022/23", "2021/22-2023/24"],
+      "time_series": ["2008/09-2010/11", "2009/10-2011/12", "2010/11-2012/13", "2011/12-2013/14", "2012/13-2014/15", "2013/14-2015/16", "2014/15-2016/17", "2015/16-2017/18", "2016/17-2018/19", "2017/18-2019/20", "2018/19-2020/21", "2019/20-2021/22", "2020/21-2022/23", "2021/22-2023/24", "2022/23-2024/25"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Hospital activity",
       "product_code": "HIHA",
-      "rows": 1512
+      "rows": 1620
     },
     "SARCAUSEU75DEA": {
       "name": "Standardised admission rate under 75s, by cause",
@@ -154529,7 +154520,7 @@
     },
     "SARTYPEDEA": {
       "name": "Standardised admission rate, by type",
-      "updated": "2026-04-01",
+      "updated": "2026-05-04",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -154567,7 +154558,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+            "index": ["2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
             "label": {
               "2008/09": "2008/09",
               "2009/10": "2009/10",
@@ -154584,7 +154575,8 @@
               "2020/21": "2020/21",
               "2021/22": "2021/22",
               "2022/23": "2022/23",
-              "2023/24": "2023/24"
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
             }
           },
           "label": "Financial year"
@@ -154705,14 +154697,14 @@
         "SAREmerg": "Emergency admissions per 100,000 population"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+      "time_series": ["2008/09", "2009/10", "2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Hospital activity",
       "product_code": "HIHA",
-      "rows": 15552
+      "rows": 16524
     },
     "SARTYPEHSCT": {
       "name": "Standardised admission rate, by type",
@@ -156773,8 +156765,8 @@
       "rows": 432
     },
     "SDRU75AA": {
-      "name": "Standardised Death rate, Under 75, by cause",
-      "updated": "2025-09-24",
+      "name": "Standardised death rate, under 75, by cause",
+      "updated": "2026-05-04",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -156806,7 +156798,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2004-08", "2005-09", "2006-10", "2007-11", "2008-12", "2009-13", "2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23"],
+            "index": ["2004-08", "2005-09", "2006-10", "2007-11", "2008-12", "2009-13", "2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23", "2020-24"],
             "label": {
               "2004-08": "2004-08",
               "2005-09": "2005-09",
@@ -156823,10 +156815,11 @@
               "2016-20": "2016-20",
               "2017-21": "2017-21",
               "2018-22": "2018-22",
-              "2019-23": "2019-23"
+              "2019-23": "2019-23",
+              "2020-24": "2020-24"
             }
           },
-          "label": "Grouped Year"
+          "label": "Grouped year"
         },
         "AA": {
           "category": {
@@ -156881,18 +156874,18 @@
         "SDRRespU75": "Deaths from respiratory disease in persons aged under 75 per 100,000 population"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2004-08", "2005-09", "2006-10", "2007-11", "2008-12", "2009-13", "2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23"],
+      "time_series": ["2004-08", "2005-09", "2006-10", "2007-11", "2008-12", "2009-13", "2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23", "2020-24"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Premature mortality",
       "product_code": "HIPM",
-      "rows": 2736
+      "rows": 2907
     },
     "SDRU75HSCT": {
-      "name": "Standardised Death rate, Under 75, by cause",
-      "updated": "2025-10-02",
+      "name": "Standardised death rate, under 75, by cause",
+      "updated": "2026-05-04",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -156924,7 +156917,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2004-08", "2005-09", "2006-10", "2007-11", "2008-12", "2009-13", "2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23"],
+            "index": ["2004-08", "2005-09", "2006-10", "2007-11", "2008-12", "2009-13", "2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23", "2020-24"],
             "label": {
               "2004-08": "2004-08",
               "2005-09": "2005-09",
@@ -156941,10 +156934,11 @@
               "2016-20": "2016-20",
               "2017-21": "2017-21",
               "2018-22": "2018-22",
-              "2019-23": "2019-23"
+              "2019-23": "2019-23",
+              "2020-24": "2020-24"
             }
           },
-          "label": "Grouped Year"
+          "label": "Grouped year"
         },
         "HSCT": {
           "category": {
@@ -156986,14 +156980,14 @@
         "SDRRespU75": "Deaths from respiratory disease in persons aged under 75 per 100,000 population"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2004-08", "2005-09", "2006-10", "2007-11", "2008-12", "2009-13", "2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23"],
+      "time_series": ["2004-08", "2005-09", "2006-10", "2007-11", "2008-12", "2009-13", "2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23", "2020-24"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Premature mortality",
       "product_code": "HIPM",
-      "rows": 864
+      "rows": 918
     },
     "SDRU75LGD": {
       "name": "Standardised death rate, under 75, by cause",
@@ -158750,7 +158744,7 @@
     },
     "SPRTYPEAA": {
       "name": "Standardised prescription rate, by type",
-      "updated": "2026-03-31",
+      "updated": "2026-05-04",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -158782,7 +158776,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
+            "index": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
             "label": {
               "2012": "2012",
               "2013": "2013",
@@ -158795,7 +158789,8 @@
               "2020": "2020",
               "2021": "2021",
               "2022": "2022",
-              "2023": "2023"
+              "2023": "2023",
+              "2024": "2024"
             }
           },
           "label": "Year"
@@ -158853,18 +158848,18 @@
         "SPRStatin": "Persons prescribed statin medication per 1,000 population"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
+      "time_series": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Additional Indicators",
       "product_code": "HIAddInd",
-      "rows": 2052
+      "rows": 2223
     },
     "SPRTYPEDEA": {
       "name": "Standardised prescription rate, by type",
-      "updated": "2026-03-31",
+      "updated": "2026-05-04",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -158896,7 +158891,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
+            "index": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
             "label": {
               "2012": "2012",
               "2013": "2013",
@@ -158909,7 +158904,8 @@
               "2020": "2020",
               "2021": "2021",
               "2022": "2022",
-              "2023": "2023"
+              "2023": "2023",
+              "2024": "2024"
             }
           },
           "label": "Year"
@@ -159029,18 +159025,18 @@
         "SPRStatin": "Persons prescribed statin medication per 1,000 population"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
+      "time_series": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Additional Indicators",
       "product_code": "HIAddInd",
-      "rows": 8748
+      "rows": 9477
     },
     "SPRTYPEHSCT": {
       "name": "Standardised prescription rate, by type",
-      "updated": "2026-03-31",
+      "updated": "2026-05-04",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -159072,7 +159068,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
+            "index": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
             "label": {
               "2012": "2012",
               "2013": "2013",
@@ -159085,7 +159081,8 @@
               "2020": "2020",
               "2021": "2021",
               "2022": "2022",
-              "2023": "2023"
+              "2023": "2023",
+              "2024": "2024"
             }
           },
           "label": "Year"
@@ -159130,18 +159127,18 @@
         "SPRStatin": "Persons prescribed statin medication per 1,000 population"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
+      "time_series": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Additional Indicators",
       "product_code": "HIAddInd",
-      "rows": 648
+      "rows": 702
     },
     "SPRTYPELGD": {
       "name": "Standardised prescription rate, by type",
-      "updated": "2026-03-31",
+      "updated": "2026-05-04",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -159173,7 +159170,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
+            "index": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
             "label": {
               "2012": "2012",
               "2013": "2013",
@@ -159186,7 +159183,8 @@
               "2020": "2020",
               "2021": "2021",
               "2022": "2022",
-              "2023": "2023"
+              "2023": "2023",
+              "2024": "2024"
             }
           },
           "label": "Year"
@@ -159237,14 +159235,14 @@
         "SPRStatin": "Persons prescribed statin medication per 1,000 population"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
+      "time_series": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Additional Indicators",
       "product_code": "HIAddInd",
-      "rows": 1296
+      "rows": 1404
     },
     "SSGENAGENI": {
       "name": "Stop and search",
