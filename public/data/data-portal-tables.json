@@ -1,5 +1,5 @@
 {
-  "table_count": 1058,
+  "table_count": 1059,
   "tables": {
     "ABI01": {
       "name": "Annual Business Inquiry: results by industry sector",
@@ -46169,7 +46169,7 @@
     },
     "ELECTAA": {
       "name": "Electoral register",
-      "updated": "2026-04-29",
+      "updated": "2026-05-05",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -46227,7 +46227,15 @@
               "N92000002": "Northern Ireland"
             }
           },
-          "label": "Assembly Area"
+          "label": "Assembly Area (2024)",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/1f52886d97fa83e591e53113149373a2"
+              }
+            ]
+          }
         }
       },
       "statistics": {
@@ -46246,7 +46254,7 @@
     },
     "ELECTDEA": {
       "name": "Electoral register",
-      "updated": "2026-04-29",
+      "updated": "2026-05-05",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -46372,7 +46380,15 @@
               "N92000002": "Northern Ireland"
             }
           },
-          "label": "District Electoral Area"
+          "label": "District Electoral Area",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/619aff82c8618bf04fbcc40dc38fa16d"
+              }
+            ]
+          }
         }
       },
       "statistics": {
@@ -46392,7 +46408,7 @@
     },
     "ELECTLGD": {
       "name": "Electoral register",
-      "updated": "2026-04-29",
+      "updated": "2026-05-05",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -46449,7 +46465,15 @@
               "N92000002": "Northern Ireland"
             }
           },
-          "label": "Local Government District"
+          "label": "Local Government District",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/450c0bbfce9cc5595a6142e35c589ba5"
+              }
+            ]
+          }
         }
       },
       "statistics": {
@@ -46469,7 +46493,7 @@
     },
     "ELECTWARD": {
       "name": "Electoral register",
-      "updated": "2026-04-29",
+      "updated": "2026-05-05",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -46977,7 +47001,15 @@
               "N92000002": "Northern Ireland"
             }
           },
-          "label": "Ward"
+          "label": "Ward",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/7c0c3e508dd23d6fe51374d9a3f5493b"
+              }
+            ]
+          }
         }
       },
       "statistics": {
