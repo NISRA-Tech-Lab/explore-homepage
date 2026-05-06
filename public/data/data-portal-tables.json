@@ -1,5 +1,5 @@
 {
-  "table_count": 1059,
+  "table_count": 1066,
   "tables": {
     "ABI01": {
       "name": "Annual Business Inquiry: results by industry sector",
@@ -5055,7 +5055,7 @@
     },
     "BRTHSACADDEA": {
       "name": "Births Registered",
-      "updated": "2026-04-10",
+      "updated": "2026-05-06",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -5075,9 +5075,8 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+            "index": ["2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
             "label": {
-              "2010/11": "2010/11",
               "2011/12": "2011/12",
               "2012/13": "2012/13",
               "2013/14": "2013/14",
@@ -5189,14 +5188,14 @@
         "BRTHCOUNT": "Births"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+      "time_series": ["2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
       "theme": "People and communities",
       "theme_code": 70,
       "subject": "Births, deaths and marriages",
       "subject_code": 147,
       "product": "Births",
       "product_code": "BDMB",
-      "rows": 1134
+      "rows": 1053
     },
     "BRTHSACADLGD": {
       "name": "Births Registered",
@@ -26465,7 +26464,7 @@
     },
     "CHILDBMIHSCT": {
       "name": "Childhood BMI",
-      "updated": "2026-03-31",
+      "updated": "2026-05-06",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -26503,7 +26502,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+            "index": ["2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
             "label": {
               "2010/11": "2010/11",
               "2011/12": "2011/12",
@@ -26518,10 +26517,22 @@
               "2020/21": "2020/21",
               "2021/22": "2021/22",
               "2022/23": "2022/23",
-              "2023/24": "2023/24"
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
             }
           },
           "label": "Academic year"
+        },
+        "SEX": {
+          "category": {
+            "index": ["1", "2", "All"],
+            "label": {
+              "1": "Females",
+              "2": "Males",
+              "All": "All Persons"
+            }
+          },
+          "label": "Sex"
         },
         "HSCT": {
           "category": {
@@ -26544,17 +26555,6 @@
               }
             ]
           }
-        },
-        "SEX": {
-          "category": {
-            "index": ["1", "2", "All"],
-            "label": {
-              "1": "Females",
-              "2": "Males",
-              "All": "All persons"
-            }
-          },
-          "label": "Sex"
         }
       },
       "statistics": {
@@ -26564,14 +26564,14 @@
         "Y8BMIOwOb": "Proportion of Y8 children who are overweight or obese"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+      "time_series": ["2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Diet and dental health",
       "product_code": "HIDDH",
-      "rows": 1008
+      "rows": 1080
     },
     "CHILDBMILGD": {
       "name": "Childhood BMI",
@@ -28886,7 +28886,7 @@
     },
     "COPC01T03": {
       "name": "Components of population change",
-      "updated": "2026-01-12",
+      "updated": "2026-05-06",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -28940,7 +28940,15 @@
               "N92000002": "Northern Ireland"
             }
           },
-          "label": "Assembly Area (2024)"
+          "label": "Assembly Area (2024)",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/1f52886d97fa83e591e53113149373a2"
+              }
+            ]
+          }
         },
         "comchange": {
           "category": {
@@ -56215,7 +56223,7 @@
     },
     "GAPAA24": {
       "name": "Gross Annual Pay",
-      "updated": "2025-10-29",
+      "updated": "2026-05-06",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -56280,7 +56288,15 @@
               "N92000002": "Northern Ireland"
             }
           },
-          "label": "Assembly Area (2024)"
+          "label": "Assembly Area (2024)",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/1f52886d97fa83e591e53113149373a2"
+              }
+            ]
+          }
         },
         "WP": {
           "category": {
@@ -57502,8 +57518,8 @@
       "rows": 13338
     },
     "GHWPAA24": {
-      "name": "Gross Hourly (excluding overtime) and Weekly Pay",
-      "updated": "2025-10-29",
+      "name": "Gross hourly (excluding overtime) and weekly pay",
+      "updated": "2026-05-06",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -57568,7 +57584,15 @@
               "N92000002": "Northern Ireland"
             }
           },
-          "label": "Assembly Area (2024)"
+          "label": "Assembly Area (2024)",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/1f52886d97fa83e591e53113149373a2"
+              }
+            ]
+          }
         },
         "PR": {
           "category": {
@@ -98918,7 +98942,7 @@
     },
     "INFANTMRHSCT": {
       "name": "Infant mortality rate",
-      "updated": "2026-04-01",
+      "updated": "2026-05-06",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -98938,7 +98962,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2006-10", "2007-11", "2008-12", "2009-13", "2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23"],
+            "index": ["2006-10", "2007-11", "2008-12", "2009-13", "2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23", "2020-24"],
             "label": {
               "2006-10": "2006-10",
               "2007-11": "2007-11",
@@ -98953,7 +98977,8 @@
               "2016-20": "2016-20",
               "2017-21": "2017-21",
               "2018-22": "2018-22",
-              "2019-23": "2019-23"
+              "2019-23": "2019-23",
+              "2020-24": "2020-24"
             }
           },
           "label": "Grouped year"
@@ -98985,14 +99010,14 @@
         "InfantMR": "Infant deaths per 1,000 live births"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2006-10", "2007-11", "2008-12", "2009-13", "2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23"],
+      "time_series": ["2006-10", "2007-11", "2008-12", "2009-13", "2010-14", "2011-15", "2012-16", "2013-17", "2014-18", "2015-19", "2016-20", "2017-21", "2018-22", "2019-23", "2020-24"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Pregnancy and early years",
       "product_code": "HIPEY",
-      "rows": 84
+      "rows": 90
     },
     "INFNTDTHS": {
       "name": "Infant deaths",
@@ -101603,7 +101628,7 @@
     },
     "LBWDEA": {
       "name": "Low birth weight",
-      "updated": "2024-04-12",
+      "updated": "2026-05-06",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -101623,7 +101648,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+            "index": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
             "label": {
               "2014": "2014",
               "2015": "2015",
@@ -101633,7 +101658,8 @@
               "2019": "2019",
               "2020": "2020",
               "2021": "2021",
-              "2022": "2022"
+              "2022": "2022",
+              "2023": "2023"
             }
           },
           "label": "Year"
@@ -101740,14 +101766,14 @@
         "LBW": "Proportion of all live births with weight less than 2,500g"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+      "time_series": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Pregnancy and early years",
       "product_code": "HIPEY",
-      "rows": 729
+      "rows": 810
     },
     "LBWHSCT": {
       "name": "Low birth weight",
@@ -111005,7 +111031,7 @@
     },
     "MYE01T013": {
       "name": "Mid-year population estimates",
-      "updated": "2026-01-13",
+      "updated": "2026-05-06",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -111060,7 +111086,15 @@
               "N92000002": "Northern Ireland"
             }
           },
-          "label": "Assembly Area (2024)"
+          "label": "Assembly Area (2024)",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/1f52886d97fa83e591e53113149373a2"
+              }
+            ]
+          }
         },
         "fiveyrage": {
           "category": {
@@ -111117,7 +111151,7 @@
     },
     "MYE01T014": {
       "name": "Mid-year population estimates",
-      "updated": "2026-01-13",
+      "updated": "2026-05-06",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -111172,7 +111206,15 @@
               "N92000002": "Northern Ireland"
             }
           },
-          "label": "Assembly Area (2024)"
+          "label": "Assembly Area (2024)",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/1f52886d97fa83e591e53113149373a2"
+              }
+            ]
+          }
         },
         "broadage11": {
           "category": {
@@ -111221,7 +111263,7 @@
     },
     "MYE01T015": {
       "name": "Mid-year population estimates",
-      "updated": "2026-01-13",
+      "updated": "2026-05-06",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -111276,7 +111318,15 @@
               "N92000002": "Northern Ireland"
             }
           },
-          "label": "Assembly Area (2024)"
+          "label": "Assembly Area (2024)",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/1f52886d97fa83e591e53113149373a2"
+              }
+            ]
+          }
         },
         "broadage4": {
           "category": {
@@ -111592,7 +111642,7 @@
     },
     "MYE01T019": {
       "name": "Median age",
-      "updated": "2026-01-14",
+      "updated": "2026-05-06",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -111647,7 +111697,15 @@
               "N92000002": "Northern Ireland"
             }
           },
-          "label": "Assembly Area (2024)"
+          "label": "Assembly Area (2024)",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/1f52886d97fa83e591e53113149373a2"
+              }
+            ]
+          }
         },
         "Sex": {
           "category": {
@@ -111872,7 +111930,7 @@
     },
     "MYE01T021": {
       "name": "Population totals",
-      "updated": "2026-01-13",
+      "updated": "2026-05-06",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -111927,7 +111985,15 @@
               "N92000002": "Northern Ireland"
             }
           },
-          "label": "Assembly Area (2024)"
+          "label": "Assembly Area (2024)",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/1f52886d97fa83e591e53113149373a2"
+              }
+            ]
+          }
         },
         "rounded_unrounded": {
           "category": {
@@ -112025,7 +112091,7 @@
     },
     "MYE01T023": {
       "name": "Mid-year population estimates",
-      "updated": "2026-01-13",
+      "updated": "2026-05-06",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -112080,7 +112146,15 @@
               "N92000002": "Northern Ireland"
             }
           },
-          "label": "Assembly Area (2024)"
+          "label": "Assembly Area (2024)",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/1f52886d97fa83e591e53113149373a2"
+              }
+            ]
+          }
         },
         "Age": {
           "category": {
@@ -139252,7 +139326,7 @@
     },
     "PD01T03": {
       "name": "Population densities",
-      "updated": "2026-01-14",
+      "updated": "2026-05-06",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -139307,7 +139381,15 @@
               "N92000002": "Northern Ireland"
             }
           },
-          "label": "Assembly Area (2024)"
+          "label": "Assembly Area (2024)",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/1f52886d97fa83e591e53113149373a2"
+              }
+            ]
+          }
         }
       },
       "statistics": {
@@ -160093,7 +160175,7 @@
     },
     "TEENBRHSCT": {
       "name": "Teenage birth rates",
-      "updated": "2026-04-01",
+      "updated": "2026-05-06",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -160119,7 +160201,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2008-10", "2009-11", "2010-12", "2011-13", "2012-14", "2013-15", "2014-16", "2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23"],
+            "index": ["2008-10", "2009-11", "2010-12", "2011-13", "2012-14", "2013-15", "2014-16", "2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23", "2022-24"],
             "label": {
               "2008-10": "2008-10",
               "2009-11": "2009-11",
@@ -160134,7 +160216,8 @@
               "2018-20": "2018-20",
               "2019-21": "2019-21",
               "2020-22": "2020-22",
-              "2021-23": "2021-23"
+              "2021-23": "2021-23",
+              "2022-24": "2022-24"
             }
           },
           "label": "Grouped year"
@@ -160167,18 +160250,18 @@
         "U20BR": "Births registered to mothers aged under 20 per 1,000 population"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2008-10", "2009-11", "2010-12", "2011-13", "2012-14", "2013-15", "2014-16", "2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23"],
+      "time_series": ["2008-10", "2009-11", "2010-12", "2011-13", "2012-14", "2013-15", "2014-16", "2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23", "2022-24"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Pregnancy and early years",
       "product_code": "HIPEY",
-      "rows": 168
+      "rows": 180
     },
     "TEENBRLGD": {
       "name": "Teenage birth rates",
-      "updated": "2026-04-01",
+      "updated": "2026-05-06",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -160204,7 +160287,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2008-10", "2009-11", "2010-12", "2011-13", "2012-14", "2013-15", "2014-16", "2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23"],
+            "index": ["2008-10", "2009-11", "2010-12", "2011-13", "2012-14", "2013-15", "2014-16", "2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23", "2022-24"],
             "label": {
               "2008-10": "2008-10",
               "2009-11": "2009-11",
@@ -160219,7 +160302,8 @@
               "2018-20": "2018-20",
               "2019-21": "2019-21",
               "2020-22": "2020-22",
-              "2021-23": "2021-23"
+              "2021-23": "2021-23",
+              "2022-24": "2022-24"
             }
           },
           "label": "Grouped year"
@@ -160258,14 +160342,14 @@
         "U20BR": "Births registered to mothers aged under 20 per 1,000 population"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2008-10", "2009-11", "2010-12", "2011-13", "2012-14", "2013-15", "2014-16", "2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23"],
+      "time_series": ["2008-10", "2009-11", "2010-12", "2011-13", "2012-14", "2013-15", "2014-16", "2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23", "2022-24"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Pregnancy and early years",
       "product_code": "HIPEY",
-      "rows": 336
+      "rows": 360
     },
     "TFEARCRIMEHSCT": {
       "name": "NISCTS: Fear of crime",
@@ -165026,7 +165110,7 @@
     },
     "TWPHWAA24": {
       "name": "Total Weekly Paid Hours Worked",
-      "updated": "2025-10-29",
+      "updated": "2026-05-06",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -165091,7 +165175,15 @@
               "N92000002": "Northern Ireland"
             }
           },
-          "label": "Assembly Area (2024)"
+          "label": "Assembly Area (2024)",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/1f52886d97fa83e591e53113149373a2"
+              }
+            ]
+          }
         },
         "WP": {
           "category": {
