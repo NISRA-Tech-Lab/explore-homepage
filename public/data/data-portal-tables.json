@@ -26579,7 +26579,7 @@
     },
     "CHILDBMILGD": {
       "name": "Childhood BMI",
-      "updated": "2026-03-31",
+      "updated": "2026-05-11",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -26617,7 +26617,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+            "index": ["2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
             "label": {
               "2010/11": "2010/11",
               "2011/12": "2011/12",
@@ -26632,10 +26632,22 @@
               "2020/21": "2020/21",
               "2021/22": "2021/22",
               "2022/23": "2022/23",
-              "2023/24": "2023/24"
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
             }
           },
           "label": "Academic year"
+        },
+        "SEX": {
+          "category": {
+            "index": ["1", "2", "All"],
+            "label": {
+              "1": "Females",
+              "2": "Males",
+              "All": "All Persons"
+            }
+          },
+          "label": "Sex"
         },
         "LGD2014": {
           "category": {
@@ -26664,17 +26676,6 @@
               }
             ]
           }
-        },
-        "SEX": {
-          "category": {
-            "index": ["1", "2", "All"],
-            "label": {
-              "1": "Females",
-              "2": "Males",
-              "All": "All Persons"
-            }
-          },
-          "label": "Sex"
         }
       },
       "statistics": {
@@ -26684,14 +26685,14 @@
         "Y8BMIOwOb": "Proportion of Y8 children who are overweight or obese"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24"],
+      "time_series": ["2010/11", "2011/12", "2012/13", "2013/14", "2014/15", "2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Diet and dental health",
       "product_code": "HIDDH",
-      "rows": 2016
+      "rows": 2160
     },
     "CHSACTIONLGD": {
       "name": "Continuous Household Survey: Actions taken for a positive impact on the environment",
@@ -156428,8 +156429,8 @@
       "rows": 855
     },
     "PYLLDEA": {
-      "name": "Potential Years of Life Lost",
-      "updated": "2025-09-19",
+      "name": "Potential years of life lost",
+      "updated": "2026-05-11",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -156449,7 +156450,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2008-10", "2009-11", "2010-12", "2011-13", "2012-14", "2013-15", "2014-16", "2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23"],
+            "index": ["2008-10", "2009-11", "2010-12", "2011-13", "2012-14", "2013-15", "2014-16", "2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23", "2022-24"],
             "label": {
               "2008-10": "2008-10",
               "2009-11": "2009-11",
@@ -156464,10 +156465,11 @@
               "2018-20": "2018-20",
               "2019-21": "2019-21",
               "2020-22": "2020-22",
-              "2021-23": "2021-23"
+              "2021-23": "2021-23",
+              "2022-24": "2022-24"
             }
           },
-          "label": "Grouped Year"
+          "label": "Grouped year"
         },
         "DEA2014": {
           "category": {
@@ -156582,14 +156584,14 @@
         "PYLL": "Potential Years of Life Lost"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2008-10", "2009-11", "2010-12", "2011-13", "2012-14", "2013-15", "2014-16", "2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23"],
+      "time_series": ["2008-10", "2009-11", "2010-12", "2011-13", "2012-14", "2013-15", "2014-16", "2015-17", "2016-18", "2017-19", "2018-20", "2019-21", "2020-22", "2021-23", "2022-24"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Premature mortality",
       "product_code": "HIPM",
-      "rows": 3402
+      "rows": 3645
     },
     "PYLLHSCT": {
       "name": "Potential Years of Life Lost",
@@ -162344,7 +162346,7 @@
     },
     "SARCAUSEAA": {
       "name": "Standardised admission rate under 75s, by cause",
-      "updated": "2026-04-01",
+      "updated": "2026-05-11",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -162370,7 +162372,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2008/09-2010/11", "2009/10-2011/12", "2010/11-2012/13", "2011/12-2013/14", "2012/13-2014/15", "2013/14-2015/16", "2014/15-2016/17", "2015/16-2017/18", "2016/17-2018/19", "2017/18-2019/20", "2018/19-2020/21", "2019/20-2021/22", "2020/21-2022/23", "2021/22-2023/24"],
+            "index": ["2008/09-2010/11", "2009/10-2011/12", "2010/11-2012/13", "2011/12-2013/14", "2012/13-2014/15", "2013/14-2015/16", "2014/15-2016/17", "2015/16-2017/18", "2016/17-2018/19", "2017/18-2019/20", "2018/19-2020/21", "2019/20-2021/22", "2020/21-2022/23", "2021/22-2023/24", "2022/23-2024/25"],
             "label": {
               "2008/09-2010/11": "2008/09-2010/11",
               "2009/10-2011/12": "2009/10-2011/12",
@@ -162385,7 +162387,8 @@
               "2018/19-2020/21": "2018/19-2020/21",
               "2019/20-2021/22": "2019/20-2021/22",
               "2020/21-2022/23": "2020/21-2022/23",
-              "2021/22-2023/24": "2021/22-2023/24"
+              "2021/22-2023/24": "2021/22-2023/24",
+              "2022/23-2024/25": "2022/23-2024/25"
             }
           },
           "label": "Grouped financial year"
@@ -162434,14 +162437,14 @@
         "SARRespU75": "Respiratory disease admissions per 100,000 population aged under 75 year"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2008/09-2010/11", "2009/10-2011/12", "2010/11-2012/13", "2011/12-2013/14", "2012/13-2014/15", "2013/14-2015/16", "2014/15-2016/17", "2015/16-2017/18", "2016/17-2018/19", "2017/18-2019/20", "2018/19-2020/21", "2019/20-2021/22", "2020/21-2022/23", "2021/22-2023/24"],
+      "time_series": ["2008/09-2010/11", "2009/10-2011/12", "2010/11-2012/13", "2011/12-2013/14", "2012/13-2014/15", "2013/14-2015/16", "2014/15-2016/17", "2015/16-2017/18", "2016/17-2018/19", "2017/18-2019/20", "2018/19-2020/21", "2019/20-2021/22", "2020/21-2022/23", "2021/22-2023/24", "2022/23-2024/25"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Hospital activity",
       "product_code": "HIHA",
-      "rows": 1596
+      "rows": 1710
     },
     "SARCAUSEDEA": {
       "name": "Standardised admission rate, by cause",
@@ -168159,7 +168162,7 @@
     },
     "SMOKEPREGAA": {
       "name": "Smoking during pregnancy",
-      "updated": "2026-04-01",
+      "updated": "2026-05-11",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -168179,7 +168182,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+            "index": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
             "label": {
               "2014": "2014",
               "2015": "2015",
@@ -168189,7 +168192,8 @@
               "2019": "2019",
               "2020": "2020",
               "2021": "2021",
-              "2022": "2022"
+              "2022": "2022",
+              "2023": "2023"
             }
           },
           "label": "Year"
@@ -168234,18 +168238,18 @@
         "SmokePreg": "Proportion of all live births that were to mothers that reported smoking during pregnancy"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+      "time_series": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Pregnancy and early years",
       "product_code": "HIPEY",
-      "rows": 171
+      "rows": 190
     },
     "SMOKEPREGDEA": {
       "name": "Smoking during pregnancy",
-      "updated": "2026-04-01",
+      "updated": "2026-05-11",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -168265,7 +168269,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+            "index": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
             "label": {
               "2014": "2014",
               "2015": "2015",
@@ -168275,7 +168279,8 @@
               "2019": "2019",
               "2020": "2020",
               "2021": "2021",
-              "2022": "2022"
+              "2022": "2022",
+              "2023": "2023"
             }
           },
           "label": "Year"
@@ -168382,18 +168387,18 @@
         "SmokePreg": "Proportion of all live births that were to mothers that reported smoking during pregnancy"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+      "time_series": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Pregnancy and early years",
       "product_code": "HIPEY",
-      "rows": 729
+      "rows": 810
     },
     "SMOKEPREGHSCT": {
       "name": "Smoking during pregnancy",
-      "updated": "2026-04-01",
+      "updated": "2026-05-11",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -168413,7 +168418,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+            "index": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
             "label": {
               "2014": "2014",
               "2015": "2015",
@@ -168423,7 +168428,8 @@
               "2019": "2019",
               "2020": "2020",
               "2021": "2021",
-              "2022": "2022"
+              "2022": "2022",
+              "2023": "2023"
             }
           },
           "label": "Year"
@@ -168455,18 +168461,18 @@
         "SmokePreg": "Proportion of all live births that were to mothers that reported smoking during pregnancy"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+      "time_series": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Pregnancy and early years",
       "product_code": "HIPEY",
-      "rows": 54
+      "rows": 60
     },
     "SMOKEPREGLGD": {
       "name": "Smoking during pregnancy",
-      "updated": "2026-04-01",
+      "updated": "2026-05-11",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -168486,7 +168492,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+            "index": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
             "label": {
               "2014": "2014",
               "2015": "2015",
@@ -168496,7 +168502,8 @@
               "2019": "2019",
               "2020": "2020",
               "2021": "2021",
-              "2022": "2022"
+              "2022": "2022",
+              "2023": "2023"
             }
           },
           "label": "Year"
@@ -168534,14 +168541,14 @@
         "SmokePreg": "Proportion of all live births that were to mothers that reported smoking during pregnancy"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"],
+      "time_series": ["2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
       "theme": "Health and social care",
       "theme_code": 6,
       "subject": "Health inequalities",
       "subject_code": 8,
       "product": "Pregnancy and early years",
       "product_code": "HIPEY",
-      "rows": 108
+      "rows": 120
     },
     "SPORTSEQ": {
       "name": "Sports and physical activity",
