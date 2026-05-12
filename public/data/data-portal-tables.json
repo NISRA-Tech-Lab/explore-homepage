@@ -3844,8 +3844,8 @@
       "rows": 120
     },
     "BERDEMPLOYMENTFTE": {
-      "name": "BERD Full-Time Equivalent (FTE) employment",
-      "updated": "2026-04-03",
+      "name": "BERD Full-time equivalent (FTE) employment",
+      "updated": "2026-05-12",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -3919,14 +3919,14 @@
       "rows": 12
     },
     "BERDEMPLOYMENTHC": {
-      "name": "BERD Employee Headcount",
-      "updated": "2026-04-03",
+      "name": "BERD employee headcount",
+      "updated": "2026-05-12",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "TOTALHEADCOUNT",
             "label": {
-              "TOTALHEADCOUNT": "Total Headcount"
+              "TOTALHEADCOUNT": "Total headcount"
             },
             "unit": {
               "TOTALHEADCOUNT": {
@@ -3960,7 +3960,7 @@
         }
       },
       "statistics": {
-        "TOTALHEADCOUNT": "Total Headcount"
+        "TOTALHEADCOUNT": "Total headcount"
       },
       "time": "TLIST(A1)",
       "time_series": ["2022", "2023", "2024"],
@@ -3973,14 +3973,14 @@
       "rows": 3
     },
     "BERDLGD": {
-      "name": "In-house Business Expenditure on Research & Development by NI Local Government Districts",
-      "updated": "2026-02-09",
+      "name": "In-house business expenditure on research & development by NI Local Government Districts",
+      "updated": "2026-05-12",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "BERD",
             "label": {
-              "BERD": "Business Expenditure on R&D"
+              "BERD": "Business expenditure on R&D"
             },
             "unit": {
               "BERD": {
@@ -4025,7 +4025,7 @@
         }
       },
       "statistics": {
-        "BERD": "Business Expenditure on R&D"
+        "BERD": "Business expenditure on R&D"
       },
       "time": "TLIST(A1)",
       "time_series": ["2022", "2023", "2024"],
@@ -4038,14 +4038,14 @@
       "rows": 36
     },
     "BERDSECTOR": {
-      "name": "In-house BERD spend by Manufacturing, Services and Other subsections",
-      "updated": "2026-02-09",
+      "name": "In-house BERD spend by manufacturing, services and other subsections",
+      "updated": "2026-05-12",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "BERD",
             "label": {
-              "BERD": "Business Expenditure on Research and Development"
+              "BERD": "Business expenditure on research and development"
             },
             "unit": {
               "BERD": {
@@ -4113,7 +4113,7 @@
         }
       },
       "statistics": {
-        "BERD": "Business Expenditure on Research and Development"
+        "BERD": "Business expenditure on research and development"
       },
       "time": "TLIST(A1)",
       "time_series": ["2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
@@ -12647,8 +12647,8 @@
       "rows": 41760
     },
     "BUSBIRTHLGD": {
-      "name": "Business Births",
-      "updated": "2024-03-20",
+      "name": "Business births",
+      "updated": "2026-05-12",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -12731,8 +12731,8 @@
       "rows": 168
     },
     "BUSDEATHLGD": {
-      "name": "Business Deaths",
-      "updated": "2024-03-20",
+      "name": "Business deaths",
+      "updated": "2026-05-12",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -12893,14 +12893,14 @@
       "rows": 144
     },
     "BUSINESSBANDLGD": {
-      "name": "Number of Businesses: Activity, Size and Location",
-      "updated": "2024-03-19",
+      "name": "Number of businesses: Activity, size and location",
+      "updated": "2026-05-12",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "BCOUNTS",
             "label": {
-              "BCOUNTS": "Number of Businesses"
+              "BCOUNTS": "Number of businesses"
             },
             "unit": {
               "BCOUNTS": {
@@ -12959,7 +12959,7 @@
             ]
           }
         },
-        "BIG": {
+        "BroadIndustryGroup": {
           "category": {
             "index": ["1", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "All"],
             "label": {
@@ -12983,7 +12983,7 @@
               "All": "All Industries"
             }
           },
-          "label": "Broad Industry Group"
+          "label": "Broad industry group"
         },
         "EMPBAND": {
           "category": {
@@ -12997,7 +12997,7 @@
               "All": "All"
             }
           },
-          "label": "Employee Size Band"
+          "label": "Employee size band"
         },
         "TOBAND": {
           "category": {
@@ -13011,11 +13011,11 @@
               "All": "All"
             }
           },
-          "label": "Turnover Size Band (£ '000)"
+          "label": "Turnover size band (£'000)"
         }
       },
       "statistics": {
-        "BCOUNTS": "Number of Businesses"
+        "BCOUNTS": "Number of businesses"
       },
       "time": "TLIST(A1)",
       "time_series": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
@@ -13028,14 +13028,14 @@
       "rows": 85536
     },
     "BUSINESSBIGLGD": {
-      "name": "Number of Businesses",
-      "updated": "2024-03-20",
+      "name": "Number of businesses",
+      "updated": "2026-05-12",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "BCOUNTS",
             "label": {
-              "BCOUNTS": "Number of Businesses"
+              "BCOUNTS": "Number of businesses"
             },
             "unit": {
               "BCOUNTS": {
@@ -13094,7 +13094,7 @@
             ]
           }
         },
-        "BIG": {
+        "BroadIndustryGroup": {
           "category": {
             "index": ["1", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "All"],
             "label": {
@@ -13118,11 +13118,11 @@
               "All": "All Industries"
             }
           },
-          "label": "Broad Industry Group"
+          "label": "Broad industry group"
         }
       },
       "statistics": {
-        "BCOUNTS": "Number of Businesses"
+        "BCOUNTS": "Number of businesses"
       },
       "time": "TLIST(A1)",
       "time_series": ["2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023"],
@@ -56642,17 +56642,17 @@
       "rows": 130
     },
     "GERDCASH": {
-      "name": "In-house BERD, HERD and GovERD Spend by Year in Current Prices",
-      "updated": "2026-02-06",
+      "name": "In-house BERD, HERD and GovERD spend by year in current prices",
+      "updated": "2026-05-12",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["BERD", "HERD", "GovERD", "GERD"],
             "label": {
-              "BERD": "Business Expenditure on Research & Development",
-              "HERD": "Higher education Expenditure on Research & Development",
-              "GovERD": "Government Expenditure on Research & Development",
-              "GERD": "Total Expenditure on Research & Development"
+              "BERD": "Business expenditure on research & development",
+              "HERD": "Higher education expenditure on research & development",
+              "GovERD": "Government expenditure on research & development",
+              "GERD": "Total expenditure on research & development"
             },
             "unit": {
               "BERD": {
@@ -56712,10 +56712,10 @@
         }
       },
       "statistics": {
-        "BERD": "Business Expenditure on Research & Development",
-        "HERD": "Higher education Expenditure on Research & Development",
-        "GovERD": "Government Expenditure on Research & Development",
-        "GERD": "Total Expenditure on Research & Development"
+        "BERD": "Business expenditure on research & development",
+        "HERD": "Higher education expenditure on research & development",
+        "GovERD": "Government expenditure on research & development",
+        "GERD": "Total expenditure on research & development"
       },
       "time": "TLIST(A1)",
       "time_series": ["2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
@@ -99216,8 +99216,8 @@
       "rows": 414
     },
     "INPUTOUTPUT": {
-      "name": "Industry by Industry Multipliers and Effects",
-      "updated": "2023-11-13",
+      "name": "Industry by industry multipliers and effects",
+      "updated": "2026-05-12",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -99366,7 +99366,7 @@
           },
           "label": "Year"
         },
-        "SIC_63": {
+        "IndustryGroup": {
           "category": {
             "index": ["1", "02&03", "B", "10", "11&12", "13", "14-15", "16", "17", "18", "19-20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "35", "E", "F", "45", "46", "47", "49", "50", "51", "52", "53", "55", "56", "58", "59-60", "61", "62", "63", "K", "68OTHER", "68.2IMP", "69", "70", "71", "72-73", "74-75", "77-78", "79-80", "81", "82", "84", "85", "86", "87-88", "90-91", "92", "93", "S", "T"],
             "label": {
@@ -99435,7 +99435,7 @@
               "T": "(T) Activities Of Households As Employers Of Domestic Personnel"
             }
           },
-          "label": "Industry Group"
+          "label": "Industry group"
         }
       },
       "statistics": {
@@ -123407,8 +123407,8 @@
       "rows": 16
     },
     "NIBOBUS": {
-      "name": "Northern Ireland Businesses by Country of Ownership",
-      "updated": "2024-11-05",
+      "name": "Northern Ireland businesses by country of ownership",
+      "updated": "2026-05-12",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -123515,7 +123515,7 @@
               "All": "All"
             }
           },
-          "label": "Country of Ownership"
+          "label": "Country of ownership"
         }
       },
       "statistics": {
@@ -126963,18 +126963,18 @@
       "rows": 8400
     },
     "NIETS02": {
-      "name": "NIETS: Trade in Goods and Services",
-      "updated": "2026-03-11",
+      "name": "NIETS: Trade in goods and services",
+      "updated": "2026-05-12",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["BESESVALUE", "LOWER_CONF_INTERVAL", "UPPER_CONF_INTERVAL", "CV", "BESESCOUNT"],
             "label": {
-              "BESESVALUE": "Value of Trade",
+              "BESESVALUE": "Value of trade",
               "LOWER_CONF_INTERVAL": "95% Confidence Interval - Lower",
               "UPPER_CONF_INTERVAL": "95% Confidence Interval - Upper",
-              "CV": "Coefficient of Variation",
-              "BESESCOUNT": "Number of Businesses"
+              "CV": "Coefficient of variation",
+              "BESESCOUNT": "Number of businesses"
             },
             "unit": {
               "BESESVALUE": {
@@ -127064,7 +127064,7 @@
               "IMPORT": "Imports (outside UK)"
             }
           },
-          "label": "Trade Partner"
+          "label": "Trade partner"
         },
         "RUSECTION": {
           "category": {
@@ -127090,15 +127090,15 @@
               "S": "(S) Other Service Activities"
             }
           },
-          "label": "Industry Sector"
+          "label": "Industry sector"
         }
       },
       "statistics": {
-        "BESESVALUE": "Value of Trade",
+        "BESESVALUE": "Value of trade",
         "LOWER_CONF_INTERVAL": "95% Confidence Interval - Lower",
         "UPPER_CONF_INTERVAL": "95% Confidence Interval - Upper",
-        "CV": "Coefficient of Variation",
-        "BESESCOUNT": "Number of Businesses"
+        "CV": "Coefficient of variation",
+        "BESESCOUNT": "Number of businesses"
       },
       "time": "TLIST(A1)",
       "time_series": ["2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
@@ -127312,18 +127312,18 @@
       "rows": 89712
     },
     "NIETS04": {
-      "name": "NIETS: Trade by Business Employment Size",
-      "updated": "2026-03-24",
+      "name": "NIETS: Trade by business employment size",
+      "updated": "2026-05-12",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": ["BESESVALUE", "LOWER_CONF_INTERVAL", "UPPER_CONF_INTERVAL", "CV", "BESESCOUNT"],
             "label": {
-              "BESESVALUE": "Value of Trade",
+              "BESESVALUE": "Value of trade",
               "LOWER_CONF_INTERVAL": "95% Confidence Interval - Lower",
               "UPPER_CONF_INTERVAL": "95% Confidence Interval - Upper",
-              "CV": "Coefficient of Variation",
-              "BESESCOUNT": "Number of Businesses"
+              "CV": "Coefficient of variation",
+              "BESESCOUNT": "Number of businesses"
             },
             "unit": {
               "BESESVALUE": {
@@ -127413,7 +127413,7 @@
               "IMPORT": "Imports (outside UK)"
             }
           },
-          "label": "Trade Partner"
+          "label": "Trade partner"
         },
         "SIZEBAND": {
           "category": {
@@ -127426,15 +127426,15 @@
               "ALL": "All"
             }
           },
-          "label": "Business Employment Size"
+          "label": "Business employment size"
         }
       },
       "statistics": {
-        "BESESVALUE": "Value of Trade",
+        "BESESVALUE": "Value of trade",
         "LOWER_CONF_INTERVAL": "95% Confidence Interval - Lower",
         "UPPER_CONF_INTERVAL": "95% Confidence Interval - Upper",
-        "CV": "Coefficient of Variation",
-        "BESESCOUNT": "Number of Businesses"
+        "CV": "Coefficient of variation",
+        "BESESCOUNT": "Number of businesses"
       },
       "time": "TLIST(A1)",
       "time_series": ["2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
@@ -127448,7 +127448,7 @@
     },
     "NIETS05": {
       "name": "NIETS: Trade by Local Government District",
-      "updated": "2026-03-24",
+      "updated": "2026-05-12",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -127512,33 +127512,6 @@
           },
           "label": "Year"
         },
-        "FLOW": {
-          "category": {
-            "index": ["SALES", "PURCH"],
-            "label": {
-              "SALES": "Sales",
-              "PURCH": "Purchases"
-            }
-          },
-          "label": "Flow"
-        },
-        "BROADDEST": {
-          "category": {
-            "index": ["ALL", "NI", "GB", "IE", "REU", "ROW", "EXTERN", "EXPORT", "IMPORT"],
-            "label": {
-              "ALL": "All countries",
-              "NI": "Northern Ireland",
-              "GB": "Great Britain",
-              "IE": "Ireland",
-              "REU": "Rest of the Europe Union (EU excluding Ireland)",
-              "ROW": "Rest of the World (all countries outside the UK and EU)",
-              "EXTERN": "External Sales/Purchases (outside NI)",
-              "EXPORT": "Exports (outside UK)",
-              "IMPORT": "Imports (outside UK)"
-            }
-          },
-          "label": "Trade Partner"
-        },
         "LGD": {
           "category": {
             "index": ["N09000001", "N09000002", "N09000003", "N09000004", "N09000005", "N09000006", "N09000007", "N09000008", "N09000009", "N09000010", "N09000011"],
@@ -127565,6 +127538,33 @@
               }
             ]
           }
+        },
+        "BROADDEST": {
+          "category": {
+            "index": ["ALL", "NI", "GB", "IE", "REU", "ROW", "EXTERN", "EXPORT", "IMPORT"],
+            "label": {
+              "ALL": "All countries",
+              "NI": "Northern Ireland",
+              "GB": "Great Britain",
+              "IE": "Ireland",
+              "REU": "Rest of the Europe Union (EU excluding Ireland)",
+              "ROW": "Rest of the World (all countries outside the UK and EU)",
+              "EXTERN": "External Sales/Purchases (outside NI)",
+              "EXPORT": "Exports (outside UK)",
+              "IMPORT": "Imports (outside UK)"
+            }
+          },
+          "label": "Trade partner"
+        },
+        "FLOW": {
+          "category": {
+            "index": ["SALES", "PURCH"],
+            "label": {
+              "SALES": "Sales",
+              "PURCH": "Purchases"
+            }
+          },
+          "label": "Flow"
         }
       },
       "statistics": {
@@ -149622,8 +149622,8 @@
       "rows": 300
     },
     "PORT01": {
-      "name": "Port Tonnage",
-      "updated": "2024-11-28",
+      "name": "Port tonnage",
+      "updated": "2026-05-12",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -149674,7 +149674,7 @@
               "WorldRegion8": "Unspecified"
             }
           },
-          "label": "World Region"
+          "label": "World region"
         },
         "Direction": {
           "category": {
@@ -149717,7 +149717,7 @@
               "CargoD25": "Crude oil"
             }
           },
-          "label": "Cargo Description"
+          "label": "Cargo description"
         },
         "MajorPort": {
           "category": {
@@ -149730,7 +149730,7 @@
               "MajorPort5": "Warrenpoint"
             }
           },
-          "label": "NI Major Port"
+          "label": "NI major port"
         }
       },
       "statistics": {
