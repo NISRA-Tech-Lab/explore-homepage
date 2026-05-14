@@ -4127,7 +4127,7 @@
     },
     "BFEEDAA": {
       "name": "Breastfeeding on discharge",
-      "updated": "2026-05-07",
+      "updated": "2026-05-14",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -4185,10 +4185,10 @@
               "N06000016": "Strangford",
               "N06000017": "Upper Bann",
               "N06000018": "West Tyrone",
-              "N92000002": "NI"
+              "N92000002": "Northern Ireland"
             }
           },
-          "label": "Assembly Areas",
+          "label": "Assembly Area",
           "link": {
             "enclosure": [
               {
@@ -4214,7 +4214,7 @@
     },
     "BFEEDDEA": {
       "name": "Breastfeeding on discharge",
-      "updated": "2026-05-07",
+      "updated": "2026-05-14",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -4252,100 +4252,92 @@
         },
         "DEA2014": {
           "category": {
-            "index": ["N10000101", "N10000102", "N10000103", "N10000104", "N10000105", "N10000106", "N10000107", "N10000201", "N10000202", "N10000203", "N10000204", "N10000205", "N10000206", "N10000207", "N10000301", "N10000302", "N10000303", "N10000304", "N10000305", "N10000306", "N10000307", "N10000308", "N10000309", "N10000310", "N10000401", "N10000402", "N10000403", "N10000404", "N10000405", "N10000406", "N10000407", "N10000501", "N10000502", "N10000503", "N10000504", "N10000505", "N10000506", "N10000507", "N10000601", "N10000602", "N10000603", "N10000604", "N10000605", "N10000606", "N10000607", "N10000701", "N10000702", "N10000703", "N10000704", "N10000705", "N10000706", "N10000707", "N10000801", "N10000802", "N10000803", "N10000804", "N10000805", "N10000806", "N10000807", "N10000901", "N10000902", "N10000903", "N10000904", "N10000905", "N10000906", "N10000907", "N10001001", "N10001002", "N10001003", "N10001004", "N10001005", "N10001006", "N10001007", "N10001101", "N10001102", "N10001103", "N10001104", "N10001105", "N10001106", "N10001107", "N92000002"],
+            "index": ["N10000106", "N10000101", "N10000102", "N10000103", "N10000107", "N10000105", "N10000104", "N10000206", "N10000207", "N10000202", "N10000201", "N10000203", "N10000205", "N10000204", "N10000302", "N10000308", "N10000306", "N10000310", "N10000304", "N10000309", "N10000301", "N10000303", "N10000307", "N10000305", "N10000402", "N10000403", "N10000404", "N10000407", "N10000401", "N10000405", "N10000406", "N10000505", "N10000504", "N10000506", "N10000501", "N10000502", "N10000507", "N10000503", "N10000603", "N10000604", "N10000605", "N10000602", "N10000606", "N10000601", "N10000607", "N10000705", "N10000701", "N10000707", "N10000703", "N10000702", "N10000704", "N10000706", "N10000801", "N10000802", "N10000803", "N10000807", "N10000804", "N10000806", "N10000805", "N10000907", "N10000902", "N10000906", "N10000904", "N10000903", "N10000905", "N10000901", "N10001003", "N10001007", "N10001005", "N10001004", "N10001006", "N10001001", "N10001002", "N10001103", "N10001105", "N10001102", "N10001101", "N10001104", "N10001106", "N10001107", "N92000002"],
             "label": {
+              "N10000106": "Macedon",
               "N10000101": "Airport",
               "N10000102": "Antrim",
               "N10000103": "Ballyclare",
-              "N10000104": "Dunsilly",
-              "N10000105": "Glengormley Urban",
-              "N10000106": "Macedon",
               "N10000107": "Three Mile Water",
-              "N10000201": "Armagh",
-              "N10000202": "Banbridge",
-              "N10000203": "Craigavon",
-              "N10000204": "Cusher",
-              "N10000205": "Lagan River",
+              "N10000105": "Glengormley Urban",
+              "N10000104": "Dunsilly",
               "N10000206": "Lurgan",
               "N10000207": "Portadown",
-              "N10000301": "Balmoral",
+              "N10000202": "Banbridge",
+              "N10000201": "Armagh",
+              "N10000203": "Craigavon",
+              "N10000205": "Lagan River",
+              "N10000204": "Cusher",
               "N10000302": "Black Mountain",
-              "N10000303": "Botanic",
-              "N10000304": "Castle",
-              "N10000305": "Collin",
-              "N10000306": "Court",
-              "N10000307": "Lisnasharragh",
               "N10000308": "Oldpark",
-              "N10000309": "Ormiston",
+              "N10000306": "Court",
               "N10000310": "Titanic",
-              "N10000401": "Ballymoney",
+              "N10000304": "Castle",
+              "N10000309": "Ormiston",
+              "N10000301": "Balmoral",
+              "N10000303": "Botanic",
+              "N10000307": "Lisnasharragh",
+              "N10000305": "Collin",
               "N10000402": "Bann",
               "N10000403": "Benbradagh",
               "N10000404": "Causeway",
+              "N10000407": "The Glens",
+              "N10000401": "Ballymoney",
               "N10000405": "Coleraine",
               "N10000406": "Limavady",
-              "N10000407": "The Glens",
+              "N10000505": "Sperrin",
+              "N10000504": "Foyleside",
+              "N10000506": "The Moor",
               "N10000501": "Ballyarnett",
               "N10000502": "Derg",
-              "N10000503": "Faughan",
-              "N10000504": "Foyleside",
-              "N10000505": "Sperrin",
-              "N10000506": "The Moor",
               "N10000507": "Waterside",
-              "N10000601": "Enniskillen",
-              "N10000602": "Erne East",
+              "N10000503": "Faughan",
               "N10000603": "Erne North",
               "N10000604": "Erne West",
               "N10000605": "Mid Tyrone",
+              "N10000602": "Erne East",
               "N10000606": "Omagh",
+              "N10000601": "Enniskillen",
               "N10000607": "West Tyrone",
-              "N10000701": "Castlereagh East",
-              "N10000702": "Castlereagh South",
-              "N10000703": "Downshire East",
-              "N10000704": "Downshire West",
               "N10000705": "Killultagh",
-              "N10000706": "Lisburn North",
+              "N10000701": "Castlereagh East",
               "N10000707": "Lisburn South",
+              "N10000703": "Downshire East",
+              "N10000702": "Castlereagh South",
+              "N10000704": "Downshire West",
+              "N10000706": "Lisburn North",
               "N10000801": "Ballymena",
               "N10000802": "Bannside",
               "N10000803": "Braid",
-              "N10000804": "Carrick Castle",
-              "N10000805": "Coast Road",
-              "N10000806": "Knockagh",
               "N10000807": "Larne Lough",
-              "N10000901": "Carntogher",
-              "N10000902": "Clogher Valley",
-              "N10000903": "Cookstown",
-              "N10000904": "Dungannon",
-              "N10000905": "Magherafelt",
-              "N10000906": "Moyola",
+              "N10000804": "Carrick Castle",
+              "N10000806": "Knockagh",
+              "N10000805": "Coast Road",
               "N10000907": "Torrent",
+              "N10000902": "Clogher Valley",
+              "N10000906": "Moyola",
+              "N10000904": "Dungannon",
+              "N10000903": "Cookstown",
+              "N10000905": "Magherafelt",
+              "N10000901": "Carntogher",
+              "N10001003": "Newry",
+              "N10001007": "The Mournes",
+              "N10001005": "Slieve Croob",
+              "N10001004": "Rowallane",
+              "N10001006": "Slieve Gullion",
               "N10001001": "Crotlieve",
               "N10001002": "Downpatrick",
-              "N10001003": "Newry",
-              "N10001004": "Rowallane",
-              "N10001005": "Slieve Croob",
-              "N10001006": "Slieve Gullion",
-              "N10001007": "The Mournes",
-              "N10001101": "Ards Peninsula",
-              "N10001102": "Bangor Central",
-              "N10001103": "Bangor East and Donaghadee",
-              "N10001104": "Bangor West",
+              "N10001103": "Bangor East And Donaghadee",
               "N10001105": "Comber",
-              "N10001106": "Holywood and Clandeboye",
+              "N10001102": "Bangor Central",
+              "N10001101": "Ards Peninsula",
+              "N10001104": "Bangor West",
+              "N10001106": "Holywood And Clandeboye",
               "N10001107": "Newtownards",
-              "N92000002": "NI"
+              "N92000002": "Northern Ireland"
             }
           },
-          "label": "District Electoral Area",
-          "link": {
-            "enclosure": [
-              {
-                "type": "application/geo+json",
-                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/619aff82c8618bf04fbcc40dc38fa16d"
-              }
-            ]
-          }
+          "label": "District Electoral Area"
         }
       },
       "statistics": {
@@ -4363,7 +4355,7 @@
     },
     "BFEEDHSCT": {
       "name": "Breastfeeding on discharge",
-      "updated": "2026-05-07",
+      "updated": "2026-05-14",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -4408,7 +4400,7 @@
               "SEHSCT": "South Eastern",
               "SHSCT": "Southern",
               "WHSCT": "Western",
-              "N92000002": "NI"
+              "N92000002": "Northern Ireland"
             }
           },
           "label": "Health and Social Care Trust",
@@ -4437,7 +4429,7 @@
     },
     "BFEEDLGD": {
       "name": "Breastfeeding on discharge",
-      "updated": "2026-05-07",
+      "updated": "2026-05-14",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -4488,18 +4480,10 @@
               "N09000009": "Mid Ulster",
               "N09000010": "Newry, Mourne and Down",
               "N09000011": "Ards and North Down",
-              "N92000002": "NI"
+              "N92000002": "Northern Ireland"
             }
           },
-          "label": "Local Government District",
-          "link": {
-            "enclosure": [
-              {
-                "type": "application/geo+json",
-                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/450c0bbfce9cc5595a6142e35c589ba5"
-              }
-            ]
-          }
+          "label": "Local Government District"
         }
       },
       "statistics": {
@@ -26468,7 +26452,7 @@
     },
     "CHILDBMIHSCT": {
       "name": "Childhood BMI",
-      "updated": "2026-05-06",
+      "updated": "2026-05-14",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -26547,18 +26531,10 @@
               "SEHSCT": "South Eastern",
               "SHSCT": "Southern",
               "WHSCT": "Western",
-              "N92000002": "NI"
+              "N92000002": "Northern Ireland"
             }
           },
-          "label": "Health and Social Care Trust",
-          "link": {
-            "enclosure": [
-              {
-                "type": "application/geo+json",
-                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/c171138ddcb901353718a459d5b2cba3"
-              }
-            ]
-          }
+          "label": "Health and Social Care Trust"
         }
       },
       "statistics": {
@@ -26579,7 +26555,7 @@
     },
     "CHILDBMILGD": {
       "name": "Childhood BMI",
-      "updated": "2026-05-11",
+      "updated": "2026-05-14",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -26664,18 +26640,10 @@
               "N09000009": "Mid Ulster",
               "N09000010": "Newry, Mourne and Down",
               "N09000011": "Ards and North Down",
-              "N92000002": "NI"
+              "N92000002": "Northern Ireland"
             }
           },
-          "label": "Local Government District",
-          "link": {
-            "enclosure": [
-              {
-                "type": "application/geo+json",
-                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/450c0bbfce9cc5595a6142e35c589ba5"
-              }
-            ]
-          }
+          "label": "Local Government District"
         }
       },
       "statistics": {
@@ -111325,7 +111293,7 @@
     },
     "LBWAA": {
       "name": "Low birth weight",
-      "updated": "2026-05-07",
+      "updated": "2026-05-14",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -111383,18 +111351,10 @@
               "N06000016": "Strangford",
               "N06000017": "Upper Bann",
               "N06000018": "West Tyrone",
-              "N92000002": "NI"
+              "N92000002": "Northern Ireland"
             }
           },
-          "label": "Assembly Areas",
-          "link": {
-            "enclosure": [
-              {
-                "type": "application/geo+json",
-                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/62725f2dd9a7acd16cc19b96f580d7b4"
-              }
-            ]
-          }
+          "label": "Assembly Area"
         }
       },
       "statistics": {
@@ -111412,7 +111372,7 @@
     },
     "LBWDEA": {
       "name": "Low birth weight",
-      "updated": "2026-05-06",
+      "updated": "2026-05-14",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -111450,100 +111410,92 @@
         },
         "DEA2014": {
           "category": {
-            "index": ["N10000101", "N10000102", "N10000103", "N10000104", "N10000105", "N10000106", "N10000107", "N10000201", "N10000202", "N10000203", "N10000204", "N10000205", "N10000206", "N10000207", "N10000301", "N10000302", "N10000303", "N10000304", "N10000305", "N10000306", "N10000307", "N10000308", "N10000309", "N10000310", "N10000401", "N10000402", "N10000403", "N10000404", "N10000405", "N10000406", "N10000407", "N10000501", "N10000502", "N10000503", "N10000504", "N10000505", "N10000506", "N10000507", "N10000601", "N10000602", "N10000603", "N10000604", "N10000605", "N10000606", "N10000607", "N10000701", "N10000702", "N10000703", "N10000704", "N10000705", "N10000706", "N10000707", "N10000801", "N10000802", "N10000803", "N10000804", "N10000805", "N10000806", "N10000807", "N10000901", "N10000902", "N10000903", "N10000904", "N10000905", "N10000906", "N10000907", "N10001001", "N10001002", "N10001003", "N10001004", "N10001005", "N10001006", "N10001007", "N10001101", "N10001102", "N10001103", "N10001104", "N10001105", "N10001106", "N10001107", "N92000002"],
+            "index": ["N10000106", "N10000101", "N10000102", "N10000103", "N10000107", "N10000105", "N10000104", "N10000206", "N10000207", "N10000202", "N10000201", "N10000203", "N10000205", "N10000204", "N10000302", "N10000308", "N10000306", "N10000310", "N10000304", "N10000309", "N10000301", "N10000303", "N10000307", "N10000305", "N10000402", "N10000403", "N10000404", "N10000407", "N10000401", "N10000405", "N10000406", "N10000505", "N10000504", "N10000506", "N10000501", "N10000502", "N10000507", "N10000503", "N10000603", "N10000604", "N10000605", "N10000602", "N10000606", "N10000601", "N10000607", "N10000705", "N10000701", "N10000707", "N10000703", "N10000702", "N10000704", "N10000706", "N10000801", "N10000802", "N10000803", "N10000807", "N10000804", "N10000806", "N10000805", "N10000907", "N10000902", "N10000906", "N10000904", "N10000903", "N10000905", "N10000901", "N10001003", "N10001007", "N10001005", "N10001004", "N10001006", "N10001001", "N10001002", "N10001103", "N10001105", "N10001102", "N10001101", "N10001104", "N10001106", "N10001107", "N92000002"],
             "label": {
+              "N10000106": "Macedon",
               "N10000101": "Airport",
               "N10000102": "Antrim",
               "N10000103": "Ballyclare",
-              "N10000104": "Dunsilly",
-              "N10000105": "Glengormley Urban",
-              "N10000106": "Macedon",
               "N10000107": "Three Mile Water",
-              "N10000201": "Armagh",
-              "N10000202": "Banbridge",
-              "N10000203": "Craigavon",
-              "N10000204": "Cusher",
-              "N10000205": "Lagan River",
+              "N10000105": "Glengormley Urban",
+              "N10000104": "Dunsilly",
               "N10000206": "Lurgan",
               "N10000207": "Portadown",
-              "N10000301": "Balmoral",
+              "N10000202": "Banbridge",
+              "N10000201": "Armagh",
+              "N10000203": "Craigavon",
+              "N10000205": "Lagan River",
+              "N10000204": "Cusher",
               "N10000302": "Black Mountain",
-              "N10000303": "Botanic",
-              "N10000304": "Castle",
-              "N10000305": "Collin",
-              "N10000306": "Court",
-              "N10000307": "Lisnasharragh",
               "N10000308": "Oldpark",
-              "N10000309": "Ormiston",
+              "N10000306": "Court",
               "N10000310": "Titanic",
-              "N10000401": "Ballymoney",
+              "N10000304": "Castle",
+              "N10000309": "Ormiston",
+              "N10000301": "Balmoral",
+              "N10000303": "Botanic",
+              "N10000307": "Lisnasharragh",
+              "N10000305": "Collin",
               "N10000402": "Bann",
               "N10000403": "Benbradagh",
               "N10000404": "Causeway",
+              "N10000407": "The Glens",
+              "N10000401": "Ballymoney",
               "N10000405": "Coleraine",
               "N10000406": "Limavady",
-              "N10000407": "The Glens",
+              "N10000505": "Sperrin",
+              "N10000504": "Foyleside",
+              "N10000506": "The Moor",
               "N10000501": "Ballyarnett",
               "N10000502": "Derg",
-              "N10000503": "Faughan",
-              "N10000504": "Foyleside",
-              "N10000505": "Sperrin",
-              "N10000506": "The Moor",
               "N10000507": "Waterside",
-              "N10000601": "Enniskillen",
-              "N10000602": "Erne East",
+              "N10000503": "Faughan",
               "N10000603": "Erne North",
               "N10000604": "Erne West",
               "N10000605": "Mid Tyrone",
+              "N10000602": "Erne East",
               "N10000606": "Omagh",
+              "N10000601": "Enniskillen",
               "N10000607": "West Tyrone",
-              "N10000701": "Castlereagh East",
-              "N10000702": "Castlereagh South",
-              "N10000703": "Downshire East",
-              "N10000704": "Downshire West",
               "N10000705": "Killultagh",
-              "N10000706": "Lisburn North",
+              "N10000701": "Castlereagh East",
               "N10000707": "Lisburn South",
+              "N10000703": "Downshire East",
+              "N10000702": "Castlereagh South",
+              "N10000704": "Downshire West",
+              "N10000706": "Lisburn North",
               "N10000801": "Ballymena",
               "N10000802": "Bannside",
               "N10000803": "Braid",
-              "N10000804": "Carrick Castle",
-              "N10000805": "Coast Road",
-              "N10000806": "Knockagh",
               "N10000807": "Larne Lough",
-              "N10000901": "Carntogher",
-              "N10000902": "Clogher Valley",
-              "N10000903": "Cookstown",
-              "N10000904": "Dungannon",
-              "N10000905": "Magherafelt",
-              "N10000906": "Moyola",
+              "N10000804": "Carrick Castle",
+              "N10000806": "Knockagh",
+              "N10000805": "Coast Road",
               "N10000907": "Torrent",
+              "N10000902": "Clogher Valley",
+              "N10000906": "Moyola",
+              "N10000904": "Dungannon",
+              "N10000903": "Cookstown",
+              "N10000905": "Magherafelt",
+              "N10000901": "Carntogher",
+              "N10001003": "Newry",
+              "N10001007": "The Mournes",
+              "N10001005": "Slieve Croob",
+              "N10001004": "Rowallane",
+              "N10001006": "Slieve Gullion",
               "N10001001": "Crotlieve",
               "N10001002": "Downpatrick",
-              "N10001003": "Newry",
-              "N10001004": "Rowallane",
-              "N10001005": "Slieve Croob",
-              "N10001006": "Slieve Gullion",
-              "N10001007": "The Mournes",
-              "N10001101": "Ards Peninsula",
-              "N10001102": "Bangor Central",
-              "N10001103": "Bangor East and Donaghadee",
-              "N10001104": "Bangor West",
+              "N10001103": "Bangor East And Donaghadee",
               "N10001105": "Comber",
-              "N10001106": "Holywood and Clandeboye",
+              "N10001102": "Bangor Central",
+              "N10001101": "Ards Peninsula",
+              "N10001104": "Bangor West",
+              "N10001106": "Holywood And Clandeboye",
               "N10001107": "Newtownards",
-              "N92000002": "NI"
+              "N92000002": "Northern Ireland"
             }
           },
-          "label": "District Electoral Area",
-          "link": {
-            "enclosure": [
-              {
-                "type": "application/geo+json",
-                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/619aff82c8618bf04fbcc40dc38fa16d"
-              }
-            ]
-          }
+          "label": "District Electoral Area"
         }
       },
       "statistics": {
@@ -111561,7 +111513,7 @@
     },
     "LBWHSCT": {
       "name": "Low birth weight",
-      "updated": "2026-05-07",
+      "updated": "2026-05-14",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -111606,18 +111558,10 @@
               "SEHSCT": "South Eastern",
               "SHSCT": "Southern",
               "WHSCT": "Western",
-              "N92000002": "NI"
+              "N92000002": "Northern Ireland"
             }
           },
-          "label": "Health and Social Care Trust",
-          "link": {
-            "enclosure": [
-              {
-                "type": "application/geo+json",
-                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/c171138ddcb901353718a459d5b2cba3"
-              }
-            ]
-          }
+          "label": "Health and Social Care Trust"
         }
       },
       "statistics": {
@@ -111635,7 +111579,7 @@
     },
     "LBWLGD": {
       "name": "Low birth weight",
-      "updated": "2026-05-07",
+      "updated": "2026-05-14",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -111686,18 +111630,10 @@
               "N09000009": "Mid Ulster",
               "N09000010": "Newry, Mourne and Down",
               "N09000011": "Ards and North Down",
-              "N92000002": "NI"
+              "N92000002": "Northern Ireland"
             }
           },
-          "label": "Local Government District",
-          "link": {
-            "enclosure": [
-              {
-                "type": "application/geo+json",
-                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/450c0bbfce9cc5595a6142e35c589ba5"
-              }
-            ]
-          }
+          "label": "Local Government District"
         }
       },
       "statistics": {
@@ -167264,13 +167200,13 @@
     },
     "SGAAA": {
       "name": "Small for gestational age",
-      "updated": "2026-04-13",
+      "updated": "2026-05-14",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "SGA",
             "label": {
-              "SGA": "Small for Gestational Age"
+              "SGA": "Small for gestational age"
             },
             "unit": {
               "SGA": {
@@ -167317,7 +167253,7 @@
               "N06000016": "Strangford",
               "N06000017": "Upper Bann",
               "N06000018": "West Tyrone",
-              "N92000002": "NI"
+              "N92000002": "Northern Ireland"
             }
           },
           "label": "Assembly Area",
@@ -167332,7 +167268,7 @@
         }
       },
       "statistics": {
-        "SGA": "Small for Gestational Age"
+        "SGA": "Small for gestational age"
       },
       "time": "TLIST(A1)",
       "time_series": ["2019", "2020", "2021", "2022", "2023"],
@@ -167346,13 +167282,13 @@
     },
     "SGADEA": {
       "name": "Small for gestational age",
-      "updated": "2026-04-13",
+      "updated": "2026-05-14",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "SGA",
             "label": {
-              "SGA": "Small for Gestational Age"
+              "SGA": "Small for gestational age"
             },
             "unit": {
               "SGA": {
@@ -167461,7 +167397,7 @@
               "N10001105": "Comber",
               "N10001106": "Holywood and Clandeboye",
               "N10001107": "Newtownards",
-              "N92000002": "NI"
+              "N92000002": "Northern Ireland"
             }
           },
           "label": "District Electoral Area",
@@ -167476,7 +167412,7 @@
         }
       },
       "statistics": {
-        "SGA": "Small for Gestational Age"
+        "SGA": "Small for gestational age"
       },
       "time": "TLIST(A1)",
       "time_series": ["2019", "2020", "2021", "2022", "2023"],
@@ -167490,13 +167426,13 @@
     },
     "SGAHSCT": {
       "name": "Small for gestational age",
-      "updated": "2026-04-13",
+      "updated": "2026-05-14",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "SGA",
             "label": {
-              "SGA": "Small for Gestational Age"
+              "SGA": "Small for gestational age"
             },
             "unit": {
               "SGA": {
@@ -167530,7 +167466,7 @@
               "SEHSCT": "South Eastern",
               "SHSCT": "Southern",
               "WHSCT": "Western",
-              "N92000002": "NI"
+              "N92000002": "Northern Ireland"
             }
           },
           "label": "Health and Social Care Trust",
@@ -167545,7 +167481,7 @@
         }
       },
       "statistics": {
-        "SGA": "Small for Gestational Age"
+        "SGA": "Small for gestational age"
       },
       "time": "TLIST(A1)",
       "time_series": ["2019", "2020", "2021", "2022", "2023"],
@@ -167559,13 +167495,13 @@
     },
     "SGALGD": {
       "name": "Small for gestational age",
-      "updated": "2026-04-13",
+      "updated": "2026-05-14",
       "categories": {
         "STATISTIC": {
           "category": {
             "index": "SGA",
             "label": {
-              "SGA": "Small for Gestational Age"
+              "SGA": "Small for gestational age"
             },
             "unit": {
               "SGA": {
@@ -167605,7 +167541,7 @@
               "N09000009": "Mid Ulster",
               "N09000010": "Newry, Mourne and Down",
               "N09000011": "Ards and North Down",
-              "N92000002": "NI"
+              "N92000002": "Northern Ireland"
             }
           },
           "label": "Local Government District",
@@ -167620,7 +167556,7 @@
         }
       },
       "statistics": {
-        "SGA": "Small for Gestational Age"
+        "SGA": "Small for gestational age"
       },
       "time": "TLIST(A1)",
       "time_series": ["2019", "2020", "2021", "2022", "2023"],
@@ -168164,7 +168100,7 @@
     },
     "SMOKEPREGAA": {
       "name": "Smoking during pregnancy",
-      "updated": "2026-05-11",
+      "updated": "2026-05-14",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -168222,7 +168158,7 @@
               "N06000016": "Strangford",
               "N06000017": "Upper Bann",
               "N06000018": "West Tyrone",
-              "N92000002": "NI"
+              "N92000002": "Northern Ireland"
             }
           },
           "label": "Assembly Area",
@@ -168251,7 +168187,7 @@
     },
     "SMOKEPREGDEA": {
       "name": "Smoking during pregnancy",
-      "updated": "2026-05-11",
+      "updated": "2026-05-14",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -168371,7 +168307,7 @@
               "N10001105": "Comber",
               "N10001106": "Holywood and Clandeboye",
               "N10001107": "Newtownards",
-              "N92000002": "NI"
+              "N92000002": "Northern Ireland"
             }
           },
           "label": "District Electoral Area",
@@ -168400,7 +168336,7 @@
     },
     "SMOKEPREGHSCT": {
       "name": "Smoking during pregnancy",
-      "updated": "2026-05-11",
+      "updated": "2026-05-14",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -168445,7 +168381,7 @@
               "SEHSCT": "South Eastern",
               "SHSCT": "Southern",
               "WHSCT": "Western",
-              "N92000002": "NI"
+              "N92000002": "Northern Ireland"
             }
           },
           "label": "Health and Social Care Trust",
@@ -168474,7 +168410,7 @@
     },
     "SMOKEPREGLGD": {
       "name": "Smoking during pregnancy",
-      "updated": "2026-05-11",
+      "updated": "2026-05-14",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -168525,7 +168461,7 @@
               "N09000009": "Mid Ulster",
               "N09000010": "Newry, Mourne and Down",
               "N09000011": "Ards and North Down",
-              "N92000002": "NI"
+              "N92000002": "Northern Ireland"
             }
           },
           "label": "Local Government District",
@@ -169959,7 +169895,7 @@
       "time_series": ["2020/21", "2021/22", "2022/23", "2023/24"],
       "theme": "Crime and justice",
       "theme_code": 58,
-      "subject": "Experiences and attitudes",
+      "subject": "Experiences and attitudes to crime",
       "subject_code": 131,
       "product": "Experience of crime",
       "product_code": "EAEC",
@@ -171407,7 +171343,7 @@
       "time_series": ["2020/21", "2021/22", "2022/23", "2023/24"],
       "theme": "Crime and justice",
       "theme_code": 58,
-      "subject": "Experiences and attitudes",
+      "subject": "Experiences and attitudes to crime",
       "subject_code": 131,
       "product": "Attitudes to crime",
       "product_code": "EAAC",
@@ -174556,7 +174492,7 @@
       "time_series": ["2020/21", "2021/22", "2022/23", "2023/24"],
       "theme": "Crime and justice",
       "theme_code": 58,
-      "subject": "Experiences and attitudes",
+      "subject": "Experiences and attitudes to crime",
       "subject_code": 131,
       "product": "Attitudes to crime",
       "product_code": "EAAC",
