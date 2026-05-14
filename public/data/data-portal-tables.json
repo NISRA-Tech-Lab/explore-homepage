@@ -169814,7 +169814,7 @@
     },
     "TCRIMEEQ": {
       "name": "Prevalence of crime",
-      "updated": "2026-04-27",
+      "updated": "2026-05-14",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -169858,11 +169858,11 @@
         },
         "EQGRP": {
           "category": {
-            "index": ["N92000002", "EQ202", "EQ201", "EQ102", "EQ103", "EQ108", "EQ109", "EQ110", "EQ301", "EQ302", "EQ303", "EQ304", "EQ305", "EQ308", "EQ501", "EQ502", "EQ505", "EQ701", "EQ702", "EQ401", "EQ402"],
+            "index": ["N92000002", "EQ201", "EQ202", "EQ102", "EQ103", "EQ108", "EQ109", "EQ110", "EQ301", "EQ302", "EQ303", "EQ304", "EQ305", "EQ308", "EQ501", "EQ502", "EQ505", "EQ701", "EQ702", "EQ401", "EQ402"],
             "label": {
               "N92000002": "Northern Ireland",
-              "EQ202": "Sex - Female",
-              "EQ201": "Sex - Male",
+              "EQ201": "Sex - Female",
+              "EQ202": "Sex - Male",
               "EQ102": "Age - 16-24",
               "EQ103": "Age - 25-34",
               "EQ108": "Age  - 35-49",
@@ -171262,7 +171262,7 @@
     },
     "TPERSAFETYEQ": {
       "name": "Personal safety",
-      "updated": "2026-04-27",
+      "updated": "2026-05-14",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -171306,11 +171306,11 @@
         },
         "EQGRP": {
           "category": {
-            "index": ["N92000002", "EQ202", "EQ201", "EQ102", "EQ103", "EQ108", "EQ109", "EQ110", "EQ301", "EQ302", "EQ303", "EQ304", "EQ305", "EQ308", "EQ501", "EQ502", "EQ505", "EQ701", "EQ702", "EQ401", "EQ402"],
+            "index": ["N92000002", "EQ201", "EQ202", "EQ102", "EQ103", "EQ108", "EQ109", "EQ110", "EQ301", "EQ302", "EQ303", "EQ304", "EQ305", "EQ308", "EQ501", "EQ502", "EQ505", "EQ701", "EQ702", "EQ401", "EQ402"],
             "label": {
               "N92000002": "Northern Ireland",
-              "EQ202": "Sex - Female",
-              "EQ201": "Sex - Male",
+              "EQ201": "Sex - Female",
+              "EQ202": "Sex - Male",
               "EQ102": "Age - 16-24",
               "EQ103": "Age - 25-34",
               "EQ108": "Age  - 35-49",
@@ -174411,7 +174411,7 @@
     },
     "TWORRYCRIMEEQ": {
       "name": "Worry about crime",
-      "updated": "2026-04-27",
+      "updated": "2026-05-14",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -174455,11 +174455,11 @@
         },
         "EQGRP": {
           "category": {
-            "index": ["N92000002", "EQ202", "EQ201", "EQ102", "EQ103", "EQ108", "EQ109", "EQ110", "EQ301", "EQ302", "EQ303", "EQ304", "EQ305", "EQ308", "EQ501", "EQ502", "EQ505", "EQ701", "EQ702", "EQ401", "EQ402"],
+            "index": ["N92000002", "EQ201", "EQ202", "EQ102", "EQ103", "EQ108", "EQ109", "EQ110", "EQ301", "EQ302", "EQ303", "EQ304", "EQ305", "EQ308", "EQ501", "EQ502", "EQ505", "EQ701", "EQ702", "EQ401", "EQ402"],
             "label": {
               "N92000002": "Northern Ireland",
-              "EQ202": "Sex - Female",
-              "EQ201": "Sex - Male",
+              "EQ201": "Sex - Female",
+              "EQ202": "Sex - Male",
               "EQ102": "Age - 16-24",
               "EQ103": "Age - 25-34",
               "EQ108": "Age  - 35-49",
