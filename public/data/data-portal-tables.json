@@ -1,5 +1,5 @@
 {
-  "table_count": 1102,
+  "table_count": 1103,
   "tables": {
     "ABI01": {
       "name": "Annual Business Inquiry: results by industry sector",
@@ -115838,7 +115838,7 @@
     },
     "MYE01T010": {
       "name": "Mid-year population estimates",
-      "updated": "2026-01-13",
+      "updated": "2026-05-22",
       "categories": {
         "STATISTIC": {
           "category": {
