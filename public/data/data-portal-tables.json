@@ -1,5 +1,5 @@
 {
-  "table_count": 1103,
+  "table_count": 1114,
   "tables": {
     "ABI01": {
       "name": "Annual Business Inquiry: results by industry sector",
@@ -127259,7 +127259,7 @@
     },
     "NIETS04": {
       "name": "NIETS: Trade by business employment size",
-      "updated": "2026-05-12",
+      "updated": "2026-05-27",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -148427,9 +148427,100 @@
       "product_code": "TSPEND",
       "rows": 120
     },
+    "PAAA": {
+      "name": "Planning applications - application status",
+      "updated": "2026-05-27",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "PA",
+            "label": {
+              "PA": "Planning applications"
+            },
+            "unit": {
+              "PA": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+            "label": {
+              "2015/16": "2015/16",
+              "2016/17": "2016/17",
+              "2017/18": "2017/18",
+              "2018/19": "2018/19",
+              "2019/20": "2019/20",
+              "2020/21": "2020/21",
+              "2021/22": "2021/22",
+              "2022/23": "2022/23",
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "AA": {
+          "category": {
+            "index": ["N92000002", "N06000001", "N06000002", "N06000003", "N06000004", "N06000005", "N06000006", "N06000007", "N06000008", "N06000009", "N06000010", "N06000011", "N06000012", "N06000013", "N06000014", "N06000015", "N06000016", "N06000017", "N06000018"],
+            "label": {
+              "N92000002": "Northern Ireland",
+              "N06000001": "Belfast East",
+              "N06000002": "Belfast North",
+              "N06000003": "Belfast South",
+              "N06000004": "Belfast West",
+              "N06000005": "East Antrim",
+              "N06000006": "East Londonderry",
+              "N06000007": "Fermanagh and South Tyrone",
+              "N06000008": "Foyle",
+              "N06000009": "Lagan Valley",
+              "N06000010": "Mid Ulster",
+              "N06000011": "Newry and Armagh",
+              "N06000012": "North Antrim",
+              "N06000013": "North Down",
+              "N06000014": "South Antrim",
+              "N06000015": "South Down",
+              "N06000016": "Strangford",
+              "N06000017": "Upper Bann",
+              "N06000018": "West Tyrone"
+            }
+          },
+          "label": "Assembly Area"
+        },
+        "PAS": {
+          "category": {
+            "index": ["1", "2", "3", "4"],
+            "label": {
+              "1": "Applications received",
+              "2": "Applications decided",
+              "3": "Applications approved",
+              "4": "Applications withdrawn"
+            }
+          },
+          "label": "Application status"
+        }
+      },
+      "statistics": {
+        "PA": "Planning applications"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Property and housing",
+      "subject_code": 165,
+      "product": "Planning",
+      "product_code": "HP",
+      "rows": 760
+    },
     "PADAA": {
-      "name": "Planning Applications and Decisions by Assembly Area",
-      "updated": "2025-06-27",
+      "name": "Planning applications and decisions by Assembly Area",
+      "updated": "2026-05-27",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -148487,7 +148578,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "AA": {
           "category": {
@@ -148535,8 +148626,8 @@
       "rows": 950
     },
     "PADELGD": {
-      "name": "Planning Applications, Decisions, and Enforcement",
-      "updated": "2025-06-27",
+      "name": "Planning applications, decisions, and enforcement",
+      "updated": "2026-05-27",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -148816,7 +148907,7 @@
               "2024/25": "2024/25"
             }
           },
-          "label": "Financial Year"
+          "label": "Financial year"
         },
         "LGD2014": {
           "category": {
@@ -148892,6 +148983,507 @@
       "product": "Planning",
       "product_code": "HP",
       "rows": 5040
+    },
+    "PALGD": {
+      "name": "Planning applications - application status",
+      "updated": "2026-05-27",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "PA",
+            "label": {
+              "PA": "Planning applications"
+            },
+            "unit": {
+              "PA": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+            "label": {
+              "2015/16": "2015/16",
+              "2016/17": "2016/17",
+              "2017/18": "2017/18",
+              "2018/19": "2018/19",
+              "2019/20": "2019/20",
+              "2020/21": "2020/21",
+              "2021/22": "2021/22",
+              "2022/23": "2022/23",
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "LGD2014": {
+          "category": {
+            "index": ["N92000002", "N09000001", "N09000002", "N09000003", "N09000004", "N09000005", "N09000006", "N09000007", "N09000008", "N09000009", "N09000010", "N09000011"],
+            "label": {
+              "N92000002": "Northern Ireland",
+              "N09000001": "Antrim and Newtownabbey",
+              "N09000002": "Armagh City, Banbridge and Craigavon",
+              "N09000003": "Belfast",
+              "N09000004": "Causeway Coast and Glens",
+              "N09000005": "Derry City and Strabane",
+              "N09000006": "Fermanagh and Omagh",
+              "N09000007": "Lisburn and Castlereagh",
+              "N09000008": "Mid and East Antrim",
+              "N09000009": "Mid Ulster",
+              "N09000010": "Newry, Mourne and Down",
+              "N09000011": "Ards and North Down"
+            }
+          },
+          "label": "Local Government District"
+        },
+        "PAS": {
+          "category": {
+            "index": ["1", "2", "3", "4"],
+            "label": {
+              "1": "Applications received",
+              "2": "Applications decided",
+              "3": "Applications approved",
+              "4": "Applications withdrawn"
+            }
+          },
+          "label": "Application status"
+        }
+      },
+      "statistics": {
+        "PA": "Planning applications"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Property and housing",
+      "subject_code": 165,
+      "product": "Planning",
+      "product_code": "HP",
+      "rows": 480
+    },
+    "PALLGD": {
+      "name": "Planning applications - live applications",
+      "updated": "2026-05-27",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "PAL",
+            "label": {
+              "PAL": "Live planning applications"
+            },
+            "unit": {
+              "PAL": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+            "label": {
+              "2015/16": "2015/16",
+              "2016/17": "2016/17",
+              "2017/18": "2017/18",
+              "2018/19": "2018/19",
+              "2019/20": "2019/20",
+              "2020/21": "2020/21",
+              "2021/22": "2021/22",
+              "2022/23": "2022/23",
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "LGD2014": {
+          "category": {
+            "index": ["N92000002", "N09000001", "N09000002", "N09000003", "N09000004", "N09000005", "N09000006", "N09000007", "N09000008", "N09000009", "N09000010", "N09000011"],
+            "label": {
+              "N92000002": "Northern Ireland",
+              "N09000001": "Antrim and Newtownabbey",
+              "N09000002": "Armagh City, Banbridge and Craigavon",
+              "N09000003": "Belfast",
+              "N09000004": "Causeway Coast and Glens",
+              "N09000005": "Derry City and Strabane",
+              "N09000006": "Fermanagh and Omagh",
+              "N09000007": "Lisburn and Castlereagh",
+              "N09000008": "Mid and East Antrim",
+              "N09000009": "Mid Ulster",
+              "N09000010": "Newry, Mourne and Down",
+              "N09000011": "Ards and North Down"
+            }
+          },
+          "label": "Local Government District"
+        },
+        "PAL": {
+          "category": {
+            "index": ["1", "2", "3", "All"],
+            "label": {
+              "1": "0-6 months old",
+              "2": "6-12 months old",
+              "3": "1+ year old",
+              "All": "All applications"
+            }
+          },
+          "label": "Applications live"
+        }
+      },
+      "statistics": {
+        "PAL": "Live planning applications"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Property and housing",
+      "subject_code": 165,
+      "product": "Planning",
+      "product_code": "HP",
+      "rows": 480
+    },
+    "PALPALGD": {
+      "name": "Planning applications - live applications (1+ year old)",
+      "updated": "2026-05-27",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "PAL",
+            "label": {
+              "PAL": "Live planning applications 1+ year old"
+            },
+            "unit": {
+              "PAL": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+            "label": {
+              "2015/16": "2015/16",
+              "2016/17": "2016/17",
+              "2017/18": "2017/18",
+              "2018/19": "2018/19",
+              "2019/20": "2019/20",
+              "2020/21": "2020/21",
+              "2021/22": "2021/22",
+              "2022/23": "2022/23",
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "LGD2014": {
+          "category": {
+            "index": ["N92000002", "N09000001", "N09000002", "N09000003", "N09000004", "N09000005", "N09000006", "N09000007", "N09000008", "N09000009", "N09000010", "N09000011"],
+            "label": {
+              "N92000002": "Northern Ireland",
+              "N09000001": "Antrim and Newtownabbey",
+              "N09000002": "Armagh City, Banbridge and Craigavon",
+              "N09000003": "Belfast",
+              "N09000004": "Causeway Coast and Glens",
+              "N09000005": "Derry City and Strabane",
+              "N09000006": "Fermanagh and Omagh",
+              "N09000007": "Lisburn and Castlereagh",
+              "N09000008": "Mid and East Antrim",
+              "N09000009": "Mid Ulster",
+              "N09000010": "Newry, Mourne and Down",
+              "N09000011": "Ards and North Down"
+            }
+          },
+          "label": "Local Government District"
+        }
+      },
+      "statistics": {
+        "PAL": "Live planning applications 1+ year old"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Property and housing",
+      "subject_code": 165,
+      "product": "Planning",
+      "product_code": "HP",
+      "rows": 120
+    },
+    "PAPAA": {
+      "name": "Planning applications - approvals",
+      "updated": "2026-05-27",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "PAP",
+            "label": {
+              "PAP": "Planning applications approved"
+            },
+            "unit": {
+              "PAP": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+            "label": {
+              "2015/16": "2015/16",
+              "2016/17": "2016/17",
+              "2017/18": "2017/18",
+              "2018/19": "2018/19",
+              "2019/20": "2019/20",
+              "2020/21": "2020/21",
+              "2021/22": "2021/22",
+              "2022/23": "2022/23",
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "AA": {
+          "category": {
+            "index": ["N92000002", "N06000001", "N06000002", "N06000003", "N06000004", "N06000005", "N06000006", "N06000007", "N06000008", "N06000009", "N06000010", "N06000011", "N06000012", "N06000013", "N06000014", "N06000015", "N06000016", "N06000017", "N06000018"],
+            "label": {
+              "N92000002": "Northern Ireland",
+              "N06000001": "Belfast East",
+              "N06000002": "Belfast North",
+              "N06000003": "Belfast South",
+              "N06000004": "Belfast West",
+              "N06000005": "East Antrim",
+              "N06000006": "East Londonderry",
+              "N06000007": "Fermanagh and South Tyrone",
+              "N06000008": "Foyle",
+              "N06000009": "Lagan Valley",
+              "N06000010": "Mid Ulster",
+              "N06000011": "Newry and Armagh",
+              "N06000012": "North Antrim",
+              "N06000013": "North Down",
+              "N06000014": "South Antrim",
+              "N06000015": "South Down",
+              "N06000016": "Strangford",
+              "N06000017": "Upper Bann",
+              "N06000018": "West Tyrone"
+            }
+          },
+          "label": "Assembly Area"
+        }
+      },
+      "statistics": {
+        "PAP": "Planning applications approved"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Property and housing",
+      "subject_code": 165,
+      "product": "Planning",
+      "product_code": "HP",
+      "rows": 190
+    },
+    "PAPLGD": {
+      "name": "Planning applications - approvals",
+      "updated": "2026-05-27",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "PAP",
+            "label": {
+              "PAP": "Planning applications approved"
+            },
+            "unit": {
+              "PAP": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+            "label": {
+              "2015/16": "2015/16",
+              "2016/17": "2016/17",
+              "2017/18": "2017/18",
+              "2018/19": "2018/19",
+              "2019/20": "2019/20",
+              "2020/21": "2020/21",
+              "2021/22": "2021/22",
+              "2022/23": "2022/23",
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "LGD2014": {
+          "category": {
+            "index": ["N92000002", "N09000001", "N09000002", "N09000003", "N09000004", "N09000005", "N09000006", "N09000007", "N09000008", "N09000009", "N09000010", "N09000011"],
+            "label": {
+              "N92000002": "Northern Ireland",
+              "N09000001": "Antrim and Newtownabbey",
+              "N09000002": "Armagh City, Banbridge and Craigavon",
+              "N09000003": "Belfast",
+              "N09000004": "Causeway Coast and Glens",
+              "N09000005": "Derry City and Strabane",
+              "N09000006": "Fermanagh and Omagh",
+              "N09000007": "Lisburn and Castlereagh",
+              "N09000008": "Mid and East Antrim",
+              "N09000009": "Mid Ulster",
+              "N09000010": "Newry, Mourne and Down",
+              "N09000011": "Ards and North Down"
+            }
+          },
+          "label": "Local Government District"
+        },
+        "PAT": {
+          "category": {
+            "index": ["1", "2", "3", "4", "All"],
+            "label": {
+              "1": "Major applications",
+              "2": "Local applications",
+              "3": "Residential applications",
+              "4": "Renewable energy applications",
+              "All": "All applications"
+            }
+          },
+          "label": "Application type"
+        }
+      },
+      "statistics": {
+        "PAP": "Planning applications approved"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Property and housing",
+      "subject_code": 165,
+      "product": "Planning",
+      "product_code": "HP",
+      "rows": 600
+    },
+    "PATLGD": {
+      "name": "Planning applications - application type",
+      "updated": "2026-05-27",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "PA",
+            "label": {
+              "PA": "Planning applications"
+            },
+            "unit": {
+              "PA": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+            "label": {
+              "2015/16": "2015/16",
+              "2016/17": "2016/17",
+              "2017/18": "2017/18",
+              "2018/19": "2018/19",
+              "2019/20": "2019/20",
+              "2020/21": "2020/21",
+              "2021/22": "2021/22",
+              "2022/23": "2022/23",
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "LGD2014": {
+          "category": {
+            "index": ["N92000002", "N09000001", "N09000002", "N09000003", "N09000004", "N09000005", "N09000006", "N09000007", "N09000008", "N09000009", "N09000010", "N09000011"],
+            "label": {
+              "N92000002": "Northern Ireland",
+              "N09000001": "Antrim and Newtownabbey",
+              "N09000002": "Armagh City, Banbridge and Craigavon",
+              "N09000003": "Belfast",
+              "N09000004": "Causeway Coast and Glens",
+              "N09000005": "Derry City and Strabane",
+              "N09000006": "Fermanagh and Omagh",
+              "N09000007": "Lisburn and Castlereagh",
+              "N09000008": "Mid and East Antrim",
+              "N09000009": "Mid Ulster",
+              "N09000010": "Newry, Mourne and Down",
+              "N09000011": "Ards and North Down"
+            }
+          },
+          "label": "Local Government District"
+        },
+        "PAS": {
+          "category": {
+            "index": ["1", "2", "3", "4"],
+            "label": {
+              "1": "Applications received",
+              "2": "Applications decided",
+              "3": "Applications approved",
+              "4": "Applications withdrawn"
+            }
+          },
+          "label": "Application status"
+        },
+        "PAT": {
+          "category": {
+            "index": ["1", "2", "3", "4", "All"],
+            "label": {
+              "1": "Major applications",
+              "2": "Local applications",
+              "3": "Residential applications",
+              "4": "Renewable energy applications",
+              "All": "All applications"
+            }
+          },
+          "label": "Application type"
+        }
+      },
+      "statistics": {
+        "PA": "Planning applications"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Property and housing",
+      "subject_code": 165,
+      "product": "Planning",
+      "product_code": "HP",
+      "rows": 2400
     },
     "PD01T01": {
       "name": "Population densities - Northern Ireland",
@@ -149195,6 +149787,257 @@
       "product_code": "PMPD",
       "rows": 24
     },
+    "PECLGD": {
+      "name": "Planning enforcement - legal action",
+      "updated": "2026-05-27",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "PE",
+            "label": {
+              "PE": "Planning enforcement cases"
+            },
+            "unit": {
+              "PE": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+            "label": {
+              "2015/16": "2015/16",
+              "2016/17": "2016/17",
+              "2017/18": "2017/18",
+              "2018/19": "2018/19",
+              "2019/20": "2019/20",
+              "2020/21": "2020/21",
+              "2021/22": "2021/22",
+              "2022/23": "2022/23",
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "LGD2014": {
+          "category": {
+            "index": ["N92000002", "N09000001", "N09000002", "N09000003", "N09000004", "N09000005", "N09000006", "N09000007", "N09000008", "N09000009", "N09000010", "N09000011"],
+            "label": {
+              "N92000002": "Northern Ireland",
+              "N09000001": "Antrim and Newtownabbey",
+              "N09000002": "Armagh City, Banbridge and Craigavon",
+              "N09000003": "Belfast",
+              "N09000004": "Causeway Coast and Glens",
+              "N09000005": "Derry City and Strabane",
+              "N09000006": "Fermanagh and Omagh",
+              "N09000007": "Lisburn and Castlereagh",
+              "N09000008": "Mid and East Antrim",
+              "N09000009": "Mid Ulster",
+              "N09000010": "Newry, Mourne and Down",
+              "N09000011": "Ards and North Down"
+            }
+          },
+          "label": "Local Government District"
+        },
+        "PEA": {
+          "category": {
+            "index": ["1", "2"],
+            "label": {
+              "1": "Prosecutions",
+              "2": "Convictions"
+            }
+          },
+          "label": "Planning enforcement action"
+        }
+      },
+      "statistics": {
+        "PE": "Planning enforcement cases"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Property and housing",
+      "subject_code": 165,
+      "product": "Planning",
+      "product_code": "HP",
+      "rows": 240
+    },
+    "PELGD": {
+      "name": "Planning enforcement - enforcement status",
+      "updated": "2026-05-27",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "PE",
+            "label": {
+              "PE": "Planning enforcement cases"
+            },
+            "unit": {
+              "PE": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+            "label": {
+              "2015/16": "2015/16",
+              "2016/17": "2016/17",
+              "2017/18": "2017/18",
+              "2018/19": "2018/19",
+              "2019/20": "2019/20",
+              "2020/21": "2020/21",
+              "2021/22": "2021/22",
+              "2022/23": "2022/23",
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "LGD2014": {
+          "category": {
+            "index": ["N92000002", "N09000001", "N09000002", "N09000003", "N09000004", "N09000005", "N09000006", "N09000007", "N09000008", "N09000009", "N09000010", "N09000011"],
+            "label": {
+              "N92000002": "Northern Ireland",
+              "N09000001": "Antrim and Newtownabbey",
+              "N09000002": "Armagh City, Banbridge and Craigavon",
+              "N09000003": "Belfast",
+              "N09000004": "Causeway Coast and Glens",
+              "N09000005": "Derry City and Strabane",
+              "N09000006": "Fermanagh and Omagh",
+              "N09000007": "Lisburn and Castlereagh",
+              "N09000008": "Mid and East Antrim",
+              "N09000009": "Mid Ulster",
+              "N09000010": "Newry, Mourne and Down",
+              "N09000011": "Ards and North Down"
+            }
+          },
+          "label": "Local Government District"
+        },
+        "PES": {
+          "category": {
+            "index": ["1", "2", "3"],
+            "label": {
+              "1": "Case opened",
+              "2": "Case closed",
+              "3": "Case concluded"
+            }
+          },
+          "label": "Planning enforcement status"
+        }
+      },
+      "statistics": {
+        "PE": "Planning enforcement cases"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Property and housing",
+      "subject_code": 165,
+      "product": "Planning",
+      "product_code": "HP",
+      "rows": 360
+    },
+    "PELLGD": {
+      "name": "Planning enforcement - live cases",
+      "updated": "2026-05-27",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "PE",
+            "label": {
+              "PE": "Planning enforcement cases"
+            },
+            "unit": {
+              "PE": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+            "label": {
+              "2015/16": "2015/16",
+              "2016/17": "2016/17",
+              "2017/18": "2017/18",
+              "2018/19": "2018/19",
+              "2019/20": "2019/20",
+              "2020/21": "2020/21",
+              "2021/22": "2021/22",
+              "2022/23": "2022/23",
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "LGD2014": {
+          "category": {
+            "index": ["N92000002", "N09000001", "N09000002", "N09000003", "N09000004", "N09000005", "N09000006", "N09000007", "N09000008", "N09000009", "N09000010", "N09000011"],
+            "label": {
+              "N92000002": "Northern Ireland",
+              "N09000001": "Antrim and Newtownabbey",
+              "N09000002": "Armagh City, Banbridge and Craigavon",
+              "N09000003": "Belfast",
+              "N09000004": "Causeway Coast and Glens",
+              "N09000005": "Derry City and Strabane",
+              "N09000006": "Fermanagh and Omagh",
+              "N09000007": "Lisburn and Castlereagh",
+              "N09000008": "Mid and East Antrim",
+              "N09000009": "Mid Ulster",
+              "N09000010": "Newry, Mourne and Down",
+              "N09000011": "Ards and North Down"
+            }
+          },
+          "label": "Local Government District"
+        },
+        "ECL": {
+          "category": {
+            "index": ["1", "2", "3", "4", "5", "All"],
+            "label": {
+              "1": "Less than 1 year old",
+              "2": "1-2 years old",
+              "3": "2-3 years old",
+              "4": "3-5 years old",
+              "5": "5+ years old",
+              "All": "All enforcement cases"
+            }
+          },
+          "label": "Enforcement live"
+        }
+      },
+      "statistics": {
+        "PE": "Planning enforcement cases"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Property and housing",
+      "subject_code": 165,
+      "product": "Planning",
+      "product_code": "HP",
+      "rows": 720
+    },
     "PEPHSCT": {
       "name": "Attendance at Structured Patient Education / Self Management Programmes",
       "updated": "2023-07-28",
@@ -149269,6 +150112,78 @@
       "product": "Care not at home",
       "product_code": "CNAH",
       "rows": 66
+    },
+    "PEPLGD": {
+      "name": "Planning enforcement - live enforcement (2+ years old)",
+      "updated": "2026-05-27",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "PEP",
+            "label": {
+              "PEP": "Planning enforcement cases 2+ years old"
+            },
+            "unit": {
+              "PEP": {
+                "decimals": 0,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+            "label": {
+              "2015/16": "2015/16",
+              "2016/17": "2016/17",
+              "2017/18": "2017/18",
+              "2018/19": "2018/19",
+              "2019/20": "2019/20",
+              "2020/21": "2020/21",
+              "2021/22": "2021/22",
+              "2022/23": "2022/23",
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "LGD2014": {
+          "category": {
+            "index": ["N92000002", "N09000001", "N09000002", "N09000003", "N09000004", "N09000005", "N09000006", "N09000007", "N09000008", "N09000009", "N09000010", "N09000011"],
+            "label": {
+              "N92000002": "Northern Ireland",
+              "N09000001": "Antrim and Newtownabbey",
+              "N09000002": "Armagh City, Banbridge and Craigavon",
+              "N09000003": "Belfast",
+              "N09000004": "Causeway Coast and Glens",
+              "N09000005": "Derry City and Strabane",
+              "N09000006": "Fermanagh and Omagh",
+              "N09000007": "Lisburn and Castlereagh",
+              "N09000008": "Mid and East Antrim",
+              "N09000009": "Mid Ulster",
+              "N09000010": "Newry, Mourne and Down",
+              "N09000011": "Ards and North Down"
+            }
+          },
+          "label": "Local Government District"
+        }
+      },
+      "statistics": {
+        "PEP": "Planning enforcement cases 2+ years old"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2015/16", "2016/17", "2017/18", "2018/19", "2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Property and housing",
+      "subject_code": 165,
+      "product": "Planning",
+      "product_code": "HP",
+      "rows": 120
     },
     "PERSAFETYEQ": {
       "name": "Personal safety",
