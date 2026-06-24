@@ -170239,7 +170239,7 @@
     },
     "TCRIMEEQ": {
       "name": "Prevalence of crime",
-      "updated": "2026-05-18",
+      "updated": "2026-06-24",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -171687,7 +171687,7 @@
     },
     "TPERSAFETYEQ": {
       "name": "Personal safety",
-      "updated": "2026-05-15",
+      "updated": "2026-06-24",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -174836,7 +174836,7 @@
     },
     "TWORRYCRIMEEQ": {
       "name": "Worry about crime",
-      "updated": "2026-05-15",
+      "updated": "2026-06-24",
       "categories": {
         "STATISTIC": {
           "category": {
