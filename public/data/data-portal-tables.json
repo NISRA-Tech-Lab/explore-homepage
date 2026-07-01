@@ -1,5 +1,5 @@
 {
-  "table_count": 1109,
+  "table_count": 1111,
   "tables": {
     "ABI01": {
       "name": "Annual Business Inquiry: results by industry sector",
@@ -165695,6 +165695,91 @@
       "product_code": "RNRSD",
       "rows": 72
     },
+    "SDILGDCLASS": {
+      "name": "Surface defects instructed",
+      "updated": "2026-07-01",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "SDI",
+            "label": {
+              "SDI": "Surface defects instructed"
+            },
+            "unit": {
+              "SDI": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": "2024/25",
+            "label": {
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "LGD2014": {
+          "category": {
+            "index": ["N09000001", "N09000002", "N09000003", "N09000004", "N09000005", "N09000006", "N09000007", "N09000008", "N09000009", "N09000010", "N09000011", "N92000002"],
+            "label": {
+              "N09000001": "Antrim and Newtownabbey",
+              "N09000002": "Armagh City, Banbridge and Craigavon",
+              "N09000003": "Belfast",
+              "N09000004": "Causeway Coast and Glens",
+              "N09000005": "Derry City and Strabane",
+              "N09000006": "Fermanagh and Omagh",
+              "N09000007": "Lisburn and Castlereagh",
+              "N09000008": "Mid and East Antrim",
+              "N09000009": "Mid Ulster",
+              "N09000010": "Newry, Mourne and Down",
+              "N09000011": "Ards and North Down",
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "Local Government District",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/450c0bbfce9cc5595a6142e35c589ba5"
+              }
+            ]
+          }
+        },
+        "CLASS": {
+          "category": {
+            "index": ["MWAY", "ACLASS", "BCLASS", "CCLASS", "UCLASS", "ALLRD"],
+            "label": {
+              "MWAY": "Motorway",
+              "ACLASS": "A class",
+              "BCLASS": "B class",
+              "CCLASS": "C class",
+              "UCLASS": "Unclassified roads",
+              "ALLRD": "All road types"
+            }
+          },
+          "label": "Road class"
+        }
+      },
+      "statistics": {
+        "SDI": "Surface defects instructed"
+      },
+      "time": "TLIST(A1)",
+      "time_series": "2024/25",
+      "theme": "Transport, environment and climate change",
+      "theme_code": 71,
+      "subject": "Road network",
+      "subject_code": 157,
+      "product": "Road surface defects",
+      "product_code": "RNRSD",
+      "rows": 72
+    },
     "SDRAAACMAA": {
       "name": "Standardised Death Rate - All Cause",
       "updated": "2026-05-01",
@@ -166189,6 +166274,91 @@
       },
       "time": "TLIST(A1)",
       "time_series": ["2019/20", "2020/21", "2021/22", "2022/23", "2023/24", "2024/25"],
+      "theme": "Transport, environment and climate change",
+      "theme_code": 71,
+      "subject": "Road network",
+      "subject_code": 157,
+      "product": "Road surface defects",
+      "product_code": "RNRSD",
+      "rows": 72
+    },
+    "SDRLGDCLASS": {
+      "name": "Surface defects repaired",
+      "updated": "2026-07-01",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "SDR",
+            "label": {
+              "SDR": "Surface defects repaired"
+            },
+            "unit": {
+              "SDR": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": "2024/25",
+            "label": {
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "LGD2014": {
+          "category": {
+            "index": ["N09000001", "N09000002", "N09000003", "N09000004", "N09000005", "N09000006", "N09000007", "N09000008", "N09000009", "N09000010", "N09000011", "N92000002"],
+            "label": {
+              "N09000001": "Antrim and Newtownabbey",
+              "N09000002": "Armagh City, Banbridge and Craigavon",
+              "N09000003": "Belfast",
+              "N09000004": "Causeway Coast and Glens",
+              "N09000005": "Derry City and Strabane",
+              "N09000006": "Fermanagh and Omagh",
+              "N09000007": "Lisburn and Castlereagh",
+              "N09000008": "Mid and East Antrim",
+              "N09000009": "Mid Ulster",
+              "N09000010": "Newry, Mourne and Down",
+              "N09000011": "Ards and North Down",
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "Local Government District",
+          "link": {
+            "enclosure": [
+              {
+                "type": "application/geo+json",
+                "href": "https://ws-data.nisra.gov.uk/public/api.static/PxStat.Data.GeoMap_API.Read/450c0bbfce9cc5595a6142e35c589ba5"
+              }
+            ]
+          }
+        },
+        "CLASS": {
+          "category": {
+            "index": ["MWAY", "ACLASS", "BCLASS", "CCLASS", "UCLASS", "ALLRD"],
+            "label": {
+              "MWAY": "Motorway",
+              "ACLASS": "A class",
+              "BCLASS": "B class",
+              "CCLASS": "C class",
+              "UCLASS": "Unclassified roads",
+              "ALLRD": "All road types"
+            }
+          },
+          "label": "Road class"
+        }
+      },
+      "statistics": {
+        "SDR": "Surface defects repaired"
+      },
+      "time": "TLIST(A1)",
+      "time_series": "2024/25",
       "theme": "Transport, environment and climate change",
       "theme_code": 71,
       "subject": "Road network",
