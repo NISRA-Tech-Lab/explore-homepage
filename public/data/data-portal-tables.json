@@ -1,5 +1,5 @@
 {
-  "table_count": 1108,
+  "table_count": 1109,
   "tables": {
     "ABI01": {
       "name": "Annual Business Inquiry: results by industry sector",
@@ -156055,6 +156055,82 @@
       "product": "Poverty",
       "product_code": "DPP",
       "rows": 88
+    },
+    "PRNI01": {
+      "name": "Poverty rates",
+      "updated": "2026-07-01",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["INDRELPOV", "INDABSPOV", "CHRELPOV", "CHABSPOV"],
+            "label": {
+              "INDRELPOV": "Individual relative poverty",
+              "INDABSPOV": "Individual absolute poverty",
+              "CHRELPOV": "Children relative poverty",
+              "CHABSPOV": "Children absolute poverty"
+            },
+            "unit": {
+              "INDRELPOV": {
+                "decimals": 0,
+                "label": "%",
+                "position": "end"
+              },
+              "INDABSPOV": {
+                "decimals": 0,
+                "label": "%",
+                "position": "end"
+              },
+              "CHRELPOV": {
+                "decimals": 0,
+                "label": "%",
+                "position": "end"
+              },
+              "CHABSPOV": {
+                "decimals": 0,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2021/22", "2022/23", "2023/24", "2024/25"],
+            "label": {
+              "2021/22": "2021/22",
+              "2022/23": "2022/23",
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "NI": {
+          "category": {
+            "index": "N92000002",
+            "label": {
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "Northern Ireland"
+        }
+      },
+      "statistics": {
+        "INDRELPOV": "Individual relative poverty",
+        "INDABSPOV": "Individual absolute poverty",
+        "CHRELPOV": "Children relative poverty",
+        "CHABSPOV": "Children absolute poverty"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2021/22", "2022/23", "2023/24", "2024/25"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Deprivation and poverty",
+      "subject_code": 150,
+      "product": "Poverty",
+      "product_code": "DPP",
+      "rows": 16
     },
     "PRPTYVRAA": {
       "name": "Property vacancy rates",
