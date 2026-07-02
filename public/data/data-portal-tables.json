@@ -4652,7 +4652,7 @@
     },
     "BNKRDISAA": {
       "name": "Bankruptcies participants disposed",
-      "updated": "2025-07-28",
+      "updated": "2026-07-02",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -4672,7 +4672,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+            "index": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
             "label": {
               "2010": "2010",
               "2011": "2011",
@@ -4688,7 +4688,8 @@
               "2021": "2021",
               "2022": "2022",
               "2023": "2023",
-              "2024": "2024"
+              "2024": "2024",
+              "2025": "2025"
             }
           },
           "label": "Year"
@@ -4745,18 +4746,18 @@
         "BNKRDIS": "Participants disposed of in bankruptcies cases"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+      "time_series": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
       "theme": "Business, economy and trade",
       "theme_code": 68,
       "subject": "Personal finances",
       "subject_code": 71,
       "product": "Bankruptcy cases disposed",
       "product_code": "PFBCD",
-      "rows": 1140
+      "rows": 1216
     },
     "BNKRDISHSCT": {
       "name": "Bankruptcies participants disposed",
-      "updated": "2025-07-30",
+      "updated": "2026-07-02",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -4776,7 +4777,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+            "index": ["2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
             "label": {
               "2007": "2007",
               "2008": "2008",
@@ -4795,7 +4796,8 @@
               "2021": "2021",
               "2022": "2022",
               "2023": "2023",
-              "2024": "2024"
+              "2024": "2024",
+              "2025": "2025"
             }
           },
           "label": "Year"
@@ -4839,18 +4841,18 @@
         "BNKRDIS": "Participants disposed of in bankruptcies cases"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+      "time_series": ["2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
       "theme": "Business, economy and trade",
       "theme_code": 68,
       "subject": "Personal finances",
       "subject_code": 71,
       "product": "Bankruptcy cases disposed",
       "product_code": "PFBCD",
-      "rows": 432
+      "rows": 456
     },
     "BNKRDISLGD": {
       "name": "Bankruptcies participants disposed",
-      "updated": "2025-07-30",
+      "updated": "2026-07-02",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -4870,7 +4872,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+            "index": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
             "label": {
               "2012": "2012",
               "2013": "2013",
@@ -4884,7 +4886,8 @@
               "2021": "2021",
               "2022": "2022",
               "2023": "2023",
-              "2024": "2024"
+              "2024": "2024",
+              "2025": "2025"
             }
           },
           "label": "Year"
@@ -4934,14 +4937,14 @@
         "BNKRDIS": "Participants disposed of in bankruptcies cases"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+      "time_series": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
       "theme": "Business, economy and trade",
       "theme_code": 68,
       "subject": "Personal finances",
       "subject_code": 71,
       "product": "Bankruptcy cases disposed",
       "product_code": "PFBCD",
-      "rows": 624
+      "rows": 672
     },
     "BRESHEADLGD": {
       "name": "Employee Jobs",
@@ -40279,8 +40282,8 @@
       "rows": 672
     },
     "DFLEDEPQUIN": {
-      "name": "Disability Free Life Expectancy at Birth",
-      "updated": "2026-04-10",
+      "name": "Disability free life expectancy at birth",
+      "updated": "2026-07-02",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -40291,7 +40294,7 @@
             "unit": {
               "DFLEbirth": {
                 "decimals": 1,
-                "label": "years",
+                "label": "Years",
                 "position": "end"
               }
             }
@@ -40317,7 +40320,7 @@
               "2022-24": "2022-24"
             }
           },
-          "label": "Year"
+          "label": "Grouped year"
         },
         "SEX": {
           "category": {
@@ -40329,19 +40332,19 @@
           },
           "label": "Sex"
         },
-        "DEPQUIN": {
+        "MDM_Quintile": {
           "category": {
             "index": ["1", "2", "3", "4", "5", "N92000002"],
             "label": {
-              "1": "Deprivation – Quintile 1 – Most deprived",
-              "2": "Deprivation – Quintile 2",
-              "3": "Deprivation – Quintile 3",
-              "4": "Deprivation – Quintile 4",
-              "5": "Deprivation – Quintile 5",
-              "N92000002": "NI"
+              "1": "Quintile 1 - Most deprived",
+              "2": "Quintile 2",
+              "3": "Quintile 3",
+              "4": "Quintile 4",
+              "5": "Quintile 5 - Least deprived",
+              "N92000002": "Northern Ireland"
             }
           },
-          "label": "Deprivation Quintiles"
+          "label": "Deprivation quintile"
         }
       },
       "statistics": {
@@ -114018,7 +114021,7 @@
     },
     "MORTCASEAA": {
       "name": "Mortgages cases received and disposed",
-      "updated": "2025-07-25",
+      "updated": "2026-07-02",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -114044,7 +114047,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+            "index": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
             "label": {
               "2010": "2010",
               "2011": "2011",
@@ -114060,7 +114063,8 @@
               "2021": "2021",
               "2022": "2022",
               "2023": "2023",
-              "2024": "2024"
+              "2024": "2024",
+              "2025": "2025"
             }
           },
           "label": "Year"
@@ -114106,18 +114110,18 @@
         "MORTCASEDIS": "Mortgages cases disposed"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+      "time_series": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
       "theme": "Business, economy and trade",
       "theme_code": 68,
       "subject": "Personal finances",
       "subject_code": 71,
       "product": "Mortgage cases disposed",
       "product_code": "PFMCD",
-      "rows": 570
+      "rows": 608
     },
     "MORTCASEHSCT": {
       "name": "Mortgages cases received and disposed",
-      "updated": "2025-07-25",
+      "updated": "2026-07-02",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -114143,7 +114147,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+            "index": ["2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
             "label": {
               "2007": "2007",
               "2008": "2008",
@@ -114162,7 +114166,8 @@
               "2021": "2021",
               "2022": "2022",
               "2023": "2023",
-              "2024": "2024"
+              "2024": "2024",
+              "2025": "2025"
             }
           },
           "label": "Year"
@@ -114195,18 +114200,18 @@
         "MORTCASEDIS": "Mortgages cases disposed"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+      "time_series": ["2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
       "theme": "Business, economy and trade",
       "theme_code": 68,
       "subject": "Personal finances",
       "subject_code": 71,
       "product": "Mortgage cases disposed",
       "product_code": "PFMCD",
-      "rows": 216
+      "rows": 228
     },
     "MORTCASELGD": {
       "name": "Mortgages cases received and disposed",
-      "updated": "2025-07-25",
+      "updated": "2026-07-02",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -114232,7 +114237,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+            "index": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
             "label": {
               "2012": "2012",
               "2013": "2013",
@@ -114246,7 +114251,8 @@
               "2021": "2021",
               "2022": "2022",
               "2023": "2023",
-              "2024": "2024"
+              "2024": "2024",
+              "2025": "2025"
             }
           },
           "label": "Year"
@@ -114285,18 +114291,18 @@
         "MORTCASEDIS": "Mortgages cases disposed"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+      "time_series": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
       "theme": "Business, economy and trade",
       "theme_code": 68,
       "subject": "Personal finances",
       "subject_code": 71,
       "product": "Mortgage cases disposed",
       "product_code": "PFMCD",
-      "rows": 312
+      "rows": 336
     },
     "MORTDISORDAA": {
       "name": "Mortgages cases disposed orders made",
-      "updated": "2025-07-28",
+      "updated": "2026-07-02",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -114316,7 +114322,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+            "index": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
             "label": {
               "2010": "2010",
               "2011": "2011",
@@ -114332,7 +114338,8 @@
               "2021": "2021",
               "2022": "2022",
               "2023": "2023",
-              "2024": "2024"
+              "2024": "2024",
+              "2025": "2025"
             }
           },
           "label": "Year"
@@ -114389,18 +114396,18 @@
         "MORTDISORD": "Final orders made against mortgages cases disposed"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+      "time_series": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
       "theme": "Business, economy and trade",
       "theme_code": 68,
       "subject": "Personal finances",
       "subject_code": 71,
       "product": "Mortgage cases disposed",
       "product_code": "PFMCD",
-      "rows": 1140
+      "rows": 1216
     },
     "MORTDISORDHSCT": {
       "name": "Mortgages cases disposed orders made",
-      "updated": "2025-07-28",
+      "updated": "2026-07-02",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -114420,7 +114427,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+            "index": ["2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
             "label": {
               "2007": "2007",
               "2008": "2008",
@@ -114439,7 +114446,8 @@
               "2021": "2021",
               "2022": "2022",
               "2023": "2023",
-              "2024": "2024"
+              "2024": "2024",
+              "2025": "2025"
             }
           },
           "label": "Year"
@@ -114483,18 +114491,18 @@
         "MORTDISORD": "Final orders made against mortgages cases disposed"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+      "time_series": ["2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
       "theme": "Business, economy and trade",
       "theme_code": 68,
       "subject": "Personal finances",
       "subject_code": 71,
       "product": "Mortgage cases disposed",
       "product_code": "PFMCD",
-      "rows": 432
+      "rows": 456
     },
     "MORTDISORDLGD": {
       "name": "Mortgages cases disposed orders made",
-      "updated": "2025-07-30",
+      "updated": "2026-07-02",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -114514,7 +114522,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+            "index": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
             "label": {
               "2012": "2012",
               "2013": "2013",
@@ -114528,7 +114536,8 @@
               "2021": "2021",
               "2022": "2022",
               "2023": "2023",
-              "2024": "2024"
+              "2024": "2024",
+              "2025": "2025"
             }
           },
           "label": "Year"
@@ -114578,14 +114587,14 @@
         "MORTDISORD": "Final orders made against mortgages cases disposed"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+      "time_series": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
       "theme": "Business, economy and trade",
       "theme_code": 68,
       "subject": "Personal finances",
       "subject_code": 71,
       "product": "Mortgage cases disposed",
       "product_code": "PFMCD",
-      "rows": 624
+      "rows": 672
     },
     "MPHOWNHSCT": {
       "name": "Mobile phone ownership",
@@ -150718,7 +150727,7 @@
     },
     "POSSCOMPAA": {
       "name": "Repossessions completed",
-      "updated": "2025-07-25",
+      "updated": "2026-07-02",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -150738,7 +150747,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+            "index": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
             "label": {
               "2010": "2010",
               "2011": "2011",
@@ -150754,7 +150763,8 @@
               "2021": "2021",
               "2022": "2022",
               "2023": "2023",
-              "2024": "2024"
+              "2024": "2024",
+              "2025": "2025"
             }
           },
           "label": "Year"
@@ -150799,18 +150809,18 @@
         "POSSCOMP": "Repossessions completed"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+      "time_series": ["2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
       "theme": "Business, economy and trade",
       "theme_code": 68,
       "subject": "Personal finances",
       "subject_code": 71,
       "product": "Property repossessions",
       "product_code": "PFPR",
-      "rows": 285
+      "rows": 304
     },
     "POSSCOMPHSCT": {
       "name": "Repossessions completed",
-      "updated": "2025-07-25",
+      "updated": "2026-07-02",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -150830,7 +150840,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+            "index": ["2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
             "label": {
               "2007": "2007",
               "2008": "2008",
@@ -150849,7 +150859,8 @@
               "2021": "2021",
               "2022": "2022",
               "2023": "2023",
-              "2024": "2024"
+              "2024": "2024",
+              "2025": "2025"
             }
           },
           "label": "Year"
@@ -150881,18 +150892,18 @@
         "POSSCOMP": "Repossessions completed"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+      "time_series": ["2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
       "theme": "Business, economy and trade",
       "theme_code": 68,
       "subject": "Personal finances",
       "subject_code": 71,
       "product": "Property repossessions",
       "product_code": "PFPR",
-      "rows": 108
+      "rows": 114
     },
     "POSSCOMPLGD": {
       "name": "Repossessions completed",
-      "updated": "2025-07-28",
+      "updated": "2026-07-02",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -150912,7 +150923,7 @@
         },
         "TLIST(A1)": {
           "category": {
-            "index": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+            "index": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
             "label": {
               "2012": "2012",
               "2013": "2013",
@@ -150926,7 +150937,8 @@
               "2021": "2021",
               "2022": "2022",
               "2023": "2023",
-              "2024": "2024"
+              "2024": "2024",
+              "2025": "2025"
             }
           },
           "label": "Year"
@@ -150964,14 +150976,14 @@
         "POSSCOMP": "Repossessions completed"
       },
       "time": "TLIST(A1)",
-      "time_series": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024"],
+      "time_series": ["2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
       "theme": "Business, economy and trade",
       "theme_code": 68,
       "subject": "Personal finances",
       "subject_code": 71,
       "product": "Property repossessions",
       "product_code": "PFPR",
-      "rows": 156
+      "rows": 168
     },
     "PPCOPC01T01": {
       "name": "Mid-2022 based Population Projections - Components of population change",
