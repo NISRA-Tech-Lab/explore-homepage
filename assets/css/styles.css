@@ -239,8 +239,11 @@ table tr:not(:has(th)):hover {
   color: #000
 }
 
-.btn-primary:hover {
-  background-color: #3878c5;
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #4d7d17;
+  border-color: #4d7d17;
 }
 
 .sidebar-header {
