@@ -5,7 +5,7 @@ import { getColour } from "./getColour.js";
 import { quantile} from "./quantile.js";
 import { themes_menu, map_container, stats_menu,
          other_menu, map_subtitle, page_title, 
-         table_preview, metadata_text, search, geo_menu,
+         table_preview, metadata_text, getSearch, geo_menu,
          SIDEBAR_OPEN_KEY, map_card, chart_card, dp_link, 
          chart_updated, nav_product, nav_subject, nav_theme,
          table_title, map_updated, map_title, headline_stat_label,
@@ -17,6 +17,8 @@ import { buildTables } from "./buildTables.js";
 export let map;
 
 export async function plotMap (tables, matrix, statistic, geog_type) {   
+
+    const search = getSearch();
 
     let time_var = tables[matrix].time;
     
@@ -173,7 +175,6 @@ export async function plotMap (tables, matrix, statistic, geog_type) {
         `;
 
         const chartData = await buildCharts(tables, matrix, statistic, geog_type, result, plot_ni, time_var, subtitle_text, other_headline, other_selections, id_vars, stat_label, unit);
-        
         const data_series = chartData?.data_series ?? [];
         const time_series = chartData?.time_series ?? [];
 
@@ -607,9 +608,6 @@ export async function plotMap (tables, matrix, statistic, geog_type) {
                 }
             }
         );
-
-
-
          metadata_text.innerHTML = note_cleaned;   
 
          downloadButton(matrix);

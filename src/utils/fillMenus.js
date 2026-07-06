@@ -1,9 +1,9 @@
 import { mapSelections } from "./mapSelections.js";
 import { default_table, GEOG_PROPS } from "../config/config.js";
-import {themes_menu, subjects_menu, search, products_menu, names_menu, geo_menu, stats_menu} from "./elements.js";
+import { themes_menu, subjects_menu, products_menu, names_menu, geo_menu, stats_menu } from "./elements.js";
 import { sortObject } from "./sortObject.js";
 
-export function fillSubjectsMenu (structure, tables) {
+export function fillSubjectsMenu (structure, tables, search) {
 
     let subjects = structure[themes_menu.options[themes_menu.selectedIndex].text].subjects;
 
@@ -32,10 +32,9 @@ export function fillSubjectsMenu (structure, tables) {
 
 }
 
-export function fillProductsMenu (structure, tables) {
+export function fillProductsMenu (structure, tables, search) {
 
     let products = structure[themes_menu.options[themes_menu.selectedIndex].text].subjects[subjects_menu.options[subjects_menu.selectedIndex].text].products;
-
 
     for (let i = 0; i < Object.keys(products).length; i ++) {
         let option = document.createElement("option");
@@ -62,7 +61,7 @@ export function fillProductsMenu (structure, tables) {
 
 }
 
-export function fillNamesMenu (structure, tables) {
+export function fillNamesMenu (structure, tables, search) {
 
     let names = Object.keys(structure[themes_menu.options[themes_menu.selectedIndex].text].subjects[subjects_menu.options[subjects_menu.selectedIndex].text].products[products_menu.options[products_menu.selectedIndex].text].tables);
 
@@ -91,7 +90,7 @@ export function fillNamesMenu (structure, tables) {
 
 }
 
-export function fillGeoMenu (structure, tables) {
+export function fillGeoMenu (structure, tables, search) {
 
     let names = structure[themes_menu.options[themes_menu.selectedIndex].text].subjects[subjects_menu.options[subjects_menu.selectedIndex].text].products[products_menu.options[products_menu.selectedIndex].text].tables;
 
@@ -192,7 +191,7 @@ export function fillGeoMenu (structure, tables) {
 
 }
 
-export function fillStatMenu (tables) {
+export function fillStatMenu (tables, search) {
 
     let statistics = tables[geo_menu.value].statistics;
 
