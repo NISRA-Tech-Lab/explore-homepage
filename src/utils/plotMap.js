@@ -177,7 +177,7 @@ export async function plotMap (tables, matrix, statistic, geog_type) {
         const data_series = chartData?.data_series ?? [];
         const time_series = chartData?.time_series ?? [];
 
-    if (plot_ni) {
+    if (!plot_ni) {
         
         map_card.classList.remove("col-xl-6")
 
