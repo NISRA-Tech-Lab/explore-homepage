@@ -13,124 +13,24 @@ import { themes_menu, map_container, stats_menu,
 import { downloadButton } from "./download-button.js";
 import { buildCharts } from "./buildCharts.js";
 import { buildTables } from "./buildTables.js";
+import { addOtherMenus, id_vars, other_selections, other_headline, other_vars, subtitle_text } from "./addOtherMenus.js";
 
 export let map;
 
-export async function plotMap (tables, matrix, statistic, geog_type) {   
+export async function plotMap (tables, geog_type) {   
 
-    let time_var = tables[matrix].time;
+    const matrix = geo_menu.value.replace(/_[0-9]+/, "");
+    const statistic = stats_menu.value;
+
+    const time_var = tables[matrix].time;
     
-    let year = tables[matrix].time_series[tables[matrix].time_series.length - 1];
+    const year = tables[matrix].time_series[tables[matrix].time_series.length - 1];
 
     if (!Array.isArray(tables[matrix].time_series)) {
         year = tables[matrix].time_series;
     }
-    
-    const normal_vars = ["STATISTIC", geog_type, time_var];
-    if (geog_type == "COB_BASIC") {
-        normal_vars.push("NI")
-    } 
 
-    let other_vars = Object.keys(tables[matrix].categories);
-    other_vars = other_vars.filter(x => !normal_vars.includes(x));
-
-    let other_selections = "";
-    var other_headline = "";
-    let id_vars;
-
-    if (["none", "NI"].includes(geog_type)) {
-        map_card.classList.add("d-none");
-        chart_card.classList.remove("col-xl-6");
-        
-        id_vars = `["STATISTIC", "${time_var}"`;
-
-    } else {
-
-        id_vars = `["STATISTIC", "${time_var}", "${geog_type}"`;
-
-    }
-
-    let subtitle_text = "";
-
-    if (other_vars.length > 0) {
-        
-        additional_tables.classList.remove("d-none");
-
-
-        for (let i = 0; i < other_vars.length; i ++) {
-            
-            id_vars += `, "${other_vars[i]}"`;
-
-            let new_menu = document.createElement("div");
-
-
-            new_menu.innerHTML = `<label for = "${other_vars[i]}" class = "form-label">${tables[matrix].categories[other_vars[i]].label}</label><select id = "${other_vars[i]}" name = "${other_vars[i]}" class = "form-select"></select>`
-
-            let options = Object.keys(tables[matrix].categories[other_vars[i]].category.label);
-            let labels = Object.values(tables[matrix].categories[other_vars[i]].category.label);
-
-            other_menu.appendChild(new_menu);
-
-            const new_select = document.getElementById(other_vars[i]);
-
-            for (let j = 0; j < labels.length; j ++) {
-                let option = document.createElement("option");
-                option.value = options[j];
-                option.textContent = labels[j];
-                new_select.appendChild(option);
-            }
-
-            
-            let selected_option = options[0];
-
-            const other_defaults = ["All", "ALL", "N92000002"];
-            
-            for (let j = 0; j < other_defaults.length; j ++) {
-                if (options.includes(other_defaults[j])) {
-                    selected_option = other_defaults[j];
-                }
-            }                
-
-            for (let j = 0; j < search.length; j ++) {
-                if (search[j].includes(`${other_vars[i]}=`)) {
-                    let search_split = search[j].split("=");
-                    selected_option = search_split[1];
-                    break;
-                }
-            }
-
-            new_select.value = selected_option;              
-
-            new_menu.onchange = function () {
-
-                localStorage.setItem(SIDEBAR_OPEN_KEY, "1");
-                let search_string = `?table=${geo_menu.value}&stat=${stats_menu.value}`;
-
-                for (let j = 0; j < other_vars.length; j ++) {
-                    search_string += `&${other_vars[j]}=${document.getElementById(other_vars[j]).value}`;
-                }                    
-
-                window.location.search = search_string;
-                
-            }
-                 
-            other_selections += `,"${other_vars[i]}":{"category":{"index":["${new_select.value}"]}}`;
-
-
-            subtitle_text += `<strong>${tables[matrix].categories[other_vars[i]].label}</strong>: ${tables[matrix].categories[other_vars[i]].category.label[new_select.value]}<br>`;
-            
-
-            other_headline += `<strong>${tables[matrix].categories[other_vars[i]].label}</strong> category: <em>"${tables[matrix].categories[other_vars[i]].category.label[new_select.value]}"</em>`;
-             if (i != other_vars.length - 1) {
-                    other_headline += "<br>"
-                }
-
-        }
-
-        map_subtitle.innerHTML = subtitle_text;
-    }
-    
-    id_vars += `]`;   
+    addOtherMenus(tables, matrix, geog_type, time_var);
 
     let api_url = 'https://ws-data.nisra.gov.uk/public/api.jsonrpc?data=' +
         encodeURIComponent('{"jsonrpc":"2.0","method":"PxStat.Data.Cube_API.ReadDataset","params":{"class":"query","id":' +

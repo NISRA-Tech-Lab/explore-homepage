@@ -47,6 +47,6 @@ export function mapSelections (categories, tables) {
         geog_type = "none";
     }
 
-    plotMap(tables, geo_menu.value.replace(/_[0-9]+/, ""), stats_menu.value, geog_type);
+    plotMap(tables, geog_type);
 
 }
