@@ -1,5 +1,7 @@
 import { download_btn, capture } from "./elements.js";
 import { map } from "./plotMap.js";
+import { buildCharts } from "./buildCharts.js";
+import { buildTables } from "./buildTables.js";
 
 /**
  * Download dropdown + capture-to-image with:
