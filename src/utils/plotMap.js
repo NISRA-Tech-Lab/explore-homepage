@@ -411,7 +411,7 @@ export async function plotMap (tables, geog_type) {
         
         chart_updated.innerHTML = `Last updated: <strong>${result.updated.substr(8, 2)}/${result.updated.substr(5, 2)}/${result.updated.substr(0, 4)}</strong>. See this full dataset on <a href = "https://data.nisra.gov.uk/table/${matrix}" target = "_blank">NISRA Data Portal.</a>`;
 
-        dataPortalPreview(tables, matrix, data, result, stat_label, geog_type, year, unit);       
+        dataPortalPreview(tables, matrix, data, result, stat_label, geog_type, year, unit, time_series);       
 
         downloadButton(matrix);
 }

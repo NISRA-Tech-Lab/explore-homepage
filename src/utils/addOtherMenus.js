@@ -1,6 +1,6 @@
 import { additional_tables, other_menu, search,
          map_subtitle, SIDEBAR_OPEN_KEY,
-         geo_menu, stats_menu } from "./elements.js";
+         geo_menu, stats_menu, map_card, chart_card } from "./elements.js";
 
 export let id_vars;
 export let other_selections = "";

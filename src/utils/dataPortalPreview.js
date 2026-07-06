@@ -2,7 +2,7 @@ import { dp_link, table_preview, stats_menu, metadata_text } from "./elements.js
 import { titleCase } from "./titleCase.js";
 import { other_vars } from "./addOtherMenus.js";
 
-export function dataPortalPreview(tables, matrix, data, result, stat_label, geog_type, year, unit) {
+export function dataPortalPreview(tables, matrix, data, result, stat_label, geog_type, year, unit, time_series) {
 
     let rows = tables[matrix].rows;
 
