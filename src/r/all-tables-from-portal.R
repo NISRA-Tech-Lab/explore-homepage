@@ -14,9 +14,16 @@ fetch_dataset <- function(matrix,
   repeat {
     result <- tryCatch(
       {
-        
+
         url <- paste0(
-          "https://ws-data.nisra.gov.uk/public/api.jsonrpc?data=%7B%22jsonrpc%22:%222.0%22,%22method%22:%22PxStat.Data.Cube_API.ReadDataset%22,%22params%22:%7B%22class%22:%22query%22,%22id%22:%5B%5D,%22dimension%22:%7B%7D,%22extension%22:%7B%22pivot%22:null,%22codes%22:false,%22language%22:%7B%22code%22:%22en%22%7D,%22format%22:%7B%22type%22:%22JSON-stat%22,%22version%22:%222.0%22%7D,%22matrix%22:%22",
+          "https://ws-data.nisra.gov.uk/public/api.jsonrpc",
+          "?data=%7B%22jsonrpc%22:%222.0%22,%22method%22:",
+          "%22PxStat.Data.Cube_API.ReadDataset%22,",
+          "%22params%22:%7B%22class%22:%22query%22,%22id%22:%5B%5D,",
+          "%22dimension%22:%7B%7D,%22extension%22:%7B%22pivot%22:null,",
+          "%22codes%22:false,%22language%22:%7B%22code%22:%22en%22%7D,",
+          "%22format%22:%7B%22type%22:%22JSON-stat%22,",
+          "%22version%22:%222.0%22%7D,%22matrix%22:%22",
           matrix,
           "%22%7D,%22version%22:%222.0%22%7D%7D&apiKey=",
           api_key
@@ -32,8 +39,8 @@ fetch_dataset <- function(matrix,
         return(json_data)  # ✅ success, return immediately
       },
       error = function(e) {
-        message(sprintf("Error fetching %s (attempt %d): %s", 
-                        ifelse(is.null(label), matrix, label), 
+        message(sprintf("Error fetching %s (attempt %d): %s",
+                        ifelse(is.null(label), matrix, label),
                         attempt, e$message))
         return(NULL)
       }
@@ -139,8 +146,12 @@ for (i in seq_along(data_portal$label)) {
 
   theme <- data_portal_structure %>%
     filter(Product_code == product_code)
-  
-  if (theme$theme %in% c("Wellbeing framework", "Making life better", "Themed datasets")) next
+
+  if (
+    theme$theme %in% c(
+      "Wellbeing framework", "Making life better", "Themed datasets"
+    )
+  ) next
 
   tables$tables[[matrix]] <- list(
     name = name,
@@ -169,9 +180,13 @@ for (i in seq_along(data_portal$label)) {
 
       associated_theme <- data_portal_structure %>%
         filter(Product_code == associated_product_code[j])
-      
+
       if (nrow(associated_theme) == 0) next
-      if (associated_theme$theme %in% c("Wellbeing framework", "Making life better", "Themed datasets")) next
+      if (
+        associated_theme$theme %in% c(
+          "Wellbeing framework", "Making life better", "Themed datasets"
+        )
+      ) next
 
       tables$tables[[paste0(matrix, "_", j)]] <- list(
         name = name,

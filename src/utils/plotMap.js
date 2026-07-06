@@ -4,13 +4,10 @@ import { titleCase } from "./titleCase.js";
 import { getColour } from "./getColour.js";
 import { quantile} from "./quantile.js";
 import { themes_menu, map_container, stats_menu,
-         other_menu, map_subtitle, page_title, 
-         table_preview, metadata_text, search, geo_menu,
-         SIDEBAR_OPEN_KEY, map_card, chart_card, dp_link, 
-         chart_updated, nav_product, nav_subject, nav_theme,
-         table_title, map_updated, map_title, 
-         headline_stat_label, additional_tables, table_updated, 
-         stat_info_text } from "./elements.js";     
+         page_title, search, geo_menu,
+         map_card, chart_updated, nav_product, nav_subject, nav_theme,
+         table_title, map_updated, map_title, headline_stat_label,
+         table_updated, stat_info_text } from "./elements.js";     
 import { downloadButton } from "./download-button.js";
 import { buildCharts } from "./buildCharts.js";
 import { buildTables } from "./buildTables.js";

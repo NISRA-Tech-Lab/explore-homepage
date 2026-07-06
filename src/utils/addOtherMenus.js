@@ -1,4 +1,6 @@
-import { additional_tables, other_menu, search, map_subtitle } from "./elements.js";
+import { additional_tables, other_menu, search,
+         map_subtitle, SIDEBAR_OPEN_KEY,
+         geo_menu, stats_menu } from "./elements.js";
 
 export let id_vars;
 export let other_selections = "";
@@ -37,7 +39,6 @@ export function addOtherMenus (tables, matrix, geog_type, time_var) {
             id_vars += `, "${other_vars[i]}"`;
 
             let new_menu = document.createElement("div");
-
 
             new_menu.innerHTML = `<label for = "${other_vars[i]}" class = "form-label">${tables[matrix].categories[other_vars[i]].label}</label><select id = "${other_vars[i]}" name = "${other_vars[i]}" class = "form-select"></select>`
 
