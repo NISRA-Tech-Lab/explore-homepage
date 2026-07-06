@@ -7,7 +7,8 @@ import { themes_menu, map_container, stats_menu,
          page_title, getSearch, geo_menu,
          map_card, chart_updated, nav_product, nav_subject, nav_theme,
          table_title, map_updated, map_title, headline_stat_label,
-         table_updated, stat_info_text } from "./elements.js";     
+         additional_tables, table_updated, stat_info_text, headline_year,
+         headline_stat } from "./elements.js";     
 import { downloadButton } from "./download-button.js";
 import { buildCharts } from "./buildCharts.js";
 import { buildTables } from "./buildTables.js";
@@ -59,6 +60,14 @@ export async function plotMap (tables, geog_type) {
             plot_ni = true;
         }
     }    
+
+    const niHeadline = headline_year.closest("p");
+
+    if (niHeadline) {
+        niHeadline.classList.toggle("d-none", !plot_ni);
+    }
+
+    headline_stat.classList.toggle("d-none", !plot_ni);
 
         headline_stat_label.innerHTML = `
             ${stat_label}
@@ -396,8 +405,6 @@ export async function plotMap (tables, geog_type) {
             
             min_value.innerHTML = range_min.toLocaleString("en-GB");       
             max_value.innerHTML = range_max.toLocaleString("en-GB"); 
-            
-            map_updated.innerHTML = table_updated.innerHTML;
 
         } else {
             data = data_series;
@@ -410,7 +417,11 @@ export async function plotMap (tables, geog_type) {
         nav_subject.textContent = tables[geo_menu.value].subject;    
         nav_product.textContent = tables[geo_menu.value].product;
         
-        chart_updated.innerHTML = `Last updated: <strong>${result.updated.substr(8, 2)}/${result.updated.substr(5, 2)}/${result.updated.substr(0, 4)}</strong>. See this full dataset on <a href = "https://data.nisra.gov.uk/table/${matrix}" target = "_blank">NISRA Data Portal.</a>`;
+        const updated_text = `Last updated: <strong>${result.updated.substr(8, 2)}/${result.updated.substr(5, 2)}/${result.updated.substr(0, 4)}</strong>. See this full dataset on <a href = "https://data.nisra.gov.uk/table/${matrix}" target = "_blank">NISRA Data Portal.</a>`;
+        
+        chart_updated.innerHTML = updated_text;
+        table_updated.innerHTML = updated_text;
+        map_updated.innerHTML = updated_text;
 
         dataPortalPreview(tables, matrix, data, result, stat_label, geog_type, year, unit, time_series);       
 

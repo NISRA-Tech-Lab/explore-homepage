@@ -73,9 +73,12 @@ export async function buildTables(tables, matrix, statistic, geog_type, year, ti
             table.appendChild(tr);
 
             let values = result.value;
-
-            if (values.length == 0) {
+            
+            const hasData = values.some(v => v != null);
+            
+            if (!hasData) {
                 additional_tables.classList.add("d-none");
+                return;
             }
 
             for (let j = 0; j < values.length; j ++) {
@@ -112,11 +115,9 @@ export async function buildTables(tables, matrix, statistic, geog_type, year, ti
 
     }  else {
 
-        let statistic_categories = tables[matrix].categories.STATISTIC.category.index;        
+        let statistic_categories = tables[matrix].categories.STATISTIC.category.index;
         
         if (Array.isArray(statistic_categories)) {
-
-            additional_tables.classList.remove("d-none");
 
             tables_title.textContent = `${tables[matrix].name} - Northern Ireland Summary (${year})`;
 
