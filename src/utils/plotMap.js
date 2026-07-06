@@ -172,8 +172,10 @@ export async function plotMap (tables, matrix, statistic, geog_type) {
             <div><a href="mailto:${result.extension.contact.email}">Email for more information</a></div>
         `;
 
-        await buildCharts(tables, matrix, statistic, geog_type, result, plot_ni, time_var, subtitle_text, other_headline, other_selections, id_vars, stat_label, unit);
+        const chartData = await buildCharts(tables, matrix, statistic, geog_type, result, plot_ni, time_var, subtitle_text, other_headline, other_selections, id_vars, stat_label, unit);
         
+        const data_series = chartData?.data_series ?? [];
+        const time_series = chartData?.time_series ?? [];
 
     if (plot_ni) {
         

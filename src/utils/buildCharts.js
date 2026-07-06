@@ -8,6 +8,8 @@ import { chart_container, chart_card, chart_title, chart_subtitle,
 export async function buildCharts(tables, matrix, statistic, geog_type, result, plot_ni, time_var, subtitle_text, other_headline, other_selections, id_vars, stat_label, unit) {
 
     let headline_value = "Not available";
+    let data_series = null;
+    let time_series = [];
 
     if (plot_ni) {
 
@@ -68,14 +70,12 @@ export async function buildCharts(tables, matrix, statistic, geog_type, result, 
         const ni_response = await fetch(ni_url);
         const ni_result = await ni_response.json();
 
-        var data_series = ni_result.result.value;
+        data_series = ni_result.result.value;
         // Make sure values are numbers
         const values = data_series.map(v => (v === null || v === undefined ? null : Number(v)));
         if (values[values.length - 1] != null) headline_value = values[values.length - 1].toLocaleString();
 
-
-
-        var time_series = ni_result.result.dimension[time_var].category.index;
+        time_series = ni_result.result.dimension[time_var].category.index;
         headline_year.textContent = time_series[time_series.length - 1];
         headline_stat.innerHTML = other_headline;
 
@@ -240,5 +240,10 @@ export async function buildCharts(tables, matrix, statistic, geog_type, result, 
         }
 
         table_updated.innerHTML = `Last updated: <strong>${result.updated.substr(8, 2)}/${result.updated.substr(5, 2)}/${result.updated.substr(0, 4)}</strong>. See this full dataset on <a href = "https://data.nisra.gov.uk/table/${matrix}" target = "_blank">NISRA Data Portal.</a>`;
+    }
+
+    return {
+        data_series,
+        time_series
     }
 }
