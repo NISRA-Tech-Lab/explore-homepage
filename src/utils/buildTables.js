@@ -177,6 +177,9 @@ export async function buildTables(tables, matrix, statistic, geog_type, year, ti
 
             let values = result.value;
 
+            if (!values || values.length === 0) {
+                additional_tables.classList.add("d-none");
+            }
 
             for (let j = 0; j < values.length; j ++) {
                 let tr = document.createElement("tr");

@@ -8,7 +8,7 @@ import { themes_menu, map_container, stats_menu,
          map_card, chart_updated, nav_product, nav_subject, nav_theme,
          table_title, map_updated, map_title, headline_stat_label,
          additional_tables, table_updated, stat_info_text, headline_year,
-         headline_stat } from "./elements.js";     
+         headline_stat, chart_card } from "./elements.js";     
 import { downloadButton } from "./download-button.js";
 import { buildCharts } from "./buildCharts.js";
 import { buildTables } from "./buildTables.js";
@@ -19,6 +19,9 @@ import { dataPortalPreview } from "./dataPortalPreview.js";
 export let map;
 
 export async function plotMap (tables, geog_type) {   
+
+    chart_card.classList.add("d-none");
+    additional_tables.classList.add("d-none");
 
     const search = getSearch();
 
