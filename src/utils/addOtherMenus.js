@@ -1,6 +1,7 @@
 import { additional_tables, other_menu,
          map_subtitle, SIDEBAR_OPEN_KEY,
          geo_menu, stats_menu, map_card, chart_card } from "./elements.js";
+import { refreshRoute } from "./refreshRoute.js";
 
 export let id_vars;
 export let other_selections = "";
@@ -9,6 +10,8 @@ export let other_vars = [];
 export let subtitle_text = "";
 
 export function addOtherMenus (tables, matrix, geog_type, time_var, search) {
+
+    other_menu.replaceChildren();
 
     // Reset variables when selecting new vars
     other_selections = "";
@@ -83,7 +86,7 @@ export function addOtherMenus (tables, matrix, geog_type, time_var, search) {
 
             new_select.value = selected_option;              
 
-            new_menu.onchange = function () {
+            new_menu.onchange = async function () {
 
                 localStorage.setItem(SIDEBAR_OPEN_KEY, "1");
                 let search_string = `?table=${geo_menu.value}&stat=${stats_menu.value}`;
@@ -92,7 +95,9 @@ export function addOtherMenus (tables, matrix, geog_type, time_var, search) {
                     search_string += `&${other_vars[j]}=${document.getElementById(other_vars[j]).value}`;
                 }                    
 
-                window.location.search = search_string;
+                window.history.pushState({}, "", search_string);
+
+                await refreshRoute();
                 
             }
                     

@@ -1,13 +1,11 @@
 import { map } from "./plotMap.js";
 
 import {
-    other_menu,
     map_subtitle,
     page_title,
     chart_container,
     table_preview,
     metadata_text,
-    geo_menu,
     chart_title,
     chart_subtitle,
     headline_fig,
@@ -28,9 +26,6 @@ import {
     stat_info_text,
     headline_year,
     map_container,
-    subjects_menu,
-    products_menu,
-    names_menu,
     additional_tables,
     map_card,
     chart_card
@@ -43,7 +38,6 @@ import {
 export async function clearElements() {
 
     chart_container.innerHTML = "";
-    other_menu.innerHTML = "";
     table_preview.innerHTML = "";
     table_tabs.innerHTML = "";
     table_tabs_content.innerHTML = "";
