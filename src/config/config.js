@@ -113,7 +113,17 @@ export const GEOG_PROPS= {
   },
   HIGHEST_QUALIFICATION_AGG3: {
     label: "Highest level of qualification"
+  },
+  MTHRAGE: {
+    label: "Mother's age"
+  },
+  POB: {
+    label: "Place of birth"
+  },
+  SEX: {
+    label: "Sex"
   }
+
 }
 
   // Colour palette for charts

@@ -46,7 +46,7 @@ export async function plotMap (tables, geog_type) {
     const response = await fetch(api_url);
     const {result} = await response.json();
 
-    await buildTables(tables, matrix, statistic, geog_type, year, time_var, other_vars, other_selections, id_vars);
+    
 
     const stat_label = Object.values(result.dimension.STATISTIC.category.label)[0];
     const unit = result.dimension.STATISTIC.category.unit[statistic].label;
@@ -83,6 +83,7 @@ export async function plotMap (tables, geog_type) {
         `;
 
         const chartData = await buildCharts(tables, matrix, statistic, geog_type, result, plot_ni, time_var, subtitle_text, other_headline, other_selections, id_vars, stat_label, unit);
+        await buildTables(tables, matrix, statistic, geog_type, year, time_var, other_vars, other_selections, id_vars, unit);
         const data_series = chartData?.data_series ?? [];
         const time_series = chartData?.time_series ?? [];
 

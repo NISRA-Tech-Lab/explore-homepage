@@ -1,8 +1,11 @@
 import { additional_tables, table_tabs, table_tabs_content, tables_title,
-         stats_menu } from "./elements.js";
+         stats_menu, chart_title } from "./elements.js";
 
-export async function buildTables(tables, matrix, statistic, geog_type, year, time_var, other_vars, other_selections, id_vars) {
+import { ni_result } from "./buildCharts.js";
 
+export async function buildTables(tables, matrix, statistic, geog_type, year, time_var, other_vars, other_selections, id_vars, unit) {
+
+    // Build a table for each additional variable and place behind a tab
     if (other_vars.length > 0) {
 
         additional_tables.classList.remove("d-none");
@@ -113,11 +116,15 @@ export async function buildTables(tables, matrix, statistic, geog_type, year, ti
             table_tabs_content.appendChild(div);
         }
 
+        // Else build a table of one row per statistic at Northern Ireland level
     }  else {
 
         let statistic_categories = tables[matrix].categories.STATISTIC.category.index;
         
+
         if (Array.isArray(statistic_categories)) {
+
+            additional_tables.classList.remove("d-none");
 
             tables_title.textContent = `${tables[matrix].name} - Northern Ireland Summary (${year})`;
 
@@ -170,6 +177,7 @@ export async function buildTables(tables, matrix, statistic, geog_type, year, ti
 
             let values = result.value;
 
+
             for (let j = 0; j < values.length; j ++) {
                 let tr = document.createElement("tr");
 
@@ -200,6 +208,65 @@ export async function buildTables(tables, matrix, statistic, geog_type, year, ti
             table_div.appendChild(table);
             div.appendChild(table_div);
             table_tabs_content.appendChild(div);
+        } else {
+            // Else build a table that shows chart figs
+            additional_tables.classList.remove("d-none");
+
+            const xAxisTitle = ni_result.result.dimension[time_var].label || "";
+            const yAxisTitle = unit || "";
+
+            tables_title.textContent = chart_title.textContent;
+
+            let table_div = document.createElement("div");
+            table_div.classList.add("table-responsive");
+
+            let table = document.createElement("table");
+            table.classList.add("table");
+            table.classList.add("table-sm");
+            table.classList.add("table-bordered");
+            table.classList.add("mb-0");
+
+            let tr = document.createElement("tr");
+
+            let var_header = document.createElement("th");
+            var_header.textContent = xAxisTitle;
+            tr.appendChild(var_header);
+
+            let stat_header = document.createElement("th");
+            stat_header.textContent = `Northern Ireland (${yAxisTitle})`;
+            stat_header.style = "text-align: right;"
+            tr.appendChild(stat_header);
+
+            table.appendChild(tr);
+
+            const values = ni_result.result.value;
+            const time_series = ni_result.result.dimension[time_var].category.index;
+
+            for (let i = 0; i < values.length; i++) {
+                let tr = document.createElement("tr");
+
+                let td_0 = document.createElement("td");
+                td_0.textContent = time_series[i];
+                tr.appendChild(td_0);
+
+                let td_1 = document.createElement("td");
+                if (values[i] == null) {
+                    td_1.textContent = "..";
+                } else {
+                    let decimals = ni_result.result.dimension.STATISTIC.category.unit[stats_menu.value].decimals;
+                    td_1.textContent = values[i].toLocaleString("en-GB", {
+                        minimumFractionDigits: decimals,
+                        maximumFractionDigits: decimals
+                    });
+                }
+                td_1.style = "text-align: right;"
+                tr.appendChild(td_1);
+
+                table.appendChild(tr);
+            }
+
+            table_div.appendChild(table);
+            table_tabs_content.appendChild(table_div);
         }
 
     }

@@ -5,6 +5,8 @@ import { chart_container, chart_card, chart_title, chart_subtitle,
          tables_title, table_tabs_content, table_updated, stats_menu, 
          themes_menu } from "./elements.js";
 
+export let ni_result;
+
 export async function buildCharts(tables, matrix, statistic, geog_type, result, plot_ni, time_var, subtitle_text, other_headline, other_selections, id_vars, stat_label, unit) {
 
     let headline_value = "Not available";
@@ -68,7 +70,7 @@ export async function buildCharts(tables, matrix, statistic, geog_type, result, 
 
 
         const ni_response = await fetch(ni_url);
-        const ni_result = await ni_response.json();
+        ni_result = await ni_response.json();
 
         data_series = ni_result.result.value;
         // Make sure values are numbers
@@ -181,63 +183,6 @@ export async function buildCharts(tables, matrix, statistic, geog_type, result, 
         }
         headline_fig.innerHTML = `<span class = "headline-value" style="font-size: 2.5rem; font-weight: 500;">${headline_value}</span> ${unit_fixed}`;
 
-
-
-        if (additional_tables.classList.contains("d-none")) {
-
-            additional_tables.classList.remove("d-none");
-
-            tables_title.textContent = chart_title.textContent;
-
-            let table_div = document.createElement("div");
-            table_div.classList.add("table-responsive");
-
-            let table = document.createElement("table");
-            table.classList.add("table");
-            table.classList.add("table-sm");
-            table.classList.add("table-bordered");
-            table.classList.add("mb-0");
-
-            let tr = document.createElement("tr");
-
-            let var_header = document.createElement("th");
-            var_header.textContent = xAxisTitle;
-            tr.appendChild(var_header);
-
-            let stat_header = document.createElement("th");
-            stat_header.textContent = `Northern Ireland (${yAxisTitle})`;
-            stat_header.style = "text-align: right;"
-            tr.appendChild(stat_header);
-
-            table.appendChild(tr);
-
-            for (let i = 0; i < values.length; i++) {
-                let tr = document.createElement("tr");
-
-                let td_0 = document.createElement("td");
-                td_0.textContent = time_series[i];
-                tr.appendChild(td_0);
-
-                let td_1 = document.createElement("td");
-                if (values[i] == null) {
-                    td_1.textContent = "..";
-                } else {
-                    let decimals = ni_result.result.dimension.STATISTIC.category.unit[stats_menu.value].decimals;
-                    td_1.textContent = values[i].toLocaleString("en-GB", {
-                        minimumFractionDigits: decimals,
-                        maximumFractionDigits: decimals
-                    });
-                }
-                td_1.style = "text-align: right;"
-                tr.appendChild(td_1);
-
-                table.appendChild(tr);
-            }
-
-            table_div.appendChild(table);
-            table_tabs_content.appendChild(table_div);
-
-        }
 
     }
 
