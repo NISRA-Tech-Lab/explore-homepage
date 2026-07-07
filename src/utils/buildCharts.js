@@ -179,7 +179,7 @@ export async function buildCharts(tables, matrix, statistic, geog_type, result, 
         if (unit.toLowerCase() == "number") {
             unit_fixed = "";
         }
-        headline_fig.innerHTML = `<span class = "h1">${headline_value}</span> ${unit_fixed}`;
+        headline_fig.innerHTML = `<span class = "headline-value" style="font-size: 2.5rem; font-weight: 500;">${headline_value}</span> ${unit_fixed}`;
 
 
 
