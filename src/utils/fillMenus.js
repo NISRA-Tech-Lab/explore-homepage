@@ -7,13 +7,15 @@ export function fillSubjectsMenu (structure, tables, search) {
 
     let subjects = structure[themes_menu.options[themes_menu.selectedIndex].text].subjects;
 
+    let current_options = subjects_menu.options;
+
     for (let i = 0; i < Object.keys(subjects).length; i ++) {
         let option = document.createElement("option");
         option.value = subjects[Object.keys(subjects)[i]].code;
-        option.textContent = Object.keys(subjects)[i];
-        subjects_menu.appendChild(option);
-    }
-
+            option.textContent = Object.keys(subjects)[i];
+            subjects_menu.appendChild(option);
+        }
+        
     let selected_subject = subjects[Object.keys(subjects)[0]].code;
 
     if (window.location.search == "") {
@@ -172,7 +174,11 @@ export function fillGeoMenu (structure, tables, search) {
     if (num_options > 0) {
         geo_menu.parentElement.classList.add("d-block");
         geo_menu.parentElement.classList.remove("d-none");
+    } else {
+        geo_menu.parentElement.classList.add("d-none");
+        geo_menu.parentElement.classList.remove("d-block");
     }
+
 
     let selected_geo;
 

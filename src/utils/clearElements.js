@@ -50,7 +50,6 @@ export async function clearElements() {
     table_tabs.innerHTML = "";
     table_tabs_content.innerHTML = "";
 
-    themes_menu.innerHTML = "";
     subjects_menu.innerHTML = "";
     products_menu.innerHTML = "";
     names_menu.innerHTML = "";

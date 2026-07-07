@@ -61,11 +61,23 @@ export async function createMenus () {
 
     structure = sortObject(structure);
 
+    const current_options = themes_menu.options;
+
     for (let i = 0; i < Object.keys(structure).length; i ++) {
         let option = document.createElement("option");
         option.value = structure[Object.keys(structure)[i]].code;
-        option.textContent = Object.keys(structure)[i];
-        themes_menu.appendChild(option);
+
+        let has_option = false;
+        for (let j = 0; j < current_options.length; j ++) {
+            if (current_options[j].value == option.value) {
+                has_option = true;
+            } 
+        }
+
+        if (!has_option) {
+            option.textContent = Object.keys(structure)[i];
+            themes_menu.appendChild(option);
+        }
     }
 
     let selected_theme = tables[default_table].theme_code;
