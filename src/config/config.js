@@ -95,33 +95,6 @@ export const GEOG_PROPS= {
   },
   EQUALGROUPS: {
     label: "Equality Groups"
-  },
-  NI: {
-    label: "Northern Ireland"
-  },
-  TUMOURSITE: {
-    label: "Site of Tumor"
-  },
-  MDM_Quintile: {
-    label: "Deprivation quintile"
-  },
-  EQGRP: {
-    label: "Equality group"
-  },
-  LMS: {
-    label: "Labour market status"
-  },
-  HIGHEST_QUALIFICATION_AGG3: {
-    label: "Highest level of qualification"
-  },
-  MTHRAGE: {
-    label: "Mother's age"
-  },
-  POB: {
-    label: "Place of birth"
-  },
-  SEX: {
-    label: "Sex"
   }
 
 }

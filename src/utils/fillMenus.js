@@ -144,12 +144,10 @@ export function fillGeoMenu (structure, tables, search) {
         if (geo_types[geo_type].length == 1) {
             let option = document.createElement("option");
             option.value = geo_types[geo_type];
-            if (Object.keys(GEOG_PROPS).includes(geo_type)) {
-                option.text = GEOG_PROPS[geo_type].label;
-                num_options += 1;
-            }
-            geo_menu.appendChild(option)
             
+            option.text = GEOG_PROPS[geo_type]?.label ?? tables[geo_types[geo_type][0]].categories[geo_type]?.label ?? geo_type;
+            num_options += 1;
+            geo_menu.appendChild(option);
         } else {
             for (let j = 0; j < geo_types[geo_type].length; j ++) {
                 let option = document.createElement("option");
@@ -172,10 +170,10 @@ export function fillGeoMenu (structure, tables, search) {
                         category_string += `, ${categories[category_names[k]].label}`;
                     }
                 }
-                if (Object.keys(GEOG_PROPS).includes(geo_type)) {
-                    option.text = `${GEOG_PROPS[geo_type].label} by ${category_string}`;
-                    num_options += 1;
-                }
+
+                const geoLabel = GEOG_PROPS[geo_type]?.label ?? tables[geo_types[geo_type][j]].categories[geo_type]?.label ?? geo_type;
+                option.text = `${geoLabel} by ${category_string}`;
+                num_options += 1;
                 geo_menu.appendChild(option);
             }
         }        
