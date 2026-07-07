@@ -5,6 +5,8 @@ import { sortObject } from "./sortObject.js";
 
 export function fillSubjectsMenu (structure, tables, search) {
 
+    subjects_menu.replaceChildren();
+
     let subjects = structure[themes_menu.options[themes_menu.selectedIndex].text].subjects;
 
     let current_options = subjects_menu.options;
@@ -36,6 +38,8 @@ export function fillSubjectsMenu (structure, tables, search) {
 
 export function fillProductsMenu (structure, tables, search) {
 
+    products_menu.replaceChildren();
+
     let products = structure[themes_menu.options[themes_menu.selectedIndex].text].subjects[subjects_menu.options[subjects_menu.selectedIndex].text].products;
 
     for (let i = 0; i < Object.keys(products).length; i ++) {
@@ -65,6 +69,8 @@ export function fillProductsMenu (structure, tables, search) {
 
 export function fillNamesMenu (structure, tables, search) {
 
+    names_menu.replaceChildren();
+
     let names = Object.keys(structure[themes_menu.options[themes_menu.selectedIndex].text].subjects[subjects_menu.options[subjects_menu.selectedIndex].text].products[products_menu.options[products_menu.selectedIndex].text].tables);
 
     for (let i = 0; i < names.length; i ++) {
@@ -93,6 +99,8 @@ export function fillNamesMenu (structure, tables, search) {
 }
 
 export function fillGeoMenu (structure, tables, search) {
+
+    geo_menu.replaceChildren();
 
     let names = structure[themes_menu.options[themes_menu.selectedIndex].text].subjects[subjects_menu.options[subjects_menu.selectedIndex].text].products[products_menu.options[products_menu.selectedIndex].text].tables;
 
@@ -202,6 +210,8 @@ export function fillGeoMenu (structure, tables, search) {
 }
 
 export function fillStatMenu (tables, search) {
+
+    stats_menu.replaceChildren();
 
     let statistics = tables[geo_menu.value].statistics;
 

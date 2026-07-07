@@ -1,8 +1,6 @@
 import { map } from "./plotMap.js";
 
 import {
-    themes_menu,
-    stats_menu,
     other_menu,
     map_subtitle,
     page_title,
@@ -49,12 +47,6 @@ export async function clearElements() {
     table_preview.innerHTML = "";
     table_tabs.innerHTML = "";
     table_tabs_content.innerHTML = "";
-
-    subjects_menu.innerHTML = "";
-    products_menu.innerHTML = "";
-    names_menu.innerHTML = "";
-    geo_menu.innerHTML = "";
-    stats_menu.innerHTML = "";
 
     map_subtitle.innerHTML = "";
     chart_title.textContent = "";
