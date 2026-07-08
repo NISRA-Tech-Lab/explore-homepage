@@ -240,6 +240,7 @@ export async function plotMap (tables, geog_type) {
             maxZoom: initialZoom + 7,
             maxBounds: bounds,
             attributionControl: false,
+            dragRotate: false,
             preserveDrawingBuffer: true
         });         
         
