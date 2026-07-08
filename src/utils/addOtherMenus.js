@@ -49,7 +49,7 @@ export function addOtherMenus (tables, matrix, geog_type, time_var, search) {
 
             let new_menu = document.createElement("div");
 
-            new_menu.innerHTML = `<label for = "${other_vars[i]}" class = "form-label">${tables[matrix].categories[other_vars[i]].label}</label><select id = "${other_vars[i]}" name = "${other_vars[i]}" class = "form-select"></select>`
+            new_menu.innerHTML = `<label for = "${other_vars[i]}" class = "form-label">${tables[matrix].categories[other_vars[i]].label}</label><select id = "${other_vars[i]}" name = "${other_vars[i]}" class = "form-select" aria-label="Select ${tables[matrix].categories[other_vars[i]].label}"></select>`
 
             let options = Object.keys(tables[matrix].categories[other_vars[i]].category.label);
             let labels = Object.values(tables[matrix].categories[other_vars[i]].category.label);
