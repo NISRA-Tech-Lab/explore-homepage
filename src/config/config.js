@@ -100,4 +100,4 @@ export const GEOG_PROPS= {
 }
 
   // Colour palette for charts
-export const palette = ["#d6e4f6", "#8db2e0", "#3878c5", "#22589c", "#00205b"];
+export const palette = ["#d6e4f6", "#8db2e0", "var(--nisra_blue)", "#22589c", "var(--nisra_navy)"];

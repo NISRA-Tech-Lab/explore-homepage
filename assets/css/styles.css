@@ -1,6 +1,14 @@
 /* ===========================
    Base
    =========================== */
+:root {
+	--nisra_blue: #3878c5;
+	--nisra_navy: #00205b;
+	--nisra_purple: #732777;
+  --nisra_slate: #3b3b3b;
+  --nisra_green: #68a41e;
+}
+
 body {
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 18px;
@@ -195,9 +203,9 @@ input:focus-visible, select:focus-visible, button:focus-visible, .map:has(canvas
    Footer
    =========================== */
 .footer {
-  background-color: #00205b;
+  background-color: var(--nisra_navy);
   color: #fff;
-  border-top: 4px solid #3878c5;
+  border-top: 4px solid var(--nisra_blue);
 }
 .footer a {
   color: #fff;
@@ -246,8 +254,8 @@ table tr:not(:has(th)):hover {
 }
 
 .btn-primary {
-  background-color: #68a41e;
-  border-color: #68a41e;
+  background-color: var(--nisra_green);
+  border-color: var(--nisra_green);
   color: #000
 }
 
@@ -259,7 +267,7 @@ table tr:not(:has(th)):hover {
 }
 
 .sidebar-header {
-  background-color: #68a41e;
+  background-color: var(--nisra_green);
   font-weight: normal;
   display: flex;
   align-items: center;
