@@ -117,7 +117,7 @@ export async function buildTables(tables, matrix, statistic, geog_type, year, ti
         }
 
         // Else build a table of one row per statistic at Northern Ireland level
-    }  else {
+    }  else if (ni_result) {
 
         let statistic_categories = tables[matrix].categories.STATISTIC.category.index;
         
