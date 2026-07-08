@@ -185,7 +185,7 @@ main a[target="_blank"]::after {
   outline-offset: 3px !important;
 }
 
-input:focus-visible, select:focus-visible, button:focus-visible {
+input:focus-visible, select:focus-visible, button:focus-visible, .map:has(canvas:focus-visible) {
   outline: 3px solid #D4351C !important;
   outline-offset: 3px !important;
   box-shadow: none !important;
