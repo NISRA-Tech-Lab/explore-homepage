@@ -2,6 +2,7 @@ import { share_btn } from "./utils/elements.js";
 import { sharePage } from "./utils/sharePage.js";
 import { loadTables } from "./utils/loadTables.js";
 import { initCookieConsent } from "./utils/cookies.js";
+import "./utils/skipToMainContent.js";
 
 window.addEventListener("DOMContentLoaded", async () => {
     for (let i = 0; i < share_btn.length; i++) {

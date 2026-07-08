@@ -5,6 +5,7 @@ import { share_btn } from "./utils/elements.js";
 import { sharePage } from "./utils/sharePage.js";
 import { initCookieConsent } from "./utils/cookies.js";
 import { refreshRoute } from "./utils/refreshRoute.js";
+import "./utils/skipToMainContent.js";
 
 let searchIndex = [];
 
