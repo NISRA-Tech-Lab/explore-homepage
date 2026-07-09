@@ -363,3 +363,7 @@ a.cookiesbarlink {
 .breadcrumb {
   color: #687178
 }
+
+.bg-navy {
+  background-color: var(--nisra_navy);
+}

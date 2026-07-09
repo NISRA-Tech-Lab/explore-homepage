@@ -90,11 +90,11 @@ export async function buildCharts(tables, matrix, statistic, geog_type, result, 
             datasets: [{
                 label: stat_label,
                 data: [...values],
-                borderColor: "var(--nisra_navy)",
-                backgroundColor: "var(--nisra_navy)",
+                borderColor: "#00205b",
+                backgroundColor: "#00205b",
                 barPercentage: 0.4,
                 fill: false,
-                pointBackgroundColor: "var(--nisra_navy)",
+                pointBackgroundColor: "#00205b",
                 tension: 0
             }]
         };

@@ -98,6 +98,8 @@ export async function plotMap (tables, geog_type) {
             map_card.classList.add("col-xl-8");
             map_card.parentElement.insertBefore(spacer, map_card);
         } 
+    } else {
+        map_card.classList.add("col-xl-6")
     }
 
     let data;
