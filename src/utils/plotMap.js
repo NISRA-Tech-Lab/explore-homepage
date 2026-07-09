@@ -268,7 +268,9 @@ export async function plotMap (tables, geog_type) {
             maxBounds: bounds,
             attributionControl: false,
             dragRotate: false,
-            preserveDrawingBuffer: true
+            preserveDrawingBuffer: true,
+            cooperativeGestures: true,
+            disableRotation: false
         });         
         
         map.dragPan.disable();
