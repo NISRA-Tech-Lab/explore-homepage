@@ -1,5 +1,5 @@
 {
-  "table_count": 1111,
+  "table_count": 1115,
   "tables": {
     "ABI01": {
       "name": "Annual Business Inquiry: results by industry sector",
@@ -177574,6 +177574,248 @@
       "product": "Waste",
       "product_code": "EECWST",
       "rows": 1260
+    },
+    "WATER01A": {
+      "name": "Water usage - showers",
+      "updated": "2026-07-08",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "PER_RESP",
+            "label": {
+              "PER_RESP": "Percentage of respondents"
+            },
+            "unit": {
+              "PER_RESP": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2023/24", "2024/25"],
+            "label": {
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "SHOWERSPW": {
+          "category": {
+            "index": ["1", "2", "3", "4", "5", "6"],
+            "label": {
+              "1": "0 showers",
+              "2": "1-2 showers",
+              "3": "3-4 showers",
+              "4": "5-6 showers",
+              "5": "7 showers",
+              "6": "8+ showers"
+            }
+          },
+          "label": "Average showers per week"
+        }
+      },
+      "statistics": {
+        "PER_RESP": "Percentage of respondents"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2023/24", "2024/25"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Property and housing",
+      "subject_code": 165,
+      "product": "Household characteristics",
+      "product_code": "PHHHC",
+      "rows": 12
+    },
+    "WATER03A": {
+      "name": "Water usage - baths",
+      "updated": "2026-07-08",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "PER_RESP",
+            "label": {
+              "PER_RESP": "Percentage of respondents"
+            },
+            "unit": {
+              "PER_RESP": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": "2024/25",
+            "label": {
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "BATHS": {
+          "category": {
+            "index": ["1", "2", "3", "4", "5", "6", "7"],
+            "label": {
+              "1": "More than once per week",
+              "2": "Once per week",
+              "3": "Once per fortnight",
+              "4": "Once per month",
+              "5": "Less than once per month",
+              "6": "Never - own a bath",
+              "7": "Never - don't own a bath"
+            }
+          },
+          "label": "Number of baths"
+        }
+      },
+      "statistics": {
+        "PER_RESP": "Percentage of respondents"
+      },
+      "time": "TLIST(A1)",
+      "time_series": "2024/25",
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Property and housing",
+      "subject_code": 165,
+      "product": "Household characteristics",
+      "product_code": "PHHHC",
+      "rows": 7
+    },
+    "WATER05A": {
+      "name": "Water usage - hosepipe/bucket",
+      "updated": "2026-07-08",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "PER_RESP",
+            "label": {
+              "PER_RESP": "Percentage of respondents"
+            },
+            "unit": {
+              "PER_RESP": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2023/24", "2024/25"],
+            "label": {
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "HOSEBUCKET": {
+          "category": {
+            "index": ["1", "2", "3", "4", "5", "6"],
+            "label": {
+              "1": "Watering the lawn",
+              "2": "Watering plants",
+              "3": "Power washing",
+              "4": "Washing my car",
+              "5": "Filling a paddling pool",
+              "6": "Other"
+            }
+          },
+          "label": "Hosepipe/bucket use"
+        }
+      },
+      "statistics": {
+        "PER_RESP": "Percentage of respondents"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2023/24", "2024/25"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Property and housing",
+      "subject_code": 165,
+      "product": "Household characteristics",
+      "product_code": "PHHHC",
+      "rows": 12
+    },
+    "WATER06A07A": {
+      "name": "Water usage - washing machine and dishwasher",
+      "updated": "2026-07-08",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "PER_RESP",
+            "label": {
+              "PER_RESP": "Percentage of respondents"
+            },
+            "unit": {
+              "PER_RESP": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": ["2023/24", "2024/25"],
+            "label": {
+              "2023/24": "2023/24",
+              "2024/25": "2024/25"
+            }
+          },
+          "label": "Financial year"
+        },
+        "WMDW": {
+          "category": {
+            "index": ["WM", "DW"],
+            "label": {
+              "WM": "Washing machine",
+              "DW": "Dishwasher"
+            }
+          },
+          "label": "Washing machine/dishwasher"
+        },
+        "WMDW_USE": {
+          "category": {
+            "index": ["1", "2", "3", "4", "5", "6"],
+            "label": {
+              "1": "Everyday",
+              "2": "Every other day",
+              "3": "Couple of times a week",
+              "4": "Once a week",
+              "5": "Less than once a week",
+              "6": "Don't own one"
+            }
+          },
+          "label": "Average use"
+        }
+      },
+      "statistics": {
+        "PER_RESP": "Percentage of respondents"
+      },
+      "time": "TLIST(A1)",
+      "time_series": ["2023/24", "2024/25"],
+      "theme": "People and communities",
+      "theme_code": 70,
+      "subject": "Property and housing",
+      "subject_code": 165,
+      "product": "Household characteristics",
+      "product_code": "PHHHC",
+      "rows": 24
     },
     "WBLOCAA": {
       "name": "Individual Wellbeing - Locus of Control",
