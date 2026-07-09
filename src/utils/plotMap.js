@@ -223,7 +223,7 @@ export async function plotMap (tables, geog_type) {
         map_container.appendChild(map_div);
 
         let initialZoom = window.innerWidth < 768 ? 6 : 7; 
-        let bounds = [[-9.20, 53.58], [-4.53, 55.72]];
+        let bounds = [[-12.0, 52.0], [-2.0, 56.5]];
 
         if (geog_type == "COB_BASIC") {
             initialZoom = 1;
@@ -236,7 +236,7 @@ export async function plotMap (tables, geog_type) {
             style: 'public/map/style-omt.json',
             center: [-6.85, 54.67],
             zoom: initialZoom,
-            minZoom: initialZoom,
+            minZoom: initialZoom - 7,
             maxZoom: initialZoom + 7,
             maxBounds: bounds,
             attributionControl: false,
