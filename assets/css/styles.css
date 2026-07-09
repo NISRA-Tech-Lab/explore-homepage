@@ -199,6 +199,10 @@ input:focus-visible, select:focus-visible, button:focus-visible, .map:has(canvas
   box-shadow: none !important;
 }
 
+main:focus-visible {
+  outline: none !important;
+}
+
 /* ===========================
    Footer
    =========================== */
