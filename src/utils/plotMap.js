@@ -244,6 +244,7 @@ export async function plotMap (tables, geog_type) {
             preserveDrawingBuffer: true
         });         
         
+        map.dragPan.disable();
         
         // After creating `map`
         map.addControl(
