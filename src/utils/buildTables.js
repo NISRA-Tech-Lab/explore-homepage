@@ -272,5 +272,7 @@ export async function buildTables(tables, matrix, statistic, geog_type, year, ti
             table_tabs_content.appendChild(table_div);
         }
 
+    } else {
+        additional_tables.classList.add("d-none")
     }
 }

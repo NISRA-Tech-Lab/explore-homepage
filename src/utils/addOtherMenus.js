@@ -36,6 +36,8 @@ export function addOtherMenus (tables, matrix, geog_type, time_var, search) {
     } else {
 
         id_vars = `["STATISTIC", "${time_var}", "${geog_type}"`;
+        chart_card.classList.add("col-xl-6");
+        map_card.classList.remove("d-none");
 
     }
 

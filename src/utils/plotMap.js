@@ -20,9 +20,6 @@ export let map;
 
 export async function plotMap (tables, geog_type) {   
 
-    chart_card.classList.add("d-none");
-    additional_tables.classList.add("d-none");
-
     const search = getSearch();
 
     const matrix = geo_menu.value.replace(/_[0-9]+/, "");
@@ -163,64 +160,92 @@ export async function plotMap (tables, geog_type) {
             }
         }
 
-        let legend_div = document.createElement("div");
-        legend_div.id = "map-legend";
-        legend_div.classList.add("map-legend");
-        legend_div.classList.add("align-self-center");
-        legend_div.classList.add("col-6");
+        let min_value;
+        let max_value;
 
-        let legend_row_1 = document.createElement("div");
-        legend_row_1.classList.add("row");
+        if (!document.getElementById("map-legend")) {
 
-        let min_value = document.createElement("div");
-        min_value.classList.add("legend-min");
-        legend_row_1.appendChild(min_value);
+            let legend_div = document.createElement("div");
+            legend_div.id = "map-legend";
+            legend_div.classList.add("map-legend");
+            legend_div.classList.add("align-self-center");
+            legend_div.classList.add("col-6");
 
-        let unit_value = document.createElement("div");
-        unit_value.classList.add("legend-unit");
-        if (unit.toLowerCase() != "number") {
-            unit_value.innerHTML = `(${unit})`;
-        }
-        legend_row_1.appendChild(unit_value);
+            let legend_row_1 = document.createElement("div");
+            legend_row_1.classList.add("row");
 
-        let max_value = document.createElement("div");
+            min_value = document.createElement("div");
+            min_value.id = "legend-min";
+            min_value.classList.add("legend-min");
+            legend_row_1.appendChild(min_value);
 
-        max_value.classList.add("legend-max");
-        legend_row_1.appendChild(max_value);
+            let unit_value = document.createElement("div");
+            unit_value.classList.add("legend-unit");
+            if (unit.toLowerCase() != "number") {
+                unit_value.innerHTML = `(${unit})`;
+            }
+            legend_row_1.appendChild(unit_value);
 
-        legend_div.appendChild(legend_row_1);
+            max_value = document.createElement("div");
+            max_value.id = "legend-max";
+            max_value.classList.add("legend-max");
+            legend_row_1.appendChild(max_value);
 
-        let legend_row_2 = document.createElement("div");
-        legend_row_2.classList.add("row");
+            legend_div.appendChild(legend_row_1);
 
-        for (let i = 0; i < palette.length; i++) {
-            let colour_block = document.createElement("div");
-            colour_block.style.backgroundColor = palette[i];
-            colour_block.style.opacity = "0.8";
-            colour_block.classList.add("colour-block");
-        
-            if (i == palette.length - 1) {
-                colour_block.style.borderRight = "1px #555555 solid;"
+            let legend_row_2 = document.createElement("div");
+            legend_row_2.classList.add("row");
+
+            for (let i = 0; i < palette.length; i++) {
+                let colour_block = document.createElement("div");
+                colour_block.style.backgroundColor = palette[i];
+                colour_block.style.opacity = "0.8";
+                colour_block.classList.add("colour-block");
+            
+                if (i == palette.length - 1) {
+                    colour_block.style.borderRight = "1px #555555 solid;"
+                }
+
+                legend_row_2.appendChild(colour_block);
             }
 
-            legend_row_2.appendChild(colour_block);
+            legend_div.appendChild(legend_row_2);
+
+            map_container.appendChild(legend_div);
+
+
+        } else {
+
+            min_value = document.getElementById("legend-min");
+            max_value = document.getElementById("legend-max");
+
         }
 
-        legend_div.appendChild(legend_row_2);
-
-        map_container.appendChild(legend_div);
+        
 
         // Create a div for map to sit in
-        let map_div = document.createElement("div");
-        map_div.id ="map";
+
+        let map_div;
+
+        if (!document.getElementById("map")) {
+
+            map_div = document.createElement("div");
+            map_div.id ="map";
+            map_container.appendChild(map_div);
+
+        } else {
+            map_div = document.getElementById("map");
+        }
+
+        
+        
         map_div.classList.add("map");
 
         let map_title_text = `${stat_label} by ${result.dimension[geog_type].label} (${year})`;
         map_title.textContent = map_title_text;
 
         
-        map_container.classList.add("d-block");
-        map_container.appendChild(map_div);
+        
 
         let initialZoom = window.innerWidth < 768 ? 6 : 7; 
         let bounds = [[-12.0, 52.0], [-2.0, 56.5]];
@@ -415,8 +440,9 @@ export async function plotMap (tables, geog_type) {
             data = data_series;
         }
 
-        table_title.textContent = `${result.label}`;
-        page_title.textContent += ` - ${result.label}`;
+        table_title.textContent = tables[matrix].name;
+        
+        page_title.textContent = `NISRA Data Explorer - ${tables[matrix].name}`;
 
         nav_theme.textContent = tables[geo_menu.value].theme;        
         nav_subject.textContent = tables[geo_menu.value].subject;    
