@@ -367,3 +367,8 @@ a.cookiesbarlink {
 .bg-navy {
   background-color: var(--nisra_navy);
 }
+
+.bg-blue {
+  background-color: var(--nisra_blue);
+}
+
