@@ -90,6 +90,7 @@ export async function plotMap (tables, geog_type) {
     if (!plot_ni) {
         
         map_card.classList.remove("col-xl-6")
+        chart_card.classList.add("d-none");
 
         if (geog_type == "COB_BASIC") {
             const spacer = document.createElement("div");
