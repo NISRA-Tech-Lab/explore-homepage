@@ -1,5 +1,5 @@
 {
-  "table_count": 1115,
+  "table_count": 1119,
   "tables": {
     "ABI01": {
       "name": "Annual Business Inquiry: results by industry sector",
@@ -48527,6 +48527,170 @@
       "product": "Food and drinks processing",
       "product_code": "AFDP",
       "rows": 238
+    },
+    "FARMSIZEEQ": {
+      "name": "Farm size",
+      "updated": "2026-07-22",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "PER_MAIN_FARM",
+            "label": {
+              "PER_MAIN_FARM": "Percentage of main farmers"
+            },
+            "unit": {
+              "PER_MAIN_FARM": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": "2011",
+            "label": {
+              "2011": "2011"
+            }
+          },
+          "label": "Census year"
+        },
+        "EQGRP": {
+          "category": {
+            "index": ["EQ133", "EQ124", "EQ131", "EQ132", "EQ110", "EQ201", "EQ202", "EQ301", "EQ310", "EQ307", "EQ401", "EQ402", "EQ501", "EQ502", "EQ508", "EQ701", "EQ702"],
+            "label": {
+              "EQ133": "Age - 16-39",
+              "EQ124": "Age - 40-49",
+              "EQ131": "Age - 50-59",
+              "EQ132": "Age - 60-64",
+              "EQ110": "Age - 65+",
+              "EQ201": "Sex - Female",
+              "EQ202": "Sex - Male",
+              "EQ301": "Marital Status - Single",
+              "EQ310": "Marital Status - Married",
+              "EQ307": "Marital Status - Other",
+              "EQ401": "Disability - Disabled",
+              "EQ402": "Disability - Not disabled",
+              "EQ501": "Religion - Catholic",
+              "EQ502": "Religion - Protestant and other Christian",
+              "EQ508": "Religion - Other/None/Not known",
+              "EQ701": "Dependants - Has dependants",
+              "EQ702": "Dependants - Does not have dependants"
+            }
+          },
+          "label": "Equality group"
+        },
+        "FARM_SIZE": {
+          "category": {
+            "index": ["1", "2", "3", "4", "ALL"],
+            "label": {
+              "1": "Very small",
+              "2": "Small",
+              "3": "Medium",
+              "4": "Large",
+              "ALL": "All farms"
+            }
+          },
+          "label": "Farm size"
+        }
+      },
+      "statistics": {
+        "PER_MAIN_FARM": "Percentage of main farmers"
+      },
+      "time": "TLIST(A1)",
+      "time_series": "2011",
+      "theme": "Transport, environment and climate change",
+      "theme_code": 71,
+      "subject": "Agriculture",
+      "subject_code": 154,
+      "product": "Farms, crops, livestock and labour",
+      "product_code": "AFCLL",
+      "rows": 85
+    },
+    "FARMTYPEEQ": {
+      "name": "Farm type",
+      "updated": "2026-07-22",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "PER_MAIN_FARM",
+            "label": {
+              "PER_MAIN_FARM": "Percentage of main farmers"
+            },
+            "unit": {
+              "PER_MAIN_FARM": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": "2011",
+            "label": {
+              "2011": "2011"
+            }
+          },
+          "label": "Census year"
+        },
+        "EQGRP": {
+          "category": {
+            "index": ["EQ133", "EQ124", "EQ131", "EQ132", "EQ110", "EQ201", "EQ202", "EQ301", "EQ310", "EQ307", "EQ401", "EQ402", "EQ501", "EQ502", "EQ508", "EQ701", "EQ702"],
+            "label": {
+              "EQ133": "Age - 16-39",
+              "EQ124": "Age - 40-49",
+              "EQ131": "Age - 50-59",
+              "EQ132": "Age - 60-64",
+              "EQ110": "Age - 65+",
+              "EQ201": "Sex - Female",
+              "EQ202": "Sex - Male",
+              "EQ301": "Marital Status - Single",
+              "EQ310": "Marital Status - Married",
+              "EQ307": "Marital Status - Other",
+              "EQ401": "Disability - Disabled",
+              "EQ402": "Disability - Not disabled",
+              "EQ501": "Religion - Catholic",
+              "EQ502": "Religion - Protestant and other Christian",
+              "EQ508": "Religion - Other/None/Not known",
+              "EQ701": "Dependants - Has dependants",
+              "EQ702": "Dependants - Does not have dependants"
+            }
+          },
+          "label": "Equality group"
+        },
+        "FARM_TYPE": {
+          "category": {
+            "index": ["1", "2", "3", "4", "5", "6", "ALL"],
+            "label": {
+              "1": "General cropping",
+              "2": "Pigs and poultry",
+              "3": "Dairy",
+              "4": "Cattle sheep less favoured areas",
+              "5": "Cattle sheep lowland",
+              "6": "Mixed, cereals, horticulture and other types",
+              "ALL": "All farm types"
+            }
+          },
+          "label": "Farm type"
+        }
+      },
+      "statistics": {
+        "PER_MAIN_FARM": "Percentage of main farmers"
+      },
+      "time": "TLIST(A1)",
+      "time_series": "2011",
+      "theme": "Transport, environment and climate change",
+      "theme_code": 71,
+      "subject": "Agriculture",
+      "subject_code": 154,
+      "product": "Farms, crops, livestock and labour",
+      "product_code": "AFCLL",
+      "rows": 119
     },
     "FCAA": {
       "name": "Farm Census",
@@ -111159,6 +111323,86 @@
       "product_code": "C2011",
       "rows": 360
     },
+    "LANDDESEQ": {
+      "name": "Main farmers by land designation",
+      "updated": "2026-07-22",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": "PER_MAIN_FARM",
+            "label": {
+              "PER_MAIN_FARM": "Percentage of main farmers"
+            },
+            "unit": {
+              "PER_MAIN_FARM": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": "2011",
+            "label": {
+              "2011": "2011"
+            }
+          },
+          "label": "Census year"
+        },
+        "EQGRP": {
+          "category": {
+            "index": ["EQ133", "EQ124", "EQ131", "EQ132", "EQ110", "EQ201", "EQ202", "EQ301", "EQ310", "EQ307", "EQ401", "EQ402", "EQ501", "EQ502", "EQ508", "EQ701", "EQ702"],
+            "label": {
+              "EQ133": "Age - 16-39",
+              "EQ124": "Age - 40-49",
+              "EQ131": "Age - 50-59",
+              "EQ132": "Age - 60-64",
+              "EQ110": "Age - 65+",
+              "EQ201": "Sex - Female",
+              "EQ202": "Sex - Male",
+              "EQ301": "Marital Status - Single",
+              "EQ310": "Marital Status - Married",
+              "EQ307": "Marital Status - Other",
+              "EQ401": "Disability - Disabled",
+              "EQ402": "Disability - Not disabled",
+              "EQ501": "Religion - Catholic",
+              "EQ502": "Religion - Protestant and other Christian",
+              "EQ508": "Religion - Other/None/Not known",
+              "EQ701": "Dependants - Has dependants",
+              "EQ702": "Dependants - Does not have dependants"
+            }
+          },
+          "label": "Equality group"
+        },
+        "LAND_DES": {
+          "category": {
+            "index": ["1", "2", "3", "ALL"],
+            "label": {
+              "1": "Mainly severly disadvantaged area",
+              "2": "Mainly disadvantaged area",
+              "3": "Mainly lowland",
+              "ALL": "All land designations"
+            }
+          },
+          "label": "Land designation"
+        }
+      },
+      "statistics": {
+        "PER_MAIN_FARM": "Percentage of main farmers"
+      },
+      "time": "TLIST(A1)",
+      "time_series": "2011",
+      "theme": "Transport, environment and climate change",
+      "theme_code": 71,
+      "subject": "Agriculture",
+      "subject_code": 154,
+      "product": "Farms, crops, livestock and labour",
+      "product_code": "AFCLL",
+      "rows": 68
+    },
     "LBWAA": {
       "name": "Low birth weight",
       "updated": "2026-05-14",
@@ -162221,6 +162465,102 @@
       "product": "Property rates",
       "product_code": "PFPRT",
       "rows": 360
+    },
+    "RURALPOPEQ": {
+      "name": "Usual resident population - Rural",
+      "updated": "2026-07-22",
+      "categories": {
+        "STATISTIC": {
+          "category": {
+            "index": ["UR_POP_RURAL", "PUR_POP_RURAL"],
+            "label": {
+              "UR_POP_RURAL": "All usual residents - Rural",
+              "PUR_POP_RURAL": "Percentage of all usual residents - Rural"
+            },
+            "unit": {
+              "UR_POP_RURAL": {
+                "decimals": 0,
+                "label": "Number",
+                "position": "end"
+              },
+              "PUR_POP_RURAL": {
+                "decimals": 1,
+                "label": "%",
+                "position": "end"
+              }
+            }
+          },
+          "label": "Statistic"
+        },
+        "TLIST(A1)": {
+          "category": {
+            "index": "2021",
+            "label": {
+              "2021": "2021"
+            }
+          },
+          "label": "Census year"
+        },
+        "EQGRP": {
+          "category": {
+            "index": ["EQ101", "EQ102", "EQ111", "EQ112", "EQ113", "EQ114", "EQ105", "EQ106", "EQ201", "EQ202", "EQ301", "EQ302", "EQ303", "EQ304", "EQ305", "EQ401", "EQ402", "EQ501", "EQ502", "EQ503", "EQ504", "EQ601", "EQ602", "EQ603", "EQ1001", "EQ1002", "EQ1004", "EQ1005", "EQ1006", "EQ1007", "EQ1008", "EQ1009", "EQ1010", "EQ1011", "EQ1012", "EQ1013", "EQ1014", "N92000002"],
+            "label": {
+              "EQ101": "Age - 0-15",
+              "EQ102": "Age - 16-24",
+              "EQ111": "Age - 25-34",
+              "EQ112": "Age - 35-44",
+              "EQ113": "Age - 45-54",
+              "EQ114": "Age - 55-64",
+              "EQ105": "Age - 65-74",
+              "EQ106": "Age - 75+",
+              "EQ201": "Sex - Female",
+              "EQ202": "Sex - Male",
+              "EQ301": "Marital status - Single",
+              "EQ302": "Marital status - Married/Civil partnership",
+              "EQ303": "Marital status - Separated",
+              "EQ304": "Marital status - Divorced",
+              "EQ305": "Marital status - Widowed",
+              "EQ401": "Disability - Disabled",
+              "EQ402": "Disability - Not disabled",
+              "EQ501": "Religion - Catholic",
+              "EQ502": "Religion - Protestant and other Christian",
+              "EQ503": "Religion - Other",
+              "EQ504": "Religion - No religion/religion not stated",
+              "EQ601": "Sexual orientation - Straight or heterosexual",
+              "EQ602": "Sexual orientation - Gay, lesbian, bisexual or other",
+              "EQ603": "Sexual orientation - Prefer not to say/not stated",
+              "EQ1001": "Ethnic group - White",
+              "EQ1002": "Ethnic group - Other",
+              "EQ1004": "Ethnic group - Irish traveller",
+              "EQ1005": "Ethnic group - Roma",
+              "EQ1006": "Ethnic group - Indian",
+              "EQ1007": "Ethnic group - Chinese",
+              "EQ1008": "Ethnic group - Filipino",
+              "EQ1009": "Ethnic group - Pakistani",
+              "EQ1010": "Ethnic group - Arab",
+              "EQ1011": "Ethnic group - Other Asian",
+              "EQ1012": "Ethnic group - Black African",
+              "EQ1013": "Ethnic group - Black other",
+              "EQ1014": "Ethnic group - Mixed",
+              "N92000002": "Northern Ireland"
+            }
+          },
+          "label": "Equality group"
+        }
+      },
+      "statistics": {
+        "UR_POP_RURAL": "All usual residents - Rural",
+        "PUR_POP_RURAL": "Percentage of all usual residents - Rural"
+      },
+      "time": "TLIST(A1)",
+      "time_series": "2021",
+      "theme": "Transport, environment and climate change",
+      "theme_code": 71,
+      "subject": "Agriculture",
+      "subject_code": 154,
+      "product": "Farms, crops, livestock and labour",
+      "product_code": "AFCLL",
+      "rows": 76
     },
     "S2SAA": {
       "name": "Steps 2 success",
