@@ -57099,7 +57099,7 @@
     },
     "GHGALLRATES": {
       "name": "Greenhouse gas emissions (rates) - full dataset",
-      "updated": "2026-08-03",
+      "updated": "2026-08-04",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -57381,7 +57381,7 @@
     },
     "GHGINSCOPE": {
       "name": "Greenhouse gas emissions - subset dataset",
-      "updated": "2026-08-03",
+      "updated": "2026-08-04",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -57507,7 +57507,7 @@
     },
     "GHGINSCOPERATES": {
       "name": "Greenhouse gas emissions (rates) - subset dataset",
-      "updated": "2026-08-03",
+      "updated": "2026-08-04",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -159905,7 +159905,7 @@
     },
     "RSPAGELGD": {
       "name": "Road safety partnership detections",
-      "updated": "2026-03-13",
+      "updated": "2026-08-04",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -159991,7 +159991,7 @@
     },
     "RSPCAMTYPELGD": {
       "name": "Road safety partnership detections",
-      "updated": "2026-03-13",
+      "updated": "2026-08-04",
       "categories": {
         "STATISTIC": {
           "category": {
@@ -160074,7 +160074,7 @@
     },
     "RSPSEXLGD": {
       "name": "Road safety partnership detections",
-      "updated": "2026-03-13",
+      "updated": "2026-08-04",
       "categories": {
         "STATISTIC": {
           "category": {
