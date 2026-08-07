@@ -1,4 +1,4 @@
-import { skip_link } from "./elements.js";
+const skip_link = document.getElementById("skip-link");
 
 window.addEventListener("keydown", (e) => {
     if (e.keyCode === 9) {

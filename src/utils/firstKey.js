@@ -1,1 +1,0 @@
-export const firstKey  = o => Object.keys(o)[0];
