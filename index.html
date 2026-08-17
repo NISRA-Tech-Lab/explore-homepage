@@ -32,31 +32,114 @@
 <nav class="navbar p-0 bg-navy">
   <div class="container-fluid d-flex flex-column align-items-stretch p-0">
     
-    <!-- Banner row (full width) -->
-    <div id="skip-link" class="container-fluid bg-warning py-2 d-none"><a class="text-black" href="#content">Skip to main content</a></div>
-    <div class="w-100 bg-blue">
-      <div class="text-white text-center py-2 px-3">
-        <strong>We welcome feedback from users through our <a href="https://dttselfserve.nidirect.gov.uk/NISRA/RateIt#/Data_Explorer" target="_blank" rel="noopener" title="RateIt Survey (opens in new tab)">short survey</a></use></strong>
-      </div>
+    <!-- Logo row (above blue bar) -->
+    <div class="w-100 py-3 px-2 bg-white">
+      <a class="navbar-brand ps-2 d-flex align-items-center" href="https://nisra.gov.uk/">
+        <img src="/images/logo_nisra.svg" alt="NISRA homepage" title="NISRA website (opens in new tab)" height="80" class="me-3">
+      </a>
     </div>
 
+    <!-- Banner row (full width) -->
+    <div id="skip-link" class="container-fluid bg-warning py-2 d-none"><a class="text-black" href="#content">Skip to main content</a></div>
+    
     <!-- Main navbar row -->
     <div class="d-flex row align-items-center w-100 py-3 px-2">
-      <!-- Logo (left) -->
-      <div class="col d-flex justify-content-center justify-content-lg-start">
-        <a class="navbar-brand ps-2 d-flex align-items-center me-auto" href="https://nisra.gov.uk/">
-          <img src="assets/img/logo/nisra-only-white.svg" alt="NISRA homepage" title="NISRA website (opens in new tab)" height="60" class="me-3">
-        </a>
-      </div>
 
-      <!-- Heading (right) -->
-       <div class="col">
-        <h1 class="mb-0 pe-2 text-white app-title ms-2 text-center text-lg-end">
+      <!-- Heading (left) -->
+       <div class="w-100">
+        <h1 class="mb-0 pe-2 text-white app-title ms-2 text-start">
           NISRA explorer
-      </h1>
+        </h1>
+        <p class="mb-0 ps-2 text-white fs-5">Find and extract the data you need using our tools and visual resources</p>
       </div>
       
     </div>
+    
+    <!-- Green category bar -->
+    <div class="w-100 py-2" style="background-color: #68a41e;">
+    </div>
+
+    <!-- Icon categories row -->
+    <div class="w-100 py-4 bg-white">
+      <div class="container-fluid">
+        <div class="row g-4">
+          <div class="col d-flex align-items-center">
+            <img src="/images/icon_1.svg" alt="Geographic data tools and maps" class="img-fluid me-2" style="max-width: 50px; min-width: 50px;">
+            <p class="small mb-0">Geographic data tools and maps</p>
+          </div>
+          <div class="col d-flex align-items-center">
+            <img src="/images/icon_2.svg" alt="Policy specific" class="img-fluid me-2" style="max-width: 50px; min-width: 50px;">
+            <p class="small mb-0">Policy specific</p>
+          </div>
+          <div class="col d-flex align-items-center">
+            <img src="/images/icon_3.svg" alt="Equality and deprivation" class="img-fluid me-2" style="max-width: 50px; min-width: 50px;">
+            <p class="small mb-0">Equality and deprivation</p>
+          </div>
+          <div class="col d-flex align-items-center">
+            <img src="/images/icon_4.svg" alt="Database or lookup tools" class="img-fluid me-2" style="max-width: 50px; min-width: 50px;">
+            <p class="small mb-0">Database or lookup tools</p>
+          </div>
+          <div class="col d-flex align-items-center">
+            <img src="/images/icon_5.svg" alt="Mobile friendly" class="img-fluid me-2" style="max-width: 50px; min-width: 50px;">
+            <p class="small mb-0">Mobile friendly</p>
+          </div>
+          <div class="col d-flex align-items-center">
+            <img src="/images/icon_6.svg" alt="Accessible" class="img-fluid me-2" style="max-width: 50px; min-width: 50px;">
+            <p class="small mb-0">Accessible</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Blue separator bar -->
+    <div class="w-100" style="background-color: #3878c5; height: 3px;"></div>
+
+    <div class="w-100 py-5 bg-light">
+      <div class="container-fluid">
+        <h2 class="mb-4">Dive into the data using tools</h2>
+        <div class="row g-4" id="toolGrid" aria-label="NISRA explorer tools">
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const cards = [
+        { pin: 'icon_1.svg', title: 'Northern Ireland local statistics explorer', image: 'image_1.svg', text: 'Find data on population, housing, health, education and more for your area', mobilefriendly: true, accessible: true },
+        { pin: 'icon_2.svg', title: 'Government wellbeing framework', image: 'image_2.svg', text: 'View progress towards key indicators of wellbeing as a society', mobilefriendly: false, accessible: false },
+        { pin: 'icon_3.svg', title: 'Equality matters', image: 'image_3.svg', text: 'Assess differences between equality groups for key statistics across NISRA', mobilefriendly: true, accessible: true },
+        { pin: 'icon_4.svg', title: 'Data explorer', image: 'image_4.svg', text: 'Download and view maps, charts and tables of NISRA data', mobilefriendly: false, accessible: false },
+        { pin: 'icon_1.svg', title: 'Custom area profile builder', image: 'image_5.svg', text: 'Define a custom geography and view statistics for your selected area', mobilefriendly: false, accessible: false },
+        { pin: 'icon_2.svg', title: 'Public Health Agency Making life better', image: 'image_6.svg', text: 'View indicators relating to themes under making life better strategy for Health Trusts', mobilefriendly: false, accessible: false },
+        { pin: 'icon_3.svg', title: 'Deprivation in Northern Ireland', image: 'image_7.svg', text: 'Find out about deprivation in any local neighbourhood or council', mobilefriendly: false, accessible: false },
+        { pin: 'icon_4.svg', title: 'Census flexible table builder', image: 'image_8.svg', text: 'Download and view maps, charts and tables of NISRA data', mobilefriendly: false, accessible: false },
+        { pin: 'icon_1.svg', title: 'Census area explorer', image: 'image_9.svg', text: 'Census data for councils, district electoral areas, and smaller statistical areas', mobilefriendly: false, accessible: false },
+        { pin: 'icon_2.svg', title: 'Social, economic and environment indicators', image: 'image_10.svg', text: 'View indicators relating to social, economic and environmental change', mobilefriendly: false, accessible: false },
+        { pin: 'icon_4.svg', title: 'Data portal', image: 'image_11.svg', text: 'Access data by theme, year and geography. Download CSV, excel, JSON or API', mobilefriendly: false, accessible: false }
+      ];
+
+      const grid = document.getElementById('toolGrid');
+
+      grid.innerHTML = cards.map((card) => `
+        <div class="col-lg-3 col-md-6">
+          <div class="card h-100">
+            <div class="card-body">
+              <div class="mb-3">
+                <img src="/images/${card.pin}" alt="" style="width: 50px;">
+              </div>
+              <h5 class="card-title">${card.title}</h5>
+              <img src="/images/${card.image}" alt="${card.title}" class="img-fluid mb-3" style="max-height: 150px;">
+              <p class="card-text">${card.text}</p>
+            </div>
+            <div class="card-footer bg-white border-top">
+              <div class="d-flex gap-2 align-items-center">
+                ${card.mobilefriendly ? '<img src="/images/icon_5.svg" alt="Mobile friendly" style="width: 24px;">' : ''}
+                ${card.accessible ? '<img src="/images/icon_6.svg" alt="Accessible" style="width: 24px;">' : ''}
+              </div>
+            </div>
+          </div>
+        </div>
+      `).join('');
+    </script>
     
   </div>
 
@@ -66,7 +149,61 @@
 
       <!-- Main Content -->
       <main>
+        <style>
+          #topicsAccordion {
+            width: 100%;
+          }
 
+          #topicsAccordion .accordion-button {
+            font-size: 1.5rem;
+            padding: 1.5rem;
+          }
+
+          #topicsAccordion .accordion-button img {
+            width: 70px;
+            height: 70px;
+            margin-right: 1.5rem;
+          }
+
+          #topicsAccordion .accordion-button::after {
+            width: 2rem;
+            height: 2rem;
+            background-size: 2rem;
+          }
+        </style>
+        <div class="container py-5">
+          <div class="accordion" id="topicsAccordion">
+            <!-- People and Communities -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#peopleCommunities">
+                  <img src="images/icon_peopleandcommunities.svg" alt="" style="width: 70px; margin-right: 1.5rem;">
+                  People and communities
+                </button>
+              </h2>
+              <div id="peopleCommunities" class="accordion-collapse collapse" data-bs-parent="#topicsAccordion">
+                <div class="accordion-body">
+                  Add your content here for People and communities.
+                </div>
+              </div>
+            </div>
+
+            <!-- Health and Social Care -->
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#healthSocialCare">
+                  <img src="images/icon_healthandsocialcare.svg" alt="" style="width: 70px; margin-right: 1.5rem;">
+                  Health and social care
+                </button>
+              </h2>
+              <div id="healthSocialCare" class="accordion-collapse collapse" data-bs-parent="#topicsAccordion">
+                <div class="accordion-body">
+                  Add your content here for Health and social care.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
 
 

@@ -1,0 +1,12 @@
+card,pin,title,image,text,mobilefriendly,accessible
+1,icon_1.svg,Northern Ireland local statistics explorer,image_1.svg,"Find data on population, housing, health, education and more for your area",1,1
+2,icon_2.svg,Government wellbeing framework,image_2.svg,View progress towards key indicators of wellbeing as a society,0,0
+3,icon_3.svg,Equality matters,image_3.svg,Assess differences between equality groups for key statistics across NISRA,1,1
+4,icon_4.svg,Data explorer,image_4.svg,"Download and view maps, charts and tables of NISRA data",0,0
+5,icon_1.svg,Custom area profile builder,image_5.svg,Define a custom geography and view statistics for your selected area,0,0
+6,icon_2.svg,Public Health Agency Making life better,image_6.svg,View indicators relating to themes uner making life better strategy for Health Trusts,0,0
+7,icon_3.svg,Deprivation in Northern Ireland,image_7.svg,Find out about deprivation in any local neighbourhood or council,0,0
+8,icon_4.svg,Census flexible table builder,image_8.svg,"Download and view maps, charts and tables of NISRA data",0,0
+9,icon_1.svg,Census area explorer,image_9.svg,"Census data for councils, district electoral areas, and smaller statistical areas",0,0
+10,icon_2.svg,"Social, economic and environment indicators",image_10.svg,"View indicators relating to social, economic and environmental change",0,0
+11,icon_4.svg,Data portal,image_11.svg,"Access data by theme, year and geography. Download CSV, excel, JSON or API",0,0
