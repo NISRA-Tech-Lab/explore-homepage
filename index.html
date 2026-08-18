@@ -22,6 +22,8 @@
   <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icon/apple-touch-icon.png" />
   <meta name="apple-mobile-web-app-title" content="NISRA explorer" />
 
+  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.5.3/papaparse.min.js"></script>
+
   <!-- Your CSS -->
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
@@ -101,45 +103,6 @@
         </div>
       </div>
     </div>
-
-    <script>
-      const cards = [
-        { pin: 'icon_1.svg', title: 'Northern Ireland local statistics explorer', image: 'image_1.svg', text: 'Find data on population, housing, health, education and more for your area', mobilefriendly: true, accessible: true },
-        { pin: 'icon_2.svg', title: 'Government wellbeing framework', image: 'image_2.svg', text: 'View progress towards key indicators of wellbeing as a society', mobilefriendly: false, accessible: false },
-        { pin: 'icon_3.svg', title: 'Equality matters', image: 'image_3.svg', text: 'Assess differences between equality groups for key statistics across NISRA', mobilefriendly: true, accessible: true },
-        { pin: 'icon_4.svg', title: 'Data explorer', image: 'image_4.svg', text: 'Download and view maps, charts and tables of NISRA data', mobilefriendly: false, accessible: false },
-        { pin: 'icon_1.svg', title: 'Custom area profile builder', image: 'image_5.svg', text: 'Define a custom geography and view statistics for your selected area', mobilefriendly: false, accessible: false },
-        { pin: 'icon_2.svg', title: 'Public Health Agency Making life better', image: 'image_6.svg', text: 'View indicators relating to themes under making life better strategy for Health Trusts', mobilefriendly: false, accessible: false },
-        { pin: 'icon_3.svg', title: 'Deprivation in Northern Ireland', image: 'image_7.svg', text: 'Find out about deprivation in any local neighbourhood or council', mobilefriendly: false, accessible: false },
-        { pin: 'icon_4.svg', title: 'Census flexible table builder', image: 'image_8.svg', text: 'Download and view maps, charts and tables of NISRA data', mobilefriendly: false, accessible: false },
-        { pin: 'icon_1.svg', title: 'Census area explorer', image: 'image_9.svg', text: 'Census data for councils, district electoral areas, and smaller statistical areas', mobilefriendly: false, accessible: false },
-        { pin: 'icon_2.svg', title: 'Social, economic and environment indicators', image: 'image_10.svg', text: 'View indicators relating to social, economic and environmental change', mobilefriendly: false, accessible: false },
-        { pin: 'icon_4.svg', title: 'Data portal', image: 'image_11.svg', text: 'Access data by theme, year and geography. Download CSV, excel, JSON or API', mobilefriendly: false, accessible: false }
-      ];
-
-      const grid = document.getElementById('toolGrid');
-
-      grid.innerHTML = cards.map((card) => `
-        <div class="col-lg-3 col-md-6">
-          <div class="card h-100">
-            <div class="card-body">
-              <div class="mb-3">
-                <img src="/images/${card.pin}" alt="" style="width: 50px;">
-              </div>
-              <h5 class="card-title">${card.title}</h5>
-              <img src="/images/${card.image}" alt="${card.title}" class="img-fluid mb-3" style="max-height: 150px;">
-              <p class="card-text">${card.text}</p>
-            </div>
-            <div class="card-footer bg-white border-top">
-              <div class="d-flex gap-2 align-items-center">
-                ${card.mobilefriendly ? '<img src="/images/icon_5.svg" alt="Mobile friendly" style="width: 24px;">' : ''}
-                ${card.accessible ? '<img src="/images/icon_6.svg" alt="Accessible" style="width: 24px;">' : ''}
-              </div>
-            </div>
-          </div>
-        </div>
-      `).join('');
-    </script>
     
   </div>
 
@@ -205,9 +168,6 @@
           </div>
         </div>
       </main>
-
-
-
 
 
 <footer class="footer mt-auto py-4 bg-nisra text-white">
