@@ -1,30 +1,36 @@
 import { readData } from "./read-data.js";
 
-export async function populateGrid(id) {
+export async function populateGrid(id, theme) {
 
-    const cards = await readData("card-layout");
+    const cards = await readData("products");
+
+    const theme_cards = cards
+      .filter(x => x["theme"] == theme)
 
     const grid = document.getElementById(id);
 
-    cards.forEach((card) => {
+    theme_cards.forEach((card) => {
         let div = document.createElement("div");
         div.classList.add("col-lg-3");
         div.classList.add("col-md-6");
 
         div.innerHTML = `
         <div class="card h-100">
-            <div class="card-body">
-              <div class="mb-3">
-                <img src="/images/${card.pin}" alt="" style="width: 50px;">
+          
+          <div class="card-body">
+
+          <div class="d-flex px-1 mb-3">
+                <img src="/assets/img/icon/${icon_lookup[card.primary]}" alt="" class="card-head-icon">
+                <h3 class="card-title fs-5 ps-3 d-flex align-items-center mb-0">${card.name}</h3>
               </div>
-              <h5 class="card-title">${card.title}</h5>
-              <img src="/images/${card.image}" alt="${card.title}" class="img-fluid mb-3" style="max-height: 150px;">
-              <p class="card-text">${card.text}</p>
+              <img src="/assets/img/${card.img}" alt="${card.name}" class="img-fluid mb-3" style="width: 100%; height: 12rem; object-fit: contain;">
+              <p class="card-text fs-6">${card.description}</p>
             </div>
             <div class="card-footer bg-white border-top">
               <div class="d-flex gap-2 align-items-center">
-                ${card.mobilefriendly ? '<img src="/images/icon_5.svg" alt="Mobile friendly" style="width: 24px;">' : ''}
-                ${card.accessible ? '<img src="/images/icon_6.svg" alt="Accessible" style="width: 24px;">' : ''}
+                ${card.mobile_friendly ? '<img src="/assets/img/icon/mobile-friendly.svg" alt="Mobile friendly" title="Mobile friendly" style="width: 24px;">' : ''}
+                ${card.accessible ? '<img src="/assets/img/icon/accessibility.svg" alt="Accessible" title="Accessible" style="width: 24px;">' : ''}
+                <a class="ms-auto go-button" href="${card.url}" target="_blank" rel="nopener" title="${card.name} (Opens in new tab)">Go</a>
               </div>
             </div>
           </div>
@@ -33,4 +39,11 @@ export async function populateGrid(id) {
         grid.appendChild(div);
     })
 
+}
+
+const icon_lookup = {
+  geographic: "geo.svg",
+  policy_specific: "policy.svg",
+  equality_deprivation: "equality.svg",
+  database_lookup: "lookup.svg"
 }

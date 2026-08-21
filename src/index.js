@@ -14,7 +14,7 @@ window.addEventListener("DOMContentLoaded", async () => {
     console.error("Startup failed:", e);
   }
 
-  populateGrid('toolGrid');
+  populateGrid('toolGrid', "main");
 
   
 
