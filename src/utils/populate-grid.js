@@ -18,7 +18,9 @@ export async function populateGrid(id, theme) {
 
         const icon = icon_lookup[card.primary] ? icon_lookup[card.primary] : themes[card.theme].icon;
 
-        console.log(icon)
+        const img = card.img ?
+          `<img src="assets/img/${card.img}" alt="${card.name}" class="img-fluid mb-3" style="width: 100%; height: 12rem; object-fit: contain;">` :
+          ``;
 
         div.innerHTML = `
         <div class="card h-100">
@@ -29,7 +31,7 @@ export async function populateGrid(id, theme) {
                 <img src="assets/img/icon/${icon}" alt="" class="card-head-icon">
                 <h3 class="card-title fs-5 ps-3 d-flex align-items-center mb-0">${card.name}</h3>
               </div>
-              <img src="assets/img/${card.img}" alt="${card.name}" class="img-fluid mb-3" style="width: 100%; height: 12rem; object-fit: contain;">
+              ${img}
               <p class="card-text fs-6">${card.description}</p>
             </div>
             <div class="card-footer bg-white border-top">
