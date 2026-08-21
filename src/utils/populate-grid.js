@@ -5,7 +5,7 @@ export async function populateGrid(id, theme) {
     const cards = await readData("products");
 
     const theme_cards = cards
-      .filter(x => x["theme"] == theme)
+      .filter(x => x["theme"] == theme && x["show"])
 
     const grid = document.getElementById(id);
 
