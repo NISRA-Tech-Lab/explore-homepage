@@ -1,6 +1,7 @@
 import { initCookieConsent } from "./utils/cookies.js";
 import "./utils/skipToMainContent.js";
 import { populateGrid } from "./utils/populate-grid.js";
+import { buildAccordions } from "./utils/build-accordions.js";
 
 window.addEventListener("DOMContentLoaded", async () => {
   try {
@@ -16,6 +17,6 @@ window.addEventListener("DOMContentLoaded", async () => {
 
   populateGrid('toolGrid', "main");
 
-  
+  buildAccordions()
 
 });

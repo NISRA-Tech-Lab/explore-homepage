@@ -1,4 +1,5 @@
 import { readData } from "./read-data.js";
+import { themes } from "../config/config.js"
 
 export async function populateGrid(id, theme) {
 
@@ -11,8 +12,13 @@ export async function populateGrid(id, theme) {
 
     theme_cards.forEach((card) => {
         let div = document.createElement("div");
-        div.classList.add("col-lg-3");
+        div.classList.add("col-xl-3");
+        div.classList.add("col-lg-4");
         div.classList.add("col-md-6");
+
+        const icon = icon_lookup[card.primary] ? icon_lookup[card.primary] : themes[card.theme].icon;
+
+        console.log(icon)
 
         div.innerHTML = `
         <div class="card h-100">
@@ -20,7 +26,7 @@ export async function populateGrid(id, theme) {
           <div class="card-body">
 
           <div class="d-flex px-1 mb-3">
-                <img src="/assets/img/icon/${icon_lookup[card.primary]}" alt="" class="card-head-icon">
+                <img src="/assets/img/icon/${icon}" alt="" class="card-head-icon">
                 <h3 class="card-title fs-5 ps-3 d-flex align-items-center mb-0">${card.name}</h3>
               </div>
               <img src="/assets/img/${card.img}" alt="${card.name}" class="img-fluid mb-3" style="width: 100%; height: 12rem; object-fit: contain;">
@@ -45,5 +51,6 @@ const icon_lookup = {
   geographic: "geo.svg",
   policy_specific: "policy.svg",
   equality_deprivation: "equality.svg",
-  database_lookup: "lookup.svg"
+  database_lookup: "lookup.svg",
+  theme: null
 }
