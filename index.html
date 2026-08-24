@@ -15,12 +15,12 @@
   <!-- Icons & Charts -->
   
 
-  <!-- <link rel="icon" href="assets/img/icon/favicon.ico" type="image/vnd.microsoft.icon" /> -->
-  <!-- <link rel="icon" type="image/png" href="assets/img/icon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" href="assets/img/icon/favicon.ico" type="image/vnd.microsoft.icon" />
+  <link rel="icon" type="image/png" href="assets/img/icon/favicon-96x96.png" sizes="96x96" />
   <link rel="icon" type="image/svg+xml" href="assets/img/icon/favicon.svg" />
   <link rel="shortcut icon" href="assets/img/icon/favicon.ico" />
   <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icon/apple-touch-icon.png" />
-  <meta name="apple-mobile-web-app-title" content="NISRA explorer" /> -->
+  <meta name="apple-mobile-web-app-title" content="NISRA explorer" />
 
   <script src="https://cdn.jsdelivr.net/npm/papaparse@5.5.3/papaparse.min.js"></script>
 
@@ -130,12 +130,28 @@
         </style>
 
         
-      <div class="container py-3">
-        <h2 class="mb-4">Dive into the data using tools</h2>
-        <div class="row g-4" id="toolGrid" aria-label="NISRA explorer tools">
-        </div>
-          <div class="accordion mt-4" id="topicsAccordion"></div>
-      </div>
+<div class="container py-3">
+
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <h2 class="mb-0">Dive into the data using tools</h2>
+
+    <div style="max-width: 350px; width: 100%;">
+      <input
+        type="search"
+        id="toolSearch"
+        class="form-control"
+        placeholder="Search tools..."
+        aria-label="Search tools"
+      >
+    </div>
+  </div>
+
+  <div class="row g-4" id="toolGrid" aria-label="NISRA explorer tools">
+  </div>
+
+  <div class="accordion mt-4" id="topicsAccordion"></div>
+
+</div>
       </main>
 
 

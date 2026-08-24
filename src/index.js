@@ -4,19 +4,33 @@ import { populateGrid } from "./utils/populate-grid.js";
 import { buildAccordions } from "./utils/build-accordions.js";
 
 window.addEventListener("DOMContentLoaded", async () => {
+
   try {
-
-      initCookieConsent({
-        bannerId: 'cookie-banner',
-        gtmId: 'GTM-WKK8ZWP'
-      });
-
+    initCookieConsent({
+      bannerId: "cookie-banner",
+      gtmId: "GTM-WKK8ZWP"
+    });
   } catch (e) {
     console.error("Startup failed:", e);
   }
 
-  populateGrid('toolGrid', "main");
+  // Initial page load
+  populateGrid("toolGrid", "main");
+  buildAccordions();
 
-  buildAccordions()
+  // Search functionality
+  const searchBox = document.getElementById("toolSearch");
+
+  searchBox?.addEventListener("input", (e) => {
+
+    const searchText = e.target.value;
+
+    // Refresh main cards
+    populateGrid("toolGrid", "main", searchText);
+
+    // Refresh accordion cards
+    buildAccordions(searchText);
+
+  });
 
 });

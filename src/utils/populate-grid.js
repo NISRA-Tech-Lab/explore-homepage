@@ -1,14 +1,36 @@
 import { readData } from "./read-data.js";
 import { themes } from "../config/config.js"
 
-export async function populateGrid(id, theme) {
+export async function populateGrid(id, theme, searchText = "") {
 
     const cards = await readData("products");
 
-    const theme_cards = cards
-      .filter(x => x["theme"] == theme && x["show"])
+const search = searchText.toLowerCase().trim();
+
+const theme_cards = cards
+  .filter(x => x["theme"] == theme && x["show"])
+  .filter(card => {
+
+      if (!search) {
+          return true;
+      }
+
+      const searchableText = [
+          card.name,
+          card.description,
+          card.keywords
+      ]
+          .filter(Boolean)
+          .join(" ")
+          .toLowerCase();
+
+      return searchableText.includes(search);
+
+  });
 
     const grid = document.getElementById(id);
+
+    grid.innerHTML = "";
 
     theme_cards.forEach((card) => {
         let div = document.createElement("div");
@@ -45,7 +67,9 @@ export async function populateGrid(id, theme) {
         `;
         
         grid.appendChild(div);
-    })
+    });
+
+    return theme_cards.length;
 
 }
 
