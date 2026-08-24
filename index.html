@@ -141,15 +141,26 @@
   <div class="d-flex justify-content-between align-items-center mb-4">
     <h2 class="mb-0">Dive into the data using tools</h2>
 
-    <div style="max-width: 350px; width: 100%;">
-      <input
-        type="search"
-        id="toolSearch"
-        class="form-control"
-        placeholder="Search tools..."
-        aria-label="Search tools"
-      >
-    </div>
+    <div style="width:350px;">
+  <div class="input-group">
+    <input
+      id="toolSearch"
+      type="search"
+      class="form-control search-box"
+      placeholder="Search tools..."
+      aria-label="Search tools"
+    >
+    <span class="input-group-text search-icon-box">
+  <img
+    src="assets/img/icon/searchicon.svg"
+    alt="Search"
+    width="20"
+    height="20"
+  >
+</span>
+
+  </div>
+</div>
   </div>
 
   <div class="row g-4" id="toolGrid" aria-label="NISRA explorer tools">
