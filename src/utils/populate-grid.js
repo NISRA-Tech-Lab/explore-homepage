@@ -3,7 +3,7 @@ import { themes } from "../config/config.js"
 
 export async function populateGrid(id, theme, searchText = "") {
 
-    const cards = await readData("products");
+const cards = await readData("products");
 
 const search = searchText.toLowerCase().trim();
 
@@ -38,7 +38,9 @@ const theme_cards = cards
         div.classList.add("col-lg-4");
         div.classList.add("col-md-6");
 
-        const icon = icon_lookup[card.primary] ? icon_lookup[card.primary] : themes[card.theme].icon;
+        const icon = icon_lookup[card.primary] ?
+          icon_lookup[card.primary] :
+          themes[card.theme].icon;
 
         const img = card.img ?
           `<img src="assets/img/${card.img}" alt="${card.name}" class="img-fluid mb-3" style="width: 100%; height: 12rem; object-fit: contain;">` :
