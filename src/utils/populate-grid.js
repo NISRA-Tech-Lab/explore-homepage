@@ -1,14 +1,36 @@
 import { readData } from "./read-data.js";
 import { themes } from "../config/config.js"
 
-export async function populateGrid(id, theme) {
+export async function populateGrid(id, theme, searchText = "") {
 
     const cards = await readData("products");
 
-    const theme_cards = cards
-      .filter(x => x["theme"] == theme && x["show"])
+const search = searchText.toLowerCase().trim();
+
+const theme_cards = cards
+  .filter(x => x["theme"] == theme && x["show"])
+  .filter(card => {
+
+      if (!search) {
+          return true;
+      }
+
+      const searchableText = [
+          card.name,
+          card.description,
+          card.keywords
+      ]
+          .filter(Boolean)
+          .join(" ")
+          .toLowerCase();
+
+      return searchableText.includes(search);
+
+  });
 
     const grid = document.getElementById(id);
+
+    grid.innerHTML = "";
 
     theme_cards.forEach((card) => {
         let div = document.createElement("div");
@@ -18,7 +40,9 @@ export async function populateGrid(id, theme) {
 
         const icon = icon_lookup[card.primary] ? icon_lookup[card.primary] : themes[card.theme].icon;
 
-        console.log(icon)
+        const img = card.img ?
+          `<img src="assets/img/${card.img}" alt="${card.name}" class="img-fluid mb-3" style="width: 100%; height: 12rem; object-fit: contain;">` :
+          ``;
 
         div.innerHTML = `
         <div class="card h-100">
@@ -29,7 +53,7 @@ export async function populateGrid(id, theme) {
                 <img src="assets/img/icon/${icon}" alt="" class="card-head-icon">
                 <h3 class="card-title fs-5 ps-3 d-flex align-items-center mb-0">${card.name}</h3>
               </div>
-              <img src="assets/img/${card.img}" alt="${card.name}" class="img-fluid mb-3" style="width: 100%; height: 12rem; object-fit: contain;">
+              ${img}
               <p class="card-text fs-6">${card.description}</p>
             </div>
             <div class="card-footer bg-white border-top">
@@ -43,7 +67,9 @@ export async function populateGrid(id, theme) {
         `;
         
         grid.appendChild(div);
-    })
+    });
+
+    return theme_cards.length;
 
 }
 
