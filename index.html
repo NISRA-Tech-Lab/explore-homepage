@@ -75,30 +75,124 @@
     <div class="w-100 py-4 bg-white">
       <div class="container">
         <div class="row g-4">
-          <div class="col d-flex align-items-center">
-            <img src="assets/img/icon/geo.svg" alt="Geographic data tools and maps" class="img-fluid me-2" style="max-width: 50px; min-width: 50px;">
-            <p class="small mb-0">Geographic data tools and maps</p>
-          </div>
-          <div class="col d-flex align-items-center">
-            <img src="assets/img/icon/policy.svg" alt="Policy specific" class="img-fluid me-2" style="max-width: 50px; min-width: 50px;">
-            <p class="small mb-0">Policy specific</p>
-          </div>
-          <div class="col d-flex align-items-center">
-            <img src="assets/img/icon/equality.svg" alt="Equality and deprivation" class="img-fluid me-2" style="max-width: 50px; min-width: 50px;">
-            <p class="small mb-0">Equality and deprivation</p>
-          </div>
-          <div class="col d-flex align-items-center">
-            <img src="assets/img/icon/lookup.svg" alt="Database or lookup tools" class="img-fluid me-2" style="max-width: 50px; min-width: 50px;">
-            <p class="small mb-0">Database or lookup tools</p>
-          </div>
-          <div class="col d-flex align-items-center">
-            <img src="assets/img/icon/mobile-friendly.svg" alt="Mobile friendly" class="img-fluid me-2" style="max-width: 50px; min-width: 50px;">
-            <p class="small mb-0">Mobile friendly</p>
-          </div>
-          <div class="col d-flex align-items-center">
-            <img src="assets/img/icon/accessibility.svg" alt="Accessible" class="img-fluid me-2" style="max-width: 50px; min-width: 50px;">
-            <p class="small mb-0">Accessible</p>
-          </div>
+          
+
+
+          <div class="col">
+  <button
+    type="button"
+    class="category-filter d-flex align-items-center border-0 bg-transparent"
+    data-category="geographic"
+    aria-pressed="false">
+
+    <img
+      src="assets/img/icon/geo.svg"
+      alt=""
+      aria-hidden="true"
+      class="img-fluid me-2"
+      style="max-width: 50px; min-width: 50px;">
+
+    <span class="small">Geographic data tools and maps</span>
+
+  </button>
+</div>
+
+          <div class="col">
+  <button
+    type="button"
+    class="category-filter d-flex align-items-center border-0 bg-transparent"
+    data-category="policy_specific"
+    aria-pressed="false">
+
+    <img
+      src="assets/img/icon/policy.svg"
+      alt=""
+      aria-hidden="true"
+      class="img-fluid me-2"
+      style="max-width: 50px; min-width: 50px;">
+
+    <span class="small">Policy specific</span>
+
+  </button>
+</div>
+          
+          <div class="col">
+  <button
+    type="button"
+    class="category-filter d-flex align-items-center border-0 bg-transparent"
+    data-category="equality_deprivation"
+    aria-pressed="false">
+
+    <img
+      src="assets/img/icon/equality.svg"
+      alt=""
+      aria-hidden="true"
+      class="img-fluid me-2"
+      style="max-width: 50px; min-width: 50px;">
+
+    <span class="small">Equality and deprivation</span>
+
+  </button>
+</div>
+
+          <div class="col">
+  <button
+    type="button"
+    class="category-filter d-flex align-items-center border-0 bg-transparent"
+    data-category="database_lookup"
+    aria-pressed="false">
+
+    <img
+      src="assets/img/icon/lookup.svg"
+      alt=""
+      aria-hidden="true"
+      class="img-fluid me-2"
+      style="max-width: 50px; min-width: 50px;">
+
+    <span class="small">Database or lookup tools</span>
+
+  </button>
+</div>
+
+          <div class="col">
+  <button
+    type="button"
+    class="category-filter d-flex align-items-center border-0 bg-transparent"
+    data-category="mobile"
+    aria-pressed="false">
+
+    <img
+      src="assets/img/icon/mobile.svg"
+      alt=""
+      aria-hidden="true"
+      class="img-fluid me-2"
+      style="max-width: 50px; min-width: 50px;">
+
+    <span class="small">Mobily friendly</span>
+
+  </button>
+</div>
+
+          <div class="col">
+  <button
+    type="button"
+    class="category-filter d-flex align-items-center border-0 bg-transparent"
+    data-category="accessible"
+    aria-pressed="false">
+
+    <img
+      src="assets/img/icon/accessible.svg"
+      alt=""
+      aria-hidden="true"
+      class="img-fluid me-2"
+      style="max-width: 50px; min-width: 50px;">
+
+    <span class="small">Accessible</span>
+
+  </button>
+</div>
+
+          
         </div>
       </div>
     </div>
@@ -115,7 +209,7 @@
 
 
       <!-- Main Content -->
-      <main>
+      <main id="content">
         <style>
           #topicsAccordion {
             width: 100%;

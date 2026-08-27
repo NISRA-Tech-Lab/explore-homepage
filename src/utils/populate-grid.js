@@ -34,6 +34,9 @@ const theme_cards = cards
 
     theme_cards.forEach((card) => {
         let div = document.createElement("div");
+        div.dataset.category = card.primary;
+        div.dataset.mobile = card.mobile_friendly ? "true" : "false";
+        div.dataset.accessible = card.accessible ? "true" : "false";
         div.classList.add("col-xl-3");
         div.classList.add("col-lg-4");
         div.classList.add("col-md-6");
@@ -60,8 +63,8 @@ const theme_cards = cards
             </div>
             <div class="card-footer bg-white border-top">
               <div class="d-flex gap-2 align-items-center">
-                ${card.mobile_friendly ? '<img src="assets/img/icon/mobile-friendly.svg" alt="Mobile friendly" title="Mobile friendly" style="width: 24px;">' : ''}
-                ${card.accessible ? '<img src="assets/img/icon/accessibility.svg" alt="Accessible" title="Accessible" style="width: 24px;">' : ''}
+                ${card.mobile_friendly ? '<img src="assets/img/icon/mobile.svg" alt="Mobile friendly" title="Mobile friendly" style="width: 24px;">' : ''}
+                ${card.accessible ? '<img src="assets/img/icon/accessible.svg" alt="Accessible" title="Accessible" style="width: 24px;">' : ''}
                 <a class="ms-auto go-button" href="${card.url}" target="_blank" rel="nopener" title="${card.name} (Opens in new tab)">Go</a>
               </div>
             </div>

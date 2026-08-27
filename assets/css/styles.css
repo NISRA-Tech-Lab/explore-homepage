@@ -374,8 +374,19 @@ a.cookiesbarlink {
   text-decoration: none;
 }
 
+.go-button:focus-visible {
+  background-color: #6c757d;
+  border: 3px solid #D4351C !important;
+}
+
 .go-button:hover {
-  background-color: #3b3b3b;
+  background-color: #6c757d;
+}
+
+.go-button[target="_blank"]::after {
+  content: "↗";
+  margin-left: 6px;
+  font-size: 0.9em;
 }
 
 .card-head-icon {
@@ -396,4 +407,53 @@ a.cookiesbarlink {
   border-color: #732777;
   padding-left: 12px;
   padding-right: 12px;
+}
+
+.category-filter {
+    width: 100%;
+    text-align: left;
+    padding: 0.5rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.category-filter:hover {
+    background-color: #f5f5f5;
+}
+
+.category-filter:focus-visible {
+    outline: 3px solid #d4351c;
+    outline-offset: 3px;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+    outline: 3px solid #d4351c !important;
+    outline-offset: 3px;
+}
+
+.category-filter[aria-pressed="true"] {
+    background-color: #3878c5 !important;
+    color: white !important;
+}
+
+.category-filter[aria-pressed="true"] span {
+    color: white !important;
+}
+
+.category-filter[aria-pressed="true"] img {
+    transform: scale(1.2);
+}
+
+.category-filter img {
+    transition: transform 0.2s ease;
+}
+
+.category-filter[aria-pressed="true"] img {
+    filter: brightness(0) invert(1);
+    transform: scale(1.2);
 }
