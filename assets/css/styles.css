@@ -368,6 +368,7 @@ a.cookiesbarlink {
 
 .go-button {
   background-color: var(--nisra_purple);
+  display: inline-block;
   color: #fff;
   padding: 0 2rem 0 0.5rem;
   clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
@@ -376,7 +377,11 @@ a.cookiesbarlink {
 
 .go-button:focus-visible {
   background-color: #6c757d;
-  border: 3px solid #D4351C !important;
+}
+
+.go-button-wrapper:focus-within {
+  outline: 3px solid #D4351C;
+  outline-offset: 3px;
 }
 
 .go-button:hover {
@@ -433,7 +438,7 @@ input:focus-visible,
 select:focus-visible,
 textarea:focus-visible {
     outline: 3px solid #d4351c !important;
-    outline-offset: 3px;
+    outline-offset: 3px !important;
 }
 
 .category-filter[aria-pressed="true"] {

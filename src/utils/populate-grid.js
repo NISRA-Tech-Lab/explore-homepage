@@ -65,7 +65,9 @@ const theme_cards = cards
               <div class="d-flex gap-2 align-items-center">
                 ${card.mobile_friendly ? '<img src="assets/img/icon/mobile.svg" alt="Mobile friendly" title="Mobile friendly" style="width: 24px;">' : ''}
                 ${card.accessible ? '<img src="assets/img/icon/accessible.svg" alt="Accessible" title="Accessible" style="width: 24px;">' : ''}
-                <a class="ms-auto go-button" href="${card.url}" target="_blank" rel="nopener" title="${card.name} (Opens in new tab)">Go</a>
+                <span class="go-button-wrapper ms-auto">
+                <a class="go-button" href="${card.url}" target="_blank" rel="nopener" title="${card.name} (Opens in new tab)">Go</a>
+                </span>
               </div>
             </div>
           </div>
