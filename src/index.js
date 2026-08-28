@@ -2,14 +2,18 @@ import { initCookieConsent } from "./utils/cookies.js";
 import "./utils/skipToMainContent.js";
 import { populateGrid } from "./utils/populate-grid.js";
 import { buildAccordions } from "./utils/build-accordions.js";
+import { getToolCount } from "./utils/read-data.js";
 
 let activeCategory = null;
 let mobileFilter = false;
 let accessibleFilter = false;
+let totalTools = 0;
 
 window.addEventListener("DOMContentLoaded", async () => {
 
   console.log("DOMContentLoaded fired");
+
+  totalTools = await getToolCount();
 
   try {
     initCookieConsent({
@@ -21,8 +25,15 @@ window.addEventListener("DOMContentLoaded", async () => {
   }
 
   // Initial page load
-  populateGrid("toolGrid", "main");
-  buildAccordions();
+Promise.all([
+  populateGrid("toolGrid", "main"),
+  buildAccordions()
+]).then(() => {
+  applyCategoryFilter();
+  hideEmptyAccordions();
+  updateAccordionState();
+
+});
 
   setupCategoryFilters();
 
@@ -33,12 +44,14 @@ window.addEventListener("DOMContentLoaded", async () => {
 
     const searchText = e.target.value;
 
-    // Refresh main cards
-    populateGrid("toolGrid", "main", searchText)
-      .then(() => applyCategoryFilter());
-
-    // Refresh accordion cards
-    buildAccordions(searchText);
+Promise.all([
+  populateGrid("toolGrid", "main", searchText),
+  buildAccordions(searchText)
+]).then(() => {
+  applyCategoryFilter();
+  hideEmptyAccordions();
+  updateAccordionState();
+});
 
   });
 
@@ -46,7 +59,9 @@ window.addEventListener("DOMContentLoaded", async () => {
 
 function applyCategoryFilter() {
 
-  const cards = document.querySelectorAll("#toolGrid > div");
+  const cards = document.querySelectorAll(
+  '[data-tool-card="true"]'
+);
 
   cards.forEach(card => {
 
@@ -77,16 +92,45 @@ function applyCategoryFilter() {
 
   });
 
+  
+const visibleCards = document.querySelectorAll(
+  '[data-tool-card="true"]:not([style*="display: none"])'
+).length;
+
+console.log("Visible cards:", visibleCards);
+
+const resultCount =
+  document.getElementById("resultCount");
+
+if (resultCount) {
+  resultCount.textContent =
+    `Showing ${visibleCards} of ${totalTools} tools`;
+}
+
+
+}
+
+function hideEmptyAccordions() {
+
+  document
+    .querySelectorAll("#topicsAccordion .accordion-item")
+    .forEach(item => {
+
+      const visibleCards = item.querySelectorAll(
+        '[data-tool-card="true"]:not([style*="display: none"])'
+      );
+
+      item.style.display =
+        visibleCards.length > 0 ? "" : "none";
+
+    });
+
 }
 
 function setupCategoryFilters() {
 
-  console.log("setupCategoryFilters running");
-
   const buttons =
     document.querySelectorAll(".category-filter");
-
-    console.log("Buttons found:", buttons.length);
 
   buttons.forEach(button => {
 
@@ -153,34 +197,46 @@ else {
   }
 }
 
-applyCategoryFilter();
-
-      if (activeFilter === category) {
-
-        activeFilter = null;
-
-        buttons.forEach(btn =>
-          btn.setAttribute("aria-pressed", "false")
-        );
-
-      } else {
-
-        activeFilter = category;
-
-        buttons.forEach(btn =>
-          btn.setAttribute("aria-pressed", "false")
-        );
-
-        button.setAttribute(
-          "aria-pressed",
-          "true"
-        );
-      }
-
       applyCategoryFilter();
+      hideEmptyAccordions();
+      updateAccordionState();
 
     });
 
   });
 
+}
+
+
+function updateAccordionState() {
+
+  const searchText =
+    document.getElementById("toolSearch")?.value.trim();
+
+  const hasFilters =
+    activeCategory !== null ||
+    mobileFilter === true ||
+    accessibleFilter === true;
+
+    console.log("searchText:", searchText);
+    console.log("hasFilters:", hasFilters);
+
+  const shouldExpand =
+    !!searchText || hasFilters;
+
+  document
+    .querySelectorAll("#topicsAccordion .accordion-collapse")
+    .forEach(panel => {
+      panel.classList.toggle("show", shouldExpand);
+    });
+
+  document
+    .querySelectorAll("#topicsAccordion .accordion-button")
+    .forEach(button => {
+      button.classList.toggle("collapsed", !shouldExpand);
+      button.setAttribute(
+        "aria-expanded",
+        shouldExpand ? "true" : "false"
+      );
+    });
 }

@@ -72,7 +72,7 @@
     </div>
 
     <!-- Icon categories row -->
-    <div class="w-100 py-4 bg-white">
+    <div class="w-100 py-3 bg-white">
       <div class="container">
         <div class="row g-4">
           
@@ -168,7 +168,7 @@
       class="img-fluid me-2"
       style="max-width: 50px; min-width: 50px;">
 
-    <span class="small">Mobily friendly</span>
+    <span class="small">Mobile friendly</span>
 
   </button>
 </div>
@@ -194,6 +194,14 @@
 
           
         </div>
+      </div>
+        </div>
+
+    <div class="w-100 bg-white pb-3">
+      <div class="container text-center">
+        <p class="mb-0 small text-muted">
+          Click on a symbol above to filter categories
+        </p>
       </div>
     </div>
 
@@ -238,28 +246,41 @@
 
   <div class="d-flex justify-content-between align-items-center mb-4">
     <h2 class="mb-0">Dive into the data using tools</h2>
+    
+    <div class="d-flex align-items-center gap-3">
 
-    <div style="width:350px;">
-  <div class="input-group">
-    <input
-      id="toolSearch"
-      type="search"
-      class="form-control search-box"
-      placeholder="Search tools..."
-      aria-label="Search tools"
-    >
-    <span class="input-group-text search-icon-box">
-  <img
-    src="assets/img/icon/searchicon.svg"
-    alt="Search"
-    width="20"
-    height="20"
-  >
-</span>
-
+  <div
+    id="resultCount"
+    class="small text-muted"
+    aria-live="polite">
+    0 search results found
   </div>
+
+  <div style="width:350px;">
+    <div class="input-group">
+
+      <input
+        id="toolSearch"
+        type="search"
+        autocomplete="off"
+        class="form-control search-box"
+        placeholder="Search tools..."
+        aria-label="Search tools">
+
+      <span class="input-group-text search-icon-box">
+        <img
+          src="assets/img/icon/searchicon.svg"
+          alt="Search"
+          width="20"
+          height="20">
+      </span>
+
+    </div>
+  </div>
+
 </div>
-  </div>
+
+</div>
 
   <div class="row g-4" id="toolGrid" aria-label="NISRA explorer tools">
   </div>

@@ -245,8 +245,10 @@ a[target="_blank"]::after {
   display: inline-block;
   width: 14px;
   height: 11px;
-  margin: 0 10px;
+  margin: 0 0 0 0;
   position: relative;
+  left: 9px;
+}
   top: 0px;
 }
 
@@ -291,8 +293,8 @@ table tr:not(:has(th)):hover {
 	top: 0;
 	left: 0;
 	width: 100%;
-	background-color:#142062;
-	color:#FFF;
+	background-color: var(--nisra_navy);
+	color: #fff;
 	padding: 10px;
 	text-align: left;
     display: none;
@@ -373,6 +375,8 @@ a.cookiesbarlink {
   color: #fff;
   padding: 0 2rem 0 0.5rem;
   clip-path: polygon(0% 0%, 80% 0%, 100% 50%, 80% 100%, 0% 100%);
+  border-radius: 4px;
+  overflow: hidden;
   text-decoration: none;
 }
 

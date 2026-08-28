@@ -37,6 +37,7 @@ const theme_cards = cards
         div.dataset.category = card.primary;
         div.dataset.mobile = card.mobile_friendly ? "true" : "false";
         div.dataset.accessible = card.accessible ? "true" : "false";
+        div.dataset.toolCard = "true";
         div.classList.add("col-xl-3");
         div.classList.add("col-lg-4");
         div.classList.add("col-md-6");

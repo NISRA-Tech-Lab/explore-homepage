@@ -1,10 +1,13 @@
+const cache = {};
 
-export async function readData (csv) {
+export async function readData(csv) {
 
-    // ===== LOAD THE METADATA =====
+    if (cache[csv]) {
+        return cache[csv];
+    }
+
     try {
 
-        // ===== LOAD AND PARSE THE CSV DATA =====
         const response = await fetch(`public/data/${csv}.csv`);
         const text = await response.text();
 
@@ -16,13 +19,21 @@ export async function readData (csv) {
 
         const csv_data = result.data;
 
-        // ===== RETURN THE DATA =====
+        cache[csv] = csv_data;
+
         return csv_data;
 
-    // ===== HANDLE LOADING ERRORS =====
     } catch (error) {
         console.error("Failed to load data:", error);
-        return; 
+        return;
     }
-    
+
+}
+
+export async function getToolCount() {
+
+    const tools = await readData("products");
+
+    return tools.filter(tool => tool.show).length;
+
 }
