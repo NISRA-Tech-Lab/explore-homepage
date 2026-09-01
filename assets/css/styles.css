@@ -482,3 +482,13 @@ textarea:focus-visible {
     height: 2rem;
     background-size: 2rem;
   }
+
+  .tool-search-wrapper {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .tool-search-wrapper {
+        width: 350px;
+    }
+}
