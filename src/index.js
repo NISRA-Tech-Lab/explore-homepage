@@ -1,8 +1,7 @@
 import { initCookieConsent } from "./utils/cookies.js";
 import "./utils/skipToMainContent.js";
-import { populateGrid } from "./utils/populate-grid.js";
-import { buildAccordions } from "./utils/build-accordions.js";
-import { applyCategoryFilter, hideEmptyAccordions, updateAccordionState, setupCategoryFilters, updateTotalTools } from "./utils/filters.js";
+import { setupCategoryFilters, updateTotalTools } from "./utils/filters.js";
+import { render, searchBox } from "./utils/render.js";
 
 window.addEventListener("DOMContentLoaded", async () => {
 
@@ -17,35 +16,24 @@ window.addEventListener("DOMContentLoaded", async () => {
     console.error("Startup failed:", e);
   }
 
+  let activeCategory = null;
+  let mobileFilter = false;
+  let accessibleFilter = false;
+
   // Initial page load
-Promise.all([
-  populateGrid("toolGrid", "main"),
-  buildAccordions()
-]).then(() => {
-  applyCategoryFilter();
-  hideEmptyAccordions();
-  updateAccordionState();
+  await render(activeCategory, mobileFilter, accessibleFilter);
 
-});
-
-  setupCategoryFilters();
-
-  // Search functionality
-  const searchBox = document.getElementById("toolSearch");
-
-  searchBox?.addEventListener("input", (e) => {
-
-    const searchText = e.target.value;
-
-  Promise.all([
-    populateGrid("toolGrid", "main", searchText),
-    buildAccordions(searchText)
-  ]).then(() => {
-    applyCategoryFilter();
-    hideEmptyAccordions();
-    updateAccordionState();
+  // Category filters
+  setupCategoryFilters((filters) => {
+    activeCategory = filters.activeCategory;
+    mobileFilter = filters.mobileFilter;
+    accessibleFilter = filters.accessibleFilter;
+    render(activeCategory, mobileFilter, accessibleFilter);
   });
 
+  // Search
+  searchBox?.addEventListener("input", () => {
+    render(activeCategory, mobileFilter, accessibleFilter);
   });
 
 });

@@ -1,11 +1,18 @@
 import { themes } from "../config/config.js";
 import { populateGrid } from "./populate-grid.js";
 
-export async function buildAccordions(searchText = "") {
+export async function buildAccordions(
+  searchText = "",
+  activeCategory = null,
+  mobileFilter = false,
+  accessibleFilter = false
+) {
 
     const theme_codes = Object.keys(themes);
 
     const accordion = document.getElementById("topicsAccordion");
+
+    let accordion_count = 0;
 
     accordion.innerHTML = "";
 
@@ -36,15 +43,19 @@ export async function buildAccordions(searchText = "") {
         const count = await populateGrid(
             `${theme}-grid`,
             theme,
-            searchText
+            searchText,
+            activeCategory,
+            mobileFilter,
+            accessibleFilter
         );
 
         if (count === 0) {
             item.remove();
+        } else {
+            accordion_count++;
         }
 
     }
 
+    return accordion_count;
 }
-
-
