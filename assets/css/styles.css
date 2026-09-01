@@ -461,3 +461,24 @@ textarea:focus-visible {
     filter: brightness(0) invert(1);
     transform: scale(1.2);
 }
+
+  #topicsAccordion {
+    width: 100%;
+  }
+
+  #topicsAccordion .accordion-button {
+    font-size: 1rem;
+    padding: 0.75rem;
+  }
+
+  #topicsAccordion .accordion-button img {
+    width: 40px;
+    height: 40px;
+    margin-right: 0.75rem;
+  }
+
+  #topicsAccordion .accordion-button::after {
+    width: 2rem;
+    height: 2rem;
+    background-size: 2rem;
+  }

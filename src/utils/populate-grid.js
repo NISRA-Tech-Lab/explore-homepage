@@ -67,7 +67,7 @@ const theme_cards = cards
                 ${card.mobile_friendly ? '<img src="assets/img/icon/mobile.svg" alt="Mobile friendly" title="Mobile friendly" style="width: 24px;">' : ''}
                 ${card.accessible ? '<img src="assets/img/icon/accessible.svg" alt="Accessible" title="Accessible" style="width: 24px;">' : ''}
                 <span class="go-button-wrapper ms-auto">
-                <a class="go-button" href="${card.url}" target="_blank" rel="nopener" title="${card.name} (Opens in new tab)">Go</a>
+                <a class="go-button" href="${card.url}" aria-label="View ${card.name}">Go</a>
                 </span>
               </div>
             </div>

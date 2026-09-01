@@ -29,11 +29,3 @@ export async function readData(csv) {
     }
 
 }
-
-export async function getToolCount() {
-
-    const tools = await readData("products");
-
-    return tools.filter(tool => tool.show).length;
-
-}
