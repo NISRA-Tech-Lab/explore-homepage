@@ -426,6 +426,10 @@ a.cookiesbarlink {
     background-color: #f5f5f5;
 }
 
+.category-filter:hover img {
+  transform: scale(1.2);
+}
+
 .category-filter:focus-visible {
     outline: 3px solid #d4351c;
     outline-offset: 3px;
