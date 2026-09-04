@@ -116,7 +116,7 @@ export async function populateGrid(
                 : ''}
 
               <span class="go-button-wrapper ms-auto">
-                <a class="go-button" href="${card.url}" aria-label="View ${card.name}">Open tool</a>
+                <a class="go-button" href="${card.url}" aria-label="View ${card.name}">Open</a>
               </span>
 
             </div>
